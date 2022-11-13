@@ -1,0 +1,47 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1667257200
+<< checkpaint >>
+rect 0 0 49416 63000
+<< locali >>
+rect 48648 528 48888 62472
+rect 528 528 48888 768
+rect 528 62232 48888 62472
+rect 528 528 768 62472
+rect 48648 528 48888 62472
+rect 49176 0 49416 63000
+rect 0 0 49416 240
+rect 0 62760 49416 63000
+rect 0 0 240 63000
+rect 49176 0 49416 63000
+use SUN_PLL_PFD xaa0
+transform 1 0 1056 0 1 1056
+box 1056 1056 5112 6816
+use SUN_PLL_CP xaa1
+transform 1 0 5112 0 1 1056
+box 5112 1056 9168 6992
+use SUN_PLL_KICK xaa3
+transform 1 0 9168 0 1 1056
+box 9168 1056 13296 11568
+use SUN_PLL_BUF xaa4
+transform 1 0 13296 0 1 1056
+box 13296 1056 27648 12096
+use SUN_PLL_ROSC xaa5
+transform 1 0 27648 0 1 1056
+box 27648 1056 34224 6464
+use SUN_PLL_DIVN xaa6
+transform 1 0 34224 0 1 1056
+box 34224 1056 48360 8092
+use SUN_PLL_LPF xbb0
+transform 1 0 1056 0 1 12096
+box 1056 12096 40888 61944
+use SUN_PLL_BIAS xbb1
+transform 1 0 40888 0 1 12096
+box 40888 12096 42916 14976
+<< labels >>
+flabel locali s 48648 528 48888 62472 0 FreeSans 400 0 0 0 AVSS
+port 2 nsew
+flabel locali s 49176 0 49416 63000 0 FreeSans 400 0 0 0 AVDD
+port 1 nsew
+<< end >>
