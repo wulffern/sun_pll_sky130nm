@@ -453,7 +453,7 @@
         {
 
             "name" : "SUN_PLL",
-            "class" : "cIcCore::LayoutBlocks",
+            "class" : "cIcCore::LayoutCell",
             "boundaryIgnoreRouting" : 0,
             "meta" : {
                 "noSchematic" : true
