@@ -33,11 +33,11 @@ s = 1j*2*np.pi*f
 Kvco = 2*np.pi*1.6e9
 
 #- Current divided by 2 pi
-Kpd = 0.1e-6/(2*np.pi)
+Kpd = 1e-6/(2*np.pi)
 
-R = 40*8e3
-C1 = 8.4e-12
-C2 = 0.48e-12
+R = 32e3*5
+C1 = 6.024e-12
+C2 = 0.33e-12
 
 Klp = 1/C1
 
@@ -66,7 +66,7 @@ Ls = np.divide(Kvco*Kpd*KlpHlp, N*s)
 Cs = np.divide(1,1 + Ls)
 
 #- Plot stuff
-doPlot = False
+doPlot = True
 if(doPlot):
     plot(f,Ls,"Loop")
     plot(f,Cs,"Closed Loop")

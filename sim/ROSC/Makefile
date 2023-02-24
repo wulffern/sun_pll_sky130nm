@@ -39,26 +39,26 @@ OPT=
 
 all:
 	${MAKE} tfs VIEW=Lay
-	python3 kvco.py tran_LayGtMttMssMffRlClBsDsTtThTlVt.run
+	python3 kvco.py tran_LayGtKttKssKffRlClBsDsTtThTlVt.run
 
 typical:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Mtt Rt Ct Tt Vt Dt Bt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Ktt Tt Vt Dt Bt
 
 slow:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Mss Rh Ch Bf Df "Th,Tl" Vl
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
 
 fast:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Mff Rl Cl Bs Ds "Th,Tl" Vh
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
 
 tfs:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Mtt,Mss,Mff" Rl Cl Bs Ds "Tt,Th,Tl" Vt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff"  "Tt,Th,Tl" Vt
 
 
 ttffss:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Mtt,Mss,Mff" Rl Cl Bs Ds "Tt" Vt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff"  "Tt" Vt
 
 temp:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Mtt" Rl Cl Bs Ds "Tt,Th,Tl" Vt
+	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt"  "Tt,Th,Tl" Vt
 
 
 clean:
