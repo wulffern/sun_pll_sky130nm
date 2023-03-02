@@ -101,7 +101,7 @@ hardcopy {cicfname}.ps allv
 *tran 1n 8.5u
 *npbt=128 => 16u
 
-let start_v = 1.2
+let start_v = 1.1
 let stop_v = 1.7
 let delta_v = 0.1
 let v_act = start_v

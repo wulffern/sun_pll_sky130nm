@@ -57,9 +57,19 @@ for f in files:
     nts = np.array(ts)
     ntime = np.array(time)
 
+    freq = 1/nts/u
+    phase = np.diff(freq)
+    plt.subplot(1,2,1)
     plt.plot(ntime*u,1/nts/u,'-o')
     plt.xlabel("Time [us]")
     plt.ylabel("Frequency [MHz]")
+    plt.grid(True)
+    plt.subplot(1,2,2)
+    plt.grid(True)
+    plt.plot(ntime[1:]*u,phase,'-o')
+    plt.xlabel("Time [us]")
+    plt.ylabel("Phase [rad]")
+
 
 plt.tight_layout()
 

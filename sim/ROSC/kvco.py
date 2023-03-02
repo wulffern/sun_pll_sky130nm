@@ -31,4 +31,14 @@ for f in files:
     freq = 1/df["tpd"]
     kvco = np.mean(freq.diff()/df["vrosc"].diff())
 
+    plt.plot(df["vrosc"],freq/1e6,marker=".",label=os.path.basename(f).replace(".csv",""))
+
     print("%20s KVCO = %5.3g Hz/V, fmax = %8.3g MHz, fmin = %8.3g MHz, vmin = %2.2g, vmax = %2.2g" %(f,kvco,freq.max()/Meg,freq.min()/Meg,df["vrosc"].min(),df["vrosc"].max()))
+
+plt.plot([1.1,1.6],[512,512],color="black",linestyle="dashed")
+plt.xlabel("VDD_ROSC [V]")
+plt.grid(True)
+plt.legend()
+plt.ylabel("Frequency [MHz]")
+#plt.show()
+plt.savefig("SUN_PLL_ROSC_KVCO.pdf")

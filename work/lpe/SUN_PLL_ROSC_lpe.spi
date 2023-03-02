@@ -1,0 +1,69 @@
+* NGSPICE file created from SUN_PLL_ROSC.ext - technology: sky130B
+
+.subckt SUN_PLL_ROSC AVDD CK VDD_ROSC PWRUP_1V8 AVSS
+X0 xb2_4/A xb2_3/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=6.156e+12p ps=3.3e+07u w=1.08e+06u l=180000u
+X1 xb2_4/A xb2_3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.16964e+13p ps=6.27e+07u w=1.08e+06u l=180000u
+X2 xb2_3/A xb2_2/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X3 xb2_3/A xb2_2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X4 xb2_5/A xb2_4/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X5 xb2_5/A xb2_4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X6 xa3/A xb2_5/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X7 xa3/A xb2_5/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X8 xa3/AN xa3/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X9 xa3/AN xa3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X10 xb1/B xa3/AN VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X11 xb1/B xa3/AN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X12 xb1/Y PWRUP_1V8 VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X13 VDD_ROSC xb1/B xb1/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X14 xb1/MN1/S PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X15 xb1/Y xb1/B xb1/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X16 xb3/MP1/S xb3/MP1/S xb3/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X17 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X18 xa3/xc2b/S xa4/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=3.6936e+12p ps=1.98e+07u w=1.08e+06u l=180000u
+X19 xa5/A xa4/A xa3/xc2b/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X20 xa3/xc1b/S xa5/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X21 xa4/A xa5/A xa3/xc1b/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X22 xa4/A xa3/AN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X23 xa4/A xa3/AN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X24 xa5/A xa3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X25 xa5/A xa3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X26 xa4/Y xa4/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X27 xa4/Y xa4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X28 CK xa5/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
+X29 CK xa5/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
+X30 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X31 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X32 xb2_1/A xb1/Y VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X33 xb2_1/A xb1/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X34 xb2_2/A xb2_1/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+X35 xb2_2/A xb2_1/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
+C0 PWRUP_1V8 AVDD 0.53fF
+C1 xa3/AN xa3/A 1.04fF
+C2 xa4/A xa5/A 0.57fF
+C3 AVDD xa5/A 1.35fF
+C4 AVDD xa4/A 1.55fF
+C5 xb1/Y AVDD 0.42fF
+C6 AVDD xa3/A 0.77fF
+C7 VDD_ROSC AVDD 1.85fF
+C8 AVDD CK 0.59fF
+C9 AVDD xa3/AN 0.75fF
+C10 xb1/B AVDD 0.52fF
+C11 xb2_1/A AVSS 0.62fF
+C12 xb1/Y AVSS 0.80fF
+C13 xa6/MN1/a_324_334# AVSS 0.40fF $ **FLOATING
+C14 AVDD AVSS 41.41fF
+C15 CK AVSS 1.48fF
+C16 xa3/A AVSS 2.19fF
+C17 xa3/AN AVSS 2.39fF
+C18 xa5/A AVSS 1.20fF
+C19 xa4/A AVSS 1.57fF
+C20 xb3/MN1/a_324_334# AVSS 0.42fF $ **FLOATING
+C21 xb3/MP1/S AVSS 0.40fF
+C22 VDD_ROSC AVSS 1.10fF
+C23 xb1/B AVSS 1.85fF
+C24 PWRUP_1V8 AVSS 0.96fF
+C25 xb2_5/A AVSS 0.62fF
+C26 xb2_4/A AVSS 0.59fF
+C27 xb2_2/A AVSS 0.59fF
+C28 xb2_3/A AVSS 0.59fF
+.ends
