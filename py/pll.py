@@ -3,10 +3,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def plot(f,Hs,lbl):
+def plot(f,Hs,lbl,find):
     mag = 20*np.log10(abs(Hs))
     phase = 360*np.angle(Hs)/(2*np.pi)
-
 
     zero_crossings = np.where(np.diff(np.signbit(mag)))[0]
 
@@ -17,7 +16,7 @@ def plot(f,Hs,lbl):
     plt.grid(True)
     plt.legend()
     plt.subplot(2,1,2)
-    plt.semilogx(f,phase,label=lbl+ "PhUGBW=%.2g"%phase[zero_crossings])
+    plt.semilogx(f,phase,label=lbl+ " $\phi$=%.2g"%(phase[zero_crossings] + 180))
     plt.xlabel("Frequency [Hz]")
     plt.ylabel("Phase [Degrees]")
     plt.grid(True)
@@ -25,7 +24,7 @@ def plot(f,Hs,lbl):
 
 
 #- Loop Model
-f = np.logspace(-4,10)
+f = np.logspace(3,8)
 
 s = 1j*2*np.pi*f
 
@@ -35,7 +34,9 @@ Kvco = 2*np.pi*1.6e9
 #- Current divided by 2 pi
 Kpd = 1e-6/(2*np.pi)
 
-R = 32e3*5
+R = 32e3*2
+#C1 = 6.024e-12
+#C2 = 0.33e-12
 C1 = 6.024e-12
 C2 = 0.33e-12
 
@@ -63,13 +64,17 @@ KlpHlp = 1/np.multiply((C1 + C2),s)* \
 
 
 Ls = np.divide(Kvco*Kpd*KlpHlp, N*s)
-Cs = np.divide(1,1 + Ls)
+Cs = np.divide(Ls*N,1 + Ls)
+
+
+#TODO : Fix -3dB frequency
+mag = 20*np.log10(np.abs(Cs))
+f_ind = np.where(mag < N -3)[0][0]
 
 #- Plot stuff
 doPlot = True
 if(doPlot):
-    plot(f,Ls,"Loop")
-    plot(f,Cs,"Closed Loop")
-
+    plot(f,Ls,"Lg",f_ind)
+    plot(f,Cs,"$o/i$",f_ind)
     plt.savefig("pll.pdf")
     plt.show()

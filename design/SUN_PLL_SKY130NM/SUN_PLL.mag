@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1675206000
+timestamp 1677625200
 << checkpaint >>
 rect 0 0 56080 54840
 << locali >>
@@ -16,46 +16,46 @@ rect 0 54600 56080 54840
 rect 0 0 240 54840
 rect 55840 0 56080 54840
 << m2 >>
-rect 21576 9578 21792 9638
-rect 21576 2674 21792 2734
-rect 21576 8170 21792 8230
+rect 1056 9138 1272 9198
+rect 1056 2674 1272 2734
+rect 1056 7730 1272 7790
 << m1 >>
-rect 24900 40092 25116 40152
+rect 2580 39652 2796 39712
 use SUN_PLL_PFD xaa0
-transform 1 0 21576 0 1 1056
-box 21576 1056 25632 6816
+transform 1 0 1056 0 1 1056
+box 1056 1056 5112 6816
 use SUN_PLL_CP xaa1
-transform 1 0 21576 0 1 7256
-box 21576 7256 25632 13192
+transform 1 0 1056 0 1 6816
+box 1056 6816 5112 12752
 use SUN_PLL_KICK xaa3
-transform 1 0 23016 0 1 13192
-box 23016 13192 27144 23704
+transform 1 0 1056 0 1 12752
+box 1056 12752 5184 23264
 use SUN_PLL_BUF xaa4
-transform 1 0 23016 0 1 23704
-box 23016 23704 37368 34744
+transform 1 0 1056 0 1 23264
+box 1056 23264 15408 34304
 use SUN_PLL_ROSC xaa5
-transform 1 0 23376 0 1 34744
-box 23376 34744 29952 40152
+transform 1 0 1056 0 1 34304
+box 1056 34304 7632 39712
 use SUN_PLL_DIVN xaa6
-transform 1 0 1056 0 1 40152
-box 1056 40152 15192 47188
+transform 1 0 1056 0 1 39712
+box 1056 39712 15192 46748
 use SUN_PLL_LPF xbb0
 transform 1 0 15192 0 1 1056
 box 15192 1056 55024 50904
 use SUN_PLL_BIAS xbb1
-transform 1 0 15552 0 1 50904
-box 15552 50904 17580 53784
+transform 1 0 15192 0 1 50904
+box 15192 50904 17220 53784
 << labels >>
 flabel locali s 55312 528 55552 54312 0 FreeSans 400 0 0 0 AVSS
 port 2 nsew
 flabel locali s 55840 0 56080 54840 0 FreeSans 400 0 0 0 AVDD
 port 1 nsew
-flabel m2 s 21576 9578 21792 9638 0 FreeSans 400 0 0 0 PWRUP_1V8
+flabel m2 s 1056 9138 1272 9198 0 FreeSans 400 0 0 0 PWRUP_1V8
 port 3 nsew
-flabel m2 s 21576 2674 21792 2734 0 FreeSans 400 0 0 0 CK_REF
+flabel m2 s 1056 2674 1272 2734 0 FreeSans 400 0 0 0 CK_REF
 port 4 nsew
-flabel m1 s 24900 40092 25116 40152 0 FreeSans 400 0 0 0 CK
+flabel m1 s 2580 39652 2796 39712 0 FreeSans 400 0 0 0 CK
 port 5 nsew
-flabel m2 s 21576 8170 21792 8230 0 FreeSans 400 0 0 0 IBPSR_1U
+flabel m2 s 1056 7730 1272 7790 0 FreeSans 400 0 0 0 IBPSR_1U
 port 6 nsew
 << end >>

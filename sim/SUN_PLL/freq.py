@@ -54,21 +54,30 @@ for f in files:
     ts.pop(0)
     time.pop(0)
 
-    nts = np.array(ts)
-    ntime = np.array(time)
+    N = len(ts)
+    L = 10
+    nts = np.array(ts)[int(N/L):]
+    ntime = np.array(time)[int(N/L):]
 
+    M = len(nts)
     freq = 1/nts/u
+    w = 200
+    freq_avg = np.convolve(freq, np.ones(w))/w
     phase = np.diff(freq)
-    plt.subplot(1,2,1)
-    plt.plot(ntime*u,1/nts/u,'-o')
+    yfft = np.fft.fft(freq)
+    ydb = 20*np.log10(np.abs(yfft[:int(N/2)]))
+    #plt.subplot(1,2,1)
+    plt.plot(ntime*u,freq)
+    plt.plot(ntime[w:]*u,freq_avg[w:M])
     plt.xlabel("Time [us]")
     plt.ylabel("Frequency [MHz]")
     plt.grid(True)
-    plt.subplot(1,2,2)
-    plt.grid(True)
-    plt.plot(ntime[1:]*u,phase,'-o')
-    plt.xlabel("Time [us]")
-    plt.ylabel("Phase [rad]")
+    #plt.subplot(1,2,2)
+    #plt.grid(True)
+    #plt.plot(ydb)
+    #plt.plot(ntime[1:]*u,phase,'-o')
+    #plt.xlabel("FTT bins")
+    #plt.ylabel("PSD")
 
 
 plt.tight_layout()

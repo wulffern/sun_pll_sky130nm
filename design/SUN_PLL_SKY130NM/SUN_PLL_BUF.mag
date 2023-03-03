@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1675206000
+timestamp 1677625200
 << checkpaint >>
 rect 0 0 14352 11040
 << locali >>
@@ -116,28 +116,28 @@ box 3288 7104 4548 8688
 use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd20
 transform 1 0 3432 0 1 768
 box 3432 768 13584 1824
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd30
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_00
 transform 1 0 3432 0 1 1824
 box 3432 1824 13584 2880
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd31
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_10
 transform 1 0 3432 0 1 2880
 box 3432 2880 13584 3936
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd32
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_20
 transform 1 0 3432 0 1 3936
 box 3432 3936 13584 4992
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd33
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_30
 transform 1 0 3432 0 1 4992
 box 3432 4992 13584 6048
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd34
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_40
 transform 1 0 3432 0 1 6048
 box 3432 6048 13584 7104
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd35
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_50
 transform 1 0 3432 0 1 7104
 box 3432 7104 13584 8160
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd36
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_60
 transform 1 0 3432 0 1 8160
 box 3432 8160 13584 9216
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd37
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_70
 transform 1 0 3432 0 1 9216
 box 3432 9216 13584 10272
 use cut_M1M2_2x1 

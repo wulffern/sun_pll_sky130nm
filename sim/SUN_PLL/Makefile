@@ -1,8 +1,8 @@
 
 
 TB=tran
-VIEW=Sch
-#VIEW=Lay
+#VIEW=Sch
+VIEW=Lay
 
 OPT=
 
