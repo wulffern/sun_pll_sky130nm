@@ -10,13 +10,13 @@ def plot(f,Hs,lbl,find):
     zero_crossings = np.where(np.diff(np.signbit(mag)))[0]
 
     plt.subplot(2,1,1)
-    plt.semilogx(f,mag,label=lbl+  " UGBW=%.2g" %f[zero_crossings])
+    plt.semilogx(f,mag,label=lbl)
     plt.xlabel("Frequency [Hz]")
     plt.ylabel("Magnitude [dB]")
     plt.grid(True)
     plt.legend()
     plt.subplot(2,1,2)
-    plt.semilogx(f,phase,label=lbl+ " $\phi$=%.2g"%(phase[zero_crossings] + 180))
+    plt.semilogx(f,phase,label=lbl)
     plt.xlabel("Frequency [Hz]")
     plt.ylabel("Phase [Degrees]")
     plt.grid(True)
@@ -64,17 +64,20 @@ KlpHlp = 1/np.multiply((C1 + C2),s)* \
 
 
 Ls = np.divide(Kvco*Kpd*KlpHlp, N*s)
-Cs = np.divide(Ls*N,1 + Ls)
-
+Cs = np.divide(Ls,1 + Ls)
 
 #TODO : Fix -3dB frequency
-mag = 20*np.log10(np.abs(Cs))
-f_ind = np.where(mag < N -3)[0][0]
+mag = 20*np.log10(np.abs(Ls))
+f_ind = np.where(mag < 0)[0][0]
+
+phase = 360*np.angle(Ls)/(2*np.pi)
+
 
 #- Plot stuff
 doPlot = True
 if(doPlot):
     plot(f,Ls,"Lg",f_ind)
-    plot(f,Cs,"$o/i$",f_ind)
+    plot(f,Cs,"$\phi_{div}/\phi_{in}$",f_ind)
+    plt.text(1e6,-75,"Phase margin = %.1f" % (phase[f_ind] + 180     ))
     plt.savefig("pll.pdf")
     plt.show()

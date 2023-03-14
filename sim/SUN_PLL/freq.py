@@ -26,8 +26,8 @@ u = 1e6
 
 f,axes = plt.subplots(1,1,sharex=False)
 
-f.set_figheight(8)
-f.set_figwidth(17)
+f.set_figheight(6)
+f.set_figwidth(10)
 for f in files:
     dfs = cs.toDataFrames(cs.ngRawRead(f))
     df = dfs[0]
@@ -55,7 +55,7 @@ for f in files:
     time.pop(0)
 
     N = len(ts)
-    L = 10
+    L = 10000
     nts = np.array(ts)[int(N/L):]
     ntime = np.array(time)[int(N/L):]
 
