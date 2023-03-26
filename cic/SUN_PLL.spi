@@ -97,15 +97,15 @@ xc2 VDP VDP AVDD AVDD SUNTR_PCHDLA
 xc3_0 VO VGP AVDD AVDD SUNTR_PCHDLA
 xc3_1 VO VGP AVDD AVDD SUNTR_PCHDLA
 xc3_2 VO VGP AVDD AVDD SUNTR_PCHDLA
-xd2 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=2 yoffset=0 angle=0 M=1
-xd3_0 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
-xd3_1 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
-xd3_2 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
-xd3_3 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
-xd3_4 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
-xd3_5 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
-xd3_6 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
-xd3_7 VO AVSS SUNSAR_CAP_BSSW_CV xoffset=0 yoffset=0 angle=0 M=1
+xd2 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_0 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_1 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_2 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_3 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_4 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_5 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_6 VO AVSS SUNSAR_CAP_BSSW_CV
+xd3_7 VO AVSS SUNSAR_CAP_BSSW_CV
 .ends
 
 
@@ -277,7 +277,7 @@ xc2b YN Y net1 AVDD SUNTR_PCHDL
 *+ /Users/wulff/data/2023/aicex/ip/sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym
 ** sch_path:
 *+ /Users/wulff/data/2023/aicex/ip/sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sch
-.subckt SUNSAR_CAP_BSSW_CV A B  xoffset=0 yoffset=0 angle=0 M=1
+.subckt SUNSAR_CAP_BSSW_CV A B
 *.iopin A
 *.iopin B
 R1 A NC0 sky130_fd_pr__res_generic_m1 W=0.44 L=0.36 m=1

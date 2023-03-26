@@ -31,10 +31,10 @@
                     ["M1","PWRUP_1V8_N","-|--","","",""],
                     ["M1","IBPSR_1U","--|-","onTopB,offsethigh","",""]
                 ],
-                 "addRouteConnections" : [
-                     //["AVSS","","right","M1","strap"],
-				    //["AVSS","","bottom","M4","onTopT,routeWidth=wide_width"]
-                 ]
+                "addRouteConnections" : [
+                    //["AVSS","","right","M1","strap"],
+                    //["AVSS","","bottom","M4","onTopT,routeWidth=wide_width"]
+                ]
             },
 
             "afterRoute"  : {
@@ -58,6 +58,12 @@
             "composite" : 1,
             "alternateGroup" : 1,
             "noPowerRoute" : 1,
+            "beforePlace" : {
+                "setSpiceParams" : [
+                    ["xc1","xoffset","5"],
+                    ["xd2","xoffset","2"]
+                ]
+            },
             "beforeRoute" :{
                 "addDirectedRoutes" : [
                     ["M1","AVSS","xc:S-|xc:S"],
@@ -76,12 +82,12 @@
                 ],
                 "addRouteConnections" : [
                     ["AVDD","xc1","bottom","M2","routeWidth=wide_width"],
-				    ["AVSS","xa","bottom","M2","routeWidth=wide_width"],
+                    ["AVSS","xa","bottom","M2","routeWidth=wide_width"],
                     ["AVSS","xd2","bottom","M4","routeWidth=wide_width"]
                 ],
 
                 "addPowerConnections" : [
-              ]
+                ]
 
             },
             "afterPlace"  : [
@@ -97,15 +103,15 @@
             ],
             "afterPaint" :{
                 "resetOrigin" : 1,
-                 "addPortOnEdges" :[
+                "addPortOnEdges" :[
                     ["M3","VBN","left","--|-",""],
-                     ["M3","VFB","left","--|-",""],
-                     ["M3","VI","left","--|-",""],
-                     ["M3","VO","left","--|-",""]
+                    ["M3","VFB","left","--|-",""],
+                    ["M3","VI","left","--|-",""],
+                    ["M3","VO","left","--|-","nostartcut"]
                 ]
             }
         },
-                {
+        {
             "name" : "SUN_PLL_CP",
             "class" : "cIcCore::LayoutCell",
             "boundaryIgnoreRouting" : 0,
@@ -115,17 +121,20 @@
             "composite" : 1,
             "alternateGroup" : 1,
             "noPowerRoute" : 1,
+            "beforePlace" : {
+                "setSpiceParams" : [
+                    ["xb1","xoffset","4"]
+                ]
+            },
             "beforeRoute" :{
                 "addDirectedRoutes" : [
                     ["M1","AVSS","xa1:S-|xa2:S","track2"],
                     ["M1","AVSS","xa1:S-|xa4:S","track2"],
                     ["M1","AVDD","xb1:S-|xb2:S","track2"],
                     ["M1","AVDD","xb1:S-|xb4:S","track2"]
-
-                    //["M4","AVSS","xd:B-|xd:B","track2"]
+                    //["M1","AVSS","xb:B||xb:B",""]
 
                 ],
-
                 "addConnectivityRoutes" : [
                     //["M1","^VS","-|","","",""],
                     //["M1","AVSS","-|--","","","xa"],
@@ -146,7 +155,7 @@
                 ],
 
                 "addPowerConnections" : [
-              ]
+                ]
 
             },
             "afterPlace"  : [
@@ -199,9 +208,9 @@
                 ],
 
                 "addPowerConnections" : [
-                  //["AVDD","X","bottom"],
-				  //["AVSS","X","bottom"]
-              ]
+                    //["AVDD","X","bottom"],
+                    //["AVSS","X","bottom"]
+                ]
 
             },
             "afterPlace"  : [
@@ -209,12 +218,12 @@
                     ["M1","AVSS","tbrl",4,2],
                     ["M1","AVDD","tbrl",4,2],
                     ["M1","PWRUP_1V8","t",1,2]
-                    
+
 
                 ]},
                 {"addPowerRings" :[
-                  //["M1","AVSS","tbrl"],
-                  //["M1","AVDD","tbrl"]
+                    //["M1","AVSS","tbrl"],
+                    //["M1","AVDD","tbrl"]
                 ]}
 
             ],
@@ -237,6 +246,12 @@
             "composite" : 1,
             "alternateGroup" : 0,
             "noPowerRoute" : 1,
+            "beforePlace" : {
+                "setSpiceParams" : [
+                    ["xb1","xoffset","10"],
+                    ["xa2","yoffset","5"]
+                ]
+            },
             "beforeRoute" :{
                 "addDirectedRoutes" : [
                     //["M1","AVSS","xc:S-|xc:S"],
@@ -246,7 +261,7 @@
                 ],
 
                 "addConnectivityRoutes" : [
-                    ["M2","VN5","-|--","onTopL,track0","",""],
+                    ["M2","VN5","-|--","onTopL,track2","",""],
                     ["M3","VN4","-|--","onTopL,track0","",""],
                     ["M2","VN3","-|--","onTopL,track2","",""],
                     ["M3","VN2","-|--","onTopL,track4","",""],
@@ -263,7 +278,7 @@
                 ],
 
                 "addPowerConnections" : [
-              ]
+                ]
 
             },
             "afterPlace"  : [
@@ -307,7 +322,7 @@
                 "addPortOnRects" : [  ["YN","M1", "xb2_1:D"]]
             },
             "afterPaint" :{
-              "resetOrigin" : 1
+                "resetOrigin" : 1
             }
 
 
@@ -322,7 +337,7 @@
             "boundaryIgnoreRouting" : 0,
             "composite" : 1,
             "noPowerRoute": 1,
-             "afterPlace"  : [
+            "afterPlace"  : [
                 {"addRouteRings" :[
                     ["M1","AVSS","tbrl",4,2],
                     ["M1","AVDD","tbrl",4,2]
@@ -347,7 +362,7 @@
                     ["M2","^PWRUP_1V8_N$","|-","","",""]
                 ],
                 "addRouteConnections" : [
-				    //["AVSS","xa1","bottom","M4","onTopT,routeWidth=wide_width"],
+                    //["AVSS","xa1","bottom","M4","onTopT,routeWidth=wide_width"],
                     //["AVDD","xa1","bottom","M4","onTopT,routeWidth=wide_width"]
                 ]
             },
@@ -355,7 +370,7 @@
 
             },
             "afterPaint" :{
-              "resetOrigin" : 1
+                "resetOrigin" : 1
             }
         },
         {
@@ -367,7 +382,7 @@
             "boundaryIgnoreRouting" : 0,
             "noPowerRoute" : 1,
             "composite" : 1,
-             "afterPlace"  : [
+            "afterPlace"  : [
                 {"addRouteRings" :[
                     ["M1","AVSS","tbrl",4,2],
                     ["M1","AVDD","tbrl",4,2]
@@ -392,7 +407,7 @@
 
                 ],
                 "addRouteConnections" : [
-				    //["AVSS","xa1","bottom","M4","nostartcut,onTopT,routeWidth=wide_width"],
+                    //["AVSS","xa1","bottom","M4","nostartcut,onTopT,routeWidth=wide_width"],
                     //["AVDD","xa1","bottom","M4","nostartcut,onTopT,routeWidth=wide_width"]
                 ]
             },
@@ -431,12 +446,12 @@
                     ["M3","^N_0","-|--","","",""]
                 ],
                 "addRouteConnections" : [
-				    ["AVSS","xb1|xa3","bottom","M4","nostartcut,onTopT,routeWidth=wide_width"],
+                    ["AVSS","xb1|xa3","bottom","M4","nostartcut,onTopT,routeWidth=wide_width"],
                     ["AVDD","xa3","bottom","M4","nostartcut,onTopT,routeWidth=wide_width"]
                 ]
             },
             "afterPlace" : [
-                 {"addRouteRings" :[
+                {"addRouteRings" :[
                     ["M1","AVSS","tbrl",4,2],
                     ["M1","AVDD","tbrl",4,2]
                 ]}
@@ -448,60 +463,6 @@
                     ["M2","CK","top","-|--",""],
                     ["M4","VDD_ROSC","top","||","routeWidth=wide_width"]
                 ]
-            }
-        },
-        {
-
-            "name" : "SUN_PLL",
-            "class" : "cIcCore::LayoutCell",
-            "boundaryIgnoreRouting" : 0,
-            "meta" : {
-                "noSchematic" : true
-            },
-            "composite" : 1,
-            //"alternateGroup" : 0,
-            "noPowerRoute" : 1,
-            "beforeRoute" :{
-                "addDirectedRoutes" : [
-                    //["M1","AVSS","xc:S-|xc:S"],
-                    //["M4","AVSS","xd:B-|xd:B","track2"]
-
-                ],
-
-                "addConnectivityRoutes" : [
-
-
-//                    ["M4","AVSS","-|--","","","xb"]
-
-
-                ],
-                "addRouteConnections" : [
-                    //["AVSS","xb2","left","M2","routeWidth=wide_width"],
-                    //["AVSS","xb1","bottom","M2","routeWidth=wide_width"],
-                    //["AVDD","xb1","bottom","M2","routeWidth=wide_width"],
-                    //["AVSS","xh1","bottom","M2","routeWidth=wide_width"],
-                    //["AVDD","xh1","bottom","M2","routeWidth=wide_width"],
-                    //["AVDD","xb1","bottom","M4","routeWidth=wide_width"]
-
-                ],
-
-                "addPowerConnections" : [
-              ]
-
-            },
-            "afterPlace"  : [
-                {"addRouteRings" :[
-                    ["M1","AVSS","tbrl",4,4],
-                    ["M1","AVDD","tbrl",4,4]
-
-                ]},
-                {"addPowerRings" :[
-
-                ]}
-
-            ],
-            "afterPaint" :{
-              "resetOrigin" : 1
             }
         }
     ]

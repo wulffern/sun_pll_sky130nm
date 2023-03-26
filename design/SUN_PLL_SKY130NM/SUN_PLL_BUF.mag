@@ -1,243 +1,293 @@
 magic
 tech sky130B
-magscale 1 2
-timestamp 1677625200
-<< checkpaint >>
-rect 0 0 14352 11040
+timestamp 1679853665
 << locali >>
-rect 13728 384 13968 10656
-rect 384 384 13968 624
-rect 384 10416 13968 10656
-rect 384 384 624 10656
-rect 13728 384 13968 10656
-rect 14112 0 14352 11040
-rect 0 0 14352 240
-rect 0 10800 14352 11040
-rect 0 0 240 11040
-rect 14112 0 14352 11040
-rect 1632 2410 1800 2470
-rect 1632 2586 1800 2646
-rect 1632 3114 1800 3174
-rect 1800 2410 1860 3174
-rect 2892 826 3060 886
-rect 2892 2410 3060 2470
-rect 2892 3994 3060 4054
-rect 2892 5578 3060 5638
-rect 2892 7162 3060 7222
-rect 3060 826 3120 7222
-<< m1 >>
-rect 1524 384 1740 886
-rect 660 384 876 988
-rect 660 384 876 2748
-rect 660 384 876 3276
-rect 2784 0 3000 886
-rect 1920 0 2136 988
-rect 2460 7250 2628 7310
-rect 2628 1002 2892 1062
-rect 2460 4082 2628 4142
-rect 2460 5666 2628 5726
-rect 1632 3290 2628 3350
-rect 2628 1002 2688 7310
-<< m3 >>
-rect 8436 384 8652 812
-rect 2892 4170 3072 4246
-rect 2892 5754 3072 5830
-rect 2892 7338 3072 7414
-rect 3072 1604 8544 1680
-rect 3072 2660 8544 2736
-rect 3072 3716 8544 3792
-rect 3072 4772 8544 4848
-rect 3072 5828 8544 5904
-rect 3072 6884 8544 6960
-rect 3072 7940 8544 8016
-rect 3072 8996 8544 9072
-rect 3072 10052 8544 10128
-rect 3072 1604 3148 10128
-rect 8544 724 13836 800
-rect 8544 1780 13836 1856
-rect 8544 2836 13836 2912
-rect 8544 3892 13836 3968
-rect 8544 4948 13836 5024
-rect 8544 6004 13836 6080
-rect 8544 7060 13836 7136
-rect 8544 8116 13836 8192
-rect 8544 9172 13836 9248
-rect 13836 724 13912 9248
-<< m2 >>
-rect 2460 914 2632 990
-rect 1632 2762 2632 2838
-rect 2632 2586 2892 2662
-rect 2460 2498 2632 2574
-rect 2632 914 2708 2838
-rect 0 2674 216 2734
-rect 0 3202 216 3262
-rect 0 4170 216 4230
-rect 0 914 216 974
-rect 0 914 216 974
-rect 952 914 1200 990
-rect 108 914 952 990
-rect 952 914 1028 990
-rect 0 2674 216 2734
-rect 952 2674 1200 2750
-rect 108 2674 952 2750
-rect 952 2674 1028 2750
-rect 0 3202 216 3262
-rect 952 3202 1200 3278
-rect 108 3202 952 3278
-rect 952 3202 1028 3278
-rect 0 4170 216 4230
-rect 2644 4170 2892 4246
-rect 108 4170 2644 4246
-rect 2644 4170 2720 4246
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLCM xa1
-transform 1 0 768 0 1 768
-box 768 768 2028 2528
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA xa2
-transform 1 0 768 0 1 2528
-box 768 2528 2028 3056
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA xa4
-transform 1 0 768 0 1 3056
-box 768 3056 2028 3584
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA xc1
-transform -1 0 3288 0 1 768
-box 3288 768 4548 2352
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA xc2
-transform -1 0 3288 0 1 2352
-box 3288 2352 4548 3936
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA xc3_0
-transform -1 0 3288 0 1 3936
-box 3288 3936 4548 5520
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA xc3_1
-transform -1 0 3288 0 1 5520
-box 3288 5520 4548 7104
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA xc3_2
-transform -1 0 3288 0 1 7104
-box 3288 7104 4548 8688
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd20
-transform 1 0 3432 0 1 768
-box 3432 768 13584 1824
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_00
-transform 1 0 3432 0 1 1824
-box 3432 1824 13584 2880
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_10
-transform 1 0 3432 0 1 2880
-box 3432 2880 13584 3936
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_20
-transform 1 0 3432 0 1 3936
-box 3432 3936 13584 4992
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_30
-transform 1 0 3432 0 1 4992
-box 3432 4992 13584 6048
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_40
-transform 1 0 3432 0 1 6048
-box 3432 6048 13584 7104
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_50
-transform 1 0 3432 0 1 7104
-box 3432 7104 13584 8160
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_60
-transform 1 0 3432 0 1 8160
-box 3432 8160 13584 9216
-use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV xd3_70
-transform 1 0 3432 0 1 9216
-box 3432 9216 13584 10272
-use cut_M1M2_2x1 
-transform 1 0 1540 0 1 826
-box 1540 826 1724 894
-use cut_M1M2_2x1 
-transform 1 0 1540 0 1 384
-box 1540 384 1724 452
-use cut_M1M2_2x1 
-transform 1 0 676 0 1 900
-box 676 900 860 968
-use cut_M1M2_2x1 
-transform 1 0 676 0 1 384
-box 676 384 860 452
-use cut_M1M2_2x1 
-transform 1 0 676 0 1 2660
-box 676 2660 860 2728
-use cut_M1M2_2x1 
-transform 1 0 676 0 1 384
-box 676 384 860 452
-use cut_M1M2_2x1 
-transform 1 0 676 0 1 3188
-box 676 3188 860 3256
-use cut_M1M2_2x1 
-transform 1 0 676 0 1 384
-box 676 384 860 452
-use cut_M1M4_2x1 
-transform 1 0 8444 0 1 384
-box 8444 384 8644 460
-use cut_M1M2_2x1 
-transform 1 0 2800 0 1 826
-box 2800 826 2984 894
-use cut_M1M2_2x1 
-transform 1 0 2800 0 1 0
-box 2800 0 2984 68
-use cut_M1M2_2x1 
-transform 1 0 1936 0 1 900
-box 1936 900 2120 968
-use cut_M1M2_2x1 
-transform 1 0 1936 0 1 0
-box 1936 0 2120 68
-use cut_M1M2_2x1 
-transform 1 0 2352 0 1 7250
-box 2352 7250 2536 7318
-use cut_M1M2_2x1 
-transform 1 0 2784 0 1 1002
-box 2784 1002 2968 1070
-use cut_M1M2_2x1 
-transform 1 0 2352 0 1 4082
-box 2352 4082 2536 4150
-use cut_M1M2_2x1 
-transform 1 0 2352 0 1 5666
-box 2352 5666 2536 5734
-use cut_M1M2_2x1 
-transform 1 0 1524 0 1 3290
-box 1524 3290 1708 3358
-use cut_M1M3_2x1 
-transform 1 0 2352 0 1 914
-box 2352 914 2552 990
-use cut_M1M3_2x1 
-transform 1 0 1524 0 1 2762
-box 1524 2762 1724 2838
-use cut_M1M3_2x1 
-transform 1 0 2784 0 1 2586
-box 2784 2586 2984 2662
-use cut_M1M3_2x1 
-transform 1 0 2352 0 1 2498
-box 2352 2498 2552 2574
-use cut_M1M4_2x1 
-transform 1 0 2784 0 1 4170
-box 2784 4170 2984 4246
-use cut_M1M4_2x1 
-transform 1 0 2784 0 1 5754
-box 2784 5754 2984 5830
-use cut_M1M4_2x1 
-transform 1 0 2784 0 1 7338
-box 2784 7338 2984 7414
-use cut_M1M3_2x1 
-transform 1 0 1108 0 1 914
-box 1108 914 1308 990
-use cut_M1M3_2x1 
-transform 1 0 1108 0 1 2674
-box 1108 2674 1308 2750
-use cut_M1M3_2x1 
-transform 1 0 1108 0 1 3202
-box 1108 3202 1308 3278
-use cut_M1M3_2x1 
-transform 1 0 2800 0 1 4170
-box 2800 4170 3000 4246
+rect 0 5400 7356 5520
+rect 0 120 120 5400
+rect 192 5208 7164 5328
+rect 192 312 312 5208
+rect 1626 3581 1740 3611
+rect 1710 2819 1740 3581
+rect 1626 2789 1740 2819
+rect 1710 2027 1740 2789
+rect 1626 1997 1740 2027
+rect 816 1557 930 1587
+rect 900 1323 930 1557
+rect 816 1293 930 1323
+rect 900 1235 930 1293
+rect 1710 1235 1740 1997
+rect 816 1205 930 1235
+rect 1626 1205 1740 1235
+rect 1710 443 1740 1205
+rect 1626 413 1740 443
+rect 7044 312 7164 5208
+rect 192 192 7164 312
+rect 7236 120 7356 5400
+rect 0 0 7356 120
+<< metal1 >>
+rect 1410 3625 1524 3655
+rect 1494 2863 1524 3625
+rect 1410 2833 1524 2863
+rect 1494 2071 1524 2833
+rect 1410 2041 1524 2071
+rect 1494 1675 1524 2041
+rect 816 1645 1524 1675
+rect 330 192 438 1638
+rect 1494 531 1524 1645
+rect 1494 501 1626 531
+rect 762 192 870 443
+rect 1140 0 1248 494
+rect 1572 0 1680 443
+<< metal2 >>
+rect 54 2115 1626 2123
+rect 0 2085 1626 2115
+rect 54 1631 600 1639
+rect 0 1601 600 1631
+rect 816 1381 1534 1419
+rect 54 1367 600 1375
+rect 0 1337 600 1367
+rect 1496 1331 1534 1381
+rect 1496 1293 1626 1331
+rect 1496 1287 1534 1293
+rect 1410 1249 1534 1287
+rect 1496 495 1534 1249
+rect 54 487 600 495
+rect 0 457 600 487
+rect 1410 457 1534 495
+<< metal3 >>
+rect 1716 5026 4452 5064
+rect 1716 4536 1754 5026
+rect 4452 4586 7136 4624
+rect 1716 4498 4452 4536
+rect 1716 4008 1754 4498
+rect 7098 4096 7136 4586
+rect 4452 4058 7136 4096
+rect 1716 3970 4452 4008
+rect 1716 3707 1754 3970
+rect 1626 3669 1754 3707
+rect 1716 3480 1754 3669
+rect 7098 3568 7136 4058
+rect 4452 3530 7136 3568
+rect 1716 3442 4452 3480
+rect 1716 2952 1754 3442
+rect 7098 3040 7136 3530
+rect 4452 3002 7136 3040
+rect 1716 2915 4452 2952
+rect 1626 2914 4452 2915
+rect 1626 2877 1754 2914
+rect 1716 2424 1754 2877
+rect 7098 2512 7136 3002
+rect 4452 2474 7136 2512
+rect 1716 2386 4452 2424
+rect 1716 2123 1754 2386
+rect 1626 2085 1754 2123
+rect 1716 1896 1754 2085
+rect 7098 1984 7136 2474
+rect 4452 1946 7136 1984
+rect 1716 1858 4452 1896
+rect 1716 1368 1754 1858
+rect 7098 1456 7136 1946
+rect 4452 1418 7136 1456
+rect 1716 1330 4452 1368
+rect 1716 840 1754 1330
+rect 7098 928 7136 1418
+rect 4452 890 7136 928
+rect 1716 802 4452 840
+rect 4398 400 4506 406
+rect 7098 400 7136 890
+rect 4398 362 7136 400
+rect 4398 192 4506 362
+use cut_M1M2_2x1  cut_M1M2_2x1_0
+timestamp 1677625200
+transform 1 0 762 0 1 1645
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_1
+timestamp 1677625200
+transform 1 0 1356 0 1 2833
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_2
+timestamp 1677625200
+transform 1 0 1356 0 1 2041
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_3
+timestamp 1677625200
+transform 1 0 1572 0 1 501
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_4
+timestamp 1677625200
+transform 1 0 1356 0 1 3625
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_5
+timestamp 1677625200
+transform 1 0 1148 0 1 0
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_6
+timestamp 1677625200
+transform 1 0 1148 0 1 450
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_7
+timestamp 1677625200
+transform 1 0 1580 0 1 0
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_8
+timestamp 1677625200
+transform 1 0 1580 0 1 413
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_9
+timestamp 1677625200
+transform 1 0 338 0 1 192
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_10
+timestamp 1677625200
+transform 1 0 338 0 1 1594
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_11
+timestamp 1677625200
+transform 1 0 338 0 1 192
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_12
+timestamp 1677625200
+transform 1 0 338 0 1 1330
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_13
+timestamp 1677625200
+transform 1 0 338 0 1 192
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_14
+timestamp 1677625200
+transform 1 0 338 0 1 450
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_15
+timestamp 1677625200
+transform 1 0 770 0 1 192
+box 0 0 92 34
+use cut_M1M2_2x1  cut_M1M2_2x1_16
+timestamp 1677625200
+transform 1 0 770 0 1 413
+box 0 0 92 34
+use cut_M1M3_2x1  cut_M1M3_2x1_0
+timestamp 1677625200
+transform 1 0 554 0 1 1601
+box 0 0 100 38
+use cut_M1M3_2x1  cut_M1M3_2x1_1
+timestamp 1677625200
+transform 1 0 554 0 1 1337
+box 0 0 100 38
+use cut_M1M3_2x1  cut_M1M3_2x1_2
+timestamp 1677625200
+transform 1 0 554 0 1 457
+box 0 0 100 38
+use cut_M1M3_2x1  cut_M1M3_2x1_3
+timestamp 1677625200
+transform 1 0 1356 0 1 1249
+box 0 0 100 38
+use cut_M1M3_2x1  cut_M1M3_2x1_4
+timestamp 1677625200
+transform 1 0 1572 0 1 1293
+box 0 0 100 38
+use cut_M1M3_2x1  cut_M1M3_2x1_5
+timestamp 1677625200
+transform 1 0 762 0 1 1381
+box 0 0 100 38
+use cut_M1M3_2x1  cut_M1M3_2x1_6
+timestamp 1677625200
+transform 1 0 1356 0 1 457
+box 0 0 100 38
+use cut_M1M4_2x1  cut_M1M4_2x1_0
+timestamp 1677625200
+transform 1 0 1572 0 1 3669
+box 0 0 100 38
+use cut_M1M4_2x1  cut_M1M4_2x1_1
+timestamp 1677625200
+transform 1 0 1572 0 1 2877
+box 0 0 100 38
+use cut_M1M4_2x1  cut_M1M4_2x1_2
+timestamp 1677625200
+transform 1 0 1572 0 1 2085
+box 0 0 100 38
+use cut_M1M4_2x1  cut_M1M4_2x1_3
+timestamp 1677625200
+transform 1 0 4402 0 1 192
+box 0 0 100 38
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLCM  xa1 ../sun_tr_sky130nm/design/SUN_TR_SKY130NM
+timestamp 1677625200
+transform 1 0 384 0 1 384
+box -90 -66 630 946
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA  xa2 ../sun_tr_sky130nm/design/SUN_TR_SKY130NM
+timestamp 1677625200
+transform 1 0 384 0 1 1264
+box -90 -66 630 330
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA  xa4
+timestamp 1677625200
+transform 1 0 384 0 1 1528
+box -90 -66 630 330
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA  xc1 ../sun_tr_sky130nm/design/SUN_TR_SKY130NM
+timestamp 1679853665
+transform -1 0 1824 0 1 384
+box 0 -66 720 858
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA  xc2
+timestamp 1679853665
+transform -1 0 1824 0 1 1176
+box 0 -66 720 858
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA  xc3_0
+timestamp 1679853665
+transform -1 0 1824 0 1 1968
+box 0 -66 720 858
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA  xc3_1
+timestamp 1679853665
+transform -1 0 1824 0 1 2760
+box 0 -66 720 858
+use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA  xc3_2
+timestamp 1679853665
+transform -1 0 1824 0 1 3552
+box 0 -66 720 858
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd2 ../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM
+timestamp 1672527600
+transform 1 0 1896 0 1 384
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_0
+timestamp 1672527600
+transform 1 0 1896 0 1 912
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_1
+timestamp 1672527600
+transform 1 0 1896 0 1 1440
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_2
+timestamp 1672527600
+transform 1 0 1896 0 1 1968
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_3
+timestamp 1672527600
+transform 1 0 1896 0 1 2496
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_4
+timestamp 1672527600
+transform 1 0 1896 0 1 3024
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_5
+timestamp 1672527600
+transform 1 0 1896 0 1 3552
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_6
+timestamp 1672527600
+transform 1 0 1896 0 1 4080
+box 54 -22 5058 462
+use ../../sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV  xd3_7
+timestamp 1672527600
+transform 1 0 1896 0 1 4608
+box 54 -22 5058 462
 << labels >>
-flabel locali s 13728 384 13968 10656 0 FreeSans 400 0 0 0 AVSS
+flabel locali s 7044 192 7164 5328 0 FreeSans 200 0 0 0 AVSS
 port 6 nsew
-flabel locali s 14112 0 14352 11040 0 FreeSans 400 0 0 0 AVDD
+flabel locali s 7236 0 7356 5520 0 FreeSans 200 0 0 0 AVDD
 port 1 nsew
-flabel m2 s 0 2674 216 2734 0 FreeSans 400 0 0 0 VFB
+flabel metal2 s 0 1337 108 1367 0 FreeSans 200 0 0 0 VFB
 port 2 nsew
-flabel m2 s 0 3202 216 3262 0 FreeSans 400 0 0 0 VI
+flabel metal2 s 0 1601 108 1631 0 FreeSans 200 0 0 0 VI
 port 3 nsew
-flabel m2 s 0 4170 216 4230 0 FreeSans 400 0 0 0 VO
+flabel metal2 s 0 2085 108 2115 0 FreeSans 200 0 0 0 VO
 port 4 nsew
-flabel m2 s 0 914 216 974 0 FreeSans 400 0 0 0 VBN
+flabel metal2 s 0 457 108 487 0 FreeSans 200 0 0 0 VBN
 port 5 nsew
 << end >>
