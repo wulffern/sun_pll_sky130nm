@@ -237,23 +237,3 @@ SUNTRB_IVX1_CV xb2_6 (N_2,N_1,AVDD,AVSS,VDD_ROSC,AVSS);
 SUNTRB_IVX1_CV xb2_7 (N_1,N_0,AVDD,AVSS,VDD_ROSC,AVSS);
 SUNTRB_TAPCELLBAVSS_CV xb3 (AVDD,AVSS);
 endmodule
-
-//-------------------------------------------------------------
-// SUN_PLL <class 'cicpy.core.layoutcell.LayoutCell'>
-//-------------------------------------------------------------
-module SUN_PLL(AVDD,AVSS,PWRUP_1V8,CK_REF,CK,IBPSR_1U);
-input logic AVSS;
-input logic AVDD;
-input logic PWRUP_1V8;
-input logic CK_REF;
-input logic CK;
-input logic IBPSR_1U;
-SUN_PLL_PFD xaa0 (AVDD,CP_UP_N,CK_REF,CP_DOWN,CK_FB,AVSS);
-SUN_PLL_CP xaa1 (AVDD,CP_UP_N,VLPF,CP_DOWN,IBPSR_1U,AVSS,VLPFZ,PWRUP_1V8,KICK);
-SUN_PLL_KICK xaa3 (AVDD,KICK,net1,PWRUP_1V8,AVSS,PWRUP_1V8_N);
-SUN_PLL_BUF xaa4 (AVDD,VDD_ROSC,VLPF,VDD_ROSC,IBPSR_1U,AVSS);
-SUN_PLL_ROSC xaa5 (AVDD,CK,VDD_ROSC,PWRUP_1V8,AVSS);
-SUN_PLL_DIVN xaa6 (AVDD,CK_FB,CK,PWRUP_1V8,AVSS);
-SUN_PLL_LPF xbb0 (VLPFZ,AVSS,VLPF);
-SUN_PLL_BIAS xbb1 (IBPSR_1U,PWRUP_1V8_N,AVSS);
-endmodule

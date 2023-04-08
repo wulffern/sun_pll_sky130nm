@@ -1,247 +1,219 @@
 magic
 tech sky130B
-timestamp 1679853665
+magscale 1 2
+timestamp 1680904800
+<< checkpaint >>
+rect 0 0 14136 7036
 << locali >>
-rect 0 3480 7068 3510
-rect 0 3288 7068 3408
-rect 0 120 120 3288
-rect 192 3096 6876 3216
-rect 192 312 312 3096
-rect 6756 312 6876 3096
-rect 192 192 6876 312
-rect 6948 120 7068 3288
-rect 0 0 7068 120
-<< metal1 >>
-rect 702 3480 870 3510
-rect 702 2995 732 3480
-rect 702 2965 816 2995
-rect 816 2789 930 2819
-rect 900 1221 930 2789
-rect 2358 2789 2472 2819
-rect 3336 2789 3450 2819
-rect 2358 1221 2388 2789
-rect 900 1191 1404 1221
-rect 1884 1191 2388 1221
-rect 3420 1221 3450 2789
-rect 4878 2789 4992 2819
-rect 5856 2789 5970 2819
-rect 4878 1221 4908 2789
-rect 3420 1191 3924 1221
-rect 4404 1191 4908 1221
-rect 5940 1221 5970 2789
-rect 5940 1191 6444 1221
-rect 1374 1161 1428 1191
-rect 1860 1161 1914 1191
-rect 3894 1161 3948 1191
-rect 4380 1161 4434 1191
-rect 6414 1161 6468 1191
-rect 5526 633 5640 663
-rect 5526 30 5556 633
-rect 5526 0 5694 30
-<< metal2 >>
-rect 1618 3003 2448 3041
-rect 2878 3003 3312 3041
-rect 4138 3003 4968 3041
-rect 5398 3003 5832 3041
-rect 1618 709 1656 3003
-rect 2418 2965 2472 3003
-rect 624 671 1656 709
-rect 2878 671 2916 3003
-rect 3282 2965 3336 3003
-rect 4138 709 4176 3003
-rect 4938 2965 4992 3003
-rect 3144 671 4176 709
-rect 5398 671 5436 3003
-rect 5802 2965 5856 3003
-rect 600 633 654 671
-rect 2688 633 2916 671
-rect 3120 633 3174 671
-rect 5208 633 5436 671
-<< metal3 >>
-rect 581 2393 619 3510
-rect 758 192 866 3024
-rect 1154 0 1262 3024
-rect 2026 0 2134 3024
-rect 2422 192 2530 3024
-rect 2669 2393 2707 3510
-rect 3101 2393 3139 3510
-rect 3278 192 3386 3024
-rect 3674 0 3782 3024
-rect 4546 0 4654 3024
-rect 4942 192 5050 3024
-rect 5189 2393 5227 3510
-rect 5621 2393 5659 3510
-rect 5798 192 5906 3024
-rect 6194 0 6302 3024
-use cut_M1M2_2x1  cut_M1M2_2x1_0
-timestamp 1677625200
-transform 1 0 778 0 1 2965
-box 0 0 92 34
-use cut_M1M2_2x1  cut_M1M2_2x1_1
-timestamp 1677625200
-transform 1 0 5602 0 1 633
-box 0 0 92 34
-use cut_M1M2_2x1  cut_M1M2_2x1_2
-timestamp 1677625200
-transform 1 0 4342 0 1 1161
-box 0 0 92 34
-use cut_M1M2_2x1  cut_M1M2_2x1_3
-timestamp 1677625200
-transform 1 0 1822 0 1 1161
-box 0 0 92 34
-use cut_M1M2_2x1  cut_M1M2_2x1_4
-timestamp 1677625200
-transform 1 0 6414 0 1 1161
-box 0 0 92 34
-use cut_M1M2_2x1  cut_M1M2_2x1_5
-timestamp 1677625200
-transform 1 0 3894 0 1 1161
-box 0 0 92 34
-use cut_M1M2_2x1  cut_M1M2_2x1_6
-timestamp 1677625200
-transform 1 0 1374 0 1 1161
-box 0 0 92 34
-use cut_M1M3_2x1  cut_M1M3_2x1_0
-timestamp 1677625200
-transform 1 0 4938 0 1 2965
-box 0 0 100 38
-use cut_M1M3_2x1  cut_M1M3_2x1_1
-timestamp 1677625200
-transform 1 0 3066 0 1 633
-box 0 0 100 38
-use cut_M1M3_2x1  cut_M1M3_2x1_2
-timestamp 1677625200
-transform 1 0 2418 0 1 2965
-box 0 0 100 38
-use cut_M1M3_2x1  cut_M1M3_2x1_3
-timestamp 1677625200
-transform 1 0 546 0 1 633
-box 0 0 100 38
-use cut_M1M3_2x1  cut_M1M3_2x1_4
-timestamp 1677625200
-transform 1 0 5802 0 1 2965
-box 0 0 100 38
-use cut_M1M3_2x1  cut_M1M3_2x1_5
-timestamp 1677625200
-transform 1 0 5154 0 1 633
-box 0 0 100 38
-use cut_M1M3_2x1  cut_M1M3_2x1_6
-timestamp 1677625200
-transform 1 0 3282 0 1 2965
-box 0 0 100 38
-use cut_M1M3_2x1  cut_M1M3_2x1_7
-timestamp 1677625200
-transform 1 0 2634 0 1 633
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_0
-timestamp 1677625200
-transform 1 0 5590 0 1 3480
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_1
-timestamp 1677625200
-transform 1 0 5158 0 1 3480
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_2
-timestamp 1677625200
-transform 1 0 3070 0 1 3480
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_3
-timestamp 1677625200
-transform 1 0 2638 0 1 3480
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_4
-timestamp 1677625200
-transform 1 0 550 0 1 3480
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_5
-timestamp 1677625200
-transform 1 0 6198 0 1 0
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_6
-timestamp 1677625200
-transform 1 0 4550 0 1 0
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_7
-timestamp 1677625200
-transform 1 0 3678 0 1 0
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_8
-timestamp 1677625200
-transform 1 0 2030 0 1 0
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_9
-timestamp 1677625200
-transform 1 0 1158 0 1 0
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_10
-timestamp 1677625200
-transform 1 0 5802 0 1 192
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_11
-timestamp 1677625200
-transform 1 0 4946 0 1 192
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_12
-timestamp 1677625200
-transform 1 0 3282 0 1 192
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_13
-timestamp 1677625200
-transform 1 0 2426 0 1 192
-box 0 0 100 38
-use cut_M1M4_2x1  cut_M1M4_2x1_14
-timestamp 1677625200
-transform 1 0 762 0 1 192
-box 0 0 100 38
-use cut_M2M4_2x1  cut_M2M4_2x1_0
-timestamp 1677625200
-transform 1 0 5590 0 1 2393
-box 0 0 100 38
-use cut_M2M4_2x1  cut_M2M4_2x1_1
-timestamp 1677625200
-transform 1 0 5158 0 1 2393
-box 0 0 100 38
-use cut_M2M4_2x1  cut_M2M4_2x1_2
-timestamp 1677625200
-transform 1 0 3070 0 1 2393
-box 0 0 100 38
-use cut_M2M4_2x1  cut_M2M4_2x1_3
-timestamp 1677625200
-transform 1 0 2638 0 1 2393
-box 0 0 100 38
-use cut_M2M4_2x1  cut_M2M4_2x1_4
-timestamp 1677625200
-transform 1 0 550 0 1 2393
-box 0 0 100 38
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV  xc ../sun_tr_sky130nm/design/SUN_TR_SKY130NM
-timestamp 1679853665
-transform 1 0 384 0 1 384
-box -90 -66 1350 2706
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV  xd
-timestamp 1679853665
-transform -1 0 2904 0 1 384
-box -90 -66 1350 2706
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV  xe
-timestamp 1679853665
-transform 1 0 2904 0 1 384
-box -90 -66 1350 2706
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV  xf
-timestamp 1679853665
-transform -1 0 5424 0 1 384
-box -90 -66 1350 2706
-use ../../sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV  xg
-timestamp 1679853665
-transform 1 0 5424 0 1 384
-box -90 -66 1350 2706
+rect 13512 384 13752 6432
+rect 384 384 13752 624
+rect 384 6192 13752 6432
+rect 384 384 624 6432
+rect 13512 384 13752 6432
+rect 13896 0 14136 6816
+rect 0 0 14136 240
+rect 0 6576 14136 6816
+rect 0 0 240 6816
+rect 13896 0 14136 6816
+rect 0 6960 14136 7020
+rect 0 6960 14136 7020
+<< m3 >>
+rect 1516 384 1732 6048
+rect 4844 384 5060 6048
+rect 6556 384 6772 6048
+rect 9884 384 10100 6048
+rect 11596 384 11812 6048
+rect 2308 0 2524 6048
+rect 4052 0 4268 6048
+rect 7348 0 7564 6048
+rect 9092 0 9308 6048
+rect 12388 0 12604 6048
+rect 1162 4786 1238 7020
+rect 5338 4786 5414 7020
+rect 6202 4786 6278 7020
+rect 10378 4786 10454 7020
+rect 11242 4786 11318 7020
+<< m1 >>
+rect 1632 5578 1800 5638
+rect 1800 2382 2808 2442
+rect 1800 2382 1860 5638
+rect 2748 2322 2856 2382
+rect 6672 5578 6840 5638
+rect 6840 2382 7848 2442
+rect 6840 2382 6900 5638
+rect 7788 2322 7896 2382
+rect 11712 5578 11880 5638
+rect 11880 2382 12888 2442
+rect 11880 2382 11940 5638
+rect 12828 2322 12936 2382
+rect 4716 5578 4944 5638
+rect 3768 2382 4716 2442
+rect 4716 2382 4776 5638
+rect 3720 2322 3828 2382
+rect 9756 5578 9984 5638
+rect 8808 2382 9756 2442
+rect 9756 2382 9816 5638
+rect 8760 2322 8868 2382
+rect 1524 6960 1740 7020
+rect 11172 0 11388 60
+rect 11172 0 11388 60
+rect 11052 1266 11280 1326
+rect 11052 0 11280 60
+rect 11052 0 11112 1326
+rect 1524 6960 1740 7020
+rect 1404 5930 1632 5990
+rect 1404 6960 1632 7020
+rect 1404 5930 1464 7020
+<< m2 >>
+rect 5376 1266 5756 1342
+rect 5756 6006 6624 6082
+rect 5756 1266 5832 6082
+rect 6564 5930 6672 6006
+rect 10416 1266 10796 1342
+rect 10796 6006 11664 6082
+rect 10796 1266 10872 6082
+rect 11604 5930 11712 6006
+rect 1248 1342 3236 1418
+rect 3236 6006 4896 6082
+rect 3236 1342 3312 6082
+rect 1200 1266 1308 1342
+rect 4836 5930 4944 6006
+rect 6288 1342 8276 1418
+rect 8276 6006 9936 6082
+rect 8276 1342 8352 6082
+rect 6240 1266 6348 1342
+rect 9876 5930 9984 6006
+use ../SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV xc
+transform 1 0 768 0 1 768
+box 768 768 3288 6048
+use ../SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV xd
+transform -1 0 5808 0 1 768
+box 5808 768 8328 6048
+use ../SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV xe
+transform 1 0 5808 0 1 768
+box 5808 768 8328 6048
+use ../SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV xf
+transform -1 0 10848 0 1 768
+box 10848 768 13368 6048
+use ../SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV xg
+transform 1 0 10848 0 1 768
+box 10848 768 13368 6048
+use cut_M1M4_2x1 xcut0
+transform 1 0 1524 0 1 384
+box 1524 384 1724 460
+use cut_M1M4_2x1 xcut1
+transform 1 0 4852 0 1 384
+box 4852 384 5052 460
+use cut_M1M4_2x1 xcut2
+transform 1 0 6564 0 1 384
+box 6564 384 6764 460
+use cut_M1M4_2x1 xcut3
+transform 1 0 9892 0 1 384
+box 9892 384 10092 460
+use cut_M1M4_2x1 xcut4
+transform 1 0 11604 0 1 384
+box 11604 384 11804 460
+use cut_M1M4_2x1 xcut5
+transform 1 0 2316 0 1 0
+box 2316 0 2516 76
+use cut_M1M4_2x1 xcut6
+transform 1 0 4060 0 1 0
+box 4060 0 4260 76
+use cut_M1M4_2x1 xcut7
+transform 1 0 7356 0 1 0
+box 7356 0 7556 76
+use cut_M1M4_2x1 xcut8
+transform 1 0 9100 0 1 0
+box 9100 0 9300 76
+use cut_M1M4_2x1 xcut9
+transform 1 0 12396 0 1 0
+box 12396 0 12596 76
+use cut_M2M4_2x1 xcut10
+transform 1 0 1100 0 1 4786
+box 1100 4786 1300 4862
+use cut_M1M4_2x1 xcut11
+transform 1 0 1100 0 1 6960
+box 1100 6960 1300 7036
+use cut_M2M4_2x1 xcut12
+transform 1 0 5276 0 1 4786
+box 5276 4786 5476 4862
+use cut_M1M4_2x1 xcut13
+transform 1 0 5276 0 1 6960
+box 5276 6960 5476 7036
+use cut_M2M4_2x1 xcut14
+transform 1 0 6140 0 1 4786
+box 6140 4786 6340 4862
+use cut_M1M4_2x1 xcut15
+transform 1 0 6140 0 1 6960
+box 6140 6960 6340 7036
+use cut_M2M4_2x1 xcut16
+transform 1 0 10316 0 1 4786
+box 10316 4786 10516 4862
+use cut_M1M4_2x1 xcut17
+transform 1 0 10316 0 1 6960
+box 10316 6960 10516 7036
+use cut_M2M4_2x1 xcut18
+transform 1 0 11180 0 1 4786
+box 11180 4786 11380 4862
+use cut_M1M4_2x1 xcut19
+transform 1 0 11180 0 1 6960
+box 11180 6960 11380 7036
+use cut_M1M2_2x1 xcut20
+transform 1 0 2748 0 1 2322
+box 2748 2322 2932 2390
+use cut_M1M2_2x1 xcut21
+transform 1 0 7788 0 1 2322
+box 7788 2322 7972 2390
+use cut_M1M2_2x1 xcut22
+transform 1 0 12828 0 1 2322
+box 12828 2322 13012 2390
+use cut_M1M2_2x1 xcut23
+transform 1 0 3644 0 1 2322
+box 3644 2322 3828 2390
+use cut_M1M2_2x1 xcut24
+transform 1 0 8684 0 1 2322
+box 8684 2322 8868 2390
+use cut_M1M3_2x1 xcut25
+transform 1 0 5268 0 1 1266
+box 5268 1266 5468 1342
+use cut_M1M3_2x1 xcut26
+transform 1 0 6564 0 1 5930
+box 6564 5930 6764 6006
+use cut_M1M3_2x1 xcut27
+transform 1 0 10308 0 1 1266
+box 10308 1266 10508 1342
+use cut_M1M3_2x1 xcut28
+transform 1 0 11604 0 1 5930
+box 11604 5930 11804 6006
+use cut_M1M3_2x1 xcut29
+transform 1 0 1092 0 1 1266
+box 1092 1266 1292 1342
+use cut_M1M3_2x1 xcut30
+transform 1 0 4836 0 1 5930
+box 4836 5930 5036 6006
+use cut_M1M3_2x1 xcut31
+transform 1 0 6132 0 1 1266
+box 6132 1266 6332 1342
+use cut_M1M3_2x1 xcut32
+transform 1 0 9876 0 1 5930
+box 9876 5930 10076 6006
+use cut_M1M2_2x1 xcut33
+transform 1 0 11204 0 1 1266
+box 11204 1266 11388 1334
+use cut_M1M2_2x1 xcut34
+transform 1 0 1556 0 1 5930
+box 1556 5930 1740 5998
 << labels >>
-flabel locali s 6756 192 6876 3216 0 FreeSans 200 0 0 0 AVSS
-port 5 nsew
-flabel locali s 6948 0 7068 3408 0 FreeSans 200 0 0 0 AVDD
-port 1 nsew
-flabel locali s 0 3480 7068 3510 0 FreeSans 200 0 0 0 PWRUP_1V8
-port 4 nsew
-flabel metal1 s 762 3480 870 3510 0 FreeSans 200 0 0 0 CK_FB
-port 2 nsew
-flabel metal1 s 5586 0 5694 30 0 FreeSans 200 0 0 0 CK
-port 3 nsew
+flabel locali s 13512 384 13752 6432 0 FreeSans 400 0 0 0 AVSS
+port 5 nsew signal bidirectional
+flabel locali s 13896 0 14136 6816 0 FreeSans 400 0 0 0 AVDD
+port 1 nsew signal bidirectional
+flabel locali s 0 6960 14136 7020 0 FreeSans 400 0 0 0 PWRUP_1V8
+port 4 nsew signal bidirectional
+flabel m1 s 1524 6960 1740 7020 0 FreeSans 400 0 0 0 CK_FB
+port 2 nsew signal bidirectional
+flabel m1 s 11172 0 11388 60 0 FreeSans 400 0 0 0 CK
+port 3 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 14136 7036
 << end >>

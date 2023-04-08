@@ -3407,6 +3407,68 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N0"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "G"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "S"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N3"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N4"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N5"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N6"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N7"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "D"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -3748,6 +3810,33 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N0"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "G"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "S"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "D"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -4147,6 +4236,28 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "D"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "G"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "S"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "B"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -5285,6 +5396,28 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "D"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "G"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "S"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "B"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -8432,15 +8565,6 @@
                             "y2": 211000
                         },
                         {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 800,
-                            "x2": 262400,
-                            "y1": 205400,
-                            "y2": 211000
-                        },
-                        {
                             "abstract": false,
                             "boundaryIgnoreRouting": false,
                             "cellused": true,
@@ -8967,15 +9091,6 @@
                             "x2": 6400,
                             "y1": 6400,
                             "y2": 205400
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 800,
-                            "x2": 6400,
-                            "y1": 800,
-                            "y2": 211000
                         },
                         {
                             "abstract": false,
@@ -9506,15 +9621,6 @@
                             "y2": 205400
                         },
                         {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 256800,
-                            "x2": 262400,
-                            "y1": 800,
-                            "y2": 211000
-                        },
-                        {
                             "abstract": false,
                             "boundaryIgnoreRouting": false,
                             "cellused": true,
@@ -9645,6 +9751,18 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "P"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -10366,6 +10484,18 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -10903,6 +11033,28 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -11721,6 +11873,38 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -12539,6 +12723,38 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -13732,6 +13948,48 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "D"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "CK"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "Q"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N3"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -14525,6 +14783,48 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "C"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "CN"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -15749,6 +16049,53 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "RN"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "C"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "CN"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -17826,6 +18173,63 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "CK"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "RN"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "CKN"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "CKB"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "D"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A0"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "QN"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "Q"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -19516,6 +19920,38 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -20360,6 +20796,48 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "BULKN"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "B"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "BULKP"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -20962,6 +21440,23 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "NC1"
+                },
+                {
+                    "instances": [
+                    ],
+                    "node": "AVDD"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": true,
@@ -27151,6 +27646,55 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "IBPSR_1U"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "PWRUP_1V8_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVSS"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -30568,6 +31112,253 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "VS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VBN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xa1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_4",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_5",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_6",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xd3_7",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xc2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VDP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VFB"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa4",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc3_0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xc3_1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xc3_2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VGP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa4",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VI"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xc1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xc2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xc2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xc3_0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xc3_0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xc3_1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xc3_1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xc3_2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xc3_2",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc3_0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc3_1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc3_2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xd2",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_0",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_1",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_2",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_3",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_4",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_5",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_6",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xd3_7",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "VO"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -33358,6 +34149,196 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xb2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VBP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "VBN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xa1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "VNS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xb3",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xb4",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "LPF"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "CP_DOWN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa4",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "LPFZ"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa4",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "KICK"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb2",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xb2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb4",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xb4",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xb3",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "VPS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb3",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "CP_UP_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb4",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "PWRUP_1V8"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -36329,6 +37310,218 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xc",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc",
+                            "node": "QN"
+                        }
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "xd",
+                            "node": "Q"
+                        }
+                    ],
+                    "node": "D2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc",
+                            "node": "RN"
+                        },
+                        {
+                            "inst": "xd",
+                            "node": "RN"
+                        },
+                        {
+                            "inst": "xe",
+                            "node": "RN"
+                        },
+                        {
+                            "inst": "xf",
+                            "node": "RN"
+                        },
+                        {
+                            "inst": "xg",
+                            "node": "RN"
+                        }
+                    ],
+                    "node": "PWRUP_1V8"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc",
+                            "node": "Q"
+                        }
+                    ],
+                    "node": "CK_FB"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xd",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xe",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xf",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xg",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xd",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xe",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xf",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xg",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xd",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xd",
+                            "node": "QN"
+                        }
+                    ],
+                    "node": "N3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xd",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "xe",
+                            "node": "Q"
+                        }
+                    ],
+                    "node": "D3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xe",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xe",
+                            "node": "QN"
+                        }
+                    ],
+                    "node": "N4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xe",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "xf",
+                            "node": "Q"
+                        }
+                    ],
+                    "node": "D4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xf",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xf",
+                            "node": "QN"
+                        }
+                    ],
+                    "node": "N5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xf",
+                            "node": "CK"
+                        },
+                        {
+                            "inst": "xg",
+                            "node": "Q"
+                        }
+                    ],
+                    "node": "D5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xg",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xg",
+                            "node": "QN"
+                        }
+                    ],
+                    "node": "N6"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xg",
+                            "node": "CK"
+                        }
+                    ],
+                    "node": "CK"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -43797,6 +44990,460 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "P"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "N"
+                        }
+                    ],
+                    "node": "VN5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "N"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "VLPF"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_10",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_11",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_12",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_13",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_14",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_15",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_16",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_17",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_18",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_19",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_2",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_20",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_21",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_22",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_23",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_24",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_25",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_26",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_27",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_28",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_29",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_30",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_31",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_32",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_33",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_34",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_35",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_36",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_37",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_38",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_39",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_4",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_40",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_41",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_42",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_43",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_44",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_45",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_46",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_47",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_5",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_6",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_7",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_8",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb3_9",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "P"
+                        },
+                        {
+                            "inst": "xb3_0",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_1",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_10",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_11",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_12",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_13",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_14",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_15",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_16",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_17",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_18",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_19",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_2",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_20",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_21",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_22",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_23",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_24",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_25",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_26",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_27",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_28",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_29",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_3",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_30",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_31",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_32",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_33",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_34",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_35",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_36",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_37",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_38",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_39",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_4",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_40",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_41",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_42",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_43",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_44",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_45",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_46",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_47",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_5",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_6",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_7",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_8",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb3_9",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "VLPFZ"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -45502,6 +47149,176 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1_0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xb1_1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc1b",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc2a",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xc2b",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "Y"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1_0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xb1_1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "AN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1_0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xb1_0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb1_1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xb1_1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2_0",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc1a",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xc1b",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xc2b",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "YN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2_0",
+                            "node": "G"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "G"
+                        }
+                    ],
+                    "node": "A"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc1a",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc1b",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "net2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc1a",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xc1a",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xc1b",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xc2a",
+                            "node": "S"
+                        },
+                        {
+                            "inst": "xc2a",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xc2b",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xc2a",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xc2b",
+                            "node": "S"
+                        }
+                    ],
+                    "node": "net1"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -48308,6 +50125,269 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1a",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa1b",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa1c",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa3a",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa5a",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa7",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa8",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa9",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1a",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa1b",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa1c",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa1capd",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa3a",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa3capb",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa5a",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa5capb",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa7",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa8",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa9",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1b",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "PWRUP_1V8"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1b",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa1c",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xa8",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "PWRUP_1V8_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1c",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa1capd",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa3a",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3a",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa3capb",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N3"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa4",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa5a",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa5a",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa5capb",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa6",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa7",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N6"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa7",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa8",
+                            "node": "B"
+                        }
+                    ],
+                    "node": "N7"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa8",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa9",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "KICK"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa9",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "KICK_N"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -50170,6 +52250,174 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xa0",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa2a",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa5",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa0",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa2a",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa5",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "D"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa5",
+                            "node": "D"
+                        }
+                    ],
+                    "node": "CFB"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "CK"
+                        }
+                    ],
+                    "node": "CK_REF"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa1",
+                            "node": "Q"
+                        },
+                        {
+                            "inst": "xa2",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xa3",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CP_DUP_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa2a",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CP_UP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa2a",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CP_UP_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xa5",
+                            "node": "Q"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CP_DOWN_N"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa5",
+                            "node": "CK"
+                        }
+                    ],
+                    "node": "CK_FB"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa6",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CP_DOWN"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -53535,6 +55783,381 @@
                 }
             },
             "class": "cIcCore::LayoutCell",
+            "graph": [
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "A"
+                        },
+                        {
+                            "inst": "xb2_5",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_6",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N_2"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "AN"
+                        },
+                        {
+                            "inst": "xb2_6",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_7",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N_1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "YN"
+                        },
+                        {
+                            "inst": "xa5",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CKUP"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "CKDWN"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa5",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_2",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_3",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_4",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_5",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_6",
+                            "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb2_7",
+                            "node": "BULKP"
+                        }
+                    ],
+                    "node": "AVDD"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa3",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa5",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xa6",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_2",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_2",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_3",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_3",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_4",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_4",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_5",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_5",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_6",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_6",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb2_7",
+                            "node": "BULKN"
+                        },
+                        {
+                            "inst": "xb2_7",
+                            "node": "AVSS"
+                        },
+                        {
+                            "inst": "xb3",
+                            "node": "AVSS"
+                        }
+                    ],
+                    "node": "AVSS"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa4",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "NC1"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xa5",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "CK"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "PWRUP_1V8"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1",
+                            "node": "B"
+                        },
+                        {
+                            "inst": "xb2_7",
+                            "node": "Y"
+                        }
+                    ],
+                    "node": "N_0"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "NI"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_0",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_2",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_3",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_4",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_5",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_6",
+                            "node": "AVDD"
+                        },
+                        {
+                            "inst": "xb2_7",
+                            "node": "AVDD"
+                        }
+                    ],
+                    "node": "VDD_ROSC"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2_0",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_1",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N_7"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2_1",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_2",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N_6"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2_2",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_3",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N_5"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2_3",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_4",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N_4"
+                },
+                {
+                    "instances": [
+                        {
+                            "inst": "xb2_4",
+                            "node": "Y"
+                        },
+                        {
+                            "inst": "xb2_5",
+                            "node": "A"
+                        }
+                    ],
+                    "node": "N_3"
+                }
+            ],
             "has_pr": false,
             "layer": "PR",
             "libcell": false,
@@ -53551,1237 +56174,6 @@
             "x2": 328800,
             "y1": 0,
             "y2": 270400
-        },
-        {
-            "abstract": false,
-            "alternateGroup": false,
-            "boundaryIgnoreRouting": false,
-            "cellused": true,
-            "children": [
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_PFD",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVDD",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 243600,
-                            "x2": 255600,
-                            "y1": 52800,
-                            "y2": 340800
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "CP_UP_N",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 244800,
-                            "x2": 255600,
-                            "y1": 190900,
-                            "y2": 193900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "CK_REF",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 133700,
-                            "y2": 136700
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "CP_DOWN",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 244800,
-                            "x2": 255600,
-                            "y1": 296500,
-                            "y2": 299500
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "CK_FB",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 256900,
-                            "y2": 259900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 224400,
-                            "x2": 236400,
-                            "y1": 72000,
-                            "y2": 321600
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xaa0",
-                            "net": "",
-                            "x1": 154200,
-                            "x2": 154200,
-                            "y1": 196800,
-                            "y2": 196800
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xaa0",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_PFD",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa0",
-                        "nodes": [
-                            "AVDD",
-                            "CP_UP_N",
-                            "CK_REF",
-                            "CP_DOWN",
-                            "CK_FB",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_PFD"
-                    },
-                    "x1": 52800,
-                    "x2": 255600,
-                    "xcell": 0,
-                    "y1": 52800,
-                    "y2": 340800,
-                    "ycell": 0
-                },
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_CP",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVDD",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 258000,
-                            "x2": 270000,
-                            "y1": 340800,
-                            "y2": 637600
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "CP_UP_N",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 439300,
-                            "y2": 442300
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "VLPF",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 259200,
-                            "x2": 270000,
-                            "y1": 566900,
-                            "y2": 569900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "CP_DOWN",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 562500,
-                            "y2": 565500
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "IBPSR_1U",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 386500,
-                            "y2": 389500
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 238800,
-                            "x2": 250800,
-                            "y1": 360000,
-                            "y2": 618400
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "VLPFZ",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 259200,
-                            "x2": 270000,
-                            "y1": 584500,
-                            "y2": 587500
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "PWRUP_1V8",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 456900,
-                            "y2": 459900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "KICK",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 580100,
-                            "y2": 583100
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xaa1",
-                            "net": "",
-                            "x1": 161400,
-                            "x2": 161400,
-                            "y1": 489200,
-                            "y2": 489200
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xaa1",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_CP",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa1",
-                        "nodes": [
-                            "AVDD",
-                            "CP_UP_N",
-                            "VLPF",
-                            "CP_DOWN",
-                            "IBPSR_1U",
-                            "AVSS",
-                            "VLPFZ",
-                            "PWRUP_1V8",
-                            "KICK"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_CP"
-                    },
-                    "x1": 52800,
-                    "x2": 270000,
-                    "xcell": 0,
-                    "y1": 340800,
-                    "y2": 637600,
-                    "ycell": 0
-                },
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_KICK",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVDD",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 247200,
-                            "x2": 259200,
-                            "y1": 637600,
-                            "y2": 1163200
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "KICK",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 129000,
-                            "x2": 139800,
-                            "y1": 1092500,
-                            "y2": 1095500
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "net1",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 129000,
-                            "x2": 139800,
-                            "y1": 1118900,
-                            "y2": 1121900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "PWRUP_1V8",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 107400,
-                            "x2": 118200,
-                            "y1": 700900,
-                            "y2": 703900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 228000,
-                            "x2": 240000,
-                            "y1": 656800,
-                            "y2": 1144000
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "PWRUP_1V8_N",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 129000,
-                            "x2": 139800,
-                            "y1": 705300,
-                            "y2": 708300
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xaa3",
-                            "net": "",
-                            "x1": 156000,
-                            "x2": 156000,
-                            "y1": 900400,
-                            "y2": 900400
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xaa3",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_KICK",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa3",
-                        "nodes": [
-                            "AVDD",
-                            "KICK",
-                            "net1",
-                            "PWRUP_1V8",
-                            "AVSS",
-                            "PWRUP_1V8_N"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_KICK"
-                    },
-                    "x1": 52800,
-                    "x2": 259200,
-                    "xcell": 0,
-                    "y1": 637600,
-                    "y2": 1163200,
-                    "ycell": 0
-                },
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_BUF",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVDD",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 776400,
-                            "x2": 788400,
-                            "y1": 1163200,
-                            "y2": 1715200
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "VDD_ROSC",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 1296900,
-                            "y2": 1299900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "VLPF",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 1323300,
-                            "y2": 1326300
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "VDD_ROSC",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 1371700,
-                            "y2": 1374700
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "IBPSR_1U",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 63600,
-                            "y1": 1208900,
-                            "y2": 1211900
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 757200,
-                            "x2": 769200,
-                            "y1": 1182400,
-                            "y2": 1696000
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xaa4",
-                            "net": "",
-                            "x1": 420600,
-                            "x2": 420600,
-                            "y1": 1439200,
-                            "y2": 1439200
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xaa4",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_BUF",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa4",
-                        "nodes": [
-                            "AVDD",
-                            "VDD_ROSC",
-                            "VLPF",
-                            "VDD_ROSC",
-                            "IBPSR_1U",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_BUF"
-                    },
-                    "x1": 52800,
-                    "x2": 788400,
-                    "xcell": 0,
-                    "y1": 1163200,
-                    "y2": 1715200,
-                    "ycell": 0
-                },
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_ROSC",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVDD",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 369600,
-                            "x2": 381600,
-                            "y1": 1715200,
-                            "y2": 1985600
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M2",
-                            "name": "CK",
-                            "net": "",
-                            "pinLayer": "M2_pin",
-                            "spicePort": true,
-                            "x1": 129000,
-                            "x2": 139800,
-                            "y1": 1982600,
-                            "y2": 1985600
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M4",
-                            "name": "VDD_ROSC",
-                            "net": "",
-                            "pinLayer": "M4_pin",
-                            "spicePort": true,
-                            "x1": 255800,
-                            "x2": 265800,
-                            "y1": 1950400,
-                            "y2": 1985600
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M2",
-                            "name": "PWRUP_1V8",
-                            "net": "",
-                            "pinLayer": "M2_pin",
-                            "spicePort": true,
-                            "x1": 316200,
-                            "x2": 327000,
-                            "y1": 1715200,
-                            "y2": 1718200
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 350400,
-                            "x2": 362400,
-                            "y1": 1734400,
-                            "y2": 1966400
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xaa5",
-                            "net": "",
-                            "x1": 217200,
-                            "x2": 217200,
-                            "y1": 1850400,
-                            "y2": 1850400
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xaa5",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_ROSC",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa5",
-                        "nodes": [
-                            "AVDD",
-                            "CK",
-                            "VDD_ROSC",
-                            "PWRUP_1V8",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_ROSC"
-                    },
-                    "x1": 52800,
-                    "x2": 381600,
-                    "xcell": 0,
-                    "y1": 1715200,
-                    "y2": 1985600,
-                    "ycell": 0
-                },
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_DIVN",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVDD",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 747600,
-                            "x2": 759600,
-                            "y1": 1985600,
-                            "y2": 2326400
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M2",
-                            "name": "CK_FB",
-                            "net": "",
-                            "pinLayer": "M2_pin",
-                            "spicePort": true,
-                            "x1": 129000,
-                            "x2": 139800,
-                            "y1": 2333600,
-                            "y2": 2336600
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M2",
-                            "name": "CK",
-                            "net": "",
-                            "pinLayer": "M2_pin",
-                            "spicePort": true,
-                            "x1": 611400,
-                            "x2": 622200,
-                            "y1": 1985600,
-                            "y2": 1988600
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "PWRUP_1V8",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 52800,
-                            "x2": 759600,
-                            "y1": 2333600,
-                            "y2": 2336600
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 728400,
-                            "x2": 740400,
-                            "y1": 2004800,
-                            "y2": 2307200
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xaa6",
-                            "net": "",
-                            "x1": 406200,
-                            "x2": 406200,
-                            "y1": 2161500,
-                            "y2": 2161500
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xaa6",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_DIVN",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa6",
-                        "nodes": [
-                            "AVDD",
-                            "CK_FB",
-                            "CK",
-                            "PWRUP_1V8",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_DIVN"
-                    },
-                    "x1": 52800,
-                    "x2": 759600,
-                    "xcell": 0,
-                    "y1": 1985600,
-                    "y2": 2337400,
-                    "ycell": 0
-                },
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_LPF",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "VLPFZ",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 985400,
-                            "x2": 1014200,
-                            "y1": 480700,
-                            "y2": 491700
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 2772200,
-                            "x2": 2787200,
-                            "y1": 52800,
-                            "y2": 2545200
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "VLPF",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 812600,
-                            "x2": 841400,
-                            "y1": 246900,
-                            "y2": 257900
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xbb0",
-                            "net": "",
-                            "x1": 1773400,
-                            "x2": 1773400,
-                            "y1": 1299000,
-                            "y2": 1299000
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xbb0",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_LPF",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xbb",
-                        "name": "xbb0",
-                        "nodes": [
-                            "VLPFZ",
-                            "AVSS",
-                            "VLPF"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_LPF"
-                    },
-                    "x1": 759600,
-                    "x2": 2787200,
-                    "xcell": 0,
-                    "y1": 52800,
-                    "y2": 2545200,
-                    "ycell": 0
-                },
-                {
-                    "angle": "",
-                    "cell": "SUN_PLL_BIAS",
-                    "children": [
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "IBPSR_1U",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 850200,
-                            "x2": 861000,
-                            "y1": 2576100,
-                            "y2": 2579100
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M3",
-                            "name": "PWRUP_1V8_N",
-                            "net": "",
-                            "pinLayer": "M3_pin",
-                            "spicePort": true,
-                            "x1": 759600,
-                            "x2": 770400,
-                            "y1": 2571700,
-                            "y2": 2574700
-                        },
-                        {
-                            "class": "Port",
-                            "layer": "M1",
-                            "name": "AVSS",
-                            "net": "",
-                            "pinLayer": "M1_pin",
-                            "spicePort": true,
-                            "x1": 849000,
-                            "x2": 861000,
-                            "y1": 2545200,
-                            "y2": 2689200
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "xbb1",
-                            "net": "",
-                            "x1": 810300,
-                            "x2": 810300,
-                            "y1": 2617200,
-                            "y2": 2617200
-                        }
-                    ],
-                    "class": "Instance",
-                    "instanceName": "xbb1",
-                    "layer": "PR",
-                    "libpath": "",
-                    "name": "SUN_PLL_BIAS",
-                    "net": "",
-                    "subcktInstance": {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xbb",
-                        "name": "xbb1",
-                        "nodes": [
-                            "IBPSR_1U",
-                            "PWRUP_1V8_N",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_BIAS"
-                    },
-                    "x1": 759600,
-                    "x2": 861000,
-                    "xcell": 0,
-                    "y1": 2545200,
-                    "y2": 2689200,
-                    "ycell": 0
-                },
-                {
-                    "class": "Port",
-                    "layer": "M1",
-                    "name": "AVSS",
-                    "net": "",
-                    "pinLayer": "M1_pin",
-                    "spicePort": true,
-                    "x1": 2801600,
-                    "x2": 2813600,
-                    "y1": 26400,
-                    "y2": 2715600
-                },
-                {
-                    "abstract": false,
-                    "boundaryIgnoreRouting": false,
-                    "cellused": true,
-                    "children": [
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 26400,
-                            "x2": 2813600,
-                            "y1": 26400,
-                            "y2": 38400
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 26400,
-                            "x2": 2813600,
-                            "y1": 2703600,
-                            "y2": 2715600
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 26400,
-                            "x2": 38400,
-                            "y1": 26400,
-                            "y2": 2715600
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 2801600,
-                            "x2": 2813600,
-                            "y1": 26400,
-                            "y2": 2715600
-                        }
-                    ],
-                    "class": "cIcCore::RouteRing",
-                    "has_pr": false,
-                    "layer": "PR",
-                    "libcell": false,
-                    "libpath": "",
-                    "meta": {
-                    },
-                    "name": "AVSS",
-                    "net": "",
-                    "physicalOnly": false,
-                    "x1": 26400,
-                    "x2": 2813600,
-                    "y1": 26400,
-                    "y2": 2715600
-                },
-                {
-                    "class": "Port",
-                    "layer": "M1",
-                    "name": "AVDD",
-                    "net": "",
-                    "pinLayer": "M1_pin",
-                    "spicePort": true,
-                    "x1": 2828000,
-                    "x2": 2840000,
-                    "y1": 0,
-                    "y2": 2742000
-                },
-                {
-                    "abstract": false,
-                    "boundaryIgnoreRouting": false,
-                    "cellused": true,
-                    "children": [
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 0,
-                            "x2": 2840000,
-                            "y1": 0,
-                            "y2": 12000
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 0,
-                            "x2": 2840000,
-                            "y1": 2730000,
-                            "y2": 2742000
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 0,
-                            "x2": 12000,
-                            "y1": 0,
-                            "y2": 2742000
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 2828000,
-                            "x2": 2840000,
-                            "y1": 0,
-                            "y2": 2742000
-                        }
-                    ],
-                    "class": "cIcCore::RouteRing",
-                    "has_pr": false,
-                    "layer": "PR",
-                    "libcell": false,
-                    "libpath": "",
-                    "meta": {
-                    },
-                    "name": "AVDD",
-                    "net": "",
-                    "physicalOnly": false,
-                    "x1": 0,
-                    "x2": 2840000,
-                    "y1": 0,
-                    "y2": 2742000
-                },
-                {
-                    "class": "Port",
-                    "layer": "M3",
-                    "name": "PWRUP_1V8",
-                    "net": "",
-                    "pinLayer": "M3_pin",
-                    "spicePort": true,
-                    "x1": 52800,
-                    "x2": 63600,
-                    "y1": 456900,
-                    "y2": 459900
-                },
-                {
-                    "class": "Port",
-                    "layer": "M3",
-                    "name": "CK_REF",
-                    "net": "",
-                    "pinLayer": "M3_pin",
-                    "spicePort": true,
-                    "x1": 52800,
-                    "x2": 63600,
-                    "y1": 133700,
-                    "y2": 136700
-                },
-                {
-                    "class": "Port",
-                    "layer": "M2",
-                    "name": "CK",
-                    "net": "",
-                    "pinLayer": "M2_pin",
-                    "spicePort": true,
-                    "x1": 129000,
-                    "x2": 139800,
-                    "y1": 1982600,
-                    "y2": 1985600
-                },
-                {
-                    "class": "Port",
-                    "layer": "M3",
-                    "name": "IBPSR_1U",
-                    "net": "",
-                    "pinLayer": "M3_pin",
-                    "spicePort": true,
-                    "x1": 52800,
-                    "x2": 63600,
-                    "y1": 386500,
-                    "y2": 389500
-                }
-            ],
-            "ckt": {
-                "class": "cIcCore::LayoutCell",
-                "devices": [
-                ],
-                "instances": [
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa0",
-                        "nodes": [
-                            "AVDD",
-                            "CP_UP_N",
-                            "CK_REF",
-                            "CP_DOWN",
-                            "CK_FB",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_PFD"
-                    },
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa1",
-                        "nodes": [
-                            "AVDD",
-                            "CP_UP_N",
-                            "VLPF",
-                            "CP_DOWN",
-                            "IBPSR_1U",
-                            "AVSS",
-                            "VLPFZ",
-                            "PWRUP_1V8",
-                            "KICK"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_CP"
-                    },
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa3",
-                        "nodes": [
-                            "AVDD",
-                            "KICK",
-                            "net1",
-                            "PWRUP_1V8",
-                            "AVSS",
-                            "PWRUP_1V8_N"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_KICK"
-                    },
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa4",
-                        "nodes": [
-                            "AVDD",
-                            "VDD_ROSC",
-                            "VLPF",
-                            "VDD_ROSC",
-                            "IBPSR_1U",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_BUF"
-                    },
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa5",
-                        "nodes": [
-                            "AVDD",
-                            "CK",
-                            "VDD_ROSC",
-                            "PWRUP_1V8",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_ROSC"
-                    },
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xaa",
-                        "name": "xaa6",
-                        "nodes": [
-                            "AVDD",
-                            "CK_FB",
-                            "CK",
-                            "PWRUP_1V8",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_DIVN"
-                    },
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xbb",
-                        "name": "xbb0",
-                        "nodes": [
-                            "VLPFZ",
-                            "AVSS",
-                            "VLPF"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_LPF"
-                    },
-                    {
-                        "class": "cIcSpice::SubcktInstance",
-                        "deviceName": "subckt",
-                        "groupName": "xbb",
-                        "name": "xbb1",
-                        "nodes": [
-                            "IBPSR_1U",
-                            "PWRUP_1V8_N",
-                            "AVSS"
-                        ],
-                        "properties": {
-                        },
-                        "subcktName": "SUN_PLL_BIAS"
-                    }
-                ],
-                "name": "SUN_PLL",
-                "nodes": [
-                    "AVDD",
-                    "AVSS",
-                    "PWRUP_1V8",
-                    "CK_REF",
-                    "CK",
-                    "IBPSR_1U"
-                ],
-                "properties": {
-                }
-            },
-            "class": "cIcCore::LayoutCell",
-            "has_pr": false,
-            "layer": "PR",
-            "libcell": false,
-            "libpath": "",
-            "meta": {
-                "noSchematic": true
-            },
-            "name": "SUN_PLL",
-            "net": "",
-            "noPowerRoute": true,
-            "physicalOnly": false,
-            "useHalfHeight": false,
-            "x1": 0,
-            "x2": 2840000,
-            "y1": 0,
-            "y2": 2742000
         }
     ],
     "info": {
@@ -54793,6 +56185,6 @@
         "library": "SUN_PLL_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Sun Mar 26 19:05:41 CEST 2023"
+        "version": "0.1.5+ built on Thu Apr 6 21:24:36 CEST 2023"
     }
 }
