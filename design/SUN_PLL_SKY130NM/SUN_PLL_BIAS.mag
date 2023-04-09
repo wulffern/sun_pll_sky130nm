@@ -1,56 +1,54 @@
 magic
 tech sky130B
-magscale 1 2
-timestamp 1680904800
-<< checkpaint >>
-rect 0 0 2028 2880
+timestamp 1681076574
 << locali >>
-rect 1788 0 2028 2880
-rect 0 0 2028 240
-rect 0 2640 2028 2880
-rect 0 0 240 2880
-rect 1788 0 2028 2880
-rect 816 530 984 590
-rect 984 530 1044 590
-rect 1020 678 1200 738
-rect 1020 2378 1248 2438
-rect 816 882 1020 942
-rect 1020 678 1080 2438
-rect 1140 618 1248 678
-rect 1356 442 2028 502
-rect 1356 794 2028 854
-rect 0 516 276 576
-rect 0 868 276 928
-<< m2 >>
-rect 1812 618 2028 678
-rect 0 530 216 590
-rect 1812 618 2028 678
-rect 1000 618 1248 694
-rect 1000 618 1920 694
-rect 1000 618 1076 694
-rect 0 530 216 590
-rect 568 530 816 606
-rect 108 530 568 606
-rect 568 530 644 606
-use ../SUN_TR_SKY130NM/SUNTR_NCHDL xa2
-transform 1 0 384 0 1 384
-box 384 384 1644 736
-use ../SUN_TR_SKY130NM/SUNTR_NCHDLCM xa3
-transform 1 0 384 0 1 736
-box 384 736 1644 2496
-use cut_M1M3_2x1 xcut0
-transform 1 0 1156 0 1 618
-box 1156 618 1356 694
-use cut_M1M3_2x1 xcut1
-transform 1 0 724 0 1 530
-box 724 530 924 606
+rect 0 1320 1014 1440
+rect 0 464 120 1320
+rect 510 1189 624 1219
+rect 510 471 540 1189
+rect 0 434 138 464
+rect 408 441 540 471
+rect 0 288 120 434
+rect 510 369 540 441
+rect 894 427 1014 1320
+rect 678 397 1014 427
+rect 510 339 600 369
+rect 570 309 624 339
+rect 0 258 138 288
+rect 408 265 522 295
+rect 0 120 120 258
+rect 894 251 1014 397
+rect 678 221 1014 251
+rect 894 120 1014 221
+rect 0 0 1014 120
+<< metal2 >>
+rect 500 339 960 347
+rect 500 309 1014 339
+rect 54 295 408 303
+rect 0 265 408 295
+use SUNTR_NCHDL  xa2 ../SUN_TR_SKY130NM
+timestamp 1680904800
+transform 1 0 192 0 1 192
+box -90 -66 630 242
+use SUNTR_NCHDLCM  xa3 ../SUN_TR_SKY130NM
+timestamp 1681076574
+transform 1 0 192 0 1 368
+box -90 -66 630 946
+use cut_M1M3_2x1  xcut0
+timestamp 1680991200
+transform 1 0 578 0 1 309
+box 0 0 100 38
+use cut_M1M3_2x1  xcut1
+timestamp 1680991200
+transform 1 0 362 0 1 265
+box 0 0 100 38
 << labels >>
-flabel locali s 1788 0 2028 2880 0 FreeSans 400 0 0 0 AVSS
+flabel locali s 894 0 1014 1440 0 FreeSans 200 0 0 0 AVSS
 port 3 nsew signal bidirectional
-flabel m2 s 1812 618 2028 678 0 FreeSans 400 0 0 0 IBPSR_1U
+flabel metal2 s 906 309 1014 339 0 FreeSans 200 0 0 0 IBPSR_1U
 port 1 nsew signal bidirectional
-flabel m2 s 0 530 216 590 0 FreeSans 400 0 0 0 PWRUP_1V8_N
+flabel metal2 s 0 265 108 295 0 FreeSans 200 0 0 0 PWRUP_1V8_N
 port 2 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 2028 2880
+string FIXED_BBOX 0 0 1014 1440
 << end >>

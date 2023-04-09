@@ -119,7 +119,7 @@ xd3_7 VO AVSS SUNSAR_CAP_BSSW_CV
 *.ipin AVSS
 *.ipin VLPFZ
 xa1 VN5 VLPF AVSS SUNTR_RPPO8
-xa2 VLPFZ VN5 AVSS SUNTR_RPPO8
+xa2 VN5 VLPFZ AVSS SUNTR_RPPO8
 xb1 VLPF AVSS CAP_LPF
 xb2_0 VLPF AVSS CAP_LPF
 xb2_1 VLPF AVSS CAP_LPF
@@ -204,11 +204,11 @@ xb4 LPF PWRUP_1V8 AVDD AVDD SUNTR_PCHDL
 ** sch_path:
 *+ /Users/wulff/data/2023/aicex/ip/sun_pll_sky130nm/design/SUN_PLL_SKY130NM/SUN_PLL_PFD.sch
 .subckt SUN_PLL_PFD AVDD CP_UP_N CK_REF CP_DOWN CK_FB AVSS
-*.ipin CK_FB
-*.ipin CK_REF
-*.opin CP_UP_N
-*.opin CP_DOWN
 *.ipin AVDD
+*.opin CP_UP_N
+*.ipin CK_REF
+*.opin CP_DOWN
+*.ipin CK_FB
 *.ipin AVSS
 xa0 AVDD AVSS SUNTR_TAPCELLB_CV
 xa1 CFB CK_REF CP_DUP_N AVDD AVSS SUNTR_DFTSPCX1_CV
@@ -249,6 +249,21 @@ xa9 KICK KICK_N AVDD AVSS SUNTR_IVX1_CV
 .ends
 
 
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym # of pins=4
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_IVX1_CV.sch
+.subckt SUNTR_IVX1_CV A Y AVDD AVSS
+*.ipin A
+*.opin Y
+*.ipin AVDD
+*.ipin AVSS
+XMN0 Y A AVSS AVSS SUNTR_NCHDL
+XMP0 Y A AVDD AVDD SUNTR_PCHDL
+.ends
+
+
 * expanding   symbol:  SUN_PLL_SKY130NM/SUN_PLL_LSCORE.sym # of pins=6
 ** sym_path:
 *+ /Users/wulff/data/2023/aicex/ip/sun_pll_sky130nm/design/SUN_PLL_SKY130NM/SUN_PLL_LSCORE.sym
@@ -272,6 +287,160 @@ xc2b YN Y net1 AVDD SUNTR_PCHDL
 .ends
 
 
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.sym # of pins=2
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.sch
+.subckt SUNTR_TAPCELLB_CV AVDD AVSS
+*.iopin AVDD
+*.iopin AVSS
+XMN1 AVSS AVSS AVSS AVSS SUNTR_NCHDL
+XMP1 AVDD AVDD AVDD AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TRB_SKY130NM/SUNTRB_IVX1_CV.sym # of pins=6
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_IVX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_IVX1_CV.sch
+.subckt SUNTRB_IVX1_CV A Y BULKP BULKN AVDD AVSS
+*.ipin A
+*.opin Y
+*.ipin BULKP
+*.ipin BULKN
+*.ipin AVDD
+*.ipin AVSS
+XMN0 Y A AVSS BULKN SUNTRB_NCHDL
+XMP0 Y A AVDD BULKP SUNTRB_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TRB_SKY130NM/SUNTRB_NDX1_CV.sym # of pins=7
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_NDX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_NDX1_CV.sch
+.subckt SUNTRB_NDX1_CV A B Y BULKP BULKN AVDD AVSS
+*.ipin A
+*.ipin B
+*.opin Y
+*.ipin BULKP
+*.ipin BULKN
+*.ipin AVDD
+*.ipin AVSS
+XMN0 N1 A AVSS BULKN SUNTRB_NCHDL
+XMN1 Y B N1 BULKN SUNTRB_NCHDL
+XMP0 Y A AVDD BULKP SUNTRB_PCHDL
+XMP1 AVDD B Y BULKP SUNTRB_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TRB_SKY130NM/SUNTRB_TAPCELLBAVSS_CV.sym # of pins=2
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_TAPCELLBAVSS_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_TAPCELLBAVSS_CV.sch
+.subckt SUNTRB_TAPCELLBAVSS_CV AVDD AVSS
+*.iopin AVDD
+*.iopin AVSS
+XMN1 AVSS AVSS AVSS AVSS SUNTRB_NCHDL
+XMP1 NC1 NC1 NC1 AVDD SUNTRB_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV.sym # of pins=7
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFRNQNX1_CV.sch
+.subckt SUNTR_DFRNQNX1_CV D CK RN Q QN AVDD AVSS
+*.iopin D
+*.iopin CK
+*.iopin RN
+*.iopin Q
+*.iopin QN
+*.iopin AVDD
+*.iopin AVSS
+XXA0 AVDD AVSS SUNTR_TAPCELLB_CV
+XXA1 CK RN CKN AVDD AVSS SUNTR_NDX1_CV
+XXA2 CKN CKB AVDD AVSS SUNTR_IVX1_CV
+XXA3 D CKN CKB A0 AVDD AVSS SUNTR_IVTRIX1_CV
+XXA4 A1 CKB CKN A0 AVDD AVSS SUNTR_IVTRIX1_CV
+XXA5 A0 A1 AVDD AVSS SUNTR_IVX1_CV
+XXA6 A1 CKB CKN QN AVDD AVSS SUNTR_IVTRIX1_CV
+XXA7 Q CKN CKB RN QN AVDD AVSS SUNTR_NDTRIX1_CV
+XXA8 QN Q AVDD AVSS SUNTR_IVX1_CV
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NCHDLCM.sym # of pins=4
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLCM.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLCM.sch
+.subckt SUNTR_NCHDLCM D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM0 N0 G S B SUNTR_NCHDL
+XM1 N1 G N0 B SUNTR_NCHDL
+XM2 N2 G N1 B SUNTR_NCHDL
+XM3 N3 G N2 B SUNTR_NCHDL
+XM4 N4 G N3 B SUNTR_NCHDL
+XM5 N5 G N4 B SUNTR_NCHDL
+XM6 N6 G N5 B SUNTR_NCHDL
+XM7 N7 G N6 B SUNTR_NCHDL
+XM8 D G N7 B SUNTR_NCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NCHDL.sym # of pins=4
+** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDL.sym
+** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDL.sch
+.subckt SUNTR_NCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__nfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'  pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'  sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NCHDLA.sym # of pins=4
+** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA.sym
+** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA.sch
+.subckt SUNTR_NCHDLA D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM0 D G S B SUNTR_NCHDL
+XM1 S G D B SUNTR_NCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_PCHDLA.sym # of pins=4
+** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA.sym
+** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLA.sch
+.subckt SUNTR_PCHDLA D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM0 D G S B SUNTR_PCHDL
+XM1 S G D B SUNTR_PCHDL
+XM2 D G S B SUNTR_PCHDL
+XM3 S G D B SUNTR_PCHDL
+XM4 D G S B SUNTR_PCHDL
+XM5 S G D B SUNTR_PCHDL
+XM6 D G S B SUNTR_PCHDL
+XM7 S G D B SUNTR_PCHDL
+.ends
+
+
 * expanding   symbol:  SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym # of pins=2
 ** sym_path:
 *+ /Users/wulff/data/2023/aicex/ip/sun_sar9b_sky130nm/design/SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym
@@ -280,8 +449,8 @@ xc2b YN Y net1 AVDD SUNTR_PCHDL
 .subckt SUNSAR_CAP_BSSW_CV A B
 *.iopin A
 *.iopin B
-R1 A NC0 sky130_fd_pr__res_generic_m1 W=0.44 L=0.36 m=1
-R2 B NC1 sky130_fd_pr__res_generic_m1 W=0.44 L=0.36 m=1
+R1 A NC0 sky130_fd_pr__res_generic_m3 W=0.44 L=0.36 m=1
+R2 B NC1 sky130_fd_pr__res_generic_m3 W=0.44 L=0.36 m=1
 .ends
 
 
@@ -293,6 +462,200 @@ R2 B NC1 sky130_fd_pr__res_generic_m1 W=0.44 L=0.36 m=1
 *.iopin B
 R1 A NC0 sky130_fd_pr__res_generic_m3 W=0.4 L=0.4 m=1
 R2 B NC1 sky130_fd_pr__res_generic_m3 W=0.4 L=0.4 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_RPPO8.sym # of pins=3
+** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_RPPO8.sym
+** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_RPPO8.sch
+.subckt SUNTR_RPPO8 N P B
+*.iopin P
+*.iopin N
+*.iopin B
+XXA1 N P B SUNTR_RES8
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_PCHDLCM.sym # of pins=4
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLCM.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDLCM.sch
+.subckt SUNTR_PCHDLCM D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM0 N0 G S B SUNTR_PCHDL
+XM7 D G N0 B SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_PCHDL.sym # of pins=4
+** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDL.sym
+** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHDL.sch
+.subckt SUNTR_PCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__pfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'  pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'  sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NRX1_CV.sym # of pins=5
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NRX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NRX1_CV.sch
+.subckt SUNTR_NRX1_CV A B Y AVDD AVSS
+*.iopin A
+*.iopin B
+*.iopin Y
+*.iopin AVDD
+*.iopin AVSS
+XMN0 Y A AVSS AVSS SUNTR_NCHDL
+XMN1 AVSS B Y AVSS SUNTR_NCHDL
+XMP0 N1 A AVDD AVDD SUNTR_PCHDL
+XMP1 Y B N1 AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_DFTSPCX1_CV.sym # of pins=5
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFTSPCX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DFTSPCX1_CV.sch
+.subckt SUNTR_DFTSPCX1_CV D CK Q AVDD AVSS
+*.iopin D
+*.iopin CK
+*.iopin Q
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 D AVSS AVSS SUNTR_NCHDL
+XMN1 AVSS N1 N2 AVSS SUNTR_NCHDL
+XMN2 N2 CK Q AVSS SUNTR_NCHDL
+XMP0 N1 CK N3 AVDD SUNTR_PCHDL
+XMP1 N3 D AVDD AVDD SUNTR_PCHDL
+XMP2 Q N1 AVDD AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_DCAPX1_CV.sym # of pins=2
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DCAPX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_DCAPX1_CV.sch
+.subckt SUNTR_DCAPX1_CV A B
+*.iopin A
+*.iopin B
+R1 A NC0 sky130_fd_pr__res_generic_l1 W=0.44 L=0.36 m=1
+R2 B NC1 sky130_fd_pr__res_generic_l1 W=0.44 L=0.36 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TRB_SKY130NM/SUNTRB_NCHDL.sym # of pins=4
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_NCHDL.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_NCHDL.sch
+.subckt SUNTRB_NCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__nfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'  pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'  sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TRB_SKY130NM/SUNTRB_PCHDL.sym # of pins=4
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_PCHDL.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_trb_sky130nm/design/SUN_TRB_SKY130NM/SUNTRB_PCHDL.sch
+.subckt SUNTRB_PCHDL D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM1 D G S B sky130_fd_pr__pfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'  pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'  sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NDX1_CV.sym # of pins=5
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NDX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NDX1_CV.sch
+.subckt SUNTR_NDX1_CV A B Y AVDD AVSS
+*.iopin A
+*.iopin B
+*.iopin Y
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 A AVSS AVSS SUNTR_NCHDL
+XMN1 Y B N1 AVSS SUNTR_NCHDL
+XMP0 Y A AVDD AVDD SUNTR_PCHDL
+XMP1 AVDD B Y AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_IVTRIX1_CV.sym # of pins=6
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_IVTRIX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_IVTRIX1_CV.sch
+.subckt SUNTR_IVTRIX1_CV A C CN Y AVDD AVSS
+*.iopin A
+*.iopin C
+*.iopin CN
+*.iopin Y
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N1 A AVSS AVSS SUNTR_NCHDL
+XMN1 Y C N1 AVSS SUNTR_NCHDL
+XMP0 N2 A AVDD AVDD SUNTR_PCHDL
+XMP1 Y CN N2 AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NDTRIX1_CV.sym # of pins=7
+** sym_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NDTRIX1_CV.sym
+** sch_path:
+*+ /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NDTRIX1_CV.sch
+.subckt SUNTR_NDTRIX1_CV A C CN RN Y AVDD AVSS
+*.iopin A
+*.iopin C
+*.iopin CN
+*.iopin RN
+*.iopin Y
+*.iopin AVDD
+*.iopin AVSS
+XMN0 N2 A N1 AVSS SUNTR_NCHDL
+XMN1 Y C N2 AVSS SUNTR_NCHDL
+XMN2 N1 RN AVSS AVSS SUNTR_NCHDL
+XMP0 N2 A AVDD AVDD SUNTR_PCHDL
+XMP1 Y CN N2 AVDD SUNTR_PCHDL
+XMP2 AVDD RN N2 AVDD SUNTR_PCHDL
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_RES8.sym # of pins=3
+** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_RES8.sym
+** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_RES8.sch
+.subckt SUNTR_RES8 N P B
+*.iopin N
+*.iopin P
+*.iopin B
+XR1_0 INT_0 N B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
+XR1_1 INT_1 INT_0 B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
+XR1_2 INT_2 INT_1 B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
+XR1_3 INT_3 INT_2 B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
+XR1_4 INT_4 INT_3 B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
+XR1_5 INT_5 INT_4 B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
+XR1_6 INT_6 INT_5 B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
+XR1_7 P INT_6 B sky130_fd_pr__res_high_po W=0.72 L=8.8 mult=1 m=1
 .ends
 
 .end

@@ -76,14 +76,14 @@ C {devices/lab_pin.sym} 840 -590 0 0 {name=l5 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 840 -450 2 0 {name=l6 sig_type=std_logic lab=AVSS}
 C {devices/lab_pin.sym} 1010 -340 2 0 {name=l7 sig_type=std_logic lab=AVSS}
 C {devices/lab_pin.sym} 660 -290 2 0 {name=l8 sig_type=std_logic lab=AVSS}
-C {devices/ipin.sym} 480 -350 0 0 {name=p1 lab=CK_FB}
-C {devices/ipin.sym} 480 -620 0 0 {name=p2 lab=CK_REF}
+C {devices/ipin.sym} 470 -760 0 0 {name=p1 lab=AVDD}
+C {devices/opin.sym} 1250 -680 0 0 {name=p2 lab=CP_UP_N}
+C {devices/ipin.sym} 480 -620 0 0 {name=p3 lab=CK_REF}
+C {devices/opin.sym} 1130 -410 0 0 {name=p4 lab=CP_DOWN}
+C {devices/ipin.sym} 480 -350 0 0 {name=p5 lab=CK_FB}
+C {devices/ipin.sym} 480 -220 0 0 {name=p6 lab=AVSS}
 C {devices/lab_pin.sym} 1020 -610 2 0 {name=l9 sig_type=std_logic lab=AVSS}
 C {devices/lab_pin.sym} 660 -560 2 0 {name=l10 sig_type=std_logic lab=AVSS}
-C {devices/opin.sym} 1250 -680 0 0 {name=p3 lab=CP_UP_N}
-C {devices/opin.sym} 1130 -410 0 0 {name=p4 lab=CP_DOWN}
-C {devices/ipin.sym} 470 -760 0 0 {name=p5 lab=AVDD}
-C {devices/ipin.sym} 480 -220 0 0 {name=p6 lab=AVSS}
 C {cborder/border_s.sym} 1250 -170 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}
 C {SUN_TR_SKY130NM/SUNTR_DFTSPCX1_CV.sym} 600 -620 0 0 {name=xa1}
 C {SUN_TR_SKY130NM/SUNTR_DFTSPCX1_CV.sym} 600 -350 0 0 {name=xa5}

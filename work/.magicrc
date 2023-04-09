@@ -1,2 +1,5 @@
 source ../tech/magic/.magicrc
-#addpath ../design/SUN_PLL_SKY130NM
+addpath ../design/SUN_PLL_SKY130NM
+addpath ../design/SUN_TRB_SKY130NM
+addpath ../design/SUN_TR_SKY130NM
+addpath ../design/SUN_SAR9B_SKY130NM
