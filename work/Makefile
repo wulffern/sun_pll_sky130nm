@@ -25,6 +25,4 @@ CELLS = SUN_PLL_BIAS SUN_PLL_CP SUN_PLL_DIVN SUN_PLL_KICK SUN_PLL_LPF SUN_PLL_PF
 
 
 test:
-	make spi ip CELL=SUN_PLL
-	make drcall
-	make lvsall
+	make drc xsch xlvs CELL=SUN_PLL
