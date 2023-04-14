@@ -1,70 +1,18 @@
 magic
 tech sky130B
-timestamp 1681076574
+timestamp 1681511206
 << locali >>
-rect 0 24774 20276 24924
-rect 0 2624 150 24774
+rect 0 12294 20276 12444
+rect 0 2624 150 12294
 rect 2258 4279 2546 4389
 rect 0 2568 230 2624
 rect 0 286 150 2568
 rect 2258 1941 2546 2051
 rect 0 230 230 286
 rect 0 150 150 230
-rect 20126 150 20276 24774
+rect 20126 150 20276 12294
 rect 0 0 20276 150
 << metal1 >>
-rect 2380 24602 3284 24632
-rect 2380 24152 2410 24602
-rect 2380 24122 3284 24152
-rect 2380 23672 2410 24122
-rect 2380 23642 3284 23672
-rect 2380 23192 2410 23642
-rect 2380 23162 3284 23192
-rect 2380 22712 2410 23162
-rect 2380 22682 3284 22712
-rect 2380 22232 2410 22682
-rect 2380 22202 3284 22232
-rect 2380 21752 2410 22202
-rect 2380 21722 3284 21752
-rect 2380 21272 2410 21722
-rect 2380 21242 3284 21272
-rect 2380 20792 2410 21242
-rect 2380 20762 3284 20792
-rect 2380 20312 2410 20762
-rect 2380 20282 3284 20312
-rect 2380 19832 2410 20282
-rect 2380 19802 3284 19832
-rect 2380 19352 2410 19802
-rect 2380 19322 3284 19352
-rect 2380 18872 2410 19322
-rect 2380 18842 3284 18872
-rect 2380 18392 2410 18842
-rect 2380 18362 3284 18392
-rect 2380 17912 2410 18362
-rect 2380 17882 3284 17912
-rect 2380 17432 2410 17882
-rect 2380 17402 3284 17432
-rect 2380 16952 2410 17402
-rect 2380 16922 3284 16952
-rect 2380 16472 2410 16922
-rect 2380 16442 3284 16472
-rect 2380 15992 2410 16442
-rect 2380 15962 3284 15992
-rect 2380 15512 2410 15962
-rect 2380 15482 3284 15512
-rect 2380 15032 2410 15482
-rect 2380 15002 3284 15032
-rect 2380 14552 2410 15002
-rect 2380 14522 3284 14552
-rect 2380 14072 2410 14522
-rect 2380 14042 3284 14072
-rect 2380 13592 2410 14042
-rect 2380 13562 3284 13592
-rect 2380 13112 2410 13562
-rect 2380 13082 3284 13112
-rect 2380 12632 2410 13082
-rect 2380 12602 3284 12632
-rect 2380 12152 2410 12602
 rect 2380 12122 3284 12152
 rect 2380 11672 2410 12122
 rect 2380 11642 3284 11672
@@ -122,32 +70,6 @@ rect 2390 1082 3284 1120
 rect 2390 640 2428 1082
 rect 2390 602 3284 640
 << metal3 >>
-rect 19994 24202 20164 24240
-rect 19994 23722 20164 23760
-rect 19994 23242 20164 23280
-rect 19994 22762 20164 22800
-rect 19994 22282 20164 22320
-rect 19994 21802 20164 21840
-rect 19994 21322 20164 21360
-rect 19994 20842 20164 20880
-rect 19994 20362 20164 20400
-rect 19994 19882 20164 19920
-rect 19994 19402 20164 19440
-rect 19994 18922 20164 18960
-rect 19994 18442 20164 18480
-rect 19994 17962 20164 18000
-rect 19994 17482 20164 17520
-rect 19994 17002 20164 17040
-rect 19994 16522 20164 16560
-rect 19994 16042 20164 16080
-rect 19994 15562 20164 15600
-rect 19994 15082 20164 15120
-rect 19994 14602 20164 14640
-rect 19994 14122 20164 14160
-rect 19994 13642 20164 13680
-rect 19994 13162 20164 13200
-rect 19994 12682 20164 12720
-rect 19994 12202 20164 12240
 rect 19994 11722 20164 11760
 rect 19994 11242 20164 11280
 rect 19994 10762 20164 10800
@@ -175,656 +97,344 @@ rect 19994 682 20164 720
 rect 11560 0 11668 242
 rect 19994 202 20164 240
 use SUNTR_RPPO8  xa1 ../SUN_TR_SKY130NM
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 222 0 1 222
 box 0 0 2632 2118
 use SUNTR_RPPO8  xa2
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 222 0 1 2560
 box 0 0 2632 2118
 use CAP_LPF  xb1
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 222
 box 60 -20 16820 420
 use CAP_LPF  xb2_0
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 702
 box 60 -20 16820 420
 use CAP_LPF  xb2_1
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 1182
 box 60 -20 16820 420
 use CAP_LPF  xb3_0
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 1662
 box 60 -20 16820 420
 use CAP_LPF  xb3_1
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 2142
 box 60 -20 16820 420
 use CAP_LPF  xb3_2
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 7422
 box 60 -20 16820 420
 use CAP_LPF  xb3_3
-timestamp 1680991200
-transform -1 0 20054 0 1 12702
+timestamp 1681509600
+transform -1 0 20054 0 1 8862
 box 60 -20 16820 420
 use CAP_LPF  xb3_4
-timestamp 1680991200
-transform -1 0 20054 0 1 17982
+timestamp 1681509600
+transform -1 0 20054 0 1 9342
 box 60 -20 16820 420
 use CAP_LPF  xb3_5
-timestamp 1680991200
-transform -1 0 20054 0 1 22302
+timestamp 1681509600
+transform -1 0 20054 0 1 9822
 box 60 -20 16820 420
 use CAP_LPF  xb3_6
-timestamp 1680991200
-transform -1 0 20054 0 1 22782
+timestamp 1681509600
+transform -1 0 20054 0 1 10302
 box 60 -20 16820 420
 use CAP_LPF  xb3_7
-timestamp 1680991200
-transform -1 0 20054 0 1 23262
+timestamp 1681509600
+transform -1 0 20054 0 1 10782
 box 60 -20 16820 420
 use CAP_LPF  xb3_8
-timestamp 1680991200
-transform -1 0 20054 0 1 23742
+timestamp 1681509600
+transform -1 0 20054 0 1 11262
 box 60 -20 16820 420
 use CAP_LPF  xb3_9
-timestamp 1680991200
-transform -1 0 20054 0 1 24222
+timestamp 1681509600
+transform -1 0 20054 0 1 11742
 box 60 -20 16820 420
 use CAP_LPF  xb3_10
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 2622
 box 60 -20 16820 420
 use CAP_LPF  xb3_11
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 3102
 box 60 -20 16820 420
 use CAP_LPF  xb3_12
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 3582
 box 60 -20 16820 420
 use CAP_LPF  xb3_13
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 4062
 box 60 -20 16820 420
 use CAP_LPF  xb3_14
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 4542
 box 60 -20 16820 420
 use CAP_LPF  xb3_15
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 5022
 box 60 -20 16820 420
 use CAP_LPF  xb3_16
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 5502
 box 60 -20 16820 420
 use CAP_LPF  xb3_17
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 5982
 box 60 -20 16820 420
 use CAP_LPF  xb3_18
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 6462
 box 60 -20 16820 420
 use CAP_LPF  xb3_19
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 6942
 box 60 -20 16820 420
 use CAP_LPF  xb3_20
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 7902
 box 60 -20 16820 420
 use CAP_LPF  xb3_21
-timestamp 1680991200
+timestamp 1681509600
 transform -1 0 20054 0 1 8382
 box 60 -20 16820 420
-use CAP_LPF  xb3_22
-timestamp 1680991200
-transform -1 0 20054 0 1 8862
-box 60 -20 16820 420
-use CAP_LPF  xb3_23
-timestamp 1680991200
-transform -1 0 20054 0 1 9342
-box 60 -20 16820 420
-use CAP_LPF  xb3_24
-timestamp 1680991200
-transform -1 0 20054 0 1 9822
-box 60 -20 16820 420
-use CAP_LPF  xb3_25
-timestamp 1680991200
-transform -1 0 20054 0 1 10302
-box 60 -20 16820 420
-use CAP_LPF  xb3_26
-timestamp 1680991200
-transform -1 0 20054 0 1 10782
-box 60 -20 16820 420
-use CAP_LPF  xb3_27
-timestamp 1680991200
-transform -1 0 20054 0 1 11262
-box 60 -20 16820 420
-use CAP_LPF  xb3_28
-timestamp 1680991200
-transform -1 0 20054 0 1 11742
-box 60 -20 16820 420
-use CAP_LPF  xb3_29
-timestamp 1680991200
-transform -1 0 20054 0 1 12222
-box 60 -20 16820 420
-use CAP_LPF  xb3_30
-timestamp 1680991200
-transform -1 0 20054 0 1 13182
-box 60 -20 16820 420
-use CAP_LPF  xb3_31
-timestamp 1680991200
-transform -1 0 20054 0 1 13662
-box 60 -20 16820 420
-use CAP_LPF  xb3_32
-timestamp 1680991200
-transform -1 0 20054 0 1 14142
-box 60 -20 16820 420
-use CAP_LPF  xb3_33
-timestamp 1680991200
-transform -1 0 20054 0 1 14622
-box 60 -20 16820 420
-use CAP_LPF  xb3_34
-timestamp 1680991200
-transform -1 0 20054 0 1 15102
-box 60 -20 16820 420
-use CAP_LPF  xb3_35
-timestamp 1680991200
-transform -1 0 20054 0 1 15582
-box 60 -20 16820 420
-use CAP_LPF  xb3_36
-timestamp 1680991200
-transform -1 0 20054 0 1 16062
-box 60 -20 16820 420
-use CAP_LPF  xb3_37
-timestamp 1680991200
-transform -1 0 20054 0 1 16542
-box 60 -20 16820 420
-use CAP_LPF  xb3_38
-timestamp 1680991200
-transform -1 0 20054 0 1 17022
-box 60 -20 16820 420
-use CAP_LPF  xb3_39
-timestamp 1680991200
-transform -1 0 20054 0 1 17502
-box 60 -20 16820 420
-use CAP_LPF  xb3_40
-timestamp 1680991200
-transform -1 0 20054 0 1 18462
-box 60 -20 16820 420
-use CAP_LPF  xb3_41
-timestamp 1680991200
-transform -1 0 20054 0 1 18942
-box 60 -20 16820 420
-use CAP_LPF  xb3_42
-timestamp 1680991200
-transform -1 0 20054 0 1 19422
-box 60 -20 16820 420
-use CAP_LPF  xb3_43
-timestamp 1680991200
-transform -1 0 20054 0 1 19902
-box 60 -20 16820 420
-use CAP_LPF  xb3_44
-timestamp 1680991200
-transform -1 0 20054 0 1 20382
-box 60 -20 16820 420
-use CAP_LPF  xb3_45
-timestamp 1680991200
-transform -1 0 20054 0 1 20862
-box 60 -20 16820 420
-use CAP_LPF  xb3_46
-timestamp 1680991200
-transform -1 0 20054 0 1 21342
-box 60 -20 16820 420
-use CAP_LPF  xb3_47
-timestamp 1680991200
-transform -1 0 20054 0 1 21822
-box 60 -20 16820 420
 use cut_M1M4_2x1  xcut0
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 11564 0 1 0
 box 0 0 100 38
 use cut_M1M2_2x1  xcut1
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 530 0 1 1941
 box 0 0 92 34
 use cut_M1M2_2x1  xcut2
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 530 0 1 4279
 box 0 0 92 34
 use cut_M1M2_2x1  xcut3
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 2258 0 1 4279
 box 0 0 92 34
 use cut_M2M4_2x1  xcut4
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 2042
 box 0 0 100 38
 use cut_M2M4_2x1  xcut5
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 2522
 box 0 0 100 38
 use cut_M2M4_2x1  xcut6
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 3002
 box 0 0 100 38
 use cut_M2M4_2x1  xcut7
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 3482
 box 0 0 100 38
 use cut_M2M4_2x1  xcut8
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 3962
 box 0 0 100 38
 use cut_M2M4_2x1  xcut9
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 4442
 box 0 0 100 38
 use cut_M2M4_2x1  xcut10
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 4922
 box 0 0 100 38
 use cut_M2M4_2x1  xcut11
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 5402
 box 0 0 100 38
 use cut_M2M4_2x1  xcut12
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 5882
 box 0 0 100 38
 use cut_M2M4_2x1  xcut13
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 6362
 box 0 0 100 38
 use cut_M2M4_2x1  xcut14
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 6842
 box 0 0 100 38
 use cut_M2M4_2x1  xcut15
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 7322
 box 0 0 100 38
 use cut_M2M4_2x1  xcut16
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 7802
 box 0 0 100 38
 use cut_M2M4_2x1  xcut17
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 8282
 box 0 0 100 38
 use cut_M2M4_2x1  xcut18
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 8762
 box 0 0 100 38
 use cut_M2M4_2x1  xcut19
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 9242
 box 0 0 100 38
 use cut_M2M4_2x1  xcut20
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 9722
 box 0 0 100 38
 use cut_M2M4_2x1  xcut21
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 10202
 box 0 0 100 38
 use cut_M2M4_2x1  xcut22
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 10682
 box 0 0 100 38
 use cut_M2M4_2x1  xcut23
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 11162
 box 0 0 100 38
 use cut_M2M4_2x1  xcut24
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 11642
 box 0 0 100 38
 use cut_M2M4_2x1  xcut25
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 3234 0 1 12122
 box 0 0 100 38
-use cut_M2M4_2x1  xcut26
-timestamp 1680991200
-transform 1 0 3234 0 1 12602
-box 0 0 100 38
-use cut_M2M4_2x1  xcut27
-timestamp 1680991200
-transform 1 0 3234 0 1 13082
-box 0 0 100 38
-use cut_M2M4_2x1  xcut28
-timestamp 1680991200
-transform 1 0 3234 0 1 13562
-box 0 0 100 38
-use cut_M2M4_2x1  xcut29
-timestamp 1680991200
-transform 1 0 3234 0 1 14042
-box 0 0 100 38
-use cut_M2M4_2x1  xcut30
-timestamp 1680991200
-transform 1 0 3234 0 1 14522
-box 0 0 100 38
-use cut_M2M4_2x1  xcut31
-timestamp 1680991200
-transform 1 0 3234 0 1 15002
-box 0 0 100 38
-use cut_M2M4_2x1  xcut32
-timestamp 1680991200
-transform 1 0 3234 0 1 15482
-box 0 0 100 38
-use cut_M2M4_2x1  xcut33
-timestamp 1680991200
-transform 1 0 3234 0 1 15962
-box 0 0 100 38
-use cut_M2M4_2x1  xcut34
-timestamp 1680991200
-transform 1 0 3234 0 1 16442
-box 0 0 100 38
-use cut_M2M4_2x1  xcut35
-timestamp 1680991200
-transform 1 0 3234 0 1 16922
-box 0 0 100 38
-use cut_M2M4_2x1  xcut36
-timestamp 1680991200
-transform 1 0 3234 0 1 17402
-box 0 0 100 38
-use cut_M2M4_2x1  xcut37
-timestamp 1680991200
-transform 1 0 3234 0 1 17882
-box 0 0 100 38
-use cut_M2M4_2x1  xcut38
-timestamp 1680991200
-transform 1 0 3234 0 1 18362
-box 0 0 100 38
-use cut_M2M4_2x1  xcut39
-timestamp 1680991200
-transform 1 0 3234 0 1 18842
-box 0 0 100 38
-use cut_M2M4_2x1  xcut40
-timestamp 1680991200
-transform 1 0 3234 0 1 19322
-box 0 0 100 38
-use cut_M2M4_2x1  xcut41
-timestamp 1680991200
-transform 1 0 3234 0 1 19802
-box 0 0 100 38
-use cut_M2M4_2x1  xcut42
-timestamp 1680991200
-transform 1 0 3234 0 1 20282
-box 0 0 100 38
-use cut_M2M4_2x1  xcut43
-timestamp 1680991200
-transform 1 0 3234 0 1 20762
-box 0 0 100 38
-use cut_M2M4_2x1  xcut44
-timestamp 1680991200
-transform 1 0 3234 0 1 21242
-box 0 0 100 38
-use cut_M2M4_2x1  xcut45
-timestamp 1680991200
-transform 1 0 3234 0 1 21722
-box 0 0 100 38
-use cut_M2M4_2x1  xcut46
-timestamp 1680991200
-transform 1 0 3234 0 1 22202
-box 0 0 100 38
-use cut_M2M4_2x1  xcut47
-timestamp 1680991200
-transform 1 0 3234 0 1 22682
-box 0 0 100 38
-use cut_M2M4_2x1  xcut48
-timestamp 1680991200
-transform 1 0 3234 0 1 23162
-box 0 0 100 38
-use cut_M2M4_2x1  xcut49
-timestamp 1680991200
-transform 1 0 3234 0 1 23642
-box 0 0 100 38
-use cut_M2M4_2x1  xcut50
-timestamp 1680991200
-transform 1 0 3234 0 1 24122
-box 0 0 100 38
-use cut_M2M4_2x1  xcut51
-timestamp 1680991200
-transform 1 0 3234 0 1 24602
-box 0 0 100 38
-use cut_M1M3_2x1  xcut52
-timestamp 1680991200
+use cut_M1M3_2x1  xcut26
+timestamp 1681509600
 transform 1 0 2258 0 1 1941
 box 0 0 100 38
-use cut_M3M4_2x1  xcut53
-timestamp 1680991200
+use cut_M3M4_2x1  xcut27
+timestamp 1681509600
 transform 1 0 3234 0 1 602
 box 0 0 100 38
-use cut_M3M4_2x1  xcut54
-timestamp 1680991200
+use cut_M3M4_2x1  xcut28
+timestamp 1681509600
 transform 1 0 3234 0 1 1082
 box 0 0 100 38
-use cut_M3M4_2x1  xcut55
-timestamp 1680991200
+use cut_M3M4_2x1  xcut29
+timestamp 1681509600
 transform 1 0 3234 0 1 1562
 box 0 0 100 38
-use cut_M1M4_1x2  xcut56
-timestamp 1680991200
+use cut_M1M4_1x2  xcut30
+timestamp 1681509600
 transform 1 0 20126 0 1 0
 box 0 0 38 100
-use cut_M1M4_1x2  xcut57
-timestamp 1680991200
+use cut_M1M4_1x2  xcut31
+timestamp 1681509600
 transform 1 0 20126 0 1 202
 box 0 0 38 100
-use cut_M1M4_1x2  xcut58
-timestamp 1680991200
+use cut_M1M4_1x2  xcut32
+timestamp 1681509600
 transform 1 0 20126 0 1 682
 box 0 0 38 100
-use cut_M1M4_1x2  xcut59
-timestamp 1680991200
+use cut_M1M4_1x2  xcut33
+timestamp 1681509600
 transform 1 0 20126 0 1 1162
 box 0 0 38 100
-use cut_M1M4_1x2  xcut60
-timestamp 1680991200
+use cut_M1M4_1x2  xcut34
+timestamp 1681509600
 transform 1 0 20126 0 1 1642
 box 0 0 38 100
-use cut_M1M4_1x2  xcut61
-timestamp 1680991200
+use cut_M1M4_1x2  xcut35
+timestamp 1681509600
 transform 1 0 20126 0 1 2122
 box 0 0 38 100
-use cut_M1M4_1x2  xcut62
-timestamp 1680991200
+use cut_M1M4_1x2  xcut36
+timestamp 1681509600
 transform 1 0 20126 0 1 2602
 box 0 0 38 100
-use cut_M1M4_1x2  xcut63
-timestamp 1680991200
+use cut_M1M4_1x2  xcut37
+timestamp 1681509600
 transform 1 0 20126 0 1 3082
 box 0 0 38 100
-use cut_M1M4_1x2  xcut64
-timestamp 1680991200
+use cut_M1M4_1x2  xcut38
+timestamp 1681509600
 transform 1 0 20126 0 1 3562
 box 0 0 38 100
-use cut_M1M4_1x2  xcut65
-timestamp 1680991200
+use cut_M1M4_1x2  xcut39
+timestamp 1681509600
 transform 1 0 20126 0 1 4042
 box 0 0 38 100
-use cut_M1M4_1x2  xcut66
-timestamp 1680991200
+use cut_M1M4_1x2  xcut40
+timestamp 1681509600
 transform 1 0 20126 0 1 4522
 box 0 0 38 100
-use cut_M1M4_1x2  xcut67
-timestamp 1680991200
+use cut_M1M4_1x2  xcut41
+timestamp 1681509600
 transform 1 0 20126 0 1 5002
 box 0 0 38 100
-use cut_M1M4_1x2  xcut68
-timestamp 1680991200
+use cut_M1M4_1x2  xcut42
+timestamp 1681509600
 transform 1 0 20126 0 1 5482
 box 0 0 38 100
-use cut_M1M4_1x2  xcut69
-timestamp 1680991200
+use cut_M1M4_1x2  xcut43
+timestamp 1681509600
 transform 1 0 20126 0 1 5962
 box 0 0 38 100
-use cut_M1M4_1x2  xcut70
-timestamp 1680991200
+use cut_M1M4_1x2  xcut44
+timestamp 1681509600
 transform 1 0 20126 0 1 6442
 box 0 0 38 100
-use cut_M1M4_1x2  xcut71
-timestamp 1680991200
+use cut_M1M4_1x2  xcut45
+timestamp 1681509600
 transform 1 0 20126 0 1 6922
 box 0 0 38 100
-use cut_M1M4_1x2  xcut72
-timestamp 1680991200
+use cut_M1M4_1x2  xcut46
+timestamp 1681509600
 transform 1 0 20126 0 1 7402
 box 0 0 38 100
-use cut_M1M4_1x2  xcut73
-timestamp 1680991200
+use cut_M1M4_1x2  xcut47
+timestamp 1681509600
 transform 1 0 20126 0 1 7882
 box 0 0 38 100
-use cut_M1M4_1x2  xcut74
-timestamp 1680991200
+use cut_M1M4_1x2  xcut48
+timestamp 1681509600
 transform 1 0 20126 0 1 8362
 box 0 0 38 100
-use cut_M1M4_1x2  xcut75
-timestamp 1680991200
+use cut_M1M4_1x2  xcut49
+timestamp 1681509600
 transform 1 0 20126 0 1 8842
 box 0 0 38 100
-use cut_M1M4_1x2  xcut76
-timestamp 1680991200
+use cut_M1M4_1x2  xcut50
+timestamp 1681509600
 transform 1 0 20126 0 1 9322
 box 0 0 38 100
-use cut_M1M4_1x2  xcut77
-timestamp 1680991200
+use cut_M1M4_1x2  xcut51
+timestamp 1681509600
 transform 1 0 20126 0 1 9802
 box 0 0 38 100
-use cut_M1M4_1x2  xcut78
-timestamp 1680991200
+use cut_M1M4_1x2  xcut52
+timestamp 1681509600
 transform 1 0 20126 0 1 10282
 box 0 0 38 100
-use cut_M1M4_1x2  xcut79
-timestamp 1680991200
+use cut_M1M4_1x2  xcut53
+timestamp 1681509600
 transform 1 0 20126 0 1 10762
 box 0 0 38 100
-use cut_M1M4_1x2  xcut80
-timestamp 1680991200
+use cut_M1M4_1x2  xcut54
+timestamp 1681509600
 transform 1 0 20126 0 1 11242
 box 0 0 38 100
-use cut_M1M4_1x2  xcut81
-timestamp 1680991200
+use cut_M1M4_1x2  xcut55
+timestamp 1681509600
 transform 1 0 20126 0 1 11722
 box 0 0 38 100
-use cut_M1M4_1x2  xcut82
-timestamp 1680991200
-transform 1 0 20126 0 1 12202
-box 0 0 38 100
-use cut_M1M4_1x2  xcut83
-timestamp 1680991200
-transform 1 0 20126 0 1 12682
-box 0 0 38 100
-use cut_M1M4_1x2  xcut84
-timestamp 1680991200
-transform 1 0 20126 0 1 13162
-box 0 0 38 100
-use cut_M1M4_1x2  xcut85
-timestamp 1680991200
-transform 1 0 20126 0 1 13642
-box 0 0 38 100
-use cut_M1M4_1x2  xcut86
-timestamp 1680991200
-transform 1 0 20126 0 1 14122
-box 0 0 38 100
-use cut_M1M4_1x2  xcut87
-timestamp 1680991200
-transform 1 0 20126 0 1 14602
-box 0 0 38 100
-use cut_M1M4_1x2  xcut88
-timestamp 1680991200
-transform 1 0 20126 0 1 15082
-box 0 0 38 100
-use cut_M1M4_1x2  xcut89
-timestamp 1680991200
-transform 1 0 20126 0 1 15562
-box 0 0 38 100
-use cut_M1M4_1x2  xcut90
-timestamp 1680991200
-transform 1 0 20126 0 1 16042
-box 0 0 38 100
-use cut_M1M4_1x2  xcut91
-timestamp 1680991200
-transform 1 0 20126 0 1 16522
-box 0 0 38 100
-use cut_M1M4_1x2  xcut92
-timestamp 1680991200
-transform 1 0 20126 0 1 17002
-box 0 0 38 100
-use cut_M1M4_1x2  xcut93
-timestamp 1680991200
-transform 1 0 20126 0 1 17482
-box 0 0 38 100
-use cut_M1M4_1x2  xcut94
-timestamp 1680991200
-transform 1 0 20126 0 1 17962
-box 0 0 38 100
-use cut_M1M4_1x2  xcut95
-timestamp 1680991200
-transform 1 0 20126 0 1 18442
-box 0 0 38 100
-use cut_M1M4_1x2  xcut96
-timestamp 1680991200
-transform 1 0 20126 0 1 18922
-box 0 0 38 100
-use cut_M1M4_1x2  xcut97
-timestamp 1680991200
-transform 1 0 20126 0 1 19402
-box 0 0 38 100
-use cut_M1M4_1x2  xcut98
-timestamp 1680991200
-transform 1 0 20126 0 1 19882
-box 0 0 38 100
-use cut_M1M4_1x2  xcut99
-timestamp 1680991200
-transform 1 0 20126 0 1 20362
-box 0 0 38 100
-use cut_M1M4_1x2  xcut100
-timestamp 1680991200
-transform 1 0 20126 0 1 20842
-box 0 0 38 100
-use cut_M1M4_1x2  xcut101
-timestamp 1680991200
-transform 1 0 20126 0 1 21322
-box 0 0 38 100
-use cut_M1M4_1x2  xcut102
-timestamp 1680991200
-transform 1 0 20126 0 1 21802
-box 0 0 38 100
-use cut_M1M4_1x2  xcut103
-timestamp 1680991200
-transform 1 0 20126 0 1 22282
-box 0 0 38 100
-use cut_M1M4_1x2  xcut104
-timestamp 1680991200
-transform 1 0 20126 0 1 22762
-box 0 0 38 100
-use cut_M1M4_1x2  xcut105
-timestamp 1680991200
-transform 1 0 20126 0 1 23242
-box 0 0 38 100
-use cut_M1M4_1x2  xcut106
-timestamp 1680991200
-transform 1 0 20126 0 1 23722
-box 0 0 38 100
-use cut_M1M4_1x2  xcut107
-timestamp 1680991200
-transform 1 0 20126 0 1 24202
-box 0 0 38 100
 << labels >>
-flabel locali s 20126 0 20276 24924 0 FreeSans 200 0 0 0 AVSS
+flabel locali s 20126 0 20276 12444 0 FreeSans 200 0 0 0 AVSS
 port 2 nsew signal bidirectional
 flabel locali s 2258 4279 2546 4389 0 FreeSans 200 0 0 0 VLPFZ
 port 1 nsew signal bidirectional
 flabel locali s 2258 1941 2546 2051 0 FreeSans 200 0 0 0 VLPF
 port 3 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 20276 24924
+string FIXED_BBOX 0 0 20276 12444
 << end >>

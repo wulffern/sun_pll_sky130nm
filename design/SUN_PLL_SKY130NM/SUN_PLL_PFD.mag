@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1681076574
+timestamp 1681511206
 << locali >>
 rect 0 2760 2028 2880
 rect 0 120 120 2760
@@ -44,87 +44,87 @@ rect 0 809 600 839
 rect 758 192 866 2496
 rect 1154 384 1262 2880
 use SUNTR_TAPCELLB_CV  xa0 ../SUN_TR_SKY130NM
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 384 0 1 384
 box -90 -66 1350 242
 use SUNTR_DFTSPCX1_CV  xa1 ../SUN_TR_SKY130NM
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 384 0 1 560
 box -90 -66 1350 594
 use SUNTR_IVX1_CV  xa2a ../SUN_TR_SKY130NM
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 384 0 1 1264
 box -90 -66 1350 242
 use SUNTR_IVX1_CV  xa2
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 384 0 1 1088
 box -90 -66 1350 242
 use SUNTR_NRX1_CV  xa3 ../SUN_TR_SKY130NM
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 384 0 1 1440
 box -90 -66 1350 418
 use SUNTR_DFTSPCX1_CV  xa5
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 384 0 1 1792
 box -90 -66 1350 594
 use SUNTR_IVX1_CV  xa6
-timestamp 1681076574
+timestamp 1681511206
 transform 1 0 384 0 1 2320
 box -90 -66 1350 242
 use cut_M1M2_2x1  xcut0
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 546 0 1 1337
 box 0 0 92 34
 use cut_M1M2_2x1  xcut1
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 762 0 1 1205
 box 0 0 92 34
 use cut_M1M2_2x1  xcut2
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 546 0 1 1689
 box 0 0 92 34
 use cut_M1M2_2x1  xcut3
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 762 0 1 1997
 box 0 0 92 34
 use cut_M1M2_2x1  xcut4
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 546 0 1 2393
 box 0 0 92 34
 use cut_M1M2_2x1  xcut5
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 562 0 1 633
 box 0 0 92 34
 use cut_M1M2_2x1  xcut6
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 778 0 1 1645
 box 0 0 92 34
 use cut_M1M2_2x1  xcut7
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 562 0 1 1865
 box 0 0 92 34
 use cut_M1M4_2x1  xcut8
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 762 0 1 192
 box 0 0 100 38
 use cut_M1M4_2x1  xcut9
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 1158 0 1 2760
 box 0 0 100 38
 use cut_M1M3_2x1  xcut10
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 554 0 1 809
 box 0 0 100 38
 use cut_M1M3_2x1  xcut11
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 554 0 1 2041
 box 0 0 100 38
 use cut_M1M3_2x1  xcut12
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 762 0 1 1381
 box 0 0 100 38
 use cut_M1M3_2x1  xcut13
-timestamp 1680991200
+timestamp 1681509600
 transform 1 0 762 0 1 2437
 box 0 0 100 38
 << labels >>

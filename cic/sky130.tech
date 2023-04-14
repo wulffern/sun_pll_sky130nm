@@ -131,7 +131,7 @@
         "NW"   : { "enclosure" : 20, "digitalspace" : 0},
 
 
-        "CO"   : { "space" : 10, "width" : 8 , "height" : 8},
+        "CO"   : { "space" : 10, "width" : 8 , "height" : 8 },
         "VIA1" : { "space" : 12, "width" : 14 , "height" : 14},
         "VIA2" : { "space" : 12, "width" : 14 , "height" : 14},
         "VIA3" : { "space" : 12, "width" : 16 , "height" : 16},

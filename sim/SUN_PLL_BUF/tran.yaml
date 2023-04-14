@@ -1,0 +1,32 @@
+#<name>:
+#  src:
+#    - <paramters>
+#  typ: <typical spec value>
+#  name: <long name>
+#  min: <minimum spec value>
+#  max: <maximum spec value>
+#  scale: <scale, multiply result by scale>
+#  digits: <significant digits>
+#  unit: Unit
+
+vddrosc1:
+  src:
+    - vdd_rosc_low
+  name: Lowest ROSC VDD
+  min: 20%
+  typ: 0.8
+  max: 20%
+  scale: 1
+  digits: 2
+  unit: V
+
+vddrosc2:
+  src:
+    - vdd_rosc_max
+  name: Maximum ROSC VDD
+  min: 20%
+  typ: 1.6
+  max: 20%
+  scale: 1
+  digits: 2
+  unit: V

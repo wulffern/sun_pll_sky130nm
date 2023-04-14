@@ -92,20 +92,20 @@ lab=AVSS}
 N 40 -500 120 -500 {
 lab=VDP}
 C {devices/ipin.sym} -170 -580 0 0 {name=p1 lab=AVDD}
-C {devices/ipin.sym} -170 -260 0 0 {name=p2 lab=VBN}
-C {devices/ipin.sym} -170 -230 0 0 {name=p3 lab=AVSS}
+C {devices/ipin.sym} 200 -390 2 0 {name=p2 lab=VFB}
+C {devices/ipin.sym} -170 -390 0 0 {name=p3 lab=VI}
+C {devices/opin.sym} 390 -390 0 0 {name=p4 lab=VO}
+C {devices/ipin.sym} -170 -260 0 0 {name=p5 lab=VBN}
+C {devices/ipin.sym} -170 -230 0 0 {name=p6 lab=AVSS}
 C {cborder/border_s.sym} 530 0 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}
-C {devices/ipin.sym} -170 -390 0 0 {name=p4 lab=VI}
-C {devices/opin.sym} 390 -390 0 0 {name=p5 lab=VO}
 C {SUN_TR_SKY130NM/SUNTR_NCHDLA.sym} -80 -390 0 0 {name=xa4 xoffset=0 yoffset=0 angle=0}
 C {SUN_TR_SKY130NM/SUNTR_NCHDLA.sym} 160 -390 0 1 {name=xa2 xoffset=0 yoffset=0 angle=0}
 C {SUN_TR_SKY130NM/SUNTR_NCHDLCM.sym} 0 -260 0 0 {name=xa1 xoffset=0 yoffset=0 angle=0}
-C {SUN_TR_SKY130NM/SUNTR_PCHDLA.sym} 0 -550 0 1 {name=xc1 xoffset=5 yoffset=0 angle=0}
-C {SUN_TR_SKY130NM/SUNTR_PCHDLA.sym} 80 -550 0 0 {name=xc2 xoffset=0 yoffset=0 angle=0}
-C {SUN_TR_SKY130NM/SUNTR_PCHDLA.sym} 290 -490 0 0 {name=xc3[2:0] xoffset=0 yoffset=0 angle=0}
-C {devices/ipin.sym} 200 -390 2 0 {name=p6 lab=VFB}
+C {SUN_TR_SKY130NM/SUNTR_PCHL.sym} 0 -550 0 1 {name=xc1[3:0] xoffset=5 yoffset=0 angle=0}
+C {SUN_TR_SKY130NM/SUNTR_PCHL.sym} 80 -550 0 0 {name=xc2[3:0] xoffset=0 yoffset=0 angle=0}
+C {SUN_TR_SKY130NM/SUNTR_PCHL.sym} 290 -490 0 0 {name=xc3[10:0] xoffset=0 yoffset=0 angle=0}
 C {devices/lab_pin.sym} 40 -330 0 0 {name=l1 sig_type=std_logic lab=VS}
 C {devices/lab_pin.sym} -40 -460 0 0 {name=l2 sig_type=std_logic lab=VGP}
 C {devices/lab_pin.sym} 120 -460 0 0 {name=l3 sig_type=std_logic lab=VDP}
 C {SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym} 330 -280 0 0 {name=xd2}
-C {SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym} 630 -270 0 0 {name=xd3[7:0]}
+C {SUN_SAR9B_SKY130NM/SUNSAR_CAP_BSSW_CV.sym} 630 -270 0 0 {name=xd3[9:0]}

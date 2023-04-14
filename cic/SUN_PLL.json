@@ -60,7 +60,7 @@
             "noPowerRoute" : 1,
             "beforePlace" : {
                 "setSpiceParams" : [
-                    ["xc1","xoffset","5"],
+                    ["xc1_0","xoffset","6"],
                     ["xd2","xoffset","2"]
                 ]
             },
@@ -81,7 +81,7 @@
 
                 ],
                 "addRouteConnections" : [
-                    ["AVDD","xc1","bottom","M2","routeWidth=wide_width"],
+                    ["AVDD","xc1_0","bottom","M2","routeWidth=wide_width"],
                     ["AVSS","xa","bottom","M2","routeWidth=wide_width"],
                     ["AVSS","xd2","bottom","M4","routeWidth=wide_width"]
                 ],
@@ -105,9 +105,9 @@
                 "resetOrigin" : 1,
                 "addPortOnEdges" :[
                     ["M3","VBN","left","--|-",""],
-                    ["M3","VFB","left","--|-",""],
+                    ["M4","VFB","top","--|-",""],
                     ["M3","VI","left","--|-",""],
-                    ["M3","VO","left","--|-","nostartcut"]
+                    ["M3","VO","top","--|-","nostartcut"]
                 ]
             }
         },

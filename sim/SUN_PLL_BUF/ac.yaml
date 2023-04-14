@@ -1,0 +1,45 @@
+bandwidth:
+  src: f3db
+  name: Bandwidth
+  typ: 150
+  min: 10
+  max: 300
+  scale: 1e-3
+  digits: 3
+  unit: kHz
+
+gainMargin:
+  src: gm_db
+  name: Gain Margin
+  typ: -10
+  min: -50
+  max: -10
+  scale: 1
+  unit: dB
+
+gain:
+  src: lf_gain
+  name: DC gain
+  typ: 40
+  min: 35
+  max: 55
+  scale: 1
+  unit: dB
+
+phaseMargin:
+  src: pm_deg
+  name: Phase Margin
+  typ: 60
+  min: 45
+  max: 75
+  scale: 1
+  unit: ""
+
+unityGain:
+  src: ug
+  name: Unity Gain Frequency
+  typ: 1.5
+  min: 3
+  max: 15
+  scale: 1e-6
+  unit: "MHz"

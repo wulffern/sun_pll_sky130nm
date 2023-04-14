@@ -5,28 +5,28 @@
 *----------------------------------------------------------------
 #ifdef Lay
 .include ../../../work/lpe/SUN_PLL_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_LPF_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_BUF_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_ROSC_lpe.spi
+*.include ../../../work/lpe/SUN_PLL_BIAS_lpe.spi
+*.include ../../../work/lpe/SUN_PLL_CP_lpe.spi
 *.include ../../../work/lpe/SUN_PLL_DIVN_lpe.spi
 *.include ../../../work/lpe/SUN_PLL_KICK_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_PFD_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_CP_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_BIAS_lpe.spi
-*.include ../../../design/SUN_PLL_SKY130NM.spice
+*.include ../../../work/lpe/SUN_PLL_LPF_lpe.spi
+*.include ../../../work/lpe/SUN_PLL_RCOSC_lpe.spi
+*.include ../../../work/lpe/SUN_PLL_BUF_lpe.spi
+*.include ../../../work/xsch/SUN_PLL.spice
 #else
-.include ../../../design/SUN_PLL_SKY130NM.spice
+.include ../../../work/xsch/SUN_PLL.spice
 #endif
 
 *-----------------------------------------------------------------
 * OPTIONS
 *-----------------------------------------------------------------
 #ifdef Debug
-.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-12
+.option reltol=1e-4 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-12
 #else
-.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-15
+.option reltol=1e-4 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-15
 #endif
 
+.option TEMP=125
 *-----------------------------------------------------------------
 * PARAMETERS
 *-----------------------------------------------------------------
@@ -42,7 +42,7 @@
 *-----------------------------------------------------------------
 VSS  AVSS  0     dc 0
 VDD  AVDD  AVSS  dc  {AVDD}
-VPWR  PWRUP_1V8  AVSS pwl 0 0 10n 0 11n {AVDD}
+VPWR  PWRUP_1V8  AVSS pwl 0 0 1000n 0 1001n {AVDD}
 
 IDC 0 IBPSR_1U  dc 1u
 
@@ -53,23 +53,21 @@ VCKREF CK_REF 0 dc 0 pulse (0 {AVDD} 0 {TRF} {TRF} {PW_CLK} {PERIOD_CLK})
 *-----------------------------------------------------------------
 XDUT AVDD AVSS PWRUP_1V8 CK_REF CK IBPSR_1U SUN_PLL
 
-
 *----------------------------------------------------------------
 * MEASURES
 *----------------------------------------------------------------
 
 
 *----------------------------------------------------------------
-* PROBE
+* SAVE
 *----------------------------------------------------------------
 
-#ifdef Debug
-.probe v(AVDD) v(AVSS) v(PWRUP_1V8) v(CK_REF) v(CK) v(IBPSR_1U)
-+ v(XDUT.VDD_ROSC) v(XDUT.CP_UP_N) v(XDUT.CP_DOWN) v(XDUT.VLPF) v(XDUT.CK_FB) v(XDUT.KICK) v(XDUT.VLPFZ)
-*+ v(XDUT.x1.N*)
-#else
-.probe v(CK_REF) v(CK) v(XDUT.CK_FB) v(XDUT.VDD_ROSC) v(XDUT.CP_UP_N) v(XDUT.CP_DOWN)  v(IBPSR_1U) v(XDUT.VLPF)
-#endif
+.save v(AVDD) v(AVSS) v(PWRUP_1V8) v(CK_REF) v(CK) v(IBPSR_1U)
+.save v(XDUT.VDD_ROSC) v(XDUT.CP_UP_N) v(XDUT.CP_DOWN) v(XDUT.VLPF) v(XDUT.CK_FB) v(XDUT.KICK) v(XDUT.VLPFZ)
+.save i(XDUT.AVDD) i(VDD)
+.save v(XDUT.xaa3/KICK_N) v(XDUT.xaa3/KICK) v(XDUT.VLPZ)
+.save v(XDUT.xaa4/VO)
+
 
 *----------------------------------------------------------------
 * NGSPICE control
@@ -85,7 +83,7 @@ tran 100p 500n 10p
 write
 quit
 #else
-tran 200p 20u
+tran 200p 10u
 write
 quit
 #endif

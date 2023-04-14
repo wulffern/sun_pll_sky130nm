@@ -115,37 +115,19 @@ N 660 -400 660 -390 {
 lab=AVDD}
 N 700 -300 730 -300 {
 lab=NC1}
-C {devices/lab_pin.sym} 150 -10 2 0 {name=l5 sig_type=std_logic lab=N[7:0]
-
-}
-C {devices/lab_pin.sym} 150 -10 2 0 {name=l6 sig_type=std_logic lab=N[7:0]
-
-}
-C {devices/lab_pin.sym} -70 -10 0 0 {name=l7 sig_type=std_logic lab=NI,N[7:1]
-
-}
-C {devices/lab_pin.sym} -270 0 2 0 {name=l9 sig_type=std_logic lab=NI
-
-
-}
-C {devices/lab_pin.sym} -440 10 0 0 {name=l11 sig_type=std_logic lab=N[0]
-
-}
-C {devices/ipin.sym} -510 -10 2 1 {name=p1 lab=PWRUP_1V8
-}
-C {devices/ipin.sym} -510 -160 2 1 {name=p2 lab=VDD_ROSC
-}
-C {devices/ipin.sym} -520 130 2 1 {name=p3 lab=AVSS
-}
-C {devices/lab_pin.sym} 390 -160 0 0 {name=l1 sig_type=std_logic lab=N[2]
-}
-C {devices/lab_pin.sym} 170 -310 0 0 {name=l3 sig_type=std_logic lab=AVSS
-}
-C {devices/ipin.sym} 20 -400 2 1 {name=p4 lab=AVDD
-}
-C {devices/opin.sym} 850 -160 0 0 {name=p5 lab=CK}
-C {devices/lab_pin.sym} 630 -160 1 0 {name=l2 sig_type=std_logic lab=CKUP
-}
+C {devices/lab_pin.sym} 150 -10 2 0 {name=l5 sig_type=std_logic lab=N[7:0]}
+C {devices/lab_pin.sym} 150 -10 2 0 {name=l6 sig_type=std_logic lab=N[7:0]}
+C {devices/lab_pin.sym} -70 -10 0 0 {name=l7 sig_type=std_logic lab=NI,N[7:1]}
+C {devices/lab_pin.sym} -270 0 2 0 {name=l9 sig_type=std_logic lab=NI}
+C {devices/lab_pin.sym} -440 10 0 0 {name=l11 sig_type=std_logic lab=N[0]}
+C {devices/ipin.sym} 20 -400 2 1 {name=p1 lab=AVDD}
+C {devices/opin.sym} 850 -160 0 0 {name=p2 lab=CK}
+C {devices/ipin.sym} -510 -160 2 1 {name=p3 lab=VDD_ROSC}
+C {devices/ipin.sym} -510 -10 2 1 {name=p4 lab=PWRUP_1V8}
+C {devices/ipin.sym} -520 130 2 1 {name=p5 lab=AVSS}
+C {devices/lab_pin.sym} 390 -160 0 0 {name=l1 sig_type=std_logic lab=N[2]}
+C {devices/lab_pin.sym} 170 -310 0 0 {name=l3 sig_type=std_logic lab=AVSS}
+C {devices/lab_pin.sym} 630 -160 1 0 {name=l2 sig_type=std_logic lab=CKUP}
 C {SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym} 700 -160 0 0 {name=xa5}
 C {SUN_PLL_SKY130NM/SUN_PLL_LSCORE.sym} 580 -150 0 0 {name=xa3}
 C {SUN_TR_SKY130NM/SUNTR_TAPCELLB_CV.sym} 220 -330 0 0 {name=xa6}

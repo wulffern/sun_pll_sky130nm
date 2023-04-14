@@ -79,9 +79,9 @@ XDUT VDD_1V8 CK VDD_ROSC PWRUP_1V8 AVSS SUN_PLL_ROSC
 *----------------------------------------------------------------
 
 #ifdef Debug
-.probe v(CK) v(xdut.N_1) v(xdut.CKUP) v(xdut.CKDWN) v(xdut .*)
+.save v(CK) v(xdut.N_1) v(xdut.CKUP) v(xdut.CKDWN) v(xdut .*)
 #else
-.probe v(CK) v(VDD_ROSC)
+.save v(CK) v(VDD_ROSC)
 #endif
 
 

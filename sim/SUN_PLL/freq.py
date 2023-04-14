@@ -40,7 +40,7 @@ for f in files:
     vth = 0.8
     ts = list()
     time = list()
-    for v in df["v(ck)"].iteritems():
+    for v in df["v(ck)"].items():
         if(not searchFalling and v[1] > vth):
             t = v[0] - prev
             ts.append(t)

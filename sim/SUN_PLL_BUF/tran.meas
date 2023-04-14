@@ -1,0 +1,10 @@
+* Measure SUN_PLL_BUF
+.control
+
+load {cicname}.raw
+
+echo "MEAS_START"
+meas tran vdd_rosc_low find v(vo) when v(ck)=0.9 CROSS=3
+meas tran vdd_rosc_max MAX v(vo)
+echo "MEAS_END"
+.endc

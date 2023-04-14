@@ -5,18 +5,22 @@
 *----------------------------------------------------------------
 #ifdef Lay
 .include ../../../work/lpe/SUN_PLL_BUF_lpe.spi
-.include ../../../design/SUN_PLL_SKY130NM.spice
+.include ../../../work/lpe/SUN_PLL_BIAS_lpe.spi
+.include ../../../work/lpe/SUN_PLL_ROSC_lpe.spi
 #else
-.include ../../../design/SUN_PLL_SKY130NM.spice
+.include ../../../work/xsch/SUN_PLL_BIAS.spice
+.include ../../../work/xsch/SUN_PLL_BUF.spice
+.include ../../../work/xsch/SUN_PLL_ROSC.spice
 #endif
+
 
 *-----------------------------------------------------------------
 * OPTIONS
 *-----------------------------------------------------------------
 #ifdef Debug
-*.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-12
+.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter gmin=1e-12
 #else
-*.option reltol=1e-5 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-15
+.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter gmin=1e-15
 #endif
 
 *-----------------------------------------------------------------
@@ -29,37 +33,30 @@
 *-----------------------------------------------------------------
 * FORCE
 *-----------------------------------------------------------------
-VSS  AVSS  0     dc 0
-VDD  AVDD  AVSS  dc {AVDD}
-VPWR PWRUP_1V8 AVSS dc {AVDD}
-VI VI 0 pwl 0 {AVDD/2} 10n {AVDD/2} 1u {AVDD}
+VSS  AVSS  0  dc 0
+VDD  AVDD  0  dc {AVDD}
+VPWR PWRUP_1V8 0 dc {AVDD}
+VI VI 0 pwl 0 {0} 6u {0} 20u {AVDD}
 
 IB 0 IBPSR_1U dc 1u
 
 *-----------------------------------------------------------------
 * DUT
 *-----------------------------------------------------------------
-x2 IBPSR_1U AVDD PWRUP_1V8 AVSS SUN_PLL_BIAS
-XDUT AVDD VO VI VO IBPSR_1U AVSS SUN_PLL_BUF
-xh2 AVDD CK VO PWRUP_1V8 AVSS SUN_PLL_ROSC
 
-*R1 VO 0 10k
+XDUT0 IBPSR_1U AVSS AVSS SUN_PLL_BIAS
+XDUT AVDD VO VI VO IBPSR_1U AVSS SUN_PLL_BUF
+XDUT2 AVDD CK VO PWRUP_1V8 AVSS SUN_PLL_ROSC
+
 
 *----------------------------------------------------------------
 * MEASURES
 *----------------------------------------------------------------
 
-
 *----------------------------------------------------------------
-* PROBE
+* SAVE
 *----------------------------------------------------------------
-
-#ifdef Debug
-.save all
-*.probe v(*)
-#else
-.probe v(AVDD)  v(VI) v(VO) v(IBPSR_1U) v(AVSS) v(XDUT.VGP)
-#endif
+.save v(AVDD) v(VI) v(VO) v(IBPSR_1U) v(AVSS) v(XDUT.VGP) v(CK) i(vdd)
 
 *----------------------------------------------------------------
 * NGSPICE control
@@ -70,15 +67,9 @@ set color0=white
 set color1=black
 unset askquit
 
-#ifdef Debug
-tran 10p 200n 1p
+tran 1n 20u
 write
 quit
-#else
-tran 10p 1u 1p
-write
-quit
-#endif
 
 .endc
 

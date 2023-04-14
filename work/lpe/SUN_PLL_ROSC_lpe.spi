@@ -1,69 +1,160 @@
 * NGSPICE file created from SUN_PLL_ROSC.ext - technology: sky130B
 
+* Replacing the lpe port list (../tech/scripts/fixlpe)
 .subckt SUN_PLL_ROSC AVDD CK VDD_ROSC PWRUP_1V8 AVSS
-X0 xb2_4/A xb2_3/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=6.156e+12p ps=3.3e+07u w=1.08e+06u l=180000u
-X1 xb2_4/A xb2_3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.16964e+13p ps=6.27e+07u w=1.08e+06u l=180000u
-X2 xb2_3/A xb2_2/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X3 xb2_3/A xb2_2/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X4 xb2_5/A xb2_4/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X5 xb2_5/A xb2_4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X6 xa3/A xb2_5/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X7 xa3/A xb2_5/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X8 xa3/AN xa3/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X9 xa3/AN xa3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X10 xb1/B xa3/AN VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X11 xb1/B xa3/AN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X12 xb1/Y PWRUP_1V8 VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X13 VDD_ROSC xb1/B xb1/Y AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X14 xb1/MN1/S PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X15 xb1/Y xb1/B xb1/MN1/S AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X16 xb3/MP1/S xb3/MP1/S xb3/MP1/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X17 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X18 xa3/xc2b/S xa4/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=3.6936e+12p ps=1.98e+07u w=1.08e+06u l=180000u
-X19 xa5/A xa4/A xa3/xc2b/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X20 xa3/xc1b/S xa5/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X21 xa4/A xa5/A xa3/xc1b/S AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X22 xa4/A xa3/AN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X23 xa4/A xa3/AN AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X24 xa5/A xa3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X25 xa5/A xa3/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X26 xa4/Y xa4/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X27 xa4/Y xa4/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X28 CK xa5/A AVDD AVDD sky130_fd_pr__pfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
-X29 CK xa5/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=6.156e+11p pd=3.3e+06u as=0p ps=0u w=1.08e+06u l=180000u
-X30 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X31 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X32 xb2_1/A xb1/Y VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X33 xb2_1/A xb1/Y AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X34 xb2_2/A xb2_1/A VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-X35 xb2_2/A xb2_1/A AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.08e+06u l=180000u
-C0 AVDD xa3/AN 0.75fF
-C1 AVDD CK 0.59fF
-C2 xb1/B AVDD 0.52fF
-C3 AVDD xb1/Y 0.42fF
-C4 PWRUP_1V8 AVDD 0.53fF
-C5 xa5/A AVDD 1.35fF
-C6 xa4/A AVDD 1.55fF
-C7 xa3/AN xa3/A 1.04fF
-C8 xa4/A xa5/A 0.57fF
-C9 AVDD xa3/A 0.77fF
-C10 VDD_ROSC AVDD 1.85fF
-C11 xb2_1/A AVSS 0.62fF
-C12 xb1/Y AVSS 0.80fF
-C13 xa6/MN1/a_324_334# AVSS 0.40fF $ **FLOATING
-C14 AVDD AVSS 41.41fF
-C15 CK AVSS 1.48fF
-C16 xa3/A AVSS 2.19fF
-C17 xa3/AN AVSS 2.39fF
-C18 xa5/A AVSS 1.20fF
-C19 xa4/A AVSS 1.57fF
-C20 xb3/MN1/a_324_334# AVSS 0.42fF $ **FLOATING
-C21 xb3/MP1/S AVSS 0.40fF
-C22 VDD_ROSC AVSS 1.10fF
-C23 xb1/B AVSS 1.85fF
-C24 PWRUP_1V8 AVSS 0.96fF
-C25 xb2_5/A AVSS 0.62fF
-C26 xb2_4/A AVSS 0.59fF
-C27 xb2_2/A AVSS 0.59fF
-C28 xb2_3/A AVSS 0.59fF
+*.subckt SUN_PLL_ROSC CK VDD_ROSC PWRUP_1V8 AVDD AVSS
+X0 CK xa5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X1 CK xa5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X2 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=11.7 pd=62.7 as=0.616 ps=3.3 w=1.08 l=0.18
+X3 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=3.69 pd=19.8 as=0.616 ps=3.3 w=1.08 l=0.18
+X4 xa3.xc1a.D xa5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X5 xb2_4.MN0.G xb2_3.MN0.G VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X6 xb2_5.MN0.G xb2_4.MN0.G VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X7 xb2_4.MN0.G xb2_3.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X8 xb2_5.MN0.G xb2_4.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X9 xa4.MN0.G xb2_6.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X10 xa4.MN0.G xa5.MN0.G xa3.xc1a.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X11 xa4.MN0.G xb2_6.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X12 VDD_ROSC xb2_7.MN0.D xb1.MN1.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X13 xb1.MN1.D PWRUP_1V8 VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X14 xb1.MN1.D xb2_7.MN0.D xb1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X15 xa5.MN0.G xb2_6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X16 xa3.xc2a.D xa4.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X17 xb2_6.MN0.D xb2_6.MN0.G VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X18 xb2_6.MN0.G xb2_5.MN0.G VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X19 xb2_1.MN0.G xb1.MN1.D VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X20 xb2_6.MN0.D xb2_6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X21 xb2_6.MN0.G xb2_5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X22 xb2_1.MN0.G xb1.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X23 xa5.MN0.G xb2_6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X24 xa5.MN0.G xa4.MN0.G xa3.xc2a.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X25 xa4.MN0.D xa4.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X26 xa4.MN0.D xa4.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X27 xb1.MN0.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X28 xb2_2.MN0.G xb2_1.MN0.G VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X29 xb3.MP1.D xb3.MP1.D xb3.MP1.D AVDD sky130_fd_pr__pfet_01v8 ad=1.23 pd=6.6 as=0.616 ps=3.3 w=1.08 l=0.18
+X30 xb2_7.MN0.D xb2_6.MN0.D VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X31 xb2_3.MN0.G xb2_2.MN0.G VDD_ROSC AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X32 xb2_2.MN0.G xb2_1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X33 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0 ps=0 w=1.08 l=0.18
+X34 xb2_7.MN0.D xb2_6.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X35 xb2_3.MN0.G xb2_2.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+C0 xb2_3.MN0.G xb2_2.MN0.G 0.197f
+C1 AVDD a_3612_750# 0.336f
+C2 xb2_6.MN0.D a_1092_1102# 0.173f
+C3 AVDD a_2244_750# 0.367f
+C4 xa5.MN0.G xa4.MN0.G 0.607f
+C5 xb2_3.MN0.G a_4764_2510# 0.126f
+C6 AVDD PWRUP_1V8 0.752f
+C7 AVDD a_3612_1102# 0.352f
+C8 AVDD a_2244_1102# 0.363f
+C9 VDD_ROSC xb1.MN1.D 0.226f
+C10 xb2_6.MN0.G a_1092_1806# 0.175f
+C11 xb2_7.MN0.D xb1.MN1.D 0.209f
+C12 AVDD xa3.xc1a.D 0.153f
+C13 AVDD a_3612_1454# 0.352f
+C14 VDD_ROSC xb2_1.MN0.G 0.174f
+C15 AVDD a_2244_1454# 0.382f
+C16 xb2_4.MN0.G xb2_3.MN0.G 0.197f
+C17 AVDD xb1.MN1.D 0.636f
+C18 xb2_6.MN0.G xa4.MN0.G 0.294f
+C19 xb2_4.MN0.G a_4764_2862# 0.126f
+C20 AVDD a_3612_1806# 0.352f
+C21 VDD_ROSC xb2_2.MN0.G 0.174f
+C22 AVDD a_2244_1806# 0.364f
+C23 xb2_6.MN0.D xa4.MN0.G 0.192f
+C24 AVDD xb2_1.MN0.G 0.55f
+C25 AVDD xa3.xc2a.D 0.159f
+C26 xb2_6.MN0.G xa5.MN0.G 0.145f
+C27 AVDD a_3612_2158# 0.352f
+C28 AVDD a_2244_2158# 0.384f
+C29 VDD_ROSC xb2_3.MN0.G 0.174f
+C30 AVDD xb2_2.MN0.G 0.543f
+C31 xb2_5.MN0.G xb2_4.MN0.G 0.197f
+C32 AVDD xa4.MN0.G 1.88f
+C33 xb2_5.MN0.G a_4764_3214# 0.126f
+C34 AVDD xa4.MN0.D 0.227f
+C35 AVDD a_3612_2510# 0.352f
+C36 AVDD a_2244_2510# 0.388f
+C37 VDD_ROSC xb2_4.MN0.G 0.174f
+C38 AVDD xb2_3.MN0.G 0.543f
+C39 AVDD xa5.MN0.G 1.82f
+C40 xb2_6.MN0.G xb2_5.MN0.G 0.228f
+C41 AVDD CK 0.612f
+C42 xb2_6.MN0.G a_4764_3566# 0.134f
+C43 xb1.MN1.D xb1.MN0.D 0.106f
+C44 AVDD a_3612_2862# 0.352f
+C45 VDD_ROSC xb2_5.MN0.G 0.173f
+C46 xb1.MN1.D a_4764_1454# 0.127f
+C47 AVDD a_2244_2862# 0.469f
+C48 AVDD xb2_4.MN0.G 0.545f
+C49 VDD_ROSC xb2_6.MN0.G 0.416f
+C50 xb2_6.MN0.D xb2_6.MN0.G 1.05f
+C51 AVDD a_3612_3214# 0.352f
+C52 xb2_6.MN0.D a_4764_3918# 0.133f
+C53 AVDD a_2244_3214# 0.439f
+C54 xb2_6.MN0.D VDD_ROSC 0.414f
+C55 AVDD xb2_5.MN0.G 0.541f
+C56 xb2_7.MN0.D VDD_ROSC 0.132f
+C57 xb2_7.MN0.D xb2_6.MN0.D 0.194f
+C58 xb2_1.MN0.G xb1.MN1.D 0.184f
+C59 AVDD a_3612_3566# 0.351f
+C60 xb2_1.MN0.G a_4764_1806# 0.126f
+C61 AVDD xb2_6.MN0.G 0.952f
+C62 AVDD a_3612_3918# 0.351f
+C63 AVDD VDD_ROSC 1.4f
+C64 xa4.MN0.G a_2244_1454# 0.113f
+C65 AVDD xb2_6.MN0.D 0.829f
+C66 xa5.MN0.G a_2244_1102# 0.164f
+C67 AVDD xb2_7.MN0.D 0.635f
+C68 AVDD a_3612_4270# 0.351f
+C69 AVDD xb3.MP1.D 0.476f
+C70 xa4.MN0.G a_2244_1806# 0.154f
+C71 xb2_2.MN0.G xb2_1.MN0.G 0.197f
+C72 AVDD a_3612_4622# 0.334f
+C73 xb2_2.MN0.G a_4764_2158# 0.126f
+C74 xa4.MN0.G a_2244_2158# 0.14f
+C75 xa5.MN0.G xa3.xc2a.D 0.123f
+C76 a_4764_750# AVSS 0.493f $ **FLOATING
+C77 a_3612_750# AVSS 0.128f $ **FLOATING
+C78 a_2244_750# AVSS 0.127f $ **FLOATING
+C79 a_1092_750# AVSS 0.491f $ **FLOATING
+C80 PWRUP_1V8 AVSS 1.26f
+C81 a_4764_1102# AVSS 0.366f $ **FLOATING
+C82 a_1092_1102# AVSS 0.384f $ **FLOATING
+C83 xb1.MN0.D AVSS 0.175f
+C84 a_4764_1454# AVSS 0.38f $ **FLOATING
+C85 a_1092_1454# AVSS 0.389f $ **FLOATING
+C86 xb1.MN1.D AVSS 0.982f
+C87 a_4764_1806# AVSS 0.384f $ **FLOATING
+C88 a_1092_1806# AVSS 0.388f $ **FLOATING
+C89 xb2_1.MN0.G AVSS 0.897f
+C90 a_4764_2158# AVSS 0.384f $ **FLOATING
+C91 a_1092_2158# AVSS 0.384f $ **FLOATING
+C92 xb2_2.MN0.G AVSS 0.893f
+C93 xa4.MN0.G AVSS 1.91f
+C94 xa4.MN0.D AVSS 0.216f
+C95 a_4764_2510# AVSS 0.384f $ **FLOATING
+C96 a_1092_2510# AVSS 0.388f $ **FLOATING
+C97 xb2_3.MN0.G AVSS 0.893f
+C98 xa5.MN0.G AVSS 1.43f
+C99 CK AVSS 1.65f
+C100 a_4764_2862# AVSS 0.384f $ **FLOATING
+C101 a_1092_2862# AVSS 0.467f $ **FLOATING
+C102 xb2_4.MN0.G AVSS 0.893f
+C103 a_4764_3214# AVSS 0.384f $ **FLOATING
+C104 a_1092_3214# AVSS 0.531f $ **FLOATING
+C105 xb2_5.MN0.G AVSS 0.893f
+C106 a_4764_3566# AVSS 0.381f $ **FLOATING
+C107 xb2_6.MN0.G AVSS 3.22f
+C108 a_4764_3918# AVSS 0.381f $ **FLOATING
+C109 VDD_ROSC AVSS 1.3f
+C110 xb2_6.MN0.D AVSS 3.85f
+C111 xb2_7.MN0.D AVSS 2.6f
+C112 a_4764_4270# AVSS 0.469f $ **FLOATING
+C113 xb3.MP1.D AVSS 0.119f
+C114 a_4764_4622# AVSS 0.568f $ **FLOATING
+C115 a_3612_4622# AVSS 0.128f $ **FLOATING
+C116 AVDD AVSS 43.1f
 .ends
+

@@ -55,7 +55,7 @@ C {devices/ipin.sym} -610 50 0 0 {name=p1 lab=VLPF
 }
 C {devices/ipin.sym} -610 280 0 0 {name=p2 lab=AVSS}
 C {cborder/border_s.sym} 410 250 0 0 {}
-C {SUN_PLL_SKY130NM/CAP_LPF.sym} 0 270 0 0 {name=xb3[47:0]}
+C {SUN_PLL_SKY130NM/CAP_LPF.sym} 0 270 0 0 {name=xb3[21:0]}
 C {SUN_PLL_SKY130NM/CAP_LPF.sym} -290 270 0 0 {name=xb2[1:0]}
 C {SUN_PLL_SKY130NM/CAP_LPF.sym} -520 270 0 0 {name=xb1 xoffset=0 yoffset=0 angle=0 M=1}
 C {SUN_TR_SKY130NM/SUNTR_RPPO8.sym} 0 -210 1 1 {name=xa2 xoffset=0 yoffset=2 angle=0 M=1}

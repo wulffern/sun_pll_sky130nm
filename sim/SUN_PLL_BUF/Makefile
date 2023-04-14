@@ -1,31 +1,55 @@
-
-
 TB=tran
 VIEW=Sch
 #VIEW=Lay
 
+CELL=RPLY_BIAS
+LIB=RPLY_BIAS_SKY130NM
+
 OPT=
+
+netlist:
+	cd ../../work && xschem -q -x -b -s -n ../design/${LIB}/${CELL}.sch
+	perl -pi -e "s/\*\*\.subckt/\.subckt/ig;s/\*\*\.ends/\.ends/ig;" ../../work/xsch/${CELL}.spice
 
 test:
 	${MAKE} typical OPT="Debug"
 
-typical:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Att Tt Vt
+typical: netlist
+	cicsim run --name ${VIEW}_typical ${TB} ${OPT} ${VIEW} Gt Ktt Tt Vt
 
-slow:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Ass "Th,Tl" Vl
+slow: netlist
+	cicsim run --name ${VIEW}_slow ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
 
-fast:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Aff "Th,Tl" Vh
+fast: netlist
+	cicsim run --name ${VIEW}_fast ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
 
-tfs:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Att,Ass,Aff" "Tt,Th,Tl" Vt
+tfs: netlist
+	cicsim run --name ${VIEW}_tfs ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt,Th,Tl" "Vt,Vl,Vh"
 
-ttffss:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Att,Ass,Aff" "Tt" Vt
+etc: netlist
+	cicsim run --name ${VIEW}_etc ${TB} ${OPT} ${VIEW} Gt "Kss,Kff,Ksf,Kfs" "Th,Tl" "Vl,Vh"
 
-temp:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Att" "Tt,Th,Tl" Vt
+etcnotemp: netlist
+	cicsim run --name ${VIEW}_etcnotemp ${TB} ${OPT} ${VIEW} Gt "Kss,Kff,Ksf,Kfs" "Tt" "Vl,Vh"
+
+mc: netlist
+	cicsim run --name ${VIEW}_mc --count 30 ${TB} ${OPT} ${VIEW} Gt "Kttmm" "Tt" "Vt"
+
+ntc: netlist
+	cicsim run --name ${VIEW}_ntc ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt" Vt
+
+temp: netlist
+	cicsim run --name ${VIEW}_temp ${TB} ${OPT} ${VIEW} Gt "Ktt" "Tt,Th,Tl" Vt
+
+summary:
+	cicsim summary --output "README.md"
+	${MAKE} post
+
+DATE=${shell date +%Y-%m-%d}
+post:
+	cp README.md ../../docs/_posts/${DATE}-${CELL}.markdown
+	test -d ../../docs/posts/results/||mkdir  ../../docs/posts/results/
+	cp -r results/*.html ../../docs/_posts/results/
 
 clean:
 	-rm -rf output_*

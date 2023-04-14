@@ -1,4 +1,5 @@
-v {xschem version=3.0.0 file_version=1.2 }
+v {xschem version=3.1.0 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -99,12 +100,11 @@ N 310 230 310 350 {
 lab=AVSS}
 N 280 350 310 350 {
 lab=AVSS}
-N 280 170 280 200 {
-lab=LPFZ}
 N 280 170 330 170 {
 lab=LPFZ}
 N -210 230 240 230 {
 lab=KICK}
+N 280 170 280 200 {}
 C {SUN_TR_SKY130NM/SUNTR_PCHDLCM.sym} 90 -170 0 0 {name=xb2 xoffset=0 yoffset=0 angle=0 M=1}
 C {SUN_TR_SKY130NM/SUNTR_PCHDLCM.sym} -20 -170 0 1 {name=xb1 xoffset=5 yoffset=0 angle=0 M=1}
 C {SUN_TR_SKY130NM/SUNTR_PCHDL.sym} 90 30 0 0 {name=xb3 xoffset=0 yoffset=0 angle=0 M=1}

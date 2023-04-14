@@ -50,6 +50,6 @@ lab=PWRUP_1V8_N}
 C {SUN_TR_SKY130NM/SUNTR_NCHDLCM.sym} -130 -240 0 0 {name=xa3 xoffset=0 yoffset=0 angle=0 M=10}
 C {SUN_TR_SKY130NM/SUNTR_NCHDL.sym} -260 -220 0 0 {name=xa2 xoffset=0 yoffset=0 angle=0 M=1}
 C {devices/ipin.sym} -490 -370 0 0 {name=p1 lab=IBPSR_1U}
-C {devices/ipin.sym} -490 -220 0 0 {name=p3 lab=PWRUP_1V8_N}
-C {devices/ipin.sym} -490 -180 0 0 {name=p4 lab=AVSS}
+C {devices/ipin.sym} -490 -220 0 0 {name=p2 lab=PWRUP_1V8_N}
+C {devices/ipin.sym} -490 -180 0 0 {name=p3 lab=AVSS}
 C {cborder/border_s.sym} 70 100 0 0 {user="Carsten Wulff" copmpany="Carsten Wulff Software"}
