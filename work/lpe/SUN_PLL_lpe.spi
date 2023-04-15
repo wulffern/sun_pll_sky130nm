@@ -4,1276 +4,1321 @@
 .subckt SUN_PLL AVDD AVSS PWRUP_1V8 CK_REF CK IBPSR_1U
 *.subckt SUN_PLL PWRUP_1V8 CK_REF CK IBPSR_1U AVSS AVDD
 X0 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R0 xaa4.xa2.M0.G m3_22692_52900# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X1 xaa4.xa1.M6.D IBPSR_1U xaa4.xa1.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X2 xaa1.xa2.M8.D IBPSR_1U xaa1.xa2.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+R0 xaa4.xa2_0.M0.G m3_22692_52900# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X1 xaa1.xa2.M8.D IBPSR_1U xaa1.xa2.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X2 xaa4.xa1.M6.D IBPSR_1U xaa4.xa1.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 X3 xaa6.xf.XA6.MN0.G xaa6.xf.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 X4 xaa3.xa5a.MN0.D xaa3.xa2.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X5 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=64.6 pd=353 as=0.616 ps=3.3 w=1.08 l=0.18
+X5 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=65.7 pd=359 as=0.616 ps=3.3 w=1.08 l=0.18
 X6 xaa6.xf.XA7.MN1.G PWRUP_1V8 xaa6.xf.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 X7 xaa0.xa3.MP0.D xaa0.xa1.MN2.S AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X8 AVDD PWRUP_1V8 xaa6.xd.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X9 xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X10 xaa3.xa2.MN0.D xaa3.xa1c.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X11 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MP1.G xaa6.xd.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X12 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MP1.G xaa6.xf.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X13 xaa5.xb2_1.MN0.D xaa5.xb2_0.MN0.D xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X14 xaa4.xa1.M8.D IBPSR_1U xaa4.xa1.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X8 xaa4.xa4_0.M2.D xaa1.xa3.D xaa4.xa4_0.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X9 AVDD PWRUP_1V8 xaa6.xd.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X10 xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X11 xaa4.xa2_1.M0.D xaa4.xa2_0.M0.G xaa4.xa1.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X12 xaa3.xa2.MN0.D xaa3.xa1c.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X13 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MP1.G xaa6.xd.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X14 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MP1.G xaa6.xf.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X15 xaa5.xb2_1.MN0.D xaa5.xb2_0.MN0.D xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X16 xaa4.xa1.M8.D IBPSR_1U xaa4.xa1.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
 R1 AVSS m3_37748_78364# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X15 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN1.G xaa6.xe.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X16 xaa5.xb3.MP1.D xaa5.xb3.MP1.D xaa5.xb3.MP1.D AVDD sky130_fd_pr__pfet_01v8 ad=1.23 pd=6.6 as=0.616 ps=3.3 w=1.08 l=0.18
+X17 xaa4.xa2_0.M8.D xaa4.xa2_0.M0.G xaa4.xa2_0.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X18 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN1.G xaa6.xe.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X19 xaa5.xb3.MP1.D xaa5.xb3.MP1.D xaa5.xb3.MP1.D AVDD sky130_fd_pr__pfet_01v8 ad=1.23 pd=6.6 as=0.616 ps=3.3 w=1.08 l=0.18
 R2 m3_4628_81084# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X17 xaa6.xe.XA3.MP0.D xaa6.xe.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X18 xaa6.xd.XA4.MP0.D xaa6.xd.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X19 xaa5.xb2_2.MN0.D xaa5.xb2_1.MN0.D xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X20 a_2084_70022# xaa1.xa3.D AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X20 xaa6.xe.XA3.MP0.D xaa6.xe.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X21 xaa6.xd.XA4.MP0.D xaa6.xd.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X22 a_2084_70022# xaa1.xa3.D AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X23 xaa5.xb2_2.MN0.D xaa5.xb2_1.MN0.D xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R3 m3_13116_61524# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X21 xaa6.xe.XA6.MP0.D xaa6.xe.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X24 xaa6.xe.XA6.MP0.D xaa6.xe.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X25 xaa5.xb1.MN1.G xaa5.xa3.xb1_0.G xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R4 AVSS m3_37748_73564# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X22 xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X23 xaa5.xb1.MN1.G xaa5.xa3.xb1_0.G xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X24 xaa1.xa2.M7.D IBPSR_1U xaa1.xa2.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X26 xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X27 xaa1.xa2.M7.D IBPSR_1U xaa1.xa2.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R5 m3_4628_89724# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X25 xaa1.xb2.M0.D xaa1.xa1.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X26 xaa1.xa1.M5.D IBPSR_1U xaa1.xa1.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-R6 xaa4.xa2.M0.G m3_22692_61348# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X27 a_356_74698# a_n76_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X28 xaa1.xb2.M0.D xaa1.xa1.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X29 xaa1.xa1.M5.D IBPSR_1U xaa1.xa1.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X30 xaa4.xa4_0.M8.D xaa1.xa3.D xaa4.xa4_1.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+R6 xaa4.xa2_0.M0.G m3_22692_61348# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X31 a_356_74698# a_n76_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
 R7 m3_13116_55188# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X28 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MP1.G xaa6.xc.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X29 xaa1.xa2.M5.D IBPSR_1U xaa1.xa2.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X32 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MP1.G xaa6.xc.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X33 xaa1.xa2.M5.D IBPSR_1U xaa1.xa2.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R8 m3_13116_58356# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X30 xaa6.xc.XA3.MN0.D xaa6.xc.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X31 xaa1.xa1.M3.D IBPSR_1U xaa1.xa1.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X32 xaa5.xa3.xb2_0.D xaa5.xa3.xb2_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X33 a_n508_70022# xbb0.xa1.XA1.N AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X34 xaa6.xc.XA6.MN0.D xaa6.xc.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X35 a_2084_74698# a_1652_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X34 xaa6.xc.XA3.MN0.D xaa6.xc.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X35 xaa1.xa1.M3.D IBPSR_1U xaa1.xa1.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X36 xaa5.xa3.xb2_0.D xaa5.xa3.xb2_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X37 a_n508_70022# xbb0.xa1.XA1.N AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X38 a_2084_74698# a_1652_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X39 xaa6.xc.XA6.MN0.D xaa6.xc.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R9 m3_4628_84924# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X36 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X37 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=60.3 pd=323 as=0.616 ps=3.3 w=1.08 l=0.18
-X38 xaa4.xa1.M5.D IBPSR_1U xaa4.xa1.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X40 xaa4.xa2_0.M7.D xaa4.xa2_0.M0.G xaa4.xa2_0.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X41 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X42 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=60.3 pd=323 as=0.616 ps=3.3 w=1.08 l=0.18
+X43 xaa4.xa1.M5.D IBPSR_1U xaa4.xa1.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R10 m3_4628_76284# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X39 xaa6.xd.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X40 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MN1.G xaa6.xd.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X41 xaa5.xb2_1.MN0.D xaa5.xb2_0.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X42 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN1.G xaa6.xf.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X44 xaa6.xd.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X45 xaa4.xa2_1.M7.D xaa4.xa2_0.M0.G xaa4.xa2_1.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X46 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MN1.G xaa6.xd.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X47 xaa4.xa2_0.M5.D xaa4.xa2_0.M0.G xaa4.xa2_0.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X48 xaa5.xb2_1.MN0.D xaa5.xb2_0.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X49 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN1.G xaa6.xf.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R11 AVSS m3_37748_86044# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X43 xaa4.xa1.M3.D IBPSR_1U xaa4.xa1.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X44 xaa6.xf.XA3.MP0.D xaa6.xf.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X45 IBPSR_1U IBPSR_1U xbb1.xa3.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
-X46 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0 ps=0 w=1.08 l=0.18
+X50 xaa4.xa1.M3.D IBPSR_1U xaa4.xa1.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X51 xaa6.xf.XA3.MP0.D xaa6.xf.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X52 IBPSR_1U IBPSR_1U xbb1.xa3.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X53 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0 ps=0 w=1.08 l=0.18
 R12 AVSS m3_37748_89884# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
 R13 m3_4628_71484# xaa1.xa3.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X47 xaa6.xf.XA6.MP0.D xaa6.xf.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X48 xaa6.xd.XA4.MN0.D xaa6.xd.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X49 xaa5.xa3.xc1a.D xaa5.xa3.xb2_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X50 xaa5.xb2_2.MN0.D xaa5.xb2_1.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X51 xaa6.xg.XA1.MN0.D CK AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X52 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0 ps=0 w=1.08 l=0.18
-X53 xaa0.xa1.MN0.D xaa0.xa1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X54 CK xaa5.xa3.xb2_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X55 xbb1.xa3.M6.D IBPSR_1U xbb1.xa3.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X56 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X54 xaa6.xf.XA6.MP0.D xaa6.xf.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X55 xaa6.xd.XA4.MN0.D xaa6.xd.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X56 xaa5.xa3.xc1a.D xaa5.xa3.xb2_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X57 xaa5.xb2_2.MN0.D xaa5.xb2_1.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X58 xaa6.xg.XA1.MN0.D CK AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X59 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0 ps=0 w=1.08 l=0.18
+X60 CK xaa5.xa3.xb2_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X61 xaa0.xa1.MN0.D xaa0.xa1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X62 xbb1.xa3.M6.D IBPSR_1U xbb1.xa3.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X63 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X64 xaa5.xb1.MN1.G xaa5.xa3.xb1_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R14 AVSS m3_37748_81244# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X57 AVDD PWRUP_1V8 xaa6.xg.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X58 xaa5.xb1.MN1.G xaa5.xa3.xb1_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X59 xaa6.xc.XA7.MN1.G xaa6.xc.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X60 xaa6.xe.XA6.MN0.G xaa6.xe.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X61 xaa6.xg.XA5.MN0.G xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X62 xaa4.xa2.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X63 xaa6.xe.XA7.MN1.G PWRUP_1V8 xaa6.xe.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X64 xaa4.xa4.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X65 xaa1.xa4.M0.D xaa1.xa4.M0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X66 xaa3.xa1b.MN0.D PWRUP_1V8 AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X67 xaa1.xa2.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X68 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0 ps=0 w=1.08 l=0.18
-X69 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MP1.G xaa6.xe.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X70 a_1220_70022# a_1652_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X71 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN1.G xaa6.xg.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X72 xaa6.xg.XA4.MP0.D xaa6.xg.XA4.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X65 AVDD PWRUP_1V8 xaa6.xg.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X66 xaa4.xa4_1.M5.D xaa1.xa3.D xaa4.xa4_1.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X67 xaa6.xc.XA7.MN1.G xaa6.xc.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X68 xaa6.xe.XA6.MN0.G xaa6.xe.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X69 xaa6.xg.XA5.MN0.G xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X70 xaa4.xa4_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X71 xaa6.xe.XA7.MN1.G PWRUP_1V8 xaa6.xe.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X72 xaa1.xa4.M0.D xaa1.xa4.M0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X73 xaa4.xa2_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X74 xaa4.xa4_1.M3.D xaa1.xa3.D xaa4.xa4_1.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X75 xaa3.xa1b.MN0.D PWRUP_1V8 AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X76 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0 ps=0 w=1.08 l=0.18
+X77 xaa1.xa2.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X78 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MP1.G xaa6.xe.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X79 a_1220_70022# a_1652_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X80 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN1.G xaa6.xg.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X81 xaa6.xg.XA4.MP0.D xaa6.xg.XA4.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R15 m3_4628_92604# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X73 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X74 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X75 xaa4.xa1.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X76 xaa6.xg.XA7.MN0.D xaa6.xg.XA7.MN0.G xaa6.xg.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X77 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X78 xaa1.xa2.M2.D IBPSR_1U xaa1.xa2.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X79 xaa0.xa1.MP1.D xaa0.xa1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R16 xaa4.xa2.M0.G m3_22692_60292# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X80 xaa6.xc.XA7.MN0.D xaa0.xa5.MN2.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R17 xaa4.xa2.M0.G m3_22692_63460# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X81 xaa4.xa2.M0.D xaa4.xa2.M0.G xaa4.xa1.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X82 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MP1.G xaa6.xf.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X83 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X82 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X83 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X84 xaa4.xa1.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X85 xaa6.xg.XA7.MN0.D xaa6.xg.XA7.MN0.G xaa6.xg.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X86 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X87 xaa1.xa2.M2.D IBPSR_1U xaa1.xa2.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X88 xaa0.xa1.MP1.D xaa0.xa1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X89 xaa4.xa2_1.M2.D xaa4.xa2_0.M0.G xaa4.xa2_1.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+R16 xaa4.xa2_0.M0.G m3_22692_60292# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X90 xaa6.xc.XA7.MN0.D xaa0.xa5.MN2.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+R17 xaa4.xa2_0.M0.G m3_22692_63460# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X91 xaa4.xa2_0.M0.D xaa4.xa2_0.M0.G xaa4.xa1.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X92 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MP1.G xaa6.xf.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X93 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
 R18 AVSS m3_37748_76444# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X84 xaa6.xf.XA3.MN0.D xaa6.xf.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X85 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X86 xaa5.xb1.MN1.D PWRUP_1V8 xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X87 AVDD PWRUP_1V8 xaa6.xe.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X88 xbb1.xa3.M3.D IBPSR_1U xbb1.xa3.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X89 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MP1.G xaa6.xe.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X90 xaa6.xf.XA6.MN0.D xaa6.xf.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X91 xaa5.xb2_3.MN0.D xaa5.xb2_2.MN0.D xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X92 xaa6.xd.XA7.MN1.G xaa6.xd.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X93 xbb1.xa3.M1.D IBPSR_1U xbb1.xa3.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X94 xaa6.xf.XA3.MN0.D xaa6.xf.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X95 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X96 xaa5.xb1.MN1.D PWRUP_1V8 xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X97 AVDD PWRUP_1V8 xaa6.xe.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X98 xbb1.xa3.M3.D IBPSR_1U xbb1.xa3.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X99 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MP1.G xaa6.xe.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X100 xaa6.xf.XA6.MN0.D xaa6.xf.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X101 xaa5.xb2_3.MN0.D xaa5.xb2_2.MN0.D xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X102 xaa4.xa2_0.M2.D xaa4.xa2_0.M0.G xaa4.xa2_0.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X103 xaa6.xd.XA7.MN1.G xaa6.xd.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X104 xbb1.xa3.M1.D IBPSR_1U xbb1.xa3.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X105 xaa4.xa4_0.M4.D xaa1.xa3.D xaa4.xa4_0.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R19 AVSS m3_37748_71644# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
 R20 m3_13116_54132# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
 R21 m3_13116_57300# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X94 xaa6.xe.XA4.MP0.D xaa6.xe.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X95 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X106 xaa6.xe.XA4.MP0.D xaa6.xe.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X107 xaa5.xb2_4.MN0.D xaa5.xb2_3.MN0.D xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X108 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
 R22 m3_4628_87804# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X96 xaa5.xb2_4.MN0.D xaa5.xb2_3.MN0.D xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R23 AVSS m3_37748_92764# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X97 xaa6.xc.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X109 xaa6.xc.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R24 m3_4628_79164# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X98 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MN1.G xaa6.xc.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X99 xaa5.xa3.xb2_0.D xaa5.xa3.xb2_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X100 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X101 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-R25 xaa4.xa2.M0.G m3_22692_57124# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X102 xaa4.xa2.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X103 xaa4.xa4.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X104 xaa6.xd.XA7.MN0.D xaa6.xc.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X105 xaa6.xc.XA4.MN0.D xaa6.xc.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X106 xaa1.xa1.M7.D IBPSR_1U xaa1.xa1.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X107 xaa5.xa4.MN0.D xaa5.xa3.xb1_0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X110 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MN1.G xaa6.xc.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X111 xaa5.xa3.xb2_0.D xaa5.xa3.xb2_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X112 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X113 xaa4.xa4_1.M2.D xaa1.xa3.D xaa4.xa4_1.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X114 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+R25 xaa4.xa2_0.M0.G m3_22692_57124# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X115 xaa4.xa4_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X116 xaa4.xa2_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X117 xaa6.xd.XA7.MN0.D xaa6.xc.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X118 xaa6.xc.XA4.MN0.D xaa6.xc.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X119 xaa1.xa1.M7.D IBPSR_1U xaa1.xa1.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X120 xaa5.xa4.MN0.D xaa5.xa3.xb1_0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R26 m3_4628_74364# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X108 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X109 AVDD PWRUP_1V8 xaa6.xf.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X121 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X122 AVDD PWRUP_1V8 xaa6.xf.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R27 AVSS m3_37748_84124# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X110 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MP1.G xaa6.xf.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X111 xaa5.xb1.MN0.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X112 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X113 xaa3.xa6.MN0.D xaa3.xa5a.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X114 IBPSR_1U xaa3.xa1b.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X123 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MP1.G xaa6.xf.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X124 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X125 xaa5.xb1.MN0.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X126 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X127 xaa3.xa6.MN0.D xaa3.xa5a.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X128 IBPSR_1U xaa3.xa1b.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X129 a_356_70022# a_n76_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
 R28 AVSS m3_37748_87964# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X115 xaa5.xb2_3.MN0.D xaa5.xb2_2.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X116 a_356_70022# a_n76_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X117 xaa6.xd.XA1.MN0.D xaa6.xd.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X118 xaa4.xa1.M7.D IBPSR_1U xaa4.xa1.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X119 xaa6.xf.XA4.MP0.D xaa6.xf.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X120 a_356_74698# a_788_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X130 xaa5.xb2_3.MN0.D xaa5.xb2_2.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X131 xaa6.xd.XA1.MN0.D xaa6.xd.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X132 xaa4.xa1.M7.D IBPSR_1U xaa4.xa1.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X133 xaa6.xf.XA4.MP0.D xaa6.xf.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X134 a_356_74698# a_788_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
 R29 m3_4628_90684# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X121 xaa3.xa7.MN0.D xaa3.xa6.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X122 a_2084_70022# a_1652_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X123 xaa3.xa9.MN0.D xaa1.xa4.M0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X124 xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X125 xaa5.xb2_4.MN0.D xaa5.xb2_3.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X126 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X135 a_2084_70022# a_1652_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X136 xaa3.xa7.MN0.D xaa3.xa6.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X137 xaa3.xa9.MN0.D xaa1.xa4.M0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X138 xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X139 xaa5.xb2_4.MN0.D xaa5.xb2_3.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X140 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
 R30 m3_4628_69564# xaa1.xa3.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X127 xaa4.xa2.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X128 xaa5.xa3.xb1_0.D xaa5.xa3.xb2_0.D xaa5.xa3.xc1a.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X129 xaa4.xa4.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X130 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MP1.G xaa6.xe.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X131 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN1.G xaa6.xd.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X132 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X133 xaa6.xg.XA3.MN1.G CK AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X134 xaa6.xe.XA3.MN0.D xaa6.xe.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X135 xaa6.xg.XA5.MN0.D xaa6.xg.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X141 xaa4.xa4_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X142 xaa5.xa3.xb1_0.D xaa5.xa3.xb2_0.D xaa5.xa3.xc1a.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X143 xaa4.xa2_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X144 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MP1.G xaa6.xe.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X145 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN1.G xaa6.xd.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X146 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X147 xaa6.xg.XA3.MN1.G CK AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X148 xaa6.xe.XA3.MN0.D xaa6.xe.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X149 xaa6.xg.XA5.MN0.D xaa6.xg.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R31 li_4836_57412# xaa3.xa5a.MN0.D sky130_fd_pr__res_generic_l1 w=0.44 l=0.36
 R32 AVSS m3_37748_79324# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X136 xaa0.xa5.MN0.D xaa0.xa1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X137 xaa0.xa5.MN2.G xaa6.xc.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X138 xaa6.xg.XA3.MN1.G PWRUP_1V8 xaa6.xg.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X139 a_n508_74698# a_n76_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X140 xaa6.xc.XA6.MN0.G xaa6.xc.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X150 xaa0.xa5.MN0.D xaa0.xa1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X151 xaa0.xa5.MN2.G xaa6.xc.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X152 xaa6.xg.XA3.MN1.G PWRUP_1V8 xaa6.xg.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X153 xaa4.xa4_1.M7.D xaa1.xa3.D xaa4.xa4_1.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X154 a_n508_74698# a_n76_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X155 xaa6.xc.XA6.MN0.G xaa6.xc.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R33 m3_13116_60468# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X141 xaa0.xa1.MN2.D CK_REF xaa0.xa1.MN2.S AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X142 xaa6.xe.XA6.MN0.D xaa6.xe.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X143 xaa6.xd.XA7.MN0.D xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X156 xaa0.xa1.MN2.D CK_REF xaa0.xa1.MN2.S AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X157 xaa6.xe.XA6.MN0.D xaa6.xe.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X158 xaa6.xd.XA7.MN0.D xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R34 m3_13116_63636# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X144 AVDD PWRUP_1V8 xaa6.xc.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X159 AVDD PWRUP_1V8 xaa6.xc.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R35 m3_4628_82044# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X145 xaa6.xg.XA5.MN0.G xaa6.xg.XA7.MP1.G xaa6.xg.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X146 xaa1.xa1.M2.D IBPSR_1U xaa1.xa1.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X147 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X148 AVSS xaa0.xa3.MN1.G xaa0.xa1.MN0.G AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X149 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X150 xaa6.xf.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X151 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MN1.G xaa6.xc.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X160 xaa6.xg.XA5.MN0.G xaa6.xg.XA7.MP1.G xaa6.xg.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X161 xaa1.xa1.M2.D IBPSR_1U xaa1.xa1.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X162 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X163 AVSS xaa0.xa3.MN1.G xaa0.xa1.MN0.G AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X164 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X165 xaa6.xf.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X166 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MN1.G xaa6.xc.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R36 m3_4628_85884# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X152 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MN1.G xaa6.xf.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X153 xaa3.xa1b.MN0.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X167 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MN1.G xaa6.xf.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X168 xaa3.xa1b.MN0.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R37 AVSS m3_37748_74524# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X154 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MP1.G xaa6.xg.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X155 xbb1.xa3.M5.D IBPSR_1U xbb1.xa3.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X156 xaa4.xa1.M2.D IBPSR_1U xaa4.xa1.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X157 xaa6.xg.XA7.MN0.D xaa6.xg.XA7.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X158 xaa6.xf.XA4.MN0.D xaa6.xf.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X159 xaa0.xa5.MP1.D xaa0.xa1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X160 xbb1.xa3.M7.D IBPSR_1U xbb1.xa3.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X161 xaa0.xa1.MN0.D CK_REF xaa0.xa1.MP1.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X162 xaa6.xe.XA7.MN1.G xaa6.xe.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X163 xaa3.xa1c.MN0.D xaa3.xa1b.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X164 xaa4.xa2.M0.G xaa5.xb1.MN1.G xaa5.xb1.MN1.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X165 xaa0.xa1.MN0.G xaa0.xa3.MN1.G xaa0.xa3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X169 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MP1.G xaa6.xg.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X170 xbb1.xa3.M5.D IBPSR_1U xbb1.xa3.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X171 xaa4.xa1.M2.D IBPSR_1U xaa4.xa1.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X172 xaa6.xg.XA7.MN0.D xaa6.xg.XA7.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X173 xaa6.xf.XA4.MN0.D xaa6.xf.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X174 xaa0.xa5.MP1.D xaa0.xa1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X175 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X176 xbb1.xa3.M7.D IBPSR_1U xbb1.xa3.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X177 xaa0.xa1.MN0.D CK_REF xaa0.xa1.MP1.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X178 xaa6.xe.XA7.MN1.G xaa6.xe.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X179 xaa3.xa1c.MN0.D xaa3.xa1b.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X180 xaa4.xa2_0.M0.G xaa5.xb1.MN1.G xaa5.xb1.MN1.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X181 xaa0.xa1.MN0.G xaa0.xa3.MN1.G xaa0.xa3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R38 AVSS m3_37748_90844# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
 R39 m3_4628_77244# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X166 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X167 xaa6.xd.XA6.MN0.G xaa6.xd.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X168 xaa5.xa3.xb1_0.D xaa5.xa3.xb1_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X182 xaa4.xa4_0.M8.D xaa1.xa3.D xaa4.xa4_0.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X183 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X184 xaa4.xa2_1.M6.D xaa4.xa2_0.M0.G xaa4.xa2_1.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X185 xaa6.xd.XA6.MN0.G xaa6.xd.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X186 xaa5.xa3.xb1_0.D xaa5.xa3.xb1_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R40 AVSS m3_37748_87004# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X169 AVDD PWRUP_1V8 xaa6.xd.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X187 AVDD PWRUP_1V8 xaa6.xd.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R41 AVSS m3_37748_69724# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X170 CK xaa5.xa3.xb2_0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X171 xaa4.xa2.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X172 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X173 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MN1.G xaa6.xd.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X174 xaa6.xc.XA1.MN0.D xaa6.xc.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X188 xaa4.xa4_0.M6.D xaa1.xa3.D xaa4.xa4_0.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X189 CK xaa5.xa3.xb2_0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X190 xaa4.xa2_1.M4.D xaa4.xa2_0.M0.G xaa4.xa2_1.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X191 xaa4.xa4_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X192 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X193 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MN1.G xaa6.xd.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X194 xaa6.xc.XA1.MN0.D xaa6.xc.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R42 m3_4628_72444# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X175 xaa6.xe.XA7.MN0.D xaa6.xd.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X195 xaa6.xe.XA7.MN0.D xaa6.xd.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R43 AVSS m3_37748_82204# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X176 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X196 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
 R44 AVSS li_6204_57940# sky130_fd_pr__res_generic_l1 w=0.44 l=0.36
-X177 xaa1.xa4.M0.G xaa3.xa7.MN0.D xaa3.xa8.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X178 a_1220_74698# a_788_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X197 xaa1.xa4.M0.G xaa3.xa7.MN0.D xaa3.xa8.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X198 a_1220_74698# a_788_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
 R45 m3_13116_62580# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X179 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN1.G xaa6.xc.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X180 xaa6.xf.XA7.MN1.G xaa6.xf.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X181 xaa3.xa8.MP0.D xaa3.xa1b.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X182 xbb1.xa3.M2.D IBPSR_1U xbb1.xa3.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X183 xaa1.xb1.M0.D xaa1.xa1.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X184 xaa6.xc.XA7.MN0.D xaa0.xa5.MN2.G xaa6.xc.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X185 xaa5.xb1.MN1.D xaa5.xb1.MN1.G xaa5.xb1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X186 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X187 xbb1.xa3.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X188 xaa6.xe.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X189 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X190 xaa3.xa6.MN0.D xaa3.xa5a.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X191 xaa1.xa1.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X192 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MN1.G xaa6.xe.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X193 xaa6.xd.XA6.MN0.G xaa6.xd.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X199 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN1.G xaa6.xc.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X200 xaa6.xf.XA7.MN1.G xaa6.xf.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X201 xaa3.xa8.MP0.D xaa3.xa1b.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X202 xbb1.xa3.M2.D IBPSR_1U xbb1.xa3.M1.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X203 xaa1.xb1.M0.D xaa1.xa1.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X204 xaa6.xc.XA7.MN0.D xaa0.xa5.MN2.G xaa6.xc.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X205 xaa5.xb1.MN1.D xaa5.xb1.MN1.G xaa5.xb1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X206 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X207 xbb1.xa3.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X208 xaa6.xe.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X209 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X210 xaa4.xa4_0.M3.D xaa1.xa3.D xaa4.xa4_0.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X211 xaa3.xa6.MN0.D xaa3.xa5a.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X212 xaa1.xa1.M0.D IBPSR_1U AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X213 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MN1.G xaa6.xe.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X214 xaa6.xd.XA6.MN0.G xaa6.xd.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X215 xaa4.xa2_1.M1.D xaa4.xa2_0.M0.G xaa4.xa2_1.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R46 m3_4628_88764# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X194 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X195 xaa6.xd.XA7.MN1.G PWRUP_1V8 xaa6.xd.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X196 xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X216 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X217 xaa6.xd.XA7.MN1.G PWRUP_1V8 xaa6.xd.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X218 xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R47 AVSS m3_37748_77404# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X197 AVSS xaa0.xa1.MN0.D xaa0.xa1.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X198 xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X199 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MP1.G xaa6.xd.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X200 xaa3.xa7.MN0.D xaa3.xa6.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X219 AVSS xaa0.xa1.MN0.D xaa0.xa1.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X220 xaa4.xa4_0.M1.D xaa1.xa3.D xaa4.xa4_0.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X221 xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X222 xaa6.xd.XA5.MN0.G xaa6.xd.XA7.MP1.G xaa6.xd.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X223 xaa3.xa7.MN0.D xaa3.xa6.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R48 m3_4628_80124# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X201 xaa3.xa9.MN0.D xaa1.xa4.M0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X202 xaa6.xf.XA7.MN0.D xaa6.xe.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X203 xaa6.xe.XA4.MN0.D xaa6.xe.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X204 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MP1.G xaa6.xg.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X224 xaa3.xa9.MN0.D xaa1.xa4.M0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X225 xaa6.xf.XA7.MN0.D xaa6.xe.XA1.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X226 xaa6.xe.XA4.MN0.D xaa6.xe.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X227 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MP1.G xaa6.xg.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R49 m3_13116_53076# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-R50 xaa4.xa2.M0.G m3_22692_62404# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X205 AVSS xaa0.xa5.MN0.D xaa0.xa5.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X206 a_356_70022# a_788_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X228 a_356_70022# a_788_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+R50 xaa4.xa2_0.M0.G m3_22692_62404# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X229 AVSS xaa0.xa5.MN0.D xaa0.xa5.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R51 m3_13116_56244# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X207 xaa6.xg.XA3.MN0.D xaa6.xg.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X230 xaa6.xg.XA3.MN0.D xaa6.xg.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R52 m3_13116_59412# AVSS sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
 R53 m3_4628_83964# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X208 xaa0.xa2.MN0.D xaa0.xa1.MN2.S AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X209 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN1.G xaa6.xc.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X210 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X231 xaa0.xa2.MN0.D xaa0.xa1.MN2.S AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X232 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN1.G xaa6.xc.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X233 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R54 AVSS m3_37748_72604# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X211 xaa6.xc.XA3.MP0.D xaa6.xc.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X212 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X213 xaa6.xg.XA6.MN0.D xaa6.xg.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X214 xaa5.xa3.xc2a.D xaa5.xa3.xb1_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X215 xaa6.xg.XA5.MN0.D xaa6.xg.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X216 xaa0.xa5.MN2.D xaa0.xa5.MN2.G xaa0.xa3.MN1.G AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X217 xaa1.xb2.M7.D xaa1.xa1.M8.D xaa1.xb2.M0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
-X218 AVDD PWRUP_1V8 xaa6.xg.XA3.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X219 xaa6.xc.XA6.MP0.D xaa6.xc.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R55 xaa4.xa2.M0.G m3_22692_56068# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X220 xaa3.xa5a.MN0.D xaa3.xa2.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X234 xaa6.xc.XA3.MP0.D xaa6.xc.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X235 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X236 xaa6.xg.XA6.MN0.D xaa6.xg.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X237 xaa5.xa3.xc2a.D xaa5.xa3.xb1_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X238 xaa6.xg.XA5.MN0.D xaa6.xg.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X239 xaa0.xa5.MN2.D xaa0.xa5.MN2.G xaa0.xa3.MN1.G AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X240 xaa1.xb2.M7.D xaa1.xa1.M8.D xaa1.xb2.M0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X241 AVDD PWRUP_1V8 xaa6.xg.XA3.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X242 xaa6.xc.XA6.MP0.D xaa6.xc.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+R55 xaa4.xa2_0.M0.G m3_22692_56068# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X243 xaa3.xa5a.MN0.D xaa3.xa2.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X244 xaa1.xa2.M6.D IBPSR_1U xaa1.xa2.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R56 AVSS m3_37748_85084# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-R57 xaa4.xa2.M0.G m3_22692_59236# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X221 xaa1.xa2.M6.D IBPSR_1U xaa1.xa2.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X222 xaa6.xg.XA5.MN0.G xaa6.xg.XA4.MP1.G xaa6.xg.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X223 xaa6.xf.XA1.MN0.D xaa6.xf.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X224 xaa0.xa1.MN2.S xaa0.xa1.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X225 xaa1.xa1.M4.D IBPSR_1U xaa1.xa1.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X226 a_n508_70022# a_n76_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X227 xaa3.xa2.MN0.D xaa3.xa1c.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X228 xaa1.xa2.M4.D IBPSR_1U xaa1.xa2.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X229 xaa0.xa3.MN1.G xaa0.xa5.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X230 a_2084_74698# xaa1.xa4.M0.D AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+R57 xaa4.xa2_0.M0.G m3_22692_59236# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X245 xaa6.xg.XA5.MN0.G xaa6.xg.XA4.MP1.G xaa6.xg.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X246 xaa6.xf.XA1.MN0.D xaa6.xf.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X247 xaa0.xa1.MN2.S xaa0.xa1.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X248 xaa1.xa1.M4.D IBPSR_1U xaa1.xa1.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X249 a_n508_70022# a_n76_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X250 xaa3.xa2.MN0.D xaa3.xa1c.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X251 xaa1.xa2.M4.D IBPSR_1U xaa1.xa2.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X252 xaa0.xa3.MN1.G xaa0.xa5.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X253 xaa4.xa4_1.M0.D xaa1.xa3.D xaa4.xa1.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
+X254 a_2084_74698# xaa1.xa4.M0.D AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
 R58 m3_4628_75324# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X231 xaa4.xa4.M0.D xaa4.xa2.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X232 xaa0.xa2.MN0.D xaa0.xa1.MN2.S AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X255 xaa4.xa2_0.M8.D xaa4.xa2_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X256 xaa0.xa2.MN0.D xaa0.xa1.MN2.S AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X257 xaa4.xa2_0.M8.D xaa4.xa2_0.M0.G xaa4.xa2_1.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
 R59 AVSS m3_37748_80284# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X233 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X234 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN1.G xaa6.xf.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X235 xaa0.xa5.MN0.D xaa0.xa5.MN2.G xaa0.xa5.MP1.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X236 xaa4.xa1.M4.D IBPSR_1U xaa4.xa1.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X237 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R60 xaa4.xa2.M0.G m3_22692_53956# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X238 xaa4.xa1.M8.D xaa1.xa3.D xaa4.xa4.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
-X239 xaa6.xe.XA6.MN0.G xaa6.xe.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X258 xaa4.xa2_0.M6.D xaa4.xa2_0.M0.G xaa4.xa2_0.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X259 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X260 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN1.G xaa6.xf.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X261 xaa0.xa5.MN0.D xaa0.xa5.MN2.G xaa0.xa5.MP1.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X262 xaa4.xa1.M4.D IBPSR_1U xaa4.xa1.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X263 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+R60 xaa4.xa2_0.M0.G m3_22692_53956# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X264 xaa4.xa2_0.M4.D xaa4.xa2_0.M0.G xaa4.xa2_0.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X265 xaa6.xe.XA6.MN0.G xaa6.xe.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X266 xaa4.xa4_0.M0.D xaa1.xa3.D xaa4.xa1.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
 R61 AVSS m3_37748_88924# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X240 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN1.G xaa6.xd.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X267 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN1.G xaa6.xd.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X268 xaa5.xa3.xb1_0.G xaa5.xa3.xb2_0.G xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R62 m3_4628_70524# xaa1.xa3.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X241 xaa6.xf.XA7.MN0.D xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X242 xaa5.xa3.xb1_0.G xaa5.xa3.xb2_0.G xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X243 AVDD PWRUP_1V8 xaa6.xe.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X244 xaa6.xd.XA3.MP0.D xaa6.xd.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X245 xaa3.xa1c.MN0.D xaa3.xa1b.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X246 xaa5.xb2_0.MN0.D xaa5.xb1.MN1.D xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X269 xaa6.xf.XA7.MN0.D xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X270 AVDD PWRUP_1V8 xaa6.xe.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X271 xaa6.xd.XA3.MP0.D xaa6.xd.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X272 xaa3.xa1c.MN0.D xaa3.xa1b.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X273 xaa5.xb2_0.MN0.D xaa5.xb1.MN1.D xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R63 m3_4628_91644# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X247 a_n508_74698# xbb0.xa1.XA1.N AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X248 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MN1.G xaa6.xe.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X249 xaa6.xd.XA6.MP0.D xaa6.xd.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X250 xaa5.xa3.xb2_0.G xaa5.xb2_4.MN0.D xaa4.xa2.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X251 xaa5.xa3.xb1_0.D xaa5.xa3.xb1_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X252 xaa0.xa5.MN2.G xaa6.xc.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X253 AVSS xaa1.xa4.M0.G xaa1.xa4.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
-X254 xaa6.xc.XA6.MN0.G xaa6.xc.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X274 a_n508_74698# xbb0.xa1.XA1.N AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X275 xaa6.xe.XA5.MN0.G xaa6.xe.XA7.MN1.G xaa6.xe.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X276 xaa6.xd.XA6.MP0.D xaa6.xd.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X277 xaa5.xa3.xb2_0.G xaa5.xb2_4.MN0.D xaa4.xa2_0.M0.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X278 xaa5.xa3.xb1_0.D xaa5.xa3.xb1_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X279 xaa0.xa5.MN2.G xaa6.xc.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X280 AVSS xaa1.xa4.M0.G xaa1.xa4.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X281 xaa4.xa4_1.M4.D xaa1.xa3.D xaa4.xa4_1.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X282 xaa6.xc.XA6.MN0.G xaa6.xc.XA5.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R64 AVSS m3_37748_75484# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X255 xaa1.xa2.M1.D IBPSR_1U xaa1.xa2.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X256 xbb1.xa3.M4.D IBPSR_1U xbb1.xa3.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X257 xaa6.xc.XA7.MN1.G PWRUP_1V8 xaa6.xc.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X258 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X259 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X260 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X261 xaa1.xa1.M8.D xaa1.xa1.M8.D xaa1.xb1.M0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
-X262 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MP1.G xaa6.xc.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X283 xaa1.xa2.M1.D IBPSR_1U xaa1.xa2.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X284 xbb1.xa3.M4.D IBPSR_1U xbb1.xa3.M3.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X285 xaa6.xc.XA7.MN1.G PWRUP_1V8 xaa6.xc.XA1.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X286 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X287 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X288 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X289 xaa1.xa1.M8.D xaa1.xa1.M8.D xaa1.xb1.M0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X290 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MP1.G xaa6.xc.XA4.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X291 xaa4.xa4_1.M6.D xaa1.xa3.D xaa4.xa4_1.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R65 m3_4628_83004# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X263 xaa1.xa2.M3.D IBPSR_1U xaa1.xa2.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X292 xaa1.xa2.M3.D IBPSR_1U xaa1.xa2.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X293 xaa4.xa2_1.M3.D xaa4.xa2_0.M0.G xaa4.xa2_1.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R66 AVSS m3_37748_70684# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X264 xaa1.xa1.M1.D IBPSR_1U xaa1.xa1.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X265 AVSS xaa3.xa7.MN0.D xaa1.xa4.M0.G AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R67 xaa4.xa2.M0.G m3_22692_58180# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X266 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X267 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X268 xaa4.xa1.M8.D xaa4.xa2.M0.G xaa4.xa2.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+X294 xaa1.xa1.M1.D IBPSR_1U xaa1.xa1.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X295 AVSS xaa3.xa7.MN0.D xaa1.xa4.M0.G AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+R67 xaa4.xa2_0.M0.G m3_22692_58180# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X296 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X297 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X298 xaa4.xa2_0.M1.D xaa4.xa2_0.M0.G xaa4.xa2_0.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
 R68 m3_4628_86844# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X269 xaa6.xf.XA6.MN0.G xaa6.xf.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X270 AVDD PWRUP_1V8 xaa6.xf.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X271 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X272 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-X273 a_1220_70022# a_788_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X274 xaa1.xa4.M0.G xaa3.xa1b.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X275 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X276 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MP1.G xaa6.xd.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X277 xaa6.xg.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X278 xaa5.xa3.xb1_0.G xaa5.xa3.xb2_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X279 xaa0.xa6.MN0.D xaa0.xa3.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X280 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X281 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MN1.G xaa6.xf.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X282 xaa6.xe.XA1.MN0.D xaa6.xe.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X283 xaa6.xd.XA3.MN0.D xaa6.xd.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X284 xaa6.xg.XA5.MN0.G xaa6.xg.XA3.MN1.G xaa6.xg.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X285 xaa4.xa4.M0.D xaa1.xa3.D xaa4.xa1.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.616 ps=3.3 w=1.08 l=0.18
-X286 a_1220_74698# a_1652_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
-X287 xaa5.xb2_0.MN0.D xaa5.xb1.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X288 xaa0.xa2a.MN0.D xaa0.xa2.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X289 AVDD PWRUP_1V8 xaa6.xc.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X290 xaa4.xa1.M1.D IBPSR_1U xaa4.xa1.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X291 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MP1.G xaa6.xc.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X292 xaa5.xa3.xb2_0.D xaa5.xa3.xb1_0.D xaa5.xa3.xc2a.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X293 xaa6.xd.XA6.MN0.D xaa6.xd.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R69 xaa4.xa2.M0.G m3_22692_55012# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
-X294 xaa5.xa3.xb2_0.G xaa5.xb2_4.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X295 xaa1.xa3.D xaa0.xa2a.MN0.D xaa1.xb2.M7.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X296 xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X297 xaa4.xa2.M0.G xaa4.xa4.M0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
-R70 AVSS m3_37748_91804# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X298 xaa6.xg.XA4.MN0.D xaa6.xg.XA4.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R71 m3_4628_78204# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X299 xaa0.xa1.MN0.G xaa0.xa1.MN2.S AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-R72 AVSS m3_37748_83164# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X300 xaa6.xc.XA4.MP0.D xaa6.xc.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X301 xaa1.xa1.M6.D IBPSR_1U xaa1.xa1.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
-X302 xaa5.xa4.MN0.D xaa5.xa3.xb1_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X303 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN1.G xaa6.xg.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X304 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN1.G xaa6.xe.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X305 xaa1.xa3.D PWRUP_1V8 AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X306 xaa6.xg.XA3.MP0.D xaa6.xg.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X307 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X308 xaa0.xa6.MN0.D xaa0.xa3.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X309 xaa1.xa3.D xaa0.xa6.MN0.D xaa1.xa2.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X310 xaa6.xg.XA6.MP0.D xaa6.xg.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
-X311 xaa6.xe.XA7.MN0.D xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X299 xaa6.xf.XA6.MN0.G xaa6.xf.XA5.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X300 AVDD PWRUP_1V8 xaa6.xf.XA7.MN1.G AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X301 xaa4.xa4_0.M7.D xaa1.xa3.D xaa4.xa4_0.M6.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X302 a_1220_70022# a_788_72222# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X303 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X304 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+X305 xaa1.xa4.M0.G xaa3.xa1b.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X306 AVSS AVSS AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X307 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MP1.G xaa6.xd.XA6.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X308 xaa6.xg.XA7.MN2.D PWRUP_1V8 AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X309 xaa4.xa2_1.M5.D xaa4.xa2_0.M0.G xaa4.xa2_1.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X310 xaa5.xa3.xb1_0.G xaa5.xa3.xb2_0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X311 xaa0.xa6.MN0.D xaa0.xa3.MN1.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 X312 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
-X313 xaa0.xa2a.MN0.D xaa0.xa2.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X313 xaa6.xf.XA5.MN0.G xaa6.xf.XA7.MN1.G xaa6.xf.XA4.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X314 a_1220_74698# a_1652_76898# AVSS sky130_fd_pr__res_high_po w=0.72 l=8.8
+X315 xaa6.xe.XA1.MN0.D xaa6.xe.XA1.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X316 xaa6.xd.XA3.MN0.D xaa6.xd.XA7.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X317 xaa6.xg.XA5.MN0.G xaa6.xg.XA3.MN1.G xaa6.xg.XA3.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X318 xaa4.xa2_0.M3.D xaa4.xa2_0.M0.G xaa4.xa2_0.M2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X319 xaa5.xb2_0.MN0.D xaa5.xb1.MN1.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X320 xaa0.xa2a.MN0.D xaa0.xa2.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X321 AVDD PWRUP_1V8 xaa6.xc.XA7.MN0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X322 xaa4.xa4_0.M5.D xaa1.xa3.D xaa4.xa4_0.M4.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X323 xaa4.xa1.M1.D IBPSR_1U xaa4.xa1.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X324 xaa6.xc.XA5.MN0.G xaa6.xc.XA7.MP1.G xaa6.xc.XA3.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X325 xaa5.xa3.xb2_0.D xaa5.xa3.xb1_0.D xaa5.xa3.xc2a.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X326 xaa6.xd.XA6.MN0.D xaa6.xd.XA6.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X327 xaa5.xa3.xb2_0.G xaa5.xb2_4.MN0.D AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+R69 xaa4.xa2_0.M0.G m3_22692_55012# sky130_fd_pr__res_generic_m3 w=0.44 l=0.36
+X328 xaa1.xa3.D xaa0.xa2a.MN0.D xaa1.xb2.M7.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X329 xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X330 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.518 pd=3.12 as=0.518 ps=3.12 w=1.08 l=0.36
+R70 AVSS m3_37748_91804# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
+X331 xaa6.xg.XA4.MN0.D xaa6.xg.XA4.MN0.G AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+R71 m3_4628_78204# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
+X332 xaa0.xa1.MN0.G xaa0.xa1.MN2.S AVSS AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+R72 AVSS m3_37748_83164# sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
+X333 xaa6.xc.XA4.MP0.D xaa6.xc.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X334 xaa1.xa1.M6.D IBPSR_1U xaa1.xa1.M5.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X335 xaa5.xa4.MN0.D xaa5.xa3.xb1_0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X336 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN1.G xaa6.xg.XA6.MP0.D AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X337 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN1.G xaa6.xe.XA7.MN0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X338 xaa1.xa3.D PWRUP_1V8 AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X339 xaa6.xg.XA3.MP0.D xaa6.xg.XA7.MN1.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X340 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X341 xaa0.xa6.MN0.D xaa0.xa3.MN1.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X342 xaa1.xa3.D xaa0.xa6.MN0.D xaa1.xa2.M8.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X343 xaa6.xg.XA6.MP0.D xaa6.xg.XA6.MN0.G AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X344 xaa6.xe.XA7.MN0.D xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN2.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
+X345 xaa4.xa4_1.M1.D xaa1.xa3.D xaa4.xa4_1.M0.D AVSS sky130_fd_pr__nfet_01v8 ad=0.378 pd=1.78 as=0.378 ps=1.78 w=1.08 l=0.18
+X346 AVDD AVDD AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.616 ps=3.3 w=1.08 l=0.18
+X347 xaa0.xa2a.MN0.D xaa0.xa2.MN0.D AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.616 pd=3.3 as=0.616 ps=3.3 w=1.08 l=0.18
 R73 m3_4628_73404# xaa1.xa4.M0.D sky130_fd_pr__res_generic_m3 w=0.4 l=0.4
-X314 xaa1.xa1.M8.D IBPSR_1U xaa1.xa1.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
-C0 AVDD a_28612_53806# 0.406f
-C1 xaa6.xe.XA7.MN1.G xaa6.xe.XA1.MN0.D 0.123f
-C2 AVDD a_5844_60254# 0.351f
-C3 xaa6.xg.XA7.MN1.D xaa6.xg.XA3.MN1.G 0.158f
-C4 AVDD a_27244_56270# 0.363f
-C5 PWRUP_1V8 xaa6.xc.XA1.MN0.G 0.212f
-C6 xaa1.xa1.M8.D PWRUP_1V8 0.25f
-C7 AVDD xaa6.xg.XA7.MN0.D 0.485f
-C8 AVDD a_27244_53806# 0.406f
-C9 xaa6.xf.XA5.MN0.G a_34804_55566# 0.113f
-C10 AVDD CK_REF 0.562f
-C11 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.D 0.274f
-C12 xaa1.xa4.M0.D m3_37748_79324# 0.111f
-C13 AVDD xaa5.xb2_3.MN0.D 0.545f
-C14 PWRUP_1V8 xaa6.xc.XA7.MN1.D 0.162f
-C15 CK xaa6.xg.XA7.MN1.G 0.293f
-C16 xaa6.xf.XA7.MN1.D xaa6.xf.XA5.MN0.G 0.29f
-C17 AVDD xaa6.xg.XA7.MP1.G 2.06f
-C18 xaa4.xa4.M0.D a_11784_60652# 0.128f
-C19 IBPSR_1U xaa3.xa1b.MN0.D 0.841f
-C20 xaa6.xc.XA7.MN1.G a_27244_53454# 0.101f
-C21 xaa5.xa3.xb2_0.G xaa5.xa3.xb1_0.D 0.294f
-C22 xaa5.xb2_3.MN0.D a_29764_62862# 0.126f
-C23 AVDD a_244_53806# 0.384f
-C24 AVDD xaa6.xg.XA6.MP0.D 0.147f
-C25 PWRUP_1V8 xaa0.xa5.MN2.G 5.41f
-C26 xaa6.xe.XA7.MP1.G xaa6.xe.XA6.MN0.G 0.524f
-C27 AVDD xaa6.xg.XA7.MN1.G 1.97f
-C28 AVDD a_11784_53788# 0.517f
-C29 xaa6.xd.XA7.MN1.G xaa6.xd.XA1.MN0.D 0.123f
-C30 xaa4.xa2.M0.G xaa5.xb2_1.MN0.D 0.174f
-C31 AVDD a_640_60278# 0.385f
-C32 xaa1.xa4.M0.D xaa1.xa4.M0.G 0.231f
-C33 xaa6.xe.XA7.MN1.G xaa6.xe.XA6.MN0.G 0.329f
-C34 AVDD xaa6.xf.XA7.MN0.D 0.486f
-C35 xaa6.xc.XA5.MN0.G xaa6.xc.XA4.MN0.D 0.126f
-C36 AVDD a_28612_63214# 0.352f
-C37 xaa6.xe.XA7.MN1.D xaa6.xe.XA5.MN0.G 0.29f
-C38 AVDD xaa6.xf.XA7.MN1.G 3.56f
-C39 xaa6.xe.XA5.MN0.G a_31132_55566# 0.112f
-C40 xaa6.xf.XA7.MN1.G a_34804_53806# 0.115f
-C41 AVDD a_11784_60652# 0.517f
-C42 AVDD xaa0.xa1.MN0.D 0.702f
-C43 xaa0.xa5.MN2.G xaa6.xc.XA7.MN1.D 0.248f
-C44 xaa1.xa4.M0.D m3_37748_80284# 0.111f
-C45 AVDD a_27244_63214# 0.439f
-C46 AVDD xaa6.xf.XA6.MP0.D 0.147f
-C47 AVDD m1_37504_55818# 0.427f
-C48 PWRUP_1V8 xaa6.xg.XA3.MN1.G 0.382f
-C49 xaa6.xf.XA7.MP1.G a_34804_56270# 0.1f
-C50 AVDD xaa6.xf.XA7.MP1.G 2.06f
-C51 AVDD a_244_52750# 0.443f
-C52 xaa6.xf.XA7.MN1.G a_33652_53806# 0.113f
-C53 xaa5.xa3.xb1_0.G xaa5.xa3.xb1_0.D 0.192f
-C54 AVDD a_244_54158# 0.388f
-C55 AVDD xaa6.xe.XA6.MP0.D 0.147f
-C56 xaa0.xa6.MN0.D xaa0.xa3.MN1.G 0.142f
-C57 AVDD m1_37504_57930# 0.329f
-C58 xaa6.xd.XA7.MN1.G xaa6.xd.XA6.MN0.G 0.329f
-C59 xaa3.xa1c.MN0.D a_4692_56206# 0.117f
-C60 AVDD xaa6.xe.XA7.MN0.D 0.485f
-C61 xaa6.xd.XA5.MN0.G a_29764_55566# 0.113f
-C62 AVDD a_28612_60750# 0.336f
-C63 AVDD IBPSR_1U 1.83f
-C64 a_788_72222# a_1652_72222# 0.107f
-C65 xaa6.xd.XA7.MP1.G xaa6.xd.XA6.MN0.G 0.524f
-C66 xaa6.xd.XA7.MN1.D xaa6.xd.XA5.MN0.G 0.29f
-C67 AVDD xaa6.xe.XA7.MP1.G 2.06f
-C68 xaa5.xb2_0.MN0.D xaa5.xb1.MN1.D 0.184f
-C69 AVDD a_244_53102# 0.485f
-C70 xaa6.xg.XA7.MP1.G xaa6.xg.XA7.MN0.D 0.117f
-C71 xaa6.xg.XA5.MN0.D xaa6.xg.XA5.MN0.G 0.109f
-C72 xaa6.xc.XA7.MN1.G xaa6.xc.XA1.MN0.D 0.123f
-C73 AVDD a_27244_60750# 0.367f
-C74 AVDD a_244_54510# 0.388f
-C75 AVDD xaa6.xe.XA7.MN1.G 3.52f
-C76 xaa1.xa4.M0.D m3_37748_81244# 0.111f
-C77 AVDD xaa5.xb2_4.MN0.D 0.541f
-C78 AVDD xaa6.xd.XA6.MP0.D 0.147f
-C79 AVDD xaa6.xd.XA7.MN0.D 0.485f
-C80 AVDD a_244_53454# 0.365f
-C81 xaa6.xg.XA7.MN1.G xaa6.xg.XA7.MP1.G 0.141f
+X348 xaa1.xa1.M8.D IBPSR_1U xaa1.xa1.M7.D AVSS sky130_fd_pr__nfet_01v8 ad=0.616 pd=3.3 as=0.378 ps=1.78 w=1.08 l=0.18
+C0 xaa0.xa6.MN0.D IBPSR_1U 0.226f
+C1 AVDD a_640_61158# 0.376f
+C2 xaa6.xe.XA7.MN1.D xaa6.xe.XA6.MN0.G 0.224f
+C3 xaa3.xa2.MN0.D xaa3.xa1c.MN0.D 0.245f
+C4 AVDD xaa5.xb3.MP1.D 0.476f
+C5 AVDD a_28612_53806# 0.406f
+C6 xaa5.xb2_1.MN0.D a_29764_62158# 0.126f
+C7 AVDD a_27244_55214# 0.364f
+C8 xaa5.xa3.xb2_0.G a_29764_63566# 0.134f
+C9 AVDD a_28612_56270# 0.363f
+C10 AVDD a_27244_53806# 0.406f
+C11 xaa6.xg.XA7.MP1.G xaa6.xg.XA7.MN0.D 0.117f
+C12 xaa4.xa2_0.M8.D a_11784_53260# 0.146f
+C13 xaa1.xa4.M0.D m3_37748_79324# 0.111f
+C14 xaa3.xa6.MN0.D xaa3.xa5a.MN0.D 0.187f
+C15 AVDD a_27244_56270# 0.363f
+C16 xaa3.xa2.MN0.D a_4692_56558# 0.117f
+C17 AVDD a_28612_64622# 0.335f
+C18 AVDD xaa0.xa5.MN0.D 0.697f
+C19 AVDD a_11784_58540# 0.517f
+C20 AVDD xaa5.xb1.MN1.D 0.636f
+C21 PWRUP_1V8 xaa6.xg.XA3.MN1.G 0.382f
+C22 xaa6.xd.XA7.MN1.D xaa6.xd.XA6.MN0.G 0.224f
+C23 xaa1.xa4.M0.D a_n940_70022# 0.181f
+C24 AVDD a_244_56622# 0.388f
+C25 xaa6.xg.XA7.MN1.G xaa6.xg.XA7.MP1.G 0.141f
+C26 AVDD a_11784_53788# 0.517f
+C27 xaa6.xd.XA6.MN0.G a_28612_55918# 0.111f
+C28 xaa0.xa5.MN2.G xaa6.xc.XA7.MN1.D 0.248f
+C29 AVDD CK_REF 0.562f
+C30 xaa4.xa2_0.M0.G xaa5.xb2_4.MN0.D 0.173f
+C31 AVDD PWRUP_1V8 15.3f
+C32 xaa3.xa6.MN0.D a_4692_58846# 0.117f
+C33 xaa1.xa4.M0.D a_2948_74698# 0.383f
+C34 xaa5.xa3.xb1_0.D a_27244_62158# 0.14f
+C35 AVDD a_244_53806# 0.384f
+C36 AVDD xaa6.xg.XA6.MP0.D 0.147f
+C37 xaa3.xa1b.MN0.D xaa3.xa5a.MN0.D 0.232f
+C38 AVDD xaa1.xa3.D 8.73f
+C39 AVDD xaa0.xa3.MN1.G 1.25f
+C40 xaa1.xa1.M8.D a_640_60278# 0.182f
+C41 IBPSR_1U xaa0.xa2a.MN0.D 0.58f
+C42 xaa1.xa4.M0.D m3_37748_80284# 0.111f
+C43 AVDD xaa1.xa1.M8.D 2.27f
+C44 AVDD m1_37504_55818# 0.427f
+C45 AVDD a_244_56974# 0.349f
+C46 AVDD a_244_52750# 0.443f
+C47 xaa6.xc.XA6.MN0.G a_27244_55918# 0.113f
+C48 AVDD a_11784_59068# 0.517f
+C49 AVDD m1_37504_57930# 0.329f
+C50 AVDD xaa0.xa1.MN0.D 0.702f
+C51 AVDD a_640_61510# 0.333f
+C52 AVDD xaa6.xf.XA6.MP0.D 0.147f
+C53 xaa3.xa1b.MN0.D xaa3.xa6.MN0.D 0.137f
+C54 xaa6.xc.XA7.MN1.D xaa6.xc.XA6.MN0.G 0.224f
+C55 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN0.D 0.117f
+C56 AVDD a_244_53102# 0.485f
+C57 AVDD a_244_54158# 0.388f
+C58 AVDD xaa6.xe.XA6.MP0.D 0.147f
+C59 AVDD a_37324_57326# 0.364f
+C60 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN1.G 0.537f
+C61 xaa5.xa3.xb2_0.D xaa5.xa3.xc2a.D 0.123f
+C62 xaa4.xa4_0.M8.D a_11784_61180# 0.128f
+C63 xaa5.xa3.xb1_0.G a_26092_61102# 0.173f
+C64 xaa1.xa4.M0.D m3_37748_81244# 0.111f
+C65 AVDD a_11784_61708# 0.517f
+C66 xaa4.xa2_0.M0.G xaa5.xa3.xb2_0.G 0.416f
+C67 a_1652_76898# xaa1.xa4.M0.D 0.163f
+C68 AVDD a_244_53454# 0.365f
+C69 AVDD a_11784_59596# 0.517f
+C70 AVDD a_244_54510# 0.388f
+C71 xaa5.xa3.xb1_0.G xaa5.xa3.xb2_0.G 1.05f
+C72 xaa4.xa2_0.M0.G xaa4.xa4_0.M8.D 1.52f
+C73 PWRUP_1V8 xaa6.xg.XA7.MN1.D 0.16f
+C74 AVDD a_28612_61806# 0.352f
+C75 AVDD xaa6.xd.XA6.MP0.D 0.147f
+C76 PWRUP_1V8 xaa6.xf.XA1.MN0.G 0.456f
+C77 xaa3.xa7.MN0.D xaa3.xa6.MN0.D 0.128f
+C78 AVDD a_33652_57326# 0.364f
+C79 AVDD xaa0.xa1.MP1.D 0.191f
+C80 xaa6.xe.XA7.MN1.G xaa6.xf.XA7.MN1.G 0.31f
+C81 xaa0.xa6.MN0.D xaa0.xa2a.MN0.D 3.25f
 C82 AVDD xaa0.xa2.MN0.D 0.717f
-C83 AVDD xaa6.xc.XA6.MP0.D 0.147f
-C84 xaa6.xc.XA7.MP1.G xaa6.xc.XA6.MN0.G 0.524f
-C85 xaa3.xa2.MN0.D xaa3.xa1c.MN0.D 0.245f
-C86 AVDD xaa6.xd.XA7.MN1.G 3.56f
-C87 xaa6.xe.XA7.MN1.G a_32284_53806# 0.115f
-C88 xaa5.xa3.xb2_0.G xaa5.xa3.xb2_0.D 0.145f
+C83 AVDD a_27244_61806# 0.364f
+C84 AVDD xaa6.xc.XA6.MP0.D 0.147f
+C85 PWRUP_1V8 xaa6.xf.XA7.MN1.D 0.161f
+C86 AVDD a_32284_57326# 0.364f
+C87 xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN0.D 0.117f
+C88 AVDD xaa4.xa1.M8.D 0.321f
 C89 AVDD a_244_54862# 0.386f
-C90 xaa6.xc.XA7.MN1.G xaa6.xc.XA6.MN0.G 0.329f
-C91 xaa0.xa1.MN0.D CK_REF 0.202f
-C92 AVDD xaa6.xd.XA7.MP1.G 2.06f
-C93 AVDD xaa0.xa1.MP1.D 0.191f
-C94 xaa6.xe.XA7.MN1.G a_31132_53806# 0.114f
-C95 AVDD a_28612_63566# 0.351f
-C96 AVDD a_11784_56428# 0.517f
-C97 xaa4.xa4.M0.D a_11784_57484# 0.128f
-C98 xaa3.xa2.MN0.D a_4692_56558# 0.117f
-C99 xaa6.xg.XA7.MP1.G m1_37504_55818# 0.242f
-C100 xaa5.xa3.xb2_0.D a_27244_61102# 0.164f
-C101 AVDD xaa6.xc.XA7.MN0.D 0.485f
-C102 xaa4.xa2.M0.G xaa5.xb2_2.MN0.D 0.174f
-C103 AVDD a_640_60806# 0.356f
-C104 AVDD xaa6.xg.XA4.MP0.D 0.159f
-C105 xaa1.xa4.M0.D m3_37748_82204# 0.111f
-C106 AVDD xaa0.xa6.MN0.D 1.43f
-C107 xaa1.xa4.M0.D xaa1.xa3.D 4f
-C108 AVDD a_37324_56622# 0.364f
-C109 xaa6.xg.XA7.MP1.G m1_37504_57930# 0.13f
-C110 xaa6.xg.XA7.MN1.G m1_37504_55818# 0.153f
-C111 AVDD xaa6.xc.XA7.MP1.G 2.06f
-C112 AVDD a_37324_54158# 0.386f
-C113 xaa1.xa3.D m3_37748_69724# 0.111f
-C114 AVDD xaa6.xc.XA7.MN1.G 3.53f
-C115 xaa5.xb2_0.MN0.D a_29764_61806# 0.126f
-C116 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN0.D 0.117f
-C117 xaa6.xd.XA7.MN1.G a_29764_53806# 0.115f
-C118 xaa4.xa2.M0.G xaa4.xa4.M0.D 1.94f
+C90 xaa1.xa4.M0.D m3_37748_82204# 0.111f
+C91 xaa1.xa4.M0.G xaa0.xa6.MN0.D 0.25f
+C92 PWRUP_1V8 xaa6.xe.XA1.MN0.G 0.209f
+C93 AVDD a_37324_54158# 0.386f
+C94 xaa1.xa3.D m3_37748_69724# 0.111f
+C95 AVDD a_11784_60124# 0.517f
+C96 AVDD xaa5.xb2_0.MN0.D 0.55f
+C97 AVDD a_11784_56428# 0.517f
+C98 xaa3.xa7.MN0.D xaa3.xa1b.MN0.D 0.123f
+C99 PWRUP_1V8 xaa6.xe.XA7.MN1.D 0.16f
+C100 xaa6.xg.XA5.MN0.G xaa6.xg.XA4.MN0.D 0.126f
+C101 xbb0.xa1.XA1.N a_n76_72222# 0.113f
+C102 xaa6.xe.XA7.MN1.G xaa6.xe.XA7.MP1.G 0.537f
+C103 IBPSR_1U PWRUP_1V8 2.41f
+C104 xaa5.xb2_2.MN0.D xaa5.xb2_1.MN0.D 0.197f
+C105 AVDD xaa6.xg.XA4.MP0.D 0.159f
+C106 AVDD xaa5.xa3.xc2a.D 0.159f
+C107 xaa5.xa3.xb1_0.G a_29764_63918# 0.133f
+C108 PWRUP_1V8 xaa6.xd.XA1.MN0.G 0.537f
+C109 AVDD a_37324_56622# 0.364f
+C110 xaa4.xa2_0.M8.D a_11784_55900# 0.112f
+C111 xaa4.xa4_0.M8.D a_11784_58012# 0.128f
+C112 AVDD a_28612_57326# 0.364f
+C113 PWRUP_1V8 xaa6.xd.XA7.MN1.D 0.161f
+C114 AVDD a_37324_52750# 0.448f
+C115 xaa4.xa4_0.M8.D xaa4.xa2_0.M8.D 0.784f
+C116 AVDD a_27244_57326# 0.364f
+C117 AVDD a_33652_54158# 0.387f
+C118 AVDD a_5844_58494# 0.364f
 C119 AVDD xaa6.xg.XA4.MP1.G 0.349f
-C120 PWRUP_1V8 xaa0.xa1.MN0.G 0.238f
-C121 xaa4.xa2.M0.D a_11784_55900# 0.142f
-C122 AVDD xaa5.xa3.xb2_0.G 0.952f
-C123 a_n76_72222# a_788_72222# 0.107f
-C124 xaa6.xc.XA7.MN1.D xaa6.xc.XA5.MN0.G 0.29f
-C125 xaa6.xd.XA7.MP1.G a_29764_56270# 0.1f
-C126 xaa5.xa3.xb1_0.D a_27244_61454# 0.113f
-C127 AVDD a_11784_57484# 0.517f
-C128 xaa6.xf.XA7.MP1.G xaa6.xf.XA7.MN1.G 0.537f
-C129 xaa6.xc.XA5.MN0.G a_26092_55566# 0.112f
-C130 xaa6.xd.XA7.MN1.G a_28612_53806# 0.113f
-C131 AVDD a_28612_61102# 0.352f
-C132 xaa5.xb2_4.MN0.D xaa5.xb2_3.MN0.D 0.197f
-C133 AVDD a_33652_56622# 0.365f
-C134 AVDD a_37324_52750# 0.448f
-C135 AVDD a_37324_57678# 0.383f
-C136 AVDD a_33652_54158# 0.387f
-C137 xaa4.xa2.M0.D a_11784_54844# 0.12f
-C138 AVDD a_27244_61102# 0.363f
-C139 xaa4.xa2.M0.G CK 0.794f
-C140 AVDD xaa6.xf.XA4.MP0.D 0.159f
-C141 xaa1.xa4.M0.D m3_37748_83164# 0.111f
-C142 AVDD a_28612_63918# 0.351f
-C143 AVDD a_32284_56622# 0.365f
-C144 AVDD a_32284_54158# 0.387f
-C145 xaa1.xa3.D m3_37748_70684# 0.111f
-C146 xaa5.xa3.xb1_0.G CK 0.129f
-C147 xaa5.xb2_4.MN0.D a_29764_63214# 0.126f
-C148 AVDD xaa6.xe.XA4.MP0.D 0.159f
-C149 AVDD xaa4.xa2.M0.G 11f
-C150 xaa1.xa4.M0.G xaa3.xa7.MN0.D 0.347f
-C151 xaa4.xa4.M0.D a_11784_61180# 0.128f
-C152 xaa6.xe.XA7.MN1.G xaa6.xf.XA7.MN1.G 0.31f
-C153 AVDD xaa1.xb2.M7.D 0.166f
-C154 AVDD xaa5.xa3.xb1_0.G 0.826f
-C155 AVDD a_33652_52750# 0.447f
-C156 AVDD a_33652_57678# 0.384f
-C157 xaa6.xe.XA7.MP1.G xaa6.xe.XA7.MN0.D 0.117f
-C158 xaa4.xa4.M0.D xaa4.xa2.M0.D 1.3f
-C159 AVDD xaa1.xa4.M0.G 2.39f
-C160 AVDD a_28612_56622# 0.365f
-C161 AVDD a_32284_52750# 0.449f
-C162 AVDD a_32284_57678# 0.384f
-C163 AVDD a_28612_54158# 0.387f
-C164 xaa6.xc.XA7.MN1.G a_27244_53806# 0.115f
-C165 AVDD xaa5.xa3.xc1a.D 0.153f
-C166 AVDD xaa6.xd.XA4.MP0.D 0.159f
-C167 xaa1.xa4.M0.D m3_37748_84124# 0.111f
-C168 AVDD xaa5.xb1.MN1.G 0.635f
-C169 AVDD a_27244_56622# 0.365f
-C170 xaa4.xa4.M0.D xaa4.xa1.M8.D 0.217f
-C171 AVDD a_27244_54158# 0.387f
-C172 xaa6.xe.XA7.MN1.G xaa6.xe.XA7.MP1.G 0.537f
-C173 xaa6.xc.XA7.MN1.G a_26092_53806# 0.114f
-C174 xaa1.xa3.D m3_37748_71644# 0.111f
-C175 AVDD a_11784_61180# 0.517f
-C176 AVDD xaa6.xc.XA4.MP0.D 0.159f
-C177 xaa6.xf.XA7.MN1.D xaa6.xf.XA6.MN0.G 0.224f
-C178 AVDD xaa0.xa2a.MN0.D 1.72f
-C179 AVDD xaa4.xa2.M0.D 5.68f
-C180 AVDD a_28612_52750# 0.447f
-C181 AVDD a_28612_57678# 0.384f
-C182 AVDD a_11784_55372# 0.517f
-C183 AVDD a_28612_64270# 0.351f
-C184 AVDD a_37324_56974# 0.405f
+C120 xaa1.xa4.M0.D m3_37748_83164# 0.111f
+C121 xaa5.xa3.xb1_0.G xaa4.xa2_0.M0.G 0.414f
+C122 CK xaa6.xg.XA7.MN1.G 0.293f
+C123 a_788_76898# a_1652_76898# 0.107f
+C124 AVDD a_32284_54158# 0.387f
+C125 xaa1.xa3.D m3_37748_70684# 0.111f
+C126 xaa5.xa3.xb2_0.D xaa5.xa3.xb1_0.D 0.607f
+C127 xaa4.xa2_0.M8.D a_11784_54844# 0.139f
+C128 AVDD a_28612_62158# 0.352f
+C129 PWRUP_1V8 xaa6.xc.XA1.MN0.G 0.212f
+C130 AVDD a_33652_56622# 0.365f
+C131 xaa6.xf.XA5.MN0.G xaa6.xf.XA4.MN0.D 0.126f
+C132 AVDD xaa3.xa5a.MN0.D 1.13f
+C133 AVDD xaa6.xf.XA4.MP0.D 0.159f
+C134 xaa6.xg.XA7.MP1.G xaa6.xg.XA5.MN0.G 0.397f
+C135 xaa5.xb1.MN1.G xaa4.xa2_0.M0.G 0.132f
+C136 AVDD a_27244_62158# 0.384f
+C137 PWRUP_1V8 xaa6.xc.XA7.MN1.D 0.162f
+C138 AVDD a_32284_56622# 0.365f
+C139 AVDD a_33652_52750# 0.447f
+C140 xaa4.xa4_0.M8.D a_11784_58540# 0.128f
+C141 AVDD xaa6.xg.XA7.MN0.D 0.485f
+C142 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN0.D 0.117f
+C143 xaa0.xa5.MN2.G xaa0.xa5.MN0.D 0.22f
+C144 xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MN1.G 0.352f
+C145 AVDD a_5844_58846# 0.388f
+C146 IBPSR_1U a_n908_61510# 0.156f
+C147 AVDD xaa6.xe.XA4.MP0.D 0.159f
+C148 xaa5.xb1.MN1.G xaa5.xa3.xb1_0.G 0.194f
+C149 AVDD a_32284_52750# 0.449f
+C150 xbb0.xa1.XA1.N xaa1.xa4.M0.D 0.448f
+C151 AVDD xaa6.xg.XA7.MP1.G 2.06f
+C152 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN1.G 0.537f
+C153 AVDD a_28612_54158# 0.387f
+C154 xaa6.xg.XA7.MN1.G xaa6.xg.XA3.MN1.G 0.129f
+C155 xaa5.xb2_2.MN0.D a_29764_62510# 0.126f
+C156 xaa1.xa4.M0.D m3_37748_84124# 0.111f
+C157 PWRUP_1V8 xaa0.xa5.MN2.G 5.41f
+C158 a_n940_74698# xaa1.xa4.M0.D 0.187f
+C159 AVDD xaa6.xg.XA7.MN1.G 1.97f
+C160 AVDD a_27244_54158# 0.387f
+C161 xaa1.xa3.D m3_37748_71644# 0.111f
+C162 AVDD xaa3.xa6.MN0.D 0.724f
+C163 xaa0.xa6.MN0.D PWRUP_1V8 0.181f
+C164 AVDD xaa5.xb2_1.MN0.D 0.543f
+C165 AVDD a_28612_56622# 0.365f
+C166 xaa6.xe.XA5.MN0.G xaa6.xe.XA4.MN0.D 0.126f
+C167 AVDD xaa1.xa4.M0.D 0.873f
+C168 xaa4.xa2_0.M0.G xaa4.xa2_0.M8.D 0.66f
+C169 AVDD xaa6.xf.XA7.MN0.D 0.486f
+C170 xaa5.xb1.MN1.D xaa5.xb1.MN0.D 0.106f
+C171 xaa0.xa5.MN2.G xaa0.xa3.MN1.G 0.116f
+C172 xaa0.xa1.MN2.S CK_REF 0.104f
+C173 AVDD a_5844_59198# 0.388f
+C174 AVDD xaa6.xd.XA4.MP0.D 0.159f
+C175 AVDD a_11784_62236# 0.517f
+C176 xaa0.xa6.MN0.D xaa0.xa3.MN1.G 0.142f
+C177 AVDD a_27244_56622# 0.365f
+C178 AVDD a_28612_52750# 0.447f
+C179 AVDD xaa6.xf.XA7.MN1.G 3.56f
+C180 xaa4.xa4_0.M8.D a_11784_59068# 0.128f
+C181 xaa6.xc.XA7.MN1.G xaa6.xd.XA7.MN1.G 0.31f
+C182 AVDD xaa6.xc.XA4.MP0.D 0.159f
+C183 IBPSR_1U a_4308_51918# 0.136f
+C184 AVDD xaa5.xa3.xb1_0.D 1.88f
 C185 AVDD a_27244_52750# 0.449f
-C186 xaa0.xa2.MN0.D a_n908_54510# 0.112f
-C187 AVDD a_27244_57678# 0.384f
-C188 xaa1.xa4.M0.G xaa3.xa9.MN0.D 0.169f
+C186 xaa6.xd.XA5.MN0.G xaa6.xd.XA4.MN0.D 0.126f
+C187 AVDD xaa6.xf.XA7.MP1.G 2.06f
+C188 xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN0.D 0.117f
 C189 AVDD a_11784_54316# 0.517f
-C190 AVDD a_640_61158# 0.376f
-C191 xaa4.xa2.M0.G xaa5.xb2_3.MN0.D 0.174f
-C192 xaa1.xa4.M0.D m3_37748_85084# 0.111f
-C193 IBPSR_1U a_4308_51918# 0.136f
-C194 AVDD xaa5.xb3.MP1.D 0.476f
-C195 xaa6.xe.XA7.MN1.D xaa6.xe.XA6.MN0.G 0.224f
-C196 xaa0.xa5.MN2.G xaa0.xa5.MN0.D 0.22f
-C197 xaa0.xa6.MN0.D IBPSR_1U 0.226f
-C198 AVDD a_37324_55566# 0.383f
-C199 PWRUP_1V8 xaa3.xa1b.MN0.D 1.73f
+C190 AVDD xaa3.xa1b.MN0.D 1.39f
+C191 xaa1.xa4.M0.D m3_37748_85084# 0.111f
+C192 xaa6.xf.XA7.MP1.G xaa6.xf.XA5.MN0.G 0.397f
+C193 AVDD xaa5.xa4.MN0.D 0.227f
+C194 a_n76_76898# a_788_76898# 0.107f
+C195 AVDD xaa6.xe.XA7.MN0.D 0.485f
+C196 xaa0.xa1.MN2.S xaa0.xa1.MN2.D 0.157f
+C197 xaa4.xa2_0.M0.G xaa5.xb1.MN1.D 0.226f
+C198 AVDD a_5844_59550# 0.364f
+C199 AVDD a_11784_55372# 0.517f
 C200 AVDD a_11784_52732# 0.497f
-C201 xaa5.xa3.xb1_0.D a_27244_61806# 0.154f
-C202 AVDD xaa6.xg.XA7.MN1.D 1.86f
-C203 xaa5.xb2_1.MN0.D xaa5.xb2_0.MN0.D 0.197f
+C201 AVDD xaa6.xe.XA7.MP1.G 2.06f
+C202 xaa6.xc.XA7.MN1.G xaa6.xc.XA7.MP1.G 0.537f
+C203 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN0.D 0.336f
 C204 AVDD a_37324_54510# 0.362f
-C205 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN0.D 0.117f
-C206 AVDD a_28612_64622# 0.335f
-C207 AVDD a_33652_56974# 0.405f
-C208 AVDD xaa6.xg.XA7.MN0.G 0.479f
-C209 AVDD xaa6.xf.XA1.MN0.G 0.757f
-C210 xaa3.xa1b.MN0.D a_4692_55854# 0.124f
-C211 xaa3.xa5a.MN0.D xaa3.xa2.MN0.D 0.175f
-C212 xaa6.xd.XA7.MP1.G xaa6.xd.XA7.MN1.G 0.537f
-C213 xaa6.xg.XA3.MN1.G xaa6.xg.XA1.MN0.D 0.122f
-C214 AVDD a_28612_61454# 0.352f
-C215 xaa1.xa4.M0.D a_n940_70022# 0.181f
-C216 AVDD a_32284_56974# 0.405f
-C217 xaa6.xd.XA7.MN1.D xaa6.xd.XA6.MN0.G 0.224f
-C218 AVDD xaa6.xf.XA7.MN1.D 1.86f
-C219 xaa0.xa5.MN2.G xaa0.xa3.MN1.G 0.116f
-C220 AVDD a_27244_61454# 0.382f
-C221 AVDD a_33652_55566# 0.383f
-C222 xaa1.xa4.M0.D m3_37748_86044# 0.111f
-C223 xaa1.xa4.M0.D a_2948_74698# 0.383f
-C224 AVDD a_37324_53102# 0.485f
-C225 xaa4.xa2.M0.G m3_13116_53076# 0.106f
-C226 AVDD xaa6.xe.XA1.MN0.G 3.52f
-C227 xaa5.xb2_1.MN0.D a_29764_62158# 0.126f
-C228 AVDD a_33652_54510# 0.363f
-C229 xaa5.xa3.xb2_0.G xaa5.xb2_4.MN0.D 0.228f
-C230 AVDD a_32284_55566# 0.383f
-C231 AVDD xaa1.xa3.D 3.15f
-C232 AVDD xaa6.xe.XA7.MN1.D 1.86f
-C233 CK PWRUP_1V8 0.31f
-C234 AVDD a_32284_54510# 0.363f
-C235 xaa3.xa1b.MN0.D xaa3.xa1c.MN0.D 0.29f
-C236 xaa6.xc.XA7.MN1.G xaa6.xd.XA7.MN1.G 0.31f
-C237 AVDD xaa5.xb1.MN1.D 0.636f
-C238 AVDD a_28612_56974# 0.405f
-C239 xaa6.xc.XA7.MN1.D xaa6.xc.XA6.MN0.G 0.224f
-C240 xaa4.xa2.M0.D a_11784_53788# 0.111f
-C241 AVDD xaa6.xd.XA1.MN0.G 1.64f
-C242 xaa6.xc.XA7.MP1.G xaa6.xc.XA7.MN0.D 0.117f
-C243 xaa6.xf.XA6.MN0.G xaa6.xf.XA5.MN0.G 0.27f
-C244 AVDD PWRUP_1V8 15.3f
-C245 xaa5.xa3.xb2_0.G a_29764_63566# 0.134f
-C246 AVDD a_27244_56974# 0.405f
-C247 AVDD a_5844_55854# 0.388f
-C248 AVDD a_33652_53102# 0.488f
-C249 AVDD xaa6.xd.XA7.MN1.D 1.86f
-C250 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN0.D 0.336f
-C251 xaa4.xa2.M0.G xaa5.xb2_4.MN0.D 0.173f
-C252 AVDD a_28612_55566# 0.383f
-C253 xaa1.xa4.M0.D m3_37748_87004# 0.111f
-C254 AVDD a_32284_53102# 0.486f
-C255 xaa4.xa2.M0.G m3_13116_54132# 0.106f
-C256 xaa5.xa3.xb1_0.D a_27244_62158# 0.14f
-C257 AVDD xaa6.xc.XA1.MN0.G 3.51f
-C258 xaa4.xa4.M0.D a_11784_61708# 0.128f
-C259 AVDD a_28612_54510# 0.363f
-C260 xaa6.xc.XA7.MN1.G xaa6.xc.XA7.MP1.G 0.537f
-C261 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MP1.G 0.314f
-C262 xaa6.xe.XA6.MN0.G xaa6.xe.XA5.MN0.G 0.27f
-C263 AVDD xaa1.xa1.M8.D 2.27f
-C264 AVDD a_27244_55566# 0.383f
-C265 AVDD a_11784_56956# 0.517f
-C266 AVDD a_5844_56206# 0.388f
-C267 AVDD xaa6.xc.XA7.MN1.D 1.86f
-C268 AVDD a_27244_54510# 0.363f
-C269 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN1.G 0.311f
-C270 AVDD a_640_61510# 0.333f
-C271 a_1652_76898# xaa1.xa4.M0.D 0.163f
-C272 AVDD xaa0.xa5.MN2.G 4.18f
-C273 IBPSR_1U xaa0.xa2a.MN0.D 0.58f
-C274 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.G 0.128f
-C275 xaa6.xd.XA6.MN0.G xaa6.xd.XA5.MN0.G 0.27f
-C276 AVDD xaa6.xg.XA5.MN0.G 0.879f
-C277 AVDD xaa3.xa1c.MN0.D 0.72f
-C278 AVDD a_28612_53102# 0.488f
-C279 AVDD a_37324_58030# 0.344f
-C280 AVDD xaa6.xg.XA3.MP0.D 0.133f
-C281 xaa6.xg.XA3.MN1.G a_37324_53806# 0.107f
-C282 AVDD a_11784_61708# 0.517f
-C283 AVDD xaa6.xg.XA5.MN0.D 0.216f
-C284 xaa1.xa4.M0.D m3_37748_87964# 0.111f
-C285 AVDD a_5844_56558# 0.388f
-C286 AVDD a_27244_53102# 0.486f
-C287 xaa4.xa2.M0.G m3_13116_55188# 0.106f
-C288 xaa6.xf.XA1.MN0.G xaa6.xf.XA7.MN1.G 0.224f
-C289 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN0.D 0.336f
-C290 xaa6.xg.XA3.MN1.G a_36172_53806# 0.113f
-C291 AVDD xaa6.xf.XA5.MN0.G 0.88f
-C292 xaa0.xa2a.MN0.D xaa0.xa2.MN0.D 0.14f
-C293 xaa0.xa5.MN0.D xaa0.xa1.MN0.G 0.15f
-C294 xaa5.xa3.xb2_0.D xaa5.xa3.xc2a.D 0.123f
-C295 AVDD xaa6.xg.XA3.MN1.G 1.14f
-C296 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN0.D 0.129f
-C297 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN1.G 0.467f
-C298 AVDD a_28612_61806# 0.352f
-C299 xaa4.xa2.M0.G xaa5.xa3.xb2_0.G 0.416f
-C300 xaa1.xa4.M0.G xaa0.xa6.MN0.D 0.25f
-C301 AVDD xaa6.xe.XA5.MN0.G 0.88f
-C302 PWRUP_1V8 xaa6.xg.XA7.MP1.G 0.124f
-C303 AVDD xaa3.xa2.MN0.D 0.716f
-C304 AVDD a_33652_58030# 0.338f
-C305 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN1.G 0.201f
-C306 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MP1.G 0.313f
-C307 AVDD a_27244_61806# 0.364f
-C308 xaa5.xa3.xb1_0.G xaa5.xa3.xb2_0.G 1.05f
-C309 AVDD xaa6.xd.XA5.MN0.G 0.88f
-C310 PWRUP_1V8 xaa6.xg.XA7.MN1.G 0.275f
-C311 xbb0.xa1.XA1.N a_n76_72222# 0.113f
-C312 AVDD a_5844_56910# 0.348f
-C313 AVDD a_32284_58030# 0.343f
-C314 AVDD xaa6.xf.XA3.MP0.D 0.133f
-C315 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MP1.G 0.216f
-C316 xaa5.xa3.xb1_0.G a_29764_63918# 0.133f
-C317 xaa4.xa2.M0.D a_11784_56428# 0.142f
-C318 xaa1.xa4.M0.D m3_37748_88924# 0.111f
-C319 AVDD a_11784_53260# 0.519f
-C320 xaa0.xa3.MN1.G xaa0.xa1.MN0.G 0.439f
-C321 xaa4.xa2.M0.G m3_13116_56244# 0.106f
-C322 xaa0.xa6.MN0.D xaa0.xa2a.MN0.D 3.25f
-C323 AVDD xaa6.xe.XA3.MP0.D 0.133f
-C324 AVDD xaa5.xb2_0.MN0.D 0.55f
-C325 AVDD a_5844_55150# 0.443f
-C326 PWRUP_1V8 xaa6.xf.XA7.MN1.G 0.667f
-C327 AVDD xaa0.xa1.MN2.S 1.24f
-C328 xaa1.xa1.M8.D a_640_60278# 0.182f
-C329 xaa5.xa3.xb1_0.G a_26092_61102# 0.173f
-C330 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN0.D 0.336f
-C331 xaa6.xc.XA6.MN0.G xaa6.xc.XA5.MN0.G 0.27f
-C332 AVDD xaa5.xa3.xc2a.D 0.159f
-C333 xaa5.xa3.xb1_0.G xaa4.xa2.M0.G 0.414f
-C334 PWRUP_1V8 xaa6.xf.XA7.MP1.G 0.124f
-C335 xaa6.xg.XA7.MP1.G xaa6.xg.XA5.MN0.G 0.397f
-C336 a_788_76898# a_1652_76898# 0.107f
-C337 AVDD a_244_55214# 0.364f
-C338 xaa4.xa4.M0.D a_11784_58012# 0.128f
-C339 AVDD a_28612_58030# 0.338f
-C340 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN0.D 0.12f
-C341 xaa6.xe.XA1.MN0.G xaa6.xe.XA7.MN1.G 0.412f
-C342 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MP1.G 0.313f
-C343 xaa6.xf.XA6.MN0.G a_33652_55918# 0.111f
-C344 xaa1.xa4.M0.D m3_37748_72604# 0.111f
-C345 AVDD a_5844_55502# 0.485f
-C346 xaa4.xa4.M0.D a_11784_58540# 0.128f
-C347 AVDD a_37324_53454# 0.369f
-C348 AVDD a_27244_58030# 0.343f
-C349 xaa5.xb2_2.MN0.D xaa5.xb2_1.MN0.D 0.197f
-C350 IBPSR_1U PWRUP_1V8 2.41f
-C351 AVDD xaa6.xd.XA3.MP0.D 0.133f
-C352 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MP1.G 0.21f
-C353 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN1.G 0.467f
-C354 xaa5.xb1.MN1.G xaa4.xa2.M0.G 0.132f
-C355 PWRUP_1V8 xaa6.xe.XA7.MP1.G 0.124f
-C356 xaa3.xa6.MN0.D xaa3.xa5a.MN0.D 0.187f
-C357 xaa1.xa4.M0.D m3_37748_89884# 0.111f
-C358 AVDD xaa0.xa3.MP0.D 0.191f
-C359 xaa4.xa4.M0.D a_11784_59068# 0.128f
-C360 xaa4.xa2.M0.G m3_13116_57300# 0.106f
-C361 AVDD xaa6.xc.XA3.MP0.D 0.133f
-C362 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.G 0.195f
-C363 xaa6.xe.XA6.MN0.G a_32284_55918# 0.113f
-C364 xaa6.xg.XA7.MP1.G xaa6.xg.XA3.MN1.G 0.352f
-C365 AVDD a_28612_62158# 0.352f
-C366 xaa5.xb1.MN1.G xaa5.xa3.xb1_0.G 0.194f
-C367 AVDD xaa6.xc.XA5.MN0.G 0.88f
-C368 PWRUP_1V8 xaa6.xe.XA7.MN1.G 0.658f
-C369 xbb0.xa1.XA1.N xaa1.xa4.M0.D 0.448f
-C370 AVDD a_244_55566# 0.383f
-C371 xaa4.xa4.M0.D a_11784_59596# 0.128f
-C372 AVDD a_11784_58012# 0.517f
-C373 xaa6.xg.XA7.MN1.G xaa6.xg.XA3.MN1.G 0.129f
-C374 AVDD a_27244_62158# 0.384f
-C375 xaa4.xa2.M0.G xaa4.xa2.M0.D 0.544f
-C376 AVDD a_37324_55918# 0.386f
-C377 xaa3.xa6.MN0.D a_4692_58846# 0.117f
-C378 a_n940_74698# xaa1.xa4.M0.D 0.187f
-C379 xaa4.xa4.M0.D a_11784_60124# 0.128f
-C380 AVDD a_33652_53454# 0.368f
-C381 xaa0.xa3.MN1.G xaa0.xa5.MN2.D 0.152f
-C382 xaa4.xa4.M0.D a_11784_62236# 0.128f
-C383 xaa5.xa3.xb2_0.D xaa5.xa3.xb1_0.D 0.607f
-C384 AVDD a_11784_58540# 0.517f
-C385 xaa6.xd.XA1.MN0.G xaa6.xd.XA7.MN1.G 0.224f
-C386 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN0.D 0.336f
+C205 xaa0.xa1.MN2.S xaa0.xa1.MN0.D 0.423f
+C206 xaa4.xa4_0.M8.D a_11784_61708# 0.128f
+C207 xaa4.xa2_0.M0.G a_10092_56270# 0.159f
+C208 AVDD a_37324_56974# 0.405f
+C209 xaa0.xa5.MN0.D xaa0.xa1.MN0.G 0.15f
+C210 xaa6.xg.XA5.MN0.G a_36172_55566# 0.112f
+C211 PWRUP_1V8 xaa0.xa2a.MN0.D 0.579f
+C212 xaa4.xa4_0.M8.D a_11784_59596# 0.137f
+C213 AVDD xaa6.xe.XA7.MN1.G 3.52f
+C214 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MP1.G 0.314f
+C215 AVDD xaa3.xa8.MP0.D 0.191f
+C216 AVDD a_37324_55566# 0.383f
+C217 xaa6.xe.XA7.MP1.G xaa6.xe.XA5.MN0.G 0.397f
+C218 xaa1.xa3.D xaa4.xa2_0.M0.G 0.315f
+C219 xaa5.xb1.MN1.D a_29764_61454# 0.127f
+C220 AVDD xaa6.xd.XA7.MN0.D 0.485f
+C221 xaa6.xg.XA7.MN1.D xaa6.xg.XA7.MN1.G 0.311f
+C222 xaa0.xa1.MN0.G CK_REF 0.13f
+C223 xaa5.xb1.MN1.G xaa5.xb1.MN1.D 0.209f
+C224 AVDD xaa3.xa7.MN0.D 0.714f
+C225 PWRUP_1V8 xaa0.xa1.MN0.G 0.238f
+C226 xaa1.xa4.M0.D m3_37748_86044# 0.111f
+C227 AVDD a_28612_62510# 0.352f
+C228 AVDD a_37324_53102# 0.485f
+C229 xaa4.xa2_0.M0.G m3_13116_53076# 0.106f
+C230 xaa6.xc.XA5.MN0.G xaa6.xc.XA4.MN0.D 0.126f
+C231 AVDD xaa6.xd.XA7.MN1.G 3.56f
+C232 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.G 0.128f
+C233 AVDD a_33652_54510# 0.363f
+C234 xaa5.xa3.xb2_0.G a_26092_61806# 0.175f
+C235 AVDD a_640_59750# 0.389f
+C236 AVDD a_27244_62510# 0.388f
+C237 AVDD a_33652_56974# 0.405f
+C238 xaa0.xa3.MN1.G xaa0.xa1.MN0.G 0.439f
+C239 xaa6.xf.XA5.MN0.G a_34804_55566# 0.113f
+C240 xaa4.xa4_0.M8.D xaa4.xa1.M8.D 0.141f
+C241 AVDD xaa6.xd.XA7.MP1.G 2.06f
+C242 AVDD a_32284_54510# 0.363f
+C243 AVDD a_33652_55566# 0.383f
+C244 AVDD a_32284_56974# 0.405f
+C245 xaa6.xf.XA7.MN1.G a_33652_53454# 0.101f
+C246 xaa4.xa4_0.M8.D a_11784_60124# 0.128f
+C247 AVDD xaa6.xc.XA7.MN0.D 0.485f
+C248 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN0.D 0.336f
+C249 xaa6.xf.XA1.MN0.G xaa6.xf.XA7.MN1.G 0.224f
+C250 xaa0.xa1.MN2.S xaa0.xa2.MN0.D 0.405f
+C251 AVDD a_5844_59902# 0.384f
+C252 AVDD a_32284_55566# 0.383f
+C253 AVDD xaa5.xb2_2.MN0.D 0.543f
+C254 AVDD a_33652_53102# 0.488f
+C255 xbb0.xa1.XA1.N a_n76_76898# 0.119f
+C256 AVDD xaa6.xc.XA7.MP1.G 2.06f
+C257 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN0.D 0.129f
+C258 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MN1.G 0.467f
+C259 xaa0.xa1.MN0.G xaa0.xa1.MN0.D 0.274f
+C260 xaa4.xa2_0.M8.D a_11784_53788# 0.146f
+C261 xaa1.xa4.M0.D m3_37748_87004# 0.111f
+C262 xaa6.xd.XA7.MP1.G xaa6.xd.XA5.MN0.G 0.397f
+C263 AVDD xaa5.xa3.xb2_0.D 1.82f
+C264 AVDD a_32284_53102# 0.486f
+C265 xaa4.xa2_0.M0.G m3_13116_54132# 0.106f
+C266 xbb0.xa1.XA1.N a_n508_74698# 0.207f
+C267 AVDD xaa6.xc.XA7.MN1.G 3.53f
+C268 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN1.G 0.201f
+C269 xaa6.xf.XA7.MN1.D xaa6.xf.XA7.MP1.G 0.313f
+C270 AVDD a_28612_54510# 0.363f
+C271 xaa5.xb2_3.MN0.D xaa5.xb2_2.MN0.D 0.197f
+C272 AVDD a_28612_56974# 0.405f
+C273 xaa6.xe.XA5.MN0.G a_31132_55566# 0.112f
+C274 AVDD a_11784_57484# 0.517f
+C275 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MP1.G 0.216f
+C276 AVDD a_27244_54510# 0.363f
+C277 AVDD xaa3.xa9.MN0.D 0.176f
+C278 AVDD a_28612_55566# 0.383f
+C279 AVDD CK 3.95f
+C280 AVDD a_27244_56974# 0.405f
+C281 xaa3.xa5a.MN0.D xaa3.xa2.MN0.D 0.175f
+C282 xaa3.xa1b.MN0.D a_4692_55854# 0.124f
+C283 AVDD a_5844_60254# 0.351f
+C284 AVDD a_27244_55566# 0.383f
+C285 AVDD a_11784_62764# 0.517f
+C286 xaa0.xa2a.MN0.D xaa0.xa2.MN0.D 0.14f
+C287 AVDD a_28612_53102# 0.488f
+C288 xaa0.xa3.MN1.G xaa0.xa5.MN2.D 0.152f
+C289 xaa6.xd.XA5.MN0.G a_29764_55566# 0.113f
+C290 xaa6.xe.XA7.MN1.G a_32284_53454# 0.101f
+C291 a_n940_74698# xbb0.xa1.XA1.N 0.104f
+C292 IBPSR_1U xaa3.xa1b.MN0.D 0.841f
+C293 xaa4.xa2_0.M0.G xaa4.xa1.M8.D 0.393f
+C294 AVDD a_37324_57678# 0.383f
+C295 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN0.D 0.336f
+C296 AVDD xaa6.xg.XA3.MP0.D 0.133f
+C297 xaa1.xa4.M0.D m3_37748_87964# 0.111f
+C298 xaa6.xc.XA7.MP1.G xaa6.xc.XA5.MN0.G 0.397f
+C299 AVDD a_11784_56956# 0.517f
+C300 AVDD a_27244_53102# 0.486f
+C301 xaa0.xa3.MN1.G xaa0.xa5.MN0.D 0.446f
+C302 xaa4.xa2_0.M0.G m3_13116_55188# 0.106f
+C303 xaa6.xg.XA5.MN0.D xaa6.xg.XA5.MN0.G 0.109f
+C304 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MP1.G 0.313f
+C305 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN0.D 0.12f
+C306 xaa6.xe.XA1.MN0.G xaa6.xe.XA7.MN1.G 0.412f
+C307 xaa4.xa2_0.M0.G xaa5.xb2_0.MN0.D 0.174f
+C308 AVDD xaa6.xg.XA5.MN0.G 0.879f
+C309 xaa6.xg.XA7.MP1.G xaa6.xg.XA6.MN0.G 0.111f
+C310 AVDD a_28612_62862# 0.352f
+C311 xaa1.xa3.D a_2948_70022# 0.202f
+C312 xaa6.xe.XA7.MN1.D xaa6.xe.XA7.MN1.G 0.467f
+C313 AVDD xaa6.xg.XA3.MN1.G 1.14f
+C314 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MP1.G 0.21f
+C315 xaa3.xa1b.MN0.D xaa3.xa1c.MN0.D 0.29f
+C316 AVDD a_640_60278# 0.385f
+C317 xaa5.xb2_3.MN0.D a_29764_62862# 0.126f
+C318 AVDD xaa6.xg.XA5.MN0.D 0.216f
+C319 AVDD a_27244_62862# 0.469f
+C320 AVDD xaa6.xg.XA7.MN0.G 0.479f
+C321 xaa6.xf.XA7.MN1.G xaa6.xf.XA1.MN0.D 0.123f
+C322 xaa1.xa1.M8.D PWRUP_1V8 0.25f
+C323 AVDD a_33652_57678# 0.384f
+C324 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.G 0.195f
+C325 AVDD xaa6.xf.XA5.MN0.G 0.88f
+C326 AVDD a_32284_57678# 0.384f
+C327 AVDD xaa6.xf.XA3.MP0.D 0.133f
+C328 xaa6.xg.XA7.MP1.G xaa6.xg.XA4.MN0.G 0.127f
+C329 xaa4.xa4_0.M8.D a_11784_62236# 0.128f
+C330 xaa5.xa3.xb2_0.G xaa5.xa3.xb1_0.D 0.294f
+C331 AVDD xaa6.xe.XA5.MN0.G 0.88f
+C332 xaa1.xa4.M0.D m3_37748_88924# 0.111f
+C333 xaa0.xa1.MN0.D CK_REF 0.202f
+C334 AVDD xaa5.xb2_3.MN0.D 0.545f
+C335 AVDD a_11784_53260# 0.519f
+C336 xaa4.xa2_0.M0.G m3_13116_56244# 0.106f
+C337 xaa6.xc.XA5.MN0.G a_26092_55566# 0.112f
+C338 xaa6.xd.XA7.MN1.G a_28612_53454# 0.101f
+C339 AVDD xaa6.xe.XA3.MP0.D 0.133f
+C340 xaa6.xd.XA1.MN0.G xaa6.xd.XA7.MN1.G 0.224f
+C341 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN0.D 0.336f
+C342 AVDD a_11784_60652# 0.517f
+C343 AVDD xaa6.xd.XA5.MN0.G 0.88f
+C344 xaa6.xf.XA7.MN1.G xaa6.xf.XA6.MN0.G 0.329f
+C345 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN1.G 0.467f
+C346 xaa4.xa1.M8.D xaa4.xa2_0.M8.D 0.238f
+C347 xaa6.xf.XA7.MP1.G xaa6.xf.XA6.MN0.G 0.524f
+C348 AVDD a_28612_57678# 0.384f
+C349 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN0.D 0.129f
+C350 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MP1.G 0.313f
+C351 xaa1.xa4.M0.D m3_37748_72604# 0.111f
+C352 AVDD a_28612_60750# 0.336f
+C353 AVDD xaa6.xc.XA5.MN0.G 0.88f
+C354 a_1652_72222# xaa1.xa3.D 0.168f
+C355 xaa4.xa2_0.M8.D a_11784_56428# 0.111f
+C356 AVDD a_37324_53454# 0.369f
+C357 xaa6.xe.XA7.MN1.G xaa6.xe.XA1.MN0.D 0.123f
+C358 AVDD a_27244_57678# 0.384f
+C359 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.G 0.201f
+C360 AVDD xaa6.xd.XA3.MP0.D 0.133f
+C361 xaa6.xg.XA7.MN1.D a_36172_57678# 0.132f
+C362 AVDD a_27244_60750# 0.367f
+C363 xaa6.xg.XA7.MN1.D xaa6.xg.XA5.MN0.G 0.29f
+C364 xaa1.xa4.M0.D m3_37748_89884# 0.111f
+C365 AVDD a_28612_63214# 0.352f
+C366 AVDD a_5844_55150# 0.443f
+C367 xaa4.xa2_0.M0.G m3_13116_57300# 0.106f
+C368 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MP1.G 0.216f
+C369 AVDD xaa6.xc.XA3.MP0.D 0.133f
+C370 xaa6.xg.XA7.MN1.D xaa6.xg.XA3.MN1.G 0.158f
+C371 xaa4.xa2_0.M0.G xaa5.xb2_1.MN0.D 0.174f
+C372 AVDD a_37324_55918# 0.386f
+C373 xaa6.xe.XA7.MP1.G xaa6.xe.XA6.MN0.G 0.524f
+C374 AVDD a_27244_63214# 0.439f
+C375 xaa6.xc.XA7.MN1.G a_27244_53454# 0.101f
+C376 AVDD xaa6.xg.XA7.MN1.D 1.86f
+C377 xaa6.xe.XA7.MN1.G xaa6.xe.XA6.MN0.G 0.329f
+C378 AVDD a_5844_55502# 0.485f
+C379 AVDD a_33652_53454# 0.368f
+C380 xaa6.xd.XA7.MN1.G xaa6.xd.XA1.MN0.D 0.123f
+C381 xaa5.xb2_0.MN0.D xaa5.xb1.MN1.D 0.184f
+C382 xaa1.xa3.D a_10092_59790# 0.156f
+C383 AVDD xaa6.xf.XA1.MN0.G 0.757f
+C384 xaa5.xa3.xb2_0.D a_27244_61102# 0.164f
+C385 xaa6.xf.XA7.MN1.D a_34804_57678# 0.134f
+C386 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN0.D 0.336f
 C387 xaa1.xa4.M0.D m3_37748_73564# 0.111f
-C388 PWRUP_1V8 xaa6.xd.XA7.MN1.G 0.667f
-C389 xaa3.xa1b.MN0.D xaa3.xa5a.MN0.D 0.232f
-C390 AVDD xaa1.xa4.M0.D 0.873f
-C391 AVDD xaa0.xa1.MN0.G 1.23f
-C392 AVDD a_32284_53454# 0.367f
-C393 xaa0.xa3.MN1.G xaa0.xa5.MN0.D 0.446f
-C394 IBPSR_1U a_n908_61510# 0.156f
-C395 AVDD a_11784_59068# 0.517f
-C396 AVDD a_37324_54862# 0.382f
-C397 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN0.D 0.129f
-C398 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MN1.G 0.467f
-C399 xaa0.xa1.MN2.S CK_REF 0.104f
-C400 PWRUP_1V8 xaa6.xd.XA7.MP1.G 0.124f
-C401 xaa1.xa4.M0.D m3_37748_90844# 0.111f
-C402 xaa6.xf.XA7.MP1.G xaa6.xf.XA5.MN0.G 0.397f
-C403 AVDD a_244_55918# 0.364f
-C404 xaa4.xa2.M0.G m3_13116_58356# 0.106f
-C405 AVDD a_11784_59596# 0.517f
-C406 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.G 0.201f
-C407 xaa6.xd.XA7.MN1.D xaa6.xd.XA7.MP1.G 0.313f
-C408 xaa6.xg.XA7.MN1.D a_36172_57678# 0.132f
-C409 xaa6.xd.XA6.MN0.G a_28612_55918# 0.111f
-C410 AVDD xaa5.xb2_1.MN0.D 0.543f
-C411 AVDD a_33652_55918# 0.385f
-C412 xaa5.xb2_2.MN0.D a_29764_62510# 0.126f
-C413 xaa0.xa6.MN0.D PWRUP_1V8 0.181f
-C414 AVDD a_11784_60124# 0.517f
-C415 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MP1.G 0.216f
-C416 AVDD a_11784_62236# 0.517f
-C417 AVDD a_32284_55918# 0.385f
-C418 PWRUP_1V8 xaa6.xc.XA7.MP1.G 0.124f
-C419 xaa3.xa1b.MN0.D xaa3.xa6.MN0.D 0.137f
-C420 a_n76_76898# a_788_76898# 0.107f
-C421 AVDD xaa0.xa5.MP1.D 0.191f
-C422 AVDD a_28612_53454# 0.368f
-C423 AVDD a_5844_58494# 0.364f
-C424 AVDD a_33652_54862# 0.383f
-C425 xaa6.xc.XA6.MN0.G a_27244_55918# 0.113f
-C426 xaa1.xa4.M0.D m3_37748_74524# 0.111f
-C427 xaa0.xa1.MN2.S xaa0.xa1.MN2.D 0.157f
-C428 AVDD xaa5.xa3.xb1_0.D 1.88f
-C429 PWRUP_1V8 xaa6.xc.XA7.MN1.G 0.671f
-C430 xaa6.xe.XA7.MP1.G xaa6.xe.XA5.MN0.G 0.397f
-C431 AVDD a_244_56270# 0.384f
-C432 AVDD a_27244_53454# 0.367f
-C433 AVDD a_32284_54862# 0.383f
-C434 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN0.D 0.336f
-C435 xaa6.xf.XA7.MN1.D a_34804_57678# 0.134f
-C436 xaa4.xa2.M0.D a_11784_55372# 0.138f
-C437 xaa0.xa1.MN2.S xaa0.xa1.MN0.D 0.423f
-C438 AVDD xaa5.xa4.MN0.D 0.227f
-C439 xaa1.xa4.M0.D m3_37748_91804# 0.111f
-C440 xaa4.xa2.M0.D a_11784_54316# 0.112f
-C441 xaa4.xa2.M0.G m3_13116_59412# 0.106f
-C442 AVDD xaa3.xa5a.MN0.D 1.13f
-C443 xaa6.xc.XA1.MN0.G xaa6.xc.XA7.MN1.G 0.412f
-C444 xaa0.xa5.MN2.G xaa6.xc.XA7.MN0.D 0.12f
-C445 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MP1.G 0.313f
-C446 xaa4.xa2.M0.D xaa4.xa1.M8.D 0.21f
-C447 xaa1.xa3.D xaa4.xa2.M0.G 0.168f
-C448 AVDD a_28612_55918# 0.385f
-C449 xaa4.xa2.M0.G xaa5.xb1.MN1.D 0.226f
-C450 AVDD a_5844_58846# 0.388f
-C451 xaa0.xa5.MN2.G xaa6.xc.XA7.MP1.G 0.193f
-C452 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN1.G 0.467f
-C453 xaa0.xa1.MN0.G CK_REF 0.13f
-C454 AVDD a_27244_55918# 0.385f
-C455 xaa3.xa7.MN0.D xaa3.xa6.MN0.D 0.128f
-C456 AVDD xaa0.xa5.MN0.D 0.697f
-C457 xaa6.xg.XA5.MN0.G xaa6.xg.XA4.MN0.D 0.126f
-C458 AVDD a_28612_54862# 0.383f
-C459 xaa1.xa4.M0.D m3_37748_75484# 0.111f
-C460 AVDD a_244_56622# 0.388f
-C461 xaa5.xb1.MN1.D xaa5.xb1.MN0.D 0.106f
-C462 AVDD xaa3.xa6.MN0.D 0.724f
-C463 AVDD a_27244_54862# 0.383f
-C464 AVDD a_28612_62510# 0.352f
-C465 AVDD a_11784_55900# 0.517f
-C466 xaa1.xa4.M0.D m3_37748_92764# 0.111f
-C467 xaa6.xd.XA7.MP1.G xaa6.xd.XA5.MN0.G 0.397f
-C468 xaa6.xf.XA7.MN1.G a_33652_53454# 0.101f
-C469 xaa4.xa2.M0.G m3_13116_60468# 0.106f
-C470 AVDD a_5844_59198# 0.388f
-C471 xaa5.xb1.MN1.G xaa5.xb1.MN1.D 0.209f
-C472 xaa6.xe.XA7.MN1.D a_31132_57678# 0.132f
-C473 xaa0.xa1.MN2.S xaa0.xa2.MN0.D 0.405f
-C474 AVDD a_27244_62510# 0.388f
-C475 AVDD xaa6.xg.XA6.MN0.G 0.478f
-C476 xaa3.xa7.MN0.D xaa3.xa1b.MN0.D 0.123f
-C477 xbb0.xa1.XA1.N a_n76_76898# 0.119f
-C478 AVDD xaa0.xa3.MN1.G 1.25f
-C479 AVDD a_11784_54844# 0.517f
-C480 xaa0.xa1.MN0.G xaa0.xa1.MN0.D 0.274f
-C481 AVDD xaa6.xf.XA6.MN0.G 1.7f
-C482 xbb0.xa1.XA1.N a_n508_74698# 0.207f
-C483 AVDD a_244_56974# 0.349f
-C484 xaa6.xf.XA5.MN0.G xaa6.xf.XA4.MN0.D 0.126f
-C485 AVDD xaa3.xa1b.MN0.D 1.39f
-C486 AVDD xaa6.xg.XA4.MN0.G 0.485f
-C487 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.D 0.147f
-C488 xaa1.xa4.M0.D m3_37748_76444# 0.111f
-C489 AVDD xaa5.xb2_2.MN0.D 0.543f
-C490 AVDD xaa6.xe.XA6.MN0.G 1.7f
-C491 PWRUP_1V8 xaa0.xa2a.MN0.D 0.579f
-C492 AVDD a_5844_59550# 0.364f
-C493 xaa6.xd.XA7.MN1.D a_29764_57678# 0.134f
-C494 AVDD xaa5.xa3.xb2_0.D 1.82f
-C495 AVDD xaa6.xd.XA6.MN0.G 1.7f
-C496 AVDD a_37324_57326# 0.364f
-C497 xaa4.xa2.M0.G m3_13116_61524# 0.106f
-C498 xaa5.xa3.xb2_0.G a_26092_61806# 0.175f
-C499 AVDD a_37324_55214# 0.364f
-C500 AVDD xaa4.xa4.M0.D 8.82f
-C501 AVDD xaa6.xc.XA6.MN0.G 1.7f
-C502 a_n940_74698# xbb0.xa1.XA1.N 0.104f
-C503 xaa6.xe.XA7.MN1.G a_32284_53454# 0.101f
-C504 AVDD xaa3.xa8.MP0.D 0.191f
-C505 AVDD a_37324_56270# 0.362f
-C506 xaa5.xb1.MN1.D a_29764_61454# 0.127f
-C507 AVDD a_37324_53806# 0.405f
-C508 xaa6.xe.XA5.MN0.G xaa6.xe.XA4.MN0.D 0.126f
-C509 AVDD xaa3.xa7.MN0.D 0.714f
-C510 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN1.D 0.274f
-C511 xaa1.xa4.M0.D m3_37748_77404# 0.111f
-C512 xaa1.xa3.D a_2948_70022# 0.202f
-C513 AVDD CK 3.95f
-C514 PWRUP_1V8 xaa6.xg.XA7.MN1.D 0.16f
-C515 AVDD a_33652_57326# 0.364f
-C516 AVDD a_640_59750# 0.389f
-C517 AVDD a_33652_55214# 0.364f
-C518 AVDD a_11784_62764# 0.428f
-C519 PWRUP_1V8 xaa6.xf.XA1.MN0.G 0.456f
-C520 xaa6.xc.XA7.MP1.G xaa6.xc.XA5.MN0.G 0.397f
-C521 xaa6.xg.XA7.MP1.G xaa6.xg.XA6.MN0.G 0.111f
-C522 AVDD a_32284_57326# 0.364f
-C523 xaa6.xd.XA5.MN0.G xaa6.xd.XA4.MN0.D 0.126f
-C524 xaa4.xa2.M0.G m3_13116_62580# 0.106f
-C525 xaa6.xf.XA7.MN1.G xaa6.xf.XA1.MN0.D 0.123f
-C526 xaa4.xa2.M0.G xaa5.xb2_0.MN0.D 0.174f
-C527 AVDD a_32284_55214# 0.364f
-C528 xaa6.xc.XA7.MN1.D a_26092_57678# 0.132f
-C529 AVDD a_33652_56270# 0.363f
-C530 PWRUP_1V8 xaa6.xf.XA7.MN1.D 0.161f
-C531 AVDD a_33652_53806# 0.406f
-C532 AVDD a_5844_59902# 0.384f
-C533 xaa5.xb2_3.MN0.D xaa5.xb2_2.MN0.D 0.197f
-C534 xaa6.xg.XA7.MP1.G xaa6.xg.XA4.MN0.G 0.127f
-C535 AVDD a_28612_62862# 0.352f
-C536 AVDD a_32284_56270# 0.363f
-C537 PWRUP_1V8 xaa6.xe.XA1.MN0.G 0.209f
-C538 AVDD a_32284_53806# 0.406f
-C539 xaa6.xd.XA7.MN1.G a_28612_53454# 0.101f
-C540 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.D 0.262f
-C541 xaa1.xa4.M0.D m3_37748_78364# 0.111f
-C542 AVDD a_27244_62862# 0.469f
-C543 PWRUP_1V8 xaa6.xe.XA7.MN1.D 0.16f
-C544 xaa6.xg.XA7.MN1.D xaa6.xg.XA5.MN0.G 0.29f
-C545 AVDD a_28612_57326# 0.364f
-C546 xaa6.xg.XA5.MN0.G a_36172_55566# 0.112f
-C547 xaa3.xa5a.MN0.D li_6204_57940# 0.118f
-C548 AVDD a_28612_55214# 0.364f
-C549 PWRUP_1V8 xaa6.xd.XA1.MN0.G 0.537f
-C550 xaa6.xf.XA7.MN1.G xaa6.xf.XA6.MN0.G 0.329f
-C551 AVDD a_27244_57326# 0.364f
-C552 xaa4.xa2.M0.G m3_13116_63636# 0.106f
-C553 AVDD xaa3.xa9.MN0.D 0.176f
-C554 AVDD a_27244_55214# 0.364f
-C555 a_1652_72222# xaa1.xa3.D 0.168f
-C556 AVDD a_28612_56270# 0.363f
-C557 PWRUP_1V8 xaa6.xd.XA7.MN1.D 0.161f
-C558 xaa6.xf.XA7.MP1.G xaa6.xf.XA6.MN0.G 0.524f
-C559 xaa4.xa2.M0.D a_11784_53260# 0.111f
-C560 m3_22692_52900# AVSS 0.174f
-C561 m3_22692_53956# AVSS 0.174f
-C562 m3_22692_55012# AVSS 0.174f
-C563 m3_22692_56068# AVSS 0.174f
-C564 m3_22692_57124# AVSS 0.174f
-C565 m3_22692_58180# AVSS 0.174f
-C566 m3_22692_59236# AVSS 0.174f
-C567 m3_22692_60292# AVSS 0.174f
-C568 m3_22692_61348# AVSS 0.174f
-C569 m3_22692_62404# AVSS 0.174f
-C570 m3_22692_63460# AVSS 0.174f
-C571 m3_4628_69564# AVSS 0.189f
-C572 m3_4628_70524# AVSS 0.189f
-C573 m3_4628_71484# AVSS 0.189f
-C574 m3_4628_72444# AVSS 0.189f
-C575 m3_4628_73404# AVSS 0.189f
-C576 m3_4628_74364# AVSS 0.189f
-C577 m3_4628_75324# AVSS 0.189f
-C578 m3_4628_76284# AVSS 0.189f
-C579 m3_4628_77244# AVSS 0.189f
-C580 m3_4628_78204# AVSS 0.189f
-C581 m3_4628_79164# AVSS 0.189f
-C582 m3_4628_80124# AVSS 0.189f
-C583 m3_4628_81084# AVSS 0.189f
-C584 m3_4628_82044# AVSS 0.189f
-C585 m3_4628_83004# AVSS 0.189f
-C586 m3_4628_83964# AVSS 0.189f
-C587 m3_4628_84924# AVSS 0.189f
-C588 m3_4628_85884# AVSS 0.189f
-C589 m3_4628_86844# AVSS 0.189f
-C590 m3_4628_87804# AVSS 0.189f
-C591 m3_4628_88764# AVSS 0.189f
-C592 m3_4628_89724# AVSS 0.189f
-C593 m3_4628_90684# AVSS 0.189f
-C594 m3_4628_91644# AVSS 0.189f
-C595 m3_4628_92604# AVSS 0.189f
-C596 li_4836_57412# AVSS 0.115f
-C597 a_4308_51566# AVSS 0.491f $ **FLOATING
-C598 a_4308_51918# AVSS 0.389f $ **FLOATING
-C599 a_37324_52750# AVSS 0.129f $ **FLOATING
-C600 a_36172_52750# AVSS 0.572f $ **FLOATING
-C601 a_34804_52750# AVSS 0.573f $ **FLOATING
-C602 a_33652_52750# AVSS 0.127f $ **FLOATING
-C603 a_32284_52750# AVSS 0.127f $ **FLOATING
-C604 a_31132_52750# AVSS 0.572f $ **FLOATING
-C605 a_29764_52750# AVSS 0.576f $ **FLOATING
-C606 a_28612_52750# AVSS 0.127f $ **FLOATING
-C607 a_27244_52750# AVSS 0.127f $ **FLOATING
-C608 a_26092_52750# AVSS 0.573f $ **FLOATING
-C609 a_11784_52732# AVSS 0.17f $ **FLOATING
-C610 a_10092_52750# AVSS 0.514f $ **FLOATING
-C611 a_36172_53102# AVSS 0.49f $ **FLOATING
-C612 a_34804_53102# AVSS 0.488f $ **FLOATING
-C613 a_31132_53102# AVSS 0.49f $ **FLOATING
-C614 a_29764_53102# AVSS 0.488f $ **FLOATING
-C615 a_26092_53102# AVSS 0.49f $ **FLOATING
-C616 a_36172_53454# AVSS 0.365f $ **FLOATING
-C617 a_34804_53454# AVSS 0.365f $ **FLOATING
-C618 a_31132_53454# AVSS 0.364f $ **FLOATING
-C619 a_29764_53454# AVSS 0.365f $ **FLOATING
-C620 a_26092_53454# AVSS 0.365f $ **FLOATING
-C621 xaa6.xg.XA1.MN0.D AVSS 0.169f
-C622 xaa6.xf.XA1.MN0.D AVSS 0.169f
-C623 xaa6.xe.XA1.MN0.D AVSS 0.15f
-C624 xaa6.xd.XA1.MN0.D AVSS 0.169f
-C625 xaa6.xc.XA1.MN0.D AVSS 0.15f
-C626 a_36172_53806# AVSS 0.384f $ **FLOATING
-C627 a_34804_53806# AVSS 0.384f $ **FLOATING
-C628 a_31132_53806# AVSS 0.383f $ **FLOATING
-C629 a_29764_53806# AVSS 0.384f $ **FLOATING
-C630 a_26092_53806# AVSS 0.383f $ **FLOATING
-C631 a_4308_53678# AVSS 0.47f $ **FLOATING
-C632 a_244_52750# AVSS 0.13f $ **FLOATING
-C633 a_n908_52750# AVSS 0.573f $ **FLOATING
-C634 a_n908_53102# AVSS 0.49f $ **FLOATING
-C635 a_n908_53454# AVSS 0.363f $ **FLOATING
-C636 a_36172_54158# AVSS 0.387f $ **FLOATING
-C637 a_34804_54158# AVSS 0.387f $ **FLOATING
-C638 a_31132_54158# AVSS 0.387f $ **FLOATING
-C639 a_29764_54158# AVSS 0.387f $ **FLOATING
-C640 a_26092_54158# AVSS 0.388f $ **FLOATING
-C641 a_36172_54510# AVSS 0.364f $ **FLOATING
-C642 a_34804_54510# AVSS 0.364f $ **FLOATING
-C643 a_31132_54510# AVSS 0.364f $ **FLOATING
-C644 a_29764_54510# AVSS 0.364f $ **FLOATING
-C645 a_26092_54510# AVSS 0.365f $ **FLOATING
-C646 xaa6.xg.XA3.MN0.D AVSS 0.162f
-C647 xaa6.xg.XA3.MN1.G AVSS 1.62f
-C648 xaa6.xf.XA3.MN0.D AVSS 0.162f
-C649 xaa6.xe.XA3.MN0.D AVSS 0.162f
-C650 xaa6.xd.XA3.MN0.D AVSS 0.162f
-C651 xaa6.xc.XA3.MN0.D AVSS 0.162f
-C652 a_10092_54510# AVSS 0.372f $ **FLOATING
-C653 a_36172_54862# AVSS 0.383f $ **FLOATING
-C654 a_34804_54862# AVSS 0.383f $ **FLOATING
-C655 a_31132_54862# AVSS 0.383f $ **FLOATING
-C656 a_29764_54862# AVSS 0.383f $ **FLOATING
-C657 a_26092_54862# AVSS 0.384f $ **FLOATING
-C658 xaa6.xg.XA4.MN0.G AVSS 0.53f
-C659 a_10092_55038# AVSS 0.365f $ **FLOATING
-C660 a_36172_55214# AVSS 0.364f $ **FLOATING
-C661 a_34804_55214# AVSS 0.364f $ **FLOATING
-C662 a_31132_55214# AVSS 0.364f $ **FLOATING
-C663 a_29764_55214# AVSS 0.364f $ **FLOATING
-C664 a_26092_55214# AVSS 0.364f $ **FLOATING
-C665 CK_REF AVSS 0.957f
-C666 a_n908_53806# AVSS 0.363f $ **FLOATING
-C667 xaa0.xa1.MN2.D AVSS 0.138f
-C668 xaa0.xa1.MN0.D AVSS 1.16f
-C669 a_n908_54158# AVSS 0.406f $ **FLOATING
-C670 a_n908_54510# AVSS 0.386f $ **FLOATING
-C671 xaa0.xa2.MN0.D AVSS 1.03f
-C672 a_n908_54862# AVSS 0.384f $ **FLOATING
-C673 xaa6.xg.XA4.MN0.D AVSS 0.139f
-C674 xaa6.xf.XA4.MN0.D AVSS 0.139f
-C675 xaa6.xe.XA4.MN0.D AVSS 0.139f
-C676 xaa6.xd.XA4.MN0.D AVSS 0.139f
-C677 xaa6.xc.XA4.MN0.D AVSS 0.139f
-C678 xaa4.xa1.M8.D AVSS 0.475f
-C679 a_36172_55566# AVSS 0.383f $ **FLOATING
-C680 a_34804_55566# AVSS 0.383f $ **FLOATING
-C681 a_31132_55566# AVSS 0.383f $ **FLOATING
-C682 a_29764_55566# AVSS 0.383f $ **FLOATING
-C683 a_26092_55566# AVSS 0.383f $ **FLOATING
-C684 xaa6.xg.XA5.MN0.G AVSS 1.26f
-C685 xaa6.xg.XA5.MN0.D AVSS 0.229f
-C686 xaa6.xf.XA5.MN0.G AVSS 1.25f
-C687 xaa6.xe.XA5.MN0.G AVSS 1.26f
-C688 xaa6.xd.XA5.MN0.G AVSS 1.25f
-C689 a_10092_55566# AVSS 0.425f $ **FLOATING
-C690 a_5844_55150# AVSS 0.132f $ **FLOATING
-C691 a_4692_55150# AVSS 0.57f $ **FLOATING
-C692 a_4692_55502# AVSS 0.49f $ **FLOATING
-C693 xaa6.xc.XA5.MN0.G AVSS 1.26f
-C694 a_36172_55918# AVSS 0.387f $ **FLOATING
-C695 a_34804_55918# AVSS 0.387f $ **FLOATING
-C696 a_31132_55918# AVSS 0.387f $ **FLOATING
-C697 a_29764_55918# AVSS 0.387f $ **FLOATING
-C698 a_26092_55918# AVSS 0.388f $ **FLOATING
-C699 xaa6.xg.XA6.MN0.G AVSS 0.523f
-C700 xaa6.xf.XA6.MN0.G AVSS 1.29f
-C701 xaa6.xe.XA6.MN0.G AVSS 1.29f
-C702 xaa6.xd.XA6.MN0.G AVSS 1.29f
-C703 xaa6.xc.XA6.MN0.G AVSS 1.29f
-C704 a_36172_56270# AVSS 0.362f $ **FLOATING
-C705 a_34804_56270# AVSS 0.362f $ **FLOATING
-C706 a_31132_56270# AVSS 0.362f $ **FLOATING
-C707 a_29764_56270# AVSS 0.362f $ **FLOATING
-C708 a_26092_56270# AVSS 0.363f $ **FLOATING
-C709 xaa6.xg.XA6.MN0.D AVSS 0.146f
-C710 xaa6.xf.XA6.MN0.D AVSS 0.146f
-C711 xaa6.xe.XA6.MN0.D AVSS 0.146f
-C712 xaa6.xd.XA6.MN0.D AVSS 0.146f
-C713 xaa6.xc.XA6.MN0.D AVSS 0.146f
-C714 a_36172_56622# AVSS 0.382f $ **FLOATING
-C715 a_34804_56622# AVSS 0.382f $ **FLOATING
-C716 a_31132_56622# AVSS 0.382f $ **FLOATING
-C717 a_29764_56622# AVSS 0.382f $ **FLOATING
-C718 a_26092_56622# AVSS 0.382f $ **FLOATING
-C719 xaa4.xa2.M0.D AVSS 1.19f
-C720 a_36172_56974# AVSS 0.362f $ **FLOATING
-C721 a_34804_56974# AVSS 0.362f $ **FLOATING
-C722 a_31132_56974# AVSS 0.362f $ **FLOATING
-C723 a_29764_56974# AVSS 0.362f $ **FLOATING
-C724 a_26092_56974# AVSS 0.363f $ **FLOATING
-C725 xaa6.xg.XA7.MN2.D AVSS 0.181f
-C726 xaa6.xg.XA7.MN0.G AVSS 0.51f
-C727 xaa6.xf.XA7.MN2.D AVSS 0.181f
-C728 xaa6.xe.XA7.MN2.D AVSS 0.181f
-C729 xaa6.xd.XA7.MN2.D AVSS 0.181f
-C730 xaa6.xc.XA7.MN2.D AVSS 0.181f
-C731 a_4692_55854# AVSS 0.386f $ **FLOATING
-C732 a_4692_56206# AVSS 0.385f $ **FLOATING
-C733 xaa3.xa1c.MN0.D AVSS 1.05f
-C734 a_4692_56558# AVSS 0.385f $ **FLOATING
-C735 xaa3.xa2.MN0.D AVSS 1.12f
-C736 a_4692_56910# AVSS 0.436f $ **FLOATING
-C737 xaa0.xa1.MN2.S AVSS 1.79f
-C738 a_n908_55214# AVSS 0.367f $ **FLOATING
-C739 a_n908_55566# AVSS 0.407f $ **FLOATING
-C740 xaa0.xa1.MN0.G AVSS 2.58f
-C741 a_n908_55918# AVSS 0.362f $ **FLOATING
-C742 a_n908_56270# AVSS 0.362f $ **FLOATING
-C743 xaa0.xa5.MN2.D AVSS 0.152f
-C744 xaa0.xa5.MN0.D AVSS 1.16f
-C745 a_n908_56622# AVSS 0.407f $ **FLOATING
-C746 xaa0.xa3.MN1.G AVSS 2.02f
-C747 a_244_56974# AVSS 0.129f $ **FLOATING
-C748 a_n908_56974# AVSS 0.465f $ **FLOATING
-C749 a_36172_57326# AVSS 0.359f $ **FLOATING
-C750 a_34804_57326# AVSS 0.359f $ **FLOATING
-C751 a_31132_57326# AVSS 0.359f $ **FLOATING
-C752 a_29764_57326# AVSS 0.359f $ **FLOATING
-C753 a_26092_57326# AVSS 0.36f $ **FLOATING
-C754 xaa6.xg.XA7.MN0.D AVSS 0.248f
-C755 xaa6.xg.XA7.MP1.G AVSS 1.85f
-C756 xaa6.xg.XA7.MN1.G AVSS 1.35f
-C757 xaa6.xf.XA7.MN0.D AVSS 0.248f
-C758 xaa6.xf.XA7.MN1.G AVSS 2.9f
-C759 xaa6.xf.XA7.MP1.G AVSS 1.85f
-C760 xaa6.xe.XA7.MN0.D AVSS 0.248f
-C761 xaa6.xe.XA7.MP1.G AVSS 1.85f
-C762 xaa6.xe.XA7.MN1.G AVSS 2.91f
-C763 xaa6.xd.XA7.MN0.D AVSS 0.248f
-C764 xaa6.xd.XA7.MN1.G AVSS 2.9f
-C765 xaa6.xd.XA7.MP1.G AVSS 1.85f
-C766 xaa6.xc.XA7.MN0.D AVSS 0.248f
-C767 xaa6.xc.XA7.MP1.G AVSS 1.85f
-C768 xaa6.xc.XA7.MN1.G AVSS 3.02f
-C769 a_36172_57678# AVSS 0.381f $ **FLOATING
-C770 a_34804_57678# AVSS 0.381f $ **FLOATING
-C771 a_31132_57678# AVSS 0.381f $ **FLOATING
-C772 a_29764_57678# AVSS 0.381f $ **FLOATING
-C773 a_26092_57678# AVSS 0.382f $ **FLOATING
-C774 xaa6.xg.XA7.MN1.D AVSS 2.68f
-C775 xaa6.xf.XA1.MN0.G AVSS 2.93f
-C776 xaa6.xf.XA7.MN1.D AVSS 2.67f
-C777 xaa6.xe.XA1.MN0.G AVSS 2.89f
-C778 xaa6.xe.XA7.MN1.D AVSS 2.68f
-C779 xaa6.xd.XA1.MN0.G AVSS 3.54f
-C780 xaa6.xd.XA7.MN1.D AVSS 2.67f
-C781 xaa6.xc.XA1.MN0.G AVSS 3.02f
-C782 xaa6.xc.XA7.MN1.D AVSS 2.67f
-C783 xaa0.xa5.MN2.G AVSS 15.3f
-C784 a_37324_58030# AVSS 0.129f $ **FLOATING
-C785 a_36172_58030# AVSS 0.462f $ **FLOATING
-C786 a_34804_58030# AVSS 0.463f $ **FLOATING
-C787 a_33652_58030# AVSS 0.127f $ **FLOATING
-C788 a_32284_58030# AVSS 0.127f $ **FLOATING
-C789 a_31132_58030# AVSS 0.462f $ **FLOATING
-C790 a_29764_58030# AVSS 0.463f $ **FLOATING
-C791 a_28612_58030# AVSS 0.131f $ **FLOATING
-C792 a_27244_58030# AVSS 0.127f $ **FLOATING
-C793 a_26092_58030# AVSS 0.465f $ **FLOATING
-C794 a_5844_58494# AVSS 0.109f $ **FLOATING
-C795 a_4692_58494# AVSS 0.472f $ **FLOATING
-C796 xaa3.xa5a.MN0.D AVSS 5.24f
-C797 a_4692_58846# AVSS 0.385f $ **FLOATING
-C798 xaa3.xa6.MN0.D AVSS 1.11f
-C799 a_4692_59198# AVSS 0.384f $ **FLOATING
-C800 xaa3.xa1b.MN0.D AVSS 5.42f
-C801 a_4692_59550# AVSS 0.369f $ **FLOATING
-C802 xaa3.xa7.MN0.D AVSS 1.03f
-C803 a_640_59750# AVSS 0.13f $ **FLOATING
-C804 a_n908_59750# AVSS 0.519f $ **FLOATING
-C805 a_4692_59902# AVSS 0.407f $ **FLOATING
-C806 xaa3.xa9.MN0.D AVSS 0.29f
-C807 a_5844_60254# AVSS 0.129f $ **FLOATING
-C808 a_4692_60254# AVSS 0.468f $ **FLOATING
-C809 a_29764_60750# AVSS 0.493f $ **FLOATING
-C810 a_28612_60750# AVSS 0.136f $ **FLOATING
-C811 a_27244_60750# AVSS 0.127f $ **FLOATING
-C812 a_26092_60750# AVSS 0.492f $ **FLOATING
-C813 a_29764_61102# AVSS 0.366f $ **FLOATING
-C814 a_26092_61102# AVSS 0.384f $ **FLOATING
-C815 xaa5.xb1.MN0.D AVSS 0.175f
-C816 xaa0.xa2a.MN0.D AVSS 3.65f
-C817 a_29764_61454# AVSS 0.38f $ **FLOATING
-C818 a_26092_61454# AVSS 0.389f $ **FLOATING
-C819 xaa5.xb1.MN1.D AVSS 0.983f
-C820 PWRUP_1V8 AVSS 37f
-C821 xaa1.xa1.M8.D AVSS 0.735f
-C822 a_n908_61510# AVSS 0.398f $ **FLOATING
-C823 a_29764_61806# AVSS 0.384f $ **FLOATING
-C824 a_26092_61806# AVSS 0.388f $ **FLOATING
-C825 xaa5.xb2_0.MN0.D AVSS 0.897f
-C826 a_29764_62158# AVSS 0.384f $ **FLOATING
-C827 a_26092_62158# AVSS 0.384f $ **FLOATING
-C828 xaa5.xb2_1.MN0.D AVSS 0.893f
-C829 xaa5.xa3.xb1_0.D AVSS 1.91f
-C830 xaa5.xa4.MN0.D AVSS 0.216f
-C831 a_29764_62510# AVSS 0.384f $ **FLOATING
-C832 a_26092_62510# AVSS 0.388f $ **FLOATING
-C833 xaa5.xb2_2.MN0.D AVSS 0.893f
-C834 xaa5.xa3.xb2_0.D AVSS 1.43f
-C835 xaa4.xa4.M0.D AVSS 1.74f
-C836 CK AVSS 13.3f
-C837 a_11784_62764# AVSS 0.106f $ **FLOATING
-C838 a_29764_62862# AVSS 0.384f $ **FLOATING
-C839 a_26092_62862# AVSS 0.467f $ **FLOATING
-C840 xaa5.xb2_3.MN0.D AVSS 0.893f
-C841 a_29764_63214# AVSS 0.384f $ **FLOATING
-C842 a_26092_63214# AVSS 0.531f $ **FLOATING
-C843 IBPSR_1U AVSS 23.7f
-C844 a_n908_63270# AVSS 0.367f $ **FLOATING
-C845 xaa5.xb2_4.MN0.D AVSS 0.893f
-C846 xaa1.xa2.M8.D AVSS 0.166f
-C847 a_29764_63566# AVSS 0.381f $ **FLOATING
-C848 xaa0.xa6.MN0.D AVSS 3.79f
-C849 a_n908_63622# AVSS 0.384f $ **FLOATING
-C850 xaa5.xa3.xb2_0.G AVSS 3.22f
-C851 a_29764_63918# AVSS 0.381f $ **FLOATING
-C852 xaa4.xa2.M0.G AVSS 0.958p
-C853 xaa5.xa3.xb1_0.G AVSS 3.71f
-C854 xaa1.xa4.M0.G AVSS 7.62f
-C855 xaa5.xb1.MN1.G AVSS 2.59f
-C856 a_n908_64150# AVSS 0.487f $ **FLOATING
-C857 a_29764_64270# AVSS 0.469f $ **FLOATING
-C858 xaa5.xb3.MP1.D AVSS 0.119f
-C859 a_29764_64622# AVSS 0.568f $ **FLOATING
-C860 a_28612_64622# AVSS 0.128f $ **FLOATING
-C861 a_2948_70022# AVSS 2.6f $ **FLOATING
-C862 xaa1.xa3.D AVSS 0.931p
-C863 a_2084_70022# AVSS 0.843f
-C864 a_1652_72222# AVSS 1.08f
-C865 a_1220_70022# AVSS 0.778f
-C866 a_788_72222# AVSS 1.08f
-C867 a_356_70022# AVSS 0.778f
-C868 a_n76_72222# AVSS 1.08f
-C869 a_n508_70022# AVSS 0.843f
-C870 a_n940_70022# AVSS 2.59f $ **FLOATING
-C871 a_2948_74698# AVSS 2.6f $ **FLOATING
-C872 xaa1.xa4.M0.D AVSS 6.7p
-C873 a_2084_74698# AVSS 0.843f
-C874 a_1652_76898# AVSS 1.08f
-C875 a_1220_74698# AVSS 0.778f
-C876 a_788_76898# AVSS 1.08f
-C877 a_356_74698# AVSS 0.778f
-C878 a_n76_76898# AVSS 1.08f
-C879 a_n508_74698# AVSS 0.843f
-C880 xbb0.xa1.XA1.N AVSS 3.4f
-C881 a_n940_74698# AVSS 2.59f $ **FLOATING
-C882 AVDD AVSS 0.417p
+C388 xaa1.xa4.M0.D xaa1.xa4.M0.G 0.231f
+C389 AVDD a_32284_53454# 0.367f
+C390 xaa1.xa3.D xaa4.xa1.M8.D 0.204f
+C391 AVDD xaa6.xf.XA7.MN1.D 1.86f
+C392 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MP1.G 0.313f
+C393 AVDD a_37324_54862# 0.382f
+C394 xaa6.xc.XA1.MN0.G xaa6.xc.XA7.MN1.G 0.412f
+C395 xaa5.xa3.xb1_0.G xaa5.xa3.xb1_0.D 0.192f
+C396 AVDD a_33652_55918# 0.385f
+C397 xaa6.xf.XA7.MN1.D xaa6.xf.XA5.MN0.G 0.29f
+C398 xaa1.xa4.M0.D m3_37748_90844# 0.111f
+C399 AVDD a_11784_63292# 0.517f
+C400 AVDD a_5844_55854# 0.388f
+C401 xaa6.xf.XA7.MN1.G a_34804_53806# 0.115f
+C402 xaa4.xa2_0.M0.G m3_13116_58356# 0.106f
+C403 AVDD xaa6.xe.XA1.MN0.G 3.52f
+C404 xaa6.xc.XA7.MN1.D xaa6.xc.XA7.MN1.G 0.467f
+C405 xaa0.xa5.MN2.G xaa6.xc.XA7.MN0.D 0.12f
+C406 xaa5.xa3.xb2_0.G xaa5.xa3.xb2_0.D 0.145f
+C407 AVDD a_32284_55918# 0.385f
+C408 xaa6.xd.XA7.MN1.G xaa6.xd.XA6.MN0.G 0.329f
+C409 AVDD xaa5.xb2_4.MN0.D 0.541f
+C410 xaa6.xf.XA7.MN1.G a_33652_53806# 0.113f
+C411 AVDD xaa6.xe.XA7.MN1.D 1.86f
+C412 xaa0.xa5.MN2.G xaa6.xc.XA7.MP1.G 0.193f
+C413 xaa6.xd.XA7.MP1.G xaa6.xd.XA6.MN0.G 0.524f
+C414 xaa6.xf.XA7.MP1.G a_34804_56270# 0.1f
+C415 AVDD IBPSR_1U 1.83f
+C416 AVDD a_5844_56206# 0.388f
+C417 AVDD a_28612_53454# 0.368f
+C418 AVDD xaa6.xd.XA1.MN0.G 1.64f
+C419 AVDD a_33652_54862# 0.383f
+C420 xaa1.xa4.M0.D m3_37748_74524# 0.111f
+C421 xaa5.xb2_4.MN0.D xaa5.xb2_3.MN0.D 0.197f
+C422 xaa6.xe.XA7.MN1.D xaa6.xe.XA5.MN0.G 0.29f
+C423 a_788_72222# a_1652_72222# 0.107f
+C424 xaa4.xa4_0.M8.D a_11784_57484# 0.128f
+C425 AVDD a_27244_53454# 0.367f
+C426 xaa6.xc.XA7.MN1.G xaa6.xc.XA1.MN0.D 0.123f
+C427 xaa5.xa3.xb1_0.D a_27244_61454# 0.113f
+C428 AVDD xaa6.xd.XA7.MN1.D 1.86f
+C429 AVDD a_32284_54862# 0.383f
+C430 xaa6.xe.XA7.MN1.D a_31132_57678# 0.132f
+C431 AVDD a_28612_61102# 0.352f
+C432 AVDD a_28612_55918# 0.385f
+C433 xaa1.xa4.M0.D m3_37748_91804# 0.111f
+C434 AVDD xaa3.xa1c.MN0.D 0.72f
+C435 xaa4.xa2_0.M0.G m3_13116_59412# 0.106f
+C436 xaa6.xg.XA3.MN1.G xaa6.xg.XA1.MN0.D 0.122f
+C437 AVDD a_27244_61102# 0.363f
+C438 xaa4.xa4_0.M8.D a_11784_62764# 0.128f
+C439 AVDD a_27244_55918# 0.385f
+C440 xaa0.xa2.MN0.D a_n908_54510# 0.112f
+C441 AVDD a_5844_56558# 0.388f
+C442 xaa1.xa4.M0.G xaa3.xa7.MN0.D 0.347f
+C443 AVDD xaa6.xc.XA1.MN0.G 3.51f
+C444 xaa6.xf.XA1.MN0.G xaa6.xg.XA7.MN1.D 0.147f
+C445 xaa4.xa2_0.M8.D a_11784_54316# 0.146f
+C446 xaa5.xb2_4.MN0.D a_29764_63214# 0.126f
+C447 PWRUP_1V8 xaa6.xg.XA7.MP1.G 0.124f
+C448 xaa6.xd.XA7.MN1.D xaa6.xd.XA5.MN0.G 0.29f
+C449 xaa6.xc.XA7.MP1.G xaa6.xc.XA6.MN0.G 0.524f
+C450 AVDD a_28612_63566# 0.351f
+C451 xaa6.xe.XA7.MN1.G a_32284_53806# 0.115f
+C452 AVDD xaa6.xc.XA7.MN1.D 1.86f
+C453 xaa5.xb2_0.MN0.D a_29764_61806# 0.126f
+C454 AVDD a_28612_54862# 0.383f
+C455 xaa6.xd.XA7.MN1.D a_29764_57678# 0.134f
+C456 xaa1.xa4.M0.D m3_37748_75484# 0.111f
+C457 xaa4.xa2_0.M0.G xaa5.xb2_2.MN0.D 0.174f
+C458 AVDD a_640_60806# 0.356f
+C459 PWRUP_1V8 xaa6.xg.XA7.MN1.G 0.275f
+C460 AVDD a_11784_55900# 0.517f
+C461 xaa6.xc.XA7.MN1.G xaa6.xc.XA6.MN0.G 0.329f
+C462 xaa4.xa2_0.M8.D a_11784_55372# 0.113f
+C463 AVDD xaa5.xa3.xb2_0.G 0.952f
+C464 AVDD xaa3.xa2.MN0.D 0.716f
+C465 xaa6.xe.XA7.MN1.G a_31132_53806# 0.114f
+C466 AVDD a_27244_54862# 0.383f
+C467 AVDD xaa6.xg.XA6.MN0.G 0.478f
+C468 xaa1.xa4.M0.D m3_37748_92764# 0.111f
+C469 xaa6.xg.XA7.MP1.G m1_37504_55818# 0.242f
+C470 AVDD xaa4.xa4_0.M8.D 9.83f
+C471 AVDD a_5844_56910# 0.348f
+C472 xaa4.xa2_0.M0.G m3_13116_60468# 0.106f
+C473 AVDD xaa0.xa5.MN2.G 4.18f
+C474 PWRUP_1V8 xaa6.xf.XA7.MN1.G 0.667f
+C475 AVDD xaa6.xf.XA6.MN0.G 1.7f
+C476 xaa6.xg.XA7.MN1.G m1_37504_55818# 0.153f
+C477 xaa6.xg.XA7.MP1.G m1_37504_57930# 0.13f
+C478 AVDD xaa0.xa6.MN0.D 1.43f
+C479 xaa1.xa4.M0.D xaa1.xa3.D 4f
+C480 xaa6.xf.XA6.MN0.G xaa6.xf.XA5.MN0.G 0.27f
+C481 AVDD a_37324_58030# 0.344f
+C482 AVDD a_11784_54844# 0.517f
+C483 xaa6.xe.XA1.MN0.G xaa6.xf.XA7.MN1.D 0.274f
+C484 xaa4.xa2_0.M0.G CK 0.794f
+C485 AVDD xaa1.xb2.M7.D 0.166f
+C486 PWRUP_1V8 xaa6.xf.XA7.MP1.G 0.124f
+C487 AVDD xaa6.xe.XA6.MN0.G 1.7f
+C488 PWRUP_1V8 xaa3.xa1b.MN0.D 1.73f
+C489 AVDD xaa0.xa1.MN2.S 1.24f
+C490 xaa6.xd.XA7.MN1.G a_29764_53806# 0.115f
+C491 xaa3.xa5a.MN0.D li_6204_57940# 0.118f
+C492 xaa4.xa4_0.M8.D a_11784_60652# 0.128f
+C493 AVDD xaa6.xg.XA4.MN0.G 0.485f
+C494 xaa1.xa4.M0.D m3_37748_76444# 0.111f
+C495 xaa5.xa3.xb1_0.G CK 0.129f
+C496 AVDD xaa6.xd.XA6.MN0.G 1.7f
+C497 xaa6.xc.XA7.MN1.D xaa6.xc.XA5.MN0.G 0.29f
+C498 AVDD a_11784_63820# 0.429f
+C499 a_n76_72222# a_788_72222# 0.107f
+C500 AVDD a_244_55214# 0.364f
+C501 xaa6.xe.XA6.MN0.G xaa6.xe.XA5.MN0.G 0.27f
+C502 xaa6.xd.XA7.MN1.G a_28612_53806# 0.113f
+C503 xaa1.xa4.M0.G xaa3.xa9.MN0.D 0.169f
+C504 AVDD xaa5.xa3.xc1a.D 0.153f
+C505 PWRUP_1V8 xaa6.xe.XA7.MP1.G 0.124f
+C506 xaa6.xd.XA7.MP1.G a_29764_56270# 0.1f
+C507 xaa4.xa2_0.M0.G m3_13116_61524# 0.106f
+C508 AVDD a_33652_58030# 0.338f
+C509 xaa6.xc.XA7.MN1.D a_26092_57678# 0.132f
+C510 AVDD a_11784_61180# 0.517f
+C511 PWRUP_1V8 xaa6.xe.XA7.MN1.G 0.658f
+C512 AVDD xaa6.xc.XA6.MN0.G 1.7f
+C513 AVDD a_28612_63918# 0.351f
+C514 AVDD xaa0.xa3.MP0.D 0.191f
+C515 xaa6.xd.XA6.MN0.G xaa6.xd.XA5.MN0.G 0.27f
+C516 xaa6.xg.XA3.MN1.G a_37324_53806# 0.107f
+C517 AVDD a_32284_58030# 0.343f
+C518 AVDD a_37324_55214# 0.364f
+C519 xaa6.xd.XA1.MN0.G xaa6.xe.XA7.MN1.D 0.262f
+C520 AVDD xaa4.xa2_0.M0.G 11.2f
+C521 AVDD a_244_55566# 0.383f
+C522 AVDD a_37324_53806# 0.405f
+C523 xaa6.xg.XA3.MN1.G a_36172_53806# 0.113f
+C524 xaa1.xa4.M0.D m3_37748_77404# 0.111f
+C525 AVDD xaa0.xa2a.MN0.D 1.72f
+C526 PWRUP_1V8 xaa6.xd.XA7.MN1.G 0.667f
+C527 AVDD a_37324_56270# 0.362f
+C528 AVDD xaa5.xa3.xb1_0.G 0.826f
+C529 xaa4.xa2_0.M0.G xaa5.xb2_3.MN0.D 0.174f
+C530 PWRUP_1V8 xaa6.xd.XA7.MP1.G 0.124f
+C531 AVDD xaa1.xa4.M0.G 2.39f
+C532 AVDD xaa0.xa1.MN0.G 1.23f
+C533 xaa6.xc.XA7.MN1.G a_27244_53806# 0.115f
+C534 xaa4.xa2_0.M0.G m3_13116_62580# 0.106f
+C535 AVDD a_28612_58030# 0.338f
+C536 AVDD a_33652_55214# 0.364f
+C537 xaa3.xa1c.MN0.D a_4692_56206# 0.117f
+C538 AVDD xaa5.xb1.MN1.G 0.635f
+C539 AVDD a_244_55918# 0.364f
+C540 AVDD a_33652_53806# 0.406f
+C541 xaa6.xc.XA7.MN1.G a_26092_53806# 0.114f
+C542 xaa6.xc.XA6.MN0.G xaa6.xc.XA5.MN0.G 0.27f
+C543 AVDD a_27244_58030# 0.343f
+C544 AVDD a_32284_55214# 0.364f
+C545 xaa4.xa4_0.M8.D a_11784_63292# 0.128f
+C546 xaa5.xa3.xb2_0.G xaa5.xb2_4.MN0.D 0.228f
+C547 AVDD a_28612_61454# 0.352f
+C548 PWRUP_1V8 xaa6.xc.XA7.MP1.G 0.124f
+C549 AVDD a_33652_56270# 0.363f
+C550 xaa6.xf.XA7.MN1.D xaa6.xf.XA6.MN0.G 0.224f
+C551 AVDD a_32284_53806# 0.406f
+C552 xaa6.xf.XA6.MN0.G a_33652_55918# 0.111f
+C553 xaa5.xa3.xb1_0.D a_27244_61806# 0.154f
+C554 xaa5.xb2_1.MN0.D xaa5.xb2_0.MN0.D 0.197f
+C555 xaa6.xc.XA1.MN0.G xaa6.xd.XA7.MN1.D 0.274f
+C556 xaa1.xa4.M0.D m3_37748_78364# 0.111f
+C557 AVDD a_27244_61454# 0.382f
+C558 AVDD a_32284_56270# 0.363f
+C559 PWRUP_1V8 xaa6.xc.XA7.MN1.G 0.671f
+C560 AVDD xaa0.xa5.MP1.D 0.191f
+C561 AVDD a_11784_58012# 0.517f
+C562 AVDD a_28612_64270# 0.351f
+C563 AVDD a_244_56270# 0.384f
+C564 xaa6.xe.XA6.MN0.G a_32284_55918# 0.113f
+C565 xaa4.xa2_0.M0.G m3_13116_63636# 0.106f
+C566 AVDD xaa4.xa2_0.M8.D 6.2f
+C567 CK PWRUP_1V8 0.31f
+C568 AVDD a_28612_55214# 0.364f
+C569 m3_22692_52900# AVSS 0.174f
+C570 m3_22692_53956# AVSS 0.174f
+C571 m3_22692_55012# AVSS 0.174f
+C572 m3_22692_56068# AVSS 0.174f
+C573 m3_22692_57124# AVSS 0.174f
+C574 m3_22692_58180# AVSS 0.174f
+C575 m3_22692_59236# AVSS 0.174f
+C576 m3_22692_60292# AVSS 0.174f
+C577 m3_22692_61348# AVSS 0.174f
+C578 m3_22692_62404# AVSS 0.174f
+C579 m3_22692_63460# AVSS 0.174f
+C580 m3_4628_69564# AVSS 0.189f
+C581 m3_4628_70524# AVSS 0.189f
+C582 m3_4628_71484# AVSS 0.189f
+C583 m3_4628_72444# AVSS 0.189f
+C584 m3_4628_73404# AVSS 0.189f
+C585 m3_4628_74364# AVSS 0.189f
+C586 m3_4628_75324# AVSS 0.189f
+C587 m3_4628_76284# AVSS 0.189f
+C588 m3_4628_77244# AVSS 0.189f
+C589 m3_4628_78204# AVSS 0.189f
+C590 m3_4628_79164# AVSS 0.189f
+C591 m3_4628_80124# AVSS 0.189f
+C592 m3_4628_81084# AVSS 0.189f
+C593 m3_4628_82044# AVSS 0.189f
+C594 m3_4628_83004# AVSS 0.189f
+C595 m3_4628_83964# AVSS 0.189f
+C596 m3_4628_84924# AVSS 0.189f
+C597 m3_4628_85884# AVSS 0.189f
+C598 m3_4628_86844# AVSS 0.189f
+C599 m3_4628_87804# AVSS 0.189f
+C600 m3_4628_88764# AVSS 0.189f
+C601 m3_4628_89724# AVSS 0.189f
+C602 m3_4628_90684# AVSS 0.189f
+C603 m3_4628_91644# AVSS 0.189f
+C604 m3_4628_92604# AVSS 0.189f
+C605 li_4836_57412# AVSS 0.115f
+C606 a_4308_51566# AVSS 0.491f $ **FLOATING
+C607 a_4308_51918# AVSS 0.389f $ **FLOATING
+C608 a_37324_52750# AVSS 0.129f $ **FLOATING
+C609 a_36172_52750# AVSS 0.572f $ **FLOATING
+C610 a_34804_52750# AVSS 0.573f $ **FLOATING
+C611 a_33652_52750# AVSS 0.127f $ **FLOATING
+C612 a_32284_52750# AVSS 0.127f $ **FLOATING
+C613 a_31132_52750# AVSS 0.572f $ **FLOATING
+C614 a_29764_52750# AVSS 0.576f $ **FLOATING
+C615 a_28612_52750# AVSS 0.127f $ **FLOATING
+C616 a_27244_52750# AVSS 0.127f $ **FLOATING
+C617 a_26092_52750# AVSS 0.573f $ **FLOATING
+C618 a_11784_52732# AVSS 0.17f $ **FLOATING
+C619 a_10092_52750# AVSS 0.514f $ **FLOATING
+C620 a_36172_53102# AVSS 0.49f $ **FLOATING
+C621 a_34804_53102# AVSS 0.488f $ **FLOATING
+C622 a_31132_53102# AVSS 0.49f $ **FLOATING
+C623 a_29764_53102# AVSS 0.488f $ **FLOATING
+C624 a_26092_53102# AVSS 0.49f $ **FLOATING
+C625 a_36172_53454# AVSS 0.365f $ **FLOATING
+C626 a_34804_53454# AVSS 0.365f $ **FLOATING
+C627 a_31132_53454# AVSS 0.364f $ **FLOATING
+C628 a_29764_53454# AVSS 0.365f $ **FLOATING
+C629 a_26092_53454# AVSS 0.365f $ **FLOATING
+C630 xaa6.xg.XA1.MN0.D AVSS 0.169f
+C631 xaa6.xf.XA1.MN0.D AVSS 0.169f
+C632 xaa6.xe.XA1.MN0.D AVSS 0.15f
+C633 xaa6.xd.XA1.MN0.D AVSS 0.169f
+C634 xaa6.xc.XA1.MN0.D AVSS 0.15f
+C635 a_36172_53806# AVSS 0.384f $ **FLOATING
+C636 a_34804_53806# AVSS 0.384f $ **FLOATING
+C637 a_31132_53806# AVSS 0.383f $ **FLOATING
+C638 a_29764_53806# AVSS 0.384f $ **FLOATING
+C639 a_26092_53806# AVSS 0.383f $ **FLOATING
+C640 a_4308_53678# AVSS 0.47f $ **FLOATING
+C641 a_244_52750# AVSS 0.13f $ **FLOATING
+C642 a_n908_52750# AVSS 0.573f $ **FLOATING
+C643 a_n908_53102# AVSS 0.49f $ **FLOATING
+C644 a_n908_53454# AVSS 0.363f $ **FLOATING
+C645 a_36172_54158# AVSS 0.387f $ **FLOATING
+C646 a_34804_54158# AVSS 0.387f $ **FLOATING
+C647 a_31132_54158# AVSS 0.387f $ **FLOATING
+C648 a_29764_54158# AVSS 0.387f $ **FLOATING
+C649 a_26092_54158# AVSS 0.388f $ **FLOATING
+C650 a_36172_54510# AVSS 0.364f $ **FLOATING
+C651 a_34804_54510# AVSS 0.364f $ **FLOATING
+C652 a_31132_54510# AVSS 0.364f $ **FLOATING
+C653 a_29764_54510# AVSS 0.364f $ **FLOATING
+C654 a_26092_54510# AVSS 0.365f $ **FLOATING
+C655 xaa6.xg.XA3.MN0.D AVSS 0.162f
+C656 xaa6.xg.XA3.MN1.G AVSS 1.62f
+C657 xaa6.xf.XA3.MN0.D AVSS 0.162f
+C658 xaa6.xe.XA3.MN0.D AVSS 0.162f
+C659 xaa6.xd.XA3.MN0.D AVSS 0.162f
+C660 xaa6.xc.XA3.MN0.D AVSS 0.162f
+C661 a_10092_54510# AVSS 0.376f $ **FLOATING
+C662 a_36172_54862# AVSS 0.383f $ **FLOATING
+C663 a_34804_54862# AVSS 0.383f $ **FLOATING
+C664 a_31132_54862# AVSS 0.383f $ **FLOATING
+C665 a_29764_54862# AVSS 0.383f $ **FLOATING
+C666 a_26092_54862# AVSS 0.384f $ **FLOATING
+C667 xaa6.xg.XA4.MN0.G AVSS 0.53f
+C668 a_36172_55214# AVSS 0.364f $ **FLOATING
+C669 a_34804_55214# AVSS 0.364f $ **FLOATING
+C670 a_31132_55214# AVSS 0.364f $ **FLOATING
+C671 a_29764_55214# AVSS 0.364f $ **FLOATING
+C672 a_26092_55214# AVSS 0.364f $ **FLOATING
+C673 CK_REF AVSS 0.957f
+C674 a_n908_53806# AVSS 0.363f $ **FLOATING
+C675 xaa0.xa1.MN2.D AVSS 0.138f
+C676 xaa0.xa1.MN0.D AVSS 1.16f
+C677 a_n908_54158# AVSS 0.406f $ **FLOATING
+C678 a_n908_54510# AVSS 0.386f $ **FLOATING
+C679 xaa0.xa2.MN0.D AVSS 1.03f
+C680 a_n908_54862# AVSS 0.384f $ **FLOATING
+C681 xaa6.xg.XA4.MN0.D AVSS 0.139f
+C682 xaa6.xf.XA4.MN0.D AVSS 0.139f
+C683 xaa6.xe.XA4.MN0.D AVSS 0.139f
+C684 xaa6.xd.XA4.MN0.D AVSS 0.139f
+C685 xaa6.xc.XA4.MN0.D AVSS 0.139f
+C686 a_36172_55566# AVSS 0.383f $ **FLOATING
+C687 a_34804_55566# AVSS 0.383f $ **FLOATING
+C688 a_31132_55566# AVSS 0.383f $ **FLOATING
+C689 a_29764_55566# AVSS 0.383f $ **FLOATING
+C690 a_26092_55566# AVSS 0.383f $ **FLOATING
+C691 xaa6.xg.XA5.MN0.G AVSS 1.26f
+C692 xaa6.xg.XA5.MN0.D AVSS 0.229f
+C693 xaa6.xf.XA5.MN0.G AVSS 1.25f
+C694 xaa6.xe.XA5.MN0.G AVSS 1.26f
+C695 xaa6.xd.XA5.MN0.G AVSS 1.25f
+C696 xaa6.xc.XA5.MN0.G AVSS 1.26f
+C697 a_36172_55918# AVSS 0.387f $ **FLOATING
+C698 a_34804_55918# AVSS 0.387f $ **FLOATING
+C699 a_31132_55918# AVSS 0.387f $ **FLOATING
+C700 a_29764_55918# AVSS 0.387f $ **FLOATING
+C701 a_26092_55918# AVSS 0.388f $ **FLOATING
+C702 xaa6.xg.XA6.MN0.G AVSS 0.523f
+C703 xaa6.xf.XA6.MN0.G AVSS 1.29f
+C704 xaa6.xe.XA6.MN0.G AVSS 1.29f
+C705 xaa6.xd.XA6.MN0.G AVSS 1.29f
+C706 xaa6.xc.XA6.MN0.G AVSS 1.29f
+C707 a_36172_56270# AVSS 0.362f $ **FLOATING
+C708 a_34804_56270# AVSS 0.362f $ **FLOATING
+C709 a_31132_56270# AVSS 0.362f $ **FLOATING
+C710 a_29764_56270# AVSS 0.362f $ **FLOATING
+C711 a_26092_56270# AVSS 0.363f $ **FLOATING
+C712 a_10092_56270# AVSS 0.375f $ **FLOATING
+C713 xaa6.xg.XA6.MN0.D AVSS 0.146f
+C714 xaa6.xf.XA6.MN0.D AVSS 0.146f
+C715 xaa6.xe.XA6.MN0.D AVSS 0.146f
+C716 xaa6.xd.XA6.MN0.D AVSS 0.146f
+C717 xaa6.xc.XA6.MN0.D AVSS 0.146f
+C718 a_36172_56622# AVSS 0.382f $ **FLOATING
+C719 a_34804_56622# AVSS 0.382f $ **FLOATING
+C720 a_31132_56622# AVSS 0.382f $ **FLOATING
+C721 a_29764_56622# AVSS 0.382f $ **FLOATING
+C722 a_26092_56622# AVSS 0.382f $ **FLOATING
+C723 a_36172_56974# AVSS 0.362f $ **FLOATING
+C724 a_34804_56974# AVSS 0.362f $ **FLOATING
+C725 a_31132_56974# AVSS 0.362f $ **FLOATING
+C726 a_29764_56974# AVSS 0.362f $ **FLOATING
+C727 a_26092_56974# AVSS 0.363f $ **FLOATING
+C728 xaa6.xg.XA7.MN2.D AVSS 0.181f
+C729 xaa6.xg.XA7.MN0.G AVSS 0.51f
+C730 xaa6.xf.XA7.MN2.D AVSS 0.181f
+C731 xaa6.xe.XA7.MN2.D AVSS 0.181f
+C732 xaa6.xd.XA7.MN2.D AVSS 0.181f
+C733 xaa6.xc.XA7.MN2.D AVSS 0.181f
+C734 a_5844_55150# AVSS 0.132f $ **FLOATING
+C735 a_4692_55150# AVSS 0.57f $ **FLOATING
+C736 a_4692_55502# AVSS 0.49f $ **FLOATING
+C737 a_4692_55854# AVSS 0.386f $ **FLOATING
+C738 a_4692_56206# AVSS 0.385f $ **FLOATING
+C739 xaa3.xa1c.MN0.D AVSS 1.05f
+C740 a_4692_56558# AVSS 0.385f $ **FLOATING
+C741 xaa3.xa2.MN0.D AVSS 1.12f
+C742 a_4692_56910# AVSS 0.436f $ **FLOATING
+C743 xaa0.xa1.MN2.S AVSS 1.79f
+C744 a_n908_55214# AVSS 0.367f $ **FLOATING
+C745 a_n908_55566# AVSS 0.407f $ **FLOATING
+C746 xaa0.xa1.MN0.G AVSS 2.58f
+C747 a_n908_55918# AVSS 0.362f $ **FLOATING
+C748 a_n908_56270# AVSS 0.362f $ **FLOATING
+C749 xaa0.xa5.MN2.D AVSS 0.152f
+C750 xaa0.xa5.MN0.D AVSS 1.16f
+C751 a_n908_56622# AVSS 0.407f $ **FLOATING
+C752 xaa0.xa3.MN1.G AVSS 2.02f
+C753 a_244_56974# AVSS 0.129f $ **FLOATING
+C754 a_n908_56974# AVSS 0.465f $ **FLOATING
+C755 a_36172_57326# AVSS 0.359f $ **FLOATING
+C756 a_34804_57326# AVSS 0.359f $ **FLOATING
+C757 a_31132_57326# AVSS 0.359f $ **FLOATING
+C758 a_29764_57326# AVSS 0.359f $ **FLOATING
+C759 a_26092_57326# AVSS 0.36f $ **FLOATING
+C760 xaa6.xg.XA7.MN0.D AVSS 0.248f
+C761 xaa6.xg.XA7.MP1.G AVSS 1.85f
+C762 xaa6.xg.XA7.MN1.G AVSS 1.35f
+C763 xaa6.xf.XA7.MN0.D AVSS 0.248f
+C764 xaa6.xf.XA7.MN1.G AVSS 2.9f
+C765 xaa6.xf.XA7.MP1.G AVSS 1.85f
+C766 xaa6.xe.XA7.MN0.D AVSS 0.248f
+C767 xaa6.xe.XA7.MP1.G AVSS 1.85f
+C768 xaa6.xe.XA7.MN1.G AVSS 2.91f
+C769 xaa6.xd.XA7.MN0.D AVSS 0.248f
+C770 xaa6.xd.XA7.MN1.G AVSS 2.9f
+C771 xaa6.xd.XA7.MP1.G AVSS 1.85f
+C772 xaa6.xc.XA7.MN0.D AVSS 0.248f
+C773 xaa6.xc.XA7.MP1.G AVSS 1.85f
+C774 xaa6.xc.XA7.MN1.G AVSS 3.02f
+C775 a_36172_57678# AVSS 0.381f $ **FLOATING
+C776 a_34804_57678# AVSS 0.381f $ **FLOATING
+C777 a_31132_57678# AVSS 0.381f $ **FLOATING
+C778 a_29764_57678# AVSS 0.381f $ **FLOATING
+C779 a_26092_57678# AVSS 0.382f $ **FLOATING
+C780 xaa6.xg.XA7.MN1.D AVSS 2.68f
+C781 xaa6.xf.XA1.MN0.G AVSS 2.93f
+C782 xaa6.xf.XA7.MN1.D AVSS 2.67f
+C783 xaa6.xe.XA1.MN0.G AVSS 2.89f
+C784 xaa6.xe.XA7.MN1.D AVSS 2.68f
+C785 xaa6.xd.XA1.MN0.G AVSS 3.54f
+C786 xaa6.xd.XA7.MN1.D AVSS 2.67f
+C787 xaa6.xc.XA1.MN0.G AVSS 3.02f
+C788 xaa6.xc.XA7.MN1.D AVSS 2.67f
+C789 xaa0.xa5.MN2.G AVSS 15.3f
+C790 a_37324_58030# AVSS 0.129f $ **FLOATING
+C791 a_36172_58030# AVSS 0.462f $ **FLOATING
+C792 a_34804_58030# AVSS 0.463f $ **FLOATING
+C793 a_33652_58030# AVSS 0.127f $ **FLOATING
+C794 a_32284_58030# AVSS 0.127f $ **FLOATING
+C795 a_31132_58030# AVSS 0.462f $ **FLOATING
+C796 a_29764_58030# AVSS 0.463f $ **FLOATING
+C797 a_28612_58030# AVSS 0.131f $ **FLOATING
+C798 a_27244_58030# AVSS 0.127f $ **FLOATING
+C799 a_26092_58030# AVSS 0.465f $ **FLOATING
+C800 xaa4.xa2_0.M8.D AVSS 1.61f
+C801 a_10092_58030# AVSS 0.376f $ **FLOATING
+C802 a_10092_59790# AVSS 0.375f $ **FLOATING
+C803 xaa4.xa1.M8.D AVSS 1.44f
+C804 a_5844_58494# AVSS 0.109f $ **FLOATING
+C805 a_4692_58494# AVSS 0.472f $ **FLOATING
+C806 xaa3.xa5a.MN0.D AVSS 5.24f
+C807 a_4692_58846# AVSS 0.385f $ **FLOATING
+C808 xaa3.xa6.MN0.D AVSS 1.11f
+C809 a_4692_59198# AVSS 0.384f $ **FLOATING
+C810 xaa3.xa1b.MN0.D AVSS 5.42f
+C811 a_4692_59550# AVSS 0.369f $ **FLOATING
+C812 xaa3.xa7.MN0.D AVSS 1.03f
+C813 a_640_59750# AVSS 0.13f $ **FLOATING
+C814 a_n908_59750# AVSS 0.519f $ **FLOATING
+C815 a_4692_59902# AVSS 0.407f $ **FLOATING
+C816 xaa3.xa9.MN0.D AVSS 0.29f
+C817 a_5844_60254# AVSS 0.129f $ **FLOATING
+C818 a_4692_60254# AVSS 0.468f $ **FLOATING
+C819 a_29764_60750# AVSS 0.493f $ **FLOATING
+C820 a_28612_60750# AVSS 0.136f $ **FLOATING
+C821 a_27244_60750# AVSS 0.127f $ **FLOATING
+C822 a_26092_60750# AVSS 0.492f $ **FLOATING
+C823 a_29764_61102# AVSS 0.366f $ **FLOATING
+C824 a_26092_61102# AVSS 0.384f $ **FLOATING
+C825 xaa5.xb1.MN0.D AVSS 0.175f
+C826 xaa0.xa2a.MN0.D AVSS 3.65f
+C827 a_29764_61454# AVSS 0.38f $ **FLOATING
+C828 a_26092_61454# AVSS 0.389f $ **FLOATING
+C829 xaa5.xb1.MN1.D AVSS 0.983f
+C830 PWRUP_1V8 AVSS 37f
+C831 xaa1.xa1.M8.D AVSS 0.735f
+C832 a_10092_61550# AVSS 0.432f $ **FLOATING
+C833 a_n908_61510# AVSS 0.398f $ **FLOATING
+C834 a_29764_61806# AVSS 0.384f $ **FLOATING
+C835 a_26092_61806# AVSS 0.388f $ **FLOATING
+C836 xaa5.xb2_0.MN0.D AVSS 0.897f
+C837 a_29764_62158# AVSS 0.384f $ **FLOATING
+C838 a_26092_62158# AVSS 0.384f $ **FLOATING
+C839 xaa5.xb2_1.MN0.D AVSS 0.893f
+C840 xaa5.xa3.xb1_0.D AVSS 1.91f
+C841 xaa5.xa4.MN0.D AVSS 0.216f
+C842 a_29764_62510# AVSS 0.384f $ **FLOATING
+C843 a_26092_62510# AVSS 0.388f $ **FLOATING
+C844 xaa5.xb2_2.MN0.D AVSS 0.893f
+C845 xaa5.xa3.xb2_0.D AVSS 1.43f
+C846 CK AVSS 13.3f
+C847 a_29764_62862# AVSS 0.384f $ **FLOATING
+C848 a_26092_62862# AVSS 0.467f $ **FLOATING
+C849 xaa5.xb2_3.MN0.D AVSS 0.893f
+C850 a_29764_63214# AVSS 0.384f $ **FLOATING
+C851 a_26092_63214# AVSS 0.531f $ **FLOATING
+C852 xaa5.xb2_4.MN0.D AVSS 0.893f
+C853 IBPSR_1U AVSS 23.6f
+C854 a_n908_63270# AVSS 0.367f $ **FLOATING
+C855 xaa1.xa2.M8.D AVSS 0.166f
+C856 a_29764_63566# AVSS 0.381f $ **FLOATING
+C857 xaa5.xa3.xb2_0.G AVSS 3.22f
+C858 xaa4.xa4_0.M8.D AVSS 2.08f
+C859 xaa0.xa6.MN0.D AVSS 3.79f
+C860 a_n908_63622# AVSS 0.384f $ **FLOATING
+C861 a_11784_63820# AVSS 0.11f $ **FLOATING
+C862 a_29764_63918# AVSS 0.381f $ **FLOATING
+C863 xaa4.xa2_0.M0.G AVSS 0.963p
+C864 xaa5.xa3.xb1_0.G AVSS 3.71f
+C865 xaa1.xa4.M0.G AVSS 7.62f
+C866 xaa5.xb1.MN1.G AVSS 2.59f
+C867 a_n908_64150# AVSS 0.487f $ **FLOATING
+C868 a_29764_64270# AVSS 0.469f $ **FLOATING
+C869 xaa5.xb3.MP1.D AVSS 0.119f
+C870 a_29764_64622# AVSS 0.568f $ **FLOATING
+C871 a_28612_64622# AVSS 0.128f $ **FLOATING
+C872 a_2948_70022# AVSS 2.6f $ **FLOATING
+C873 xaa1.xa3.D AVSS 0.937p
+C874 a_2084_70022# AVSS 0.843f
+C875 a_1652_72222# AVSS 1.08f
+C876 a_1220_70022# AVSS 0.778f
+C877 a_788_72222# AVSS 1.08f
+C878 a_356_70022# AVSS 0.778f
+C879 a_n76_72222# AVSS 1.08f
+C880 a_n508_70022# AVSS 0.843f
+C881 a_n940_70022# AVSS 2.59f $ **FLOATING
+C882 a_2948_74698# AVSS 2.6f $ **FLOATING
+C883 xaa1.xa4.M0.D AVSS 6.7p
+C884 a_2084_74698# AVSS 0.843f
+C885 a_1652_76898# AVSS 1.08f
+C886 a_1220_74698# AVSS 0.778f
+C887 a_788_76898# AVSS 1.08f
+C888 a_356_74698# AVSS 0.778f
+C889 a_n76_76898# AVSS 1.08f
+C890 a_n508_74698# AVSS 0.843f
+C891 xbb0.xa1.XA1.N AVSS 3.4f
+C892 a_n940_74698# AVSS 2.59f $ **FLOATING
+C893 AVDD AVSS 0.421p
 .ends
 

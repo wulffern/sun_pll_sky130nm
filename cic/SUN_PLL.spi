@@ -90,19 +90,23 @@ xa3 IBPSR_1U IBPSR_1U AVSS AVSS SUNTR_NCHDLCM
 *.ipin VBN
 *.ipin AVSS
 xa1 VS VBN AVSS AVSS SUNTR_NCHDLCM
-xa2 VDP VFB VS AVSS SUNTR_NCHDLA
-xa4 VGP VI VS AVSS SUNTR_NCHDLA
-xc1_0 VGP VDP AVDD AVDD SUNTR_PCHL
-xc1_1 VGP VDP AVDD AVDD SUNTR_PCHL
-xc1_2 VGP VDP AVDD AVDD SUNTR_PCHL
-xc1_3 VGP VDP AVDD AVDD SUNTR_PCHL
-xc2_0 VDP VDP AVDD AVDD SUNTR_PCHL
-xc2_1 VDP VDP AVDD AVDD SUNTR_PCHL
-xc2_2 VDP VDP AVDD AVDD SUNTR_PCHL
-xc2_3 VDP VDP AVDD AVDD SUNTR_PCHL
+xa2_0 VDP VFB VS AVSS SUNTR_NCHDLCM
+xa2_1 VDP VFB VS AVSS SUNTR_NCHDLCM
+xa4_0 VGP VI VS AVSS SUNTR_NCHDLCM
+xa4_1 VGP VI VS AVSS SUNTR_NCHDLCM
+xc1_0 VDP VDP AVDD AVDD SUNTR_PCHL
+xc1_1 VDP VDP AVDD AVDD SUNTR_PCHL
+xc1_2 VDP VDP AVDD AVDD SUNTR_PCHL
+xc1_3 VDP VDP AVDD AVDD SUNTR_PCHL
+xc2_0 VGP VDP AVDD AVDD SUNTR_PCHL
+xc2_1 VGP VDP AVDD AVDD SUNTR_PCHL
+xc2_2 VGP VDP AVDD AVDD SUNTR_PCHL
+xc2_3 VGP VDP AVDD AVDD SUNTR_PCHL
 xc3_0 VO VGP AVDD AVDD SUNTR_PCHL
 xc3_1 VO VGP AVDD AVDD SUNTR_PCHL
 xc3_10 VO VGP AVDD AVDD SUNTR_PCHL
+xc3_11 VO VGP AVDD AVDD SUNTR_PCHL
+xc3_12 VO VGP AVDD AVDD SUNTR_PCHL
 xc3_2 VO VGP AVDD AVDD SUNTR_PCHL
 xc3_3 VO VGP AVDD AVDD SUNTR_PCHL
 xc3_4 VO VGP AVDD AVDD SUNTR_PCHL
@@ -395,19 +399,6 @@ XM1 D G S B sky130_fd_pr__nfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf 
 .ends
 
 
-* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NCHDLA.sym # of pins=4
-** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA.sym
-** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA.sch
-.subckt SUNTR_NCHDLA D G S B
-*.iopin D
-*.iopin G
-*.iopin S
-*.iopin B
-XM0 D G S B SUNTR_NCHDL
-XM1 S G D B SUNTR_NCHDL
-.ends
-
-
 * expanding   symbol:  SUN_TR_SKY130NM/SUNTR_PCHL.sym # of pins=4
 ** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHL.sym
 ** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_PCHL.sch
@@ -479,6 +470,19 @@ XM7 D G N0 B SUNTR_PCHDL
 *.iopin S
 *.iopin B
 XM1 D G S B sky130_fd_pr__pfet_01v8 L=0.18 W=1.08 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'  pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'  sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  SUN_TR_SKY130NM/SUNTR_NCHDLA.sym # of pins=4
+** sym_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA.sym
+** sch_path: /Users/wulff/data/2023/aicex/ip/sun_tr_sky130nm/design/SUN_TR_SKY130NM/SUNTR_NCHDLA.sch
+.subckt SUNTR_NCHDLA D G S B
+*.iopin D
+*.iopin G
+*.iopin S
+*.iopin B
+XM0 D G S B SUNTR_NCHDL
+XM1 S G D B SUNTR_NCHDL
 .ends
 
 

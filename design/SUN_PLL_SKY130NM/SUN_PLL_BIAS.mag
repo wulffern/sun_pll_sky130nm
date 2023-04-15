@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1681577369
+timestamp 1681581525
 << locali >>
 rect 0 1320 1014 1440
 rect 0 464 120 1320
@@ -31,7 +31,7 @@ timestamp 1680904800
 transform 1 0 192 0 1 192
 box -90 -66 630 242
 use SUNTR_NCHDLCM  xa3 ../SUN_TR_SKY130NM
-timestamp 1681577369
+timestamp 1681579134
 transform 1 0 192 0 1 368
 box -90 -66 630 946
 use cut_M1M3_2x1  xcut0

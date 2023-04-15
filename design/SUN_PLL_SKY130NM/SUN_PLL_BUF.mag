@@ -1,11 +1,15 @@
 magic
 tech sky130B
-timestamp 1681577369
+timestamp 1681581525
 << locali >>
 rect 0 6456 7392 6576
 rect 0 120 120 6456
 rect 192 6264 7200 6384
 rect 192 312 312 6264
+rect 1662 5737 1776 5767
+rect 1746 5503 1776 5737
+rect 1662 5473 1776 5503
+rect 1746 5239 1776 5473
 rect 1662 5209 1776 5239
 rect 1746 4975 1776 5209
 rect 1662 4945 1776 4975
@@ -15,6 +19,9 @@ rect 1746 4447 1776 4681
 rect 1662 4417 1776 4447
 rect 1746 4183 1776 4417
 rect 1662 4153 1776 4183
+rect 585 3097 615 4007
+rect 816 3933 930 3963
+rect 900 3083 930 3933
 rect 1746 3919 1776 4153
 rect 1662 3889 1776 3919
 rect 1746 3655 1776 3889
@@ -23,18 +30,21 @@ rect 1746 3391 1776 3625
 rect 1662 3361 1776 3391
 rect 1746 3127 1776 3361
 rect 1662 3097 1776 3127
+rect 816 3053 930 3083
+rect 585 1337 615 2247
+rect 900 2203 930 3053
 rect 1746 2863 1776 3097
 rect 1662 2833 1776 2863
 rect 1746 2599 1776 2833
 rect 1662 2569 1776 2599
 rect 1746 2335 1776 2569
 rect 1662 2305 1776 2335
+rect 816 2173 930 2203
+rect 900 1323 930 2173
 rect 1746 2071 1776 2305
 rect 1662 2041 1776 2071
 rect 1746 1807 1776 2041
 rect 1662 1777 1776 1807
-rect 816 1557 930 1587
-rect 900 1323 930 1557
 rect 1746 1543 1776 1777
 rect 1662 1513 1776 1543
 rect 816 1293 930 1323
@@ -53,83 +63,89 @@ rect 192 192 7200 312
 rect 7272 120 7392 6456
 rect 0 0 7392 120
 << metal1 >>
+rect 1446 5781 1560 5811
+rect 1530 5547 1560 5781
+rect 1446 5517 1560 5547
+rect 1530 5283 1560 5517
 rect 1446 5253 1560 5283
 rect 1530 5019 1560 5253
 rect 1446 4989 1560 5019
 rect 1530 4755 1560 4989
-rect 1446 4725 1560 4755
+rect 816 4725 1560 4755
 rect 1530 4491 1560 4725
 rect 1446 4461 1560 4491
 rect 1530 4227 1560 4461
 rect 1446 4197 1560 4227
 rect 1530 3963 1560 4197
 rect 1446 3933 1560 3963
-rect 1530 3699 1560 3933
+rect 1530 3875 1560 3933
+rect 816 3845 1560 3875
+rect 1530 3699 1560 3845
 rect 1446 3669 1560 3699
 rect 1530 3435 1560 3669
 rect 1446 3405 1560 3435
 rect 1530 3171 1560 3405
 rect 1446 3141 1560 3171
+rect 0 3097 600 3127
 rect 1530 2907 1560 3141
 rect 1446 2877 1560 2907
 rect 1530 2643 1560 2877
 rect 1446 2613 1560 2643
-rect 1530 1675 1560 2613
-rect 816 1645 1560 1675
-rect 330 192 438 1638
-rect 1530 1367 1560 1645
-rect 1530 1337 1662 1367
-rect 1530 1103 1560 1337
-rect 1530 1073 1662 1103
-rect 1530 839 1560 1073
-rect 1530 809 1662 839
-rect 1530 575 1560 809
-rect 1530 545 1662 575
+rect 1530 2423 1560 2613
+rect 1530 2393 1662 2423
+rect 1530 2159 1560 2393
+rect 1530 2129 1662 2159
+rect 1530 1895 1560 2129
+rect 1530 1865 1662 1895
+rect 1530 1631 1560 1865
+rect 1530 1601 1662 1631
+rect 330 192 438 494
 rect 762 192 870 443
 rect 1176 0 1284 538
 rect 1608 0 1716 487
 << metal2 >>
-rect 1538 6584 1662 6592
-rect 1538 6554 1716 6584
-rect 1538 2695 1576 6554
-rect 1538 2657 1662 2695
-rect 1532 2393 1662 2431
-rect 1532 2387 1570 2393
+rect 816 2965 1570 3003
+rect 1532 2387 1570 2965
 rect 1446 2349 1570 2387
-rect 1532 2167 1570 2349
-rect 1532 2129 1662 2167
-rect 1532 2123 1570 2129
-rect 1446 2085 1570 2123
-rect 1532 1903 1570 2085
-rect 1532 1865 1662 1903
-rect 1532 1859 1570 1865
+rect 1532 2123 1570 2349
+rect 816 2085 1570 2123
+rect 1532 1859 1570 2085
 rect 1446 1821 1570 1859
-rect 1532 1639 1570 1821
-rect 54 1631 600 1639
-rect 0 1601 600 1631
-rect 1532 1601 1662 1639
-rect 1532 1595 1570 1601
+rect 1532 1595 1570 1821
 rect 1446 1557 1570 1595
-rect 1532 1419 1570 1557
-rect 816 1381 1570 1419
-rect 1532 1331 1570 1381
+rect 1532 1375 1570 1557
+rect 1532 1337 1662 1375
+rect 1532 1331 1570 1337
 rect 1446 1293 1570 1331
-rect 1532 1067 1570 1293
+rect 1532 1111 1570 1293
+rect 1532 1073 1662 1111
+rect 1532 1067 1570 1073
 rect 1446 1029 1570 1067
-rect 1532 803 1570 1029
+rect 1532 847 1570 1029
+rect 1532 809 1662 847
+rect 1532 803 1570 809
 rect 1446 765 1570 803
-rect 1532 539 1570 765
+rect 1532 583 1570 765
+rect 1532 545 1662 583
+rect 1532 539 1570 545
 rect 1446 501 1570 539
 rect 54 487 600 495
 rect 0 457 600 487
 << metal3 >>
+rect 1662 6584 1790 6592
 rect 472 6576 600 6584
 rect 472 6546 654 6576
+rect 1608 6554 1790 6584
 rect 472 1375 510 6546
+rect 1752 6120 1790 6554
 rect 1752 6082 4488 6120
-rect 1752 5592 1790 6082
+rect 1752 5863 1790 6082
+rect 1662 5825 1790 5863
+rect 1752 5599 1790 5825
 rect 4488 5642 7172 5680
-rect 1752 5554 4488 5592
+rect 1662 5592 1790 5599
+rect 1662 5561 4488 5592
+rect 1752 5554 4488 5561
 rect 1752 5335 1790 5554
 rect 1662 5297 1790 5335
 rect 1752 5071 1790 5297
@@ -194,17 +210,25 @@ rect 7134 400 7172 890
 rect 4434 362 7172 400
 rect 4434 192 4542 362
 use SUNTR_NCHDLCM  xa1 ../SUN_TR_SKY130NM
-timestamp 1681577369
+timestamp 1681579134
 transform 1 0 384 0 1 384
 box -90 -66 630 946
-use SUNTR_NCHDLA  xa2 ../SUN_TR_SKY130NM
-timestamp 1681577369
+use SUNTR_NCHDLCM  xa2_0
+timestamp 1681579134
 transform 1 0 384 0 1 1264
-box -90 -66 630 330
-use SUNTR_NCHDLA  xa4
-timestamp 1681577369
-transform 1 0 384 0 1 1528
-box -90 -66 630 330
+box -90 -66 630 946
+use SUNTR_NCHDLCM  xa2_1
+timestamp 1681579134
+transform 1 0 384 0 1 2144
+box -90 -66 630 946
+use SUNTR_NCHDLCM  xa4_0
+timestamp 1681579134
+transform 1 0 384 0 1 3024
+box -90 -66 630 946
+use SUNTR_NCHDLCM  xa4_1
+timestamp 1681579134
+transform 1 0 384 0 1 3904
+box -90 -66 630 946
 use SUNTR_PCHL  xc1_0 ../SUN_TR_SKY130NM
 timestamp 1680904800
 transform -1 0 1860 0 1 384
@@ -247,39 +271,47 @@ transform -1 0 1860 0 1 2760
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_2
 timestamp 1680904800
-transform -1 0 1860 0 1 3288
+transform -1 0 1860 0 1 3816
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_3
 timestamp 1680904800
-transform -1 0 1860 0 1 3552
+transform -1 0 1860 0 1 4080
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_4
 timestamp 1680904800
-transform -1 0 1860 0 1 3816
+transform -1 0 1860 0 1 4344
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_5
 timestamp 1680904800
-transform -1 0 1860 0 1 4080
+transform -1 0 1860 0 1 4608
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_6
 timestamp 1680904800
-transform -1 0 1860 0 1 4344
+transform -1 0 1860 0 1 4872
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_7
 timestamp 1680904800
-transform -1 0 1860 0 1 4608
+transform -1 0 1860 0 1 5136
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_8
 timestamp 1680904800
-transform -1 0 1860 0 1 4872
+transform -1 0 1860 0 1 5400
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_9
 timestamp 1680904800
-transform -1 0 1860 0 1 5136
+transform -1 0 1860 0 1 5664
 box 0 -66 720 330
 use SUNTR_PCHL  xc3_10
 timestamp 1680904800
 transform -1 0 1860 0 1 3024
+box 0 -66 720 330
+use SUNTR_PCHL  xc3_11
+timestamp 1680904800
+transform -1 0 1860 0 1 3288
+box 0 -66 720 330
+use SUNTR_PCHL  xc3_12
+timestamp 1680904800
+transform -1 0 1860 0 1 3552
 box 0 -66 720 330
 use cut_M1M2_2x1  xcut0
 timestamp 1681509600
@@ -297,153 +329,153 @@ use cut_M1M2_2x1  xcut3
 timestamp 1681509600
 transform 1 0 338 0 1 192
 box 0 0 92 34
-use cut_M1M2_2x1  xcut4
-timestamp 1681509600
-transform 1 0 338 0 1 1330
-box 0 0 92 34
-use cut_M1M2_2x1  xcut5
-timestamp 1681509600
-transform 1 0 338 0 1 192
-box 0 0 92 34
-use cut_M1M2_2x1  xcut6
-timestamp 1681509600
-transform 1 0 338 0 1 1594
-box 0 0 92 34
-use cut_M1M2_2x1  xcut7
-timestamp 1681509600
-transform 1 0 338 0 1 192
-box 0 0 92 34
-use cut_M1M4_2x1  xcut8
+use cut_M1M4_2x1  xcut4
 timestamp 1681509600
 transform 1 0 4438 0 1 192
 box 0 0 100 38
-use cut_M1M2_2x1  xcut9
+use cut_M1M2_2x1  xcut5
 timestamp 1681509600
 transform 1 0 1616 0 1 457
 box 0 0 92 34
-use cut_M1M2_2x1  xcut10
+use cut_M1M2_2x1  xcut6
 timestamp 1681509600
 transform 1 0 1616 0 1 0
 box 0 0 92 34
-use cut_M1M2_2x1  xcut11
+use cut_M1M2_2x1  xcut7
 timestamp 1681509600
 transform 1 0 1184 0 1 494
 box 0 0 92 34
-use cut_M1M2_2x1  xcut12
+use cut_M1M2_2x1  xcut8
 timestamp 1681509600
 transform 1 0 1184 0 1 0
 box 0 0 92 34
+use cut_M1M2_2x1  xcut9
+timestamp 1681509600
+transform 1 0 1392 0 1 5781
+box 0 0 92 34
+use cut_M1M2_2x1  xcut10
+timestamp 1681509600
+transform 1 0 762 0 1 4725
+box 0 0 92 34
+use cut_M1M2_2x1  xcut11
+timestamp 1681509600
+transform 1 0 1608 0 1 1601
+box 0 0 92 34
+use cut_M1M2_2x1  xcut12
+timestamp 1681509600
+transform 1 0 1608 0 1 1865
+box 0 0 92 34
 use cut_M1M2_2x1  xcut13
 timestamp 1681509600
-transform 1 0 1392 0 1 5253
+transform 1 0 1608 0 1 2129
 box 0 0 92 34
 use cut_M1M2_2x1  xcut14
 timestamp 1681509600
-transform 1 0 1608 0 1 545
+transform 1 0 1608 0 1 2393
 box 0 0 92 34
 use cut_M1M2_2x1  xcut15
 timestamp 1681509600
-transform 1 0 1608 0 1 809
+transform 1 0 1392 0 1 2613
 box 0 0 92 34
 use cut_M1M2_2x1  xcut16
 timestamp 1681509600
-transform 1 0 1608 0 1 1073
+transform 1 0 1392 0 1 2877
 box 0 0 92 34
 use cut_M1M2_2x1  xcut17
 timestamp 1681509600
-transform 1 0 1608 0 1 1337
+transform 1 0 1392 0 1 3141
 box 0 0 92 34
 use cut_M1M2_2x1  xcut18
 timestamp 1681509600
-transform 1 0 1392 0 1 2613
+transform 1 0 1392 0 1 3405
 box 0 0 92 34
 use cut_M1M2_2x1  xcut19
 timestamp 1681509600
-transform 1 0 1392 0 1 2877
+transform 1 0 1392 0 1 3669
 box 0 0 92 34
 use cut_M1M2_2x1  xcut20
 timestamp 1681509600
-transform 1 0 1392 0 1 3141
+transform 1 0 1392 0 1 3933
 box 0 0 92 34
 use cut_M1M2_2x1  xcut21
 timestamp 1681509600
-transform 1 0 1392 0 1 3405
+transform 1 0 1392 0 1 4197
 box 0 0 92 34
 use cut_M1M2_2x1  xcut22
 timestamp 1681509600
-transform 1 0 1392 0 1 3669
+transform 1 0 1392 0 1 4461
 box 0 0 92 34
 use cut_M1M2_2x1  xcut23
 timestamp 1681509600
-transform 1 0 1392 0 1 3933
+transform 1 0 1392 0 1 4725
 box 0 0 92 34
 use cut_M1M2_2x1  xcut24
 timestamp 1681509600
-transform 1 0 1392 0 1 4197
+transform 1 0 1392 0 1 4989
 box 0 0 92 34
 use cut_M1M2_2x1  xcut25
 timestamp 1681509600
-transform 1 0 1392 0 1 4461
+transform 1 0 1392 0 1 5253
 box 0 0 92 34
 use cut_M1M2_2x1  xcut26
 timestamp 1681509600
-transform 1 0 1392 0 1 4725
+transform 1 0 1392 0 1 5517
 box 0 0 92 34
 use cut_M1M2_2x1  xcut27
 timestamp 1681509600
-transform 1 0 1392 0 1 4989
+transform 1 0 762 0 1 3845
 box 0 0 92 34
-use cut_M1M2_2x1  xcut28
-timestamp 1681509600
-transform 1 0 762 0 1 1645
-box 0 0 92 34
-use cut_M1M3_2x1  xcut29
+use cut_M1M3_2x1  xcut28
 timestamp 1681509600
 transform 1 0 1392 0 1 501
 box 0 0 100 38
+use cut_M1M3_2x1  xcut29
+timestamp 1681509600
+transform 1 0 762 0 1 2965
+box 0 0 100 38
 use cut_M1M3_2x1  xcut30
 timestamp 1681509600
-transform 1 0 762 0 1 1381
+transform 1 0 1608 0 1 545
 box 0 0 100 38
 use cut_M1M3_2x1  xcut31
 timestamp 1681509600
-transform 1 0 1392 0 1 765
+transform 1 0 762 0 1 2085
 box 0 0 100 38
 use cut_M1M3_2x1  xcut32
 timestamp 1681509600
-transform 1 0 1392 0 1 1029
+transform 1 0 1608 0 1 809
 box 0 0 100 38
 use cut_M1M3_2x1  xcut33
 timestamp 1681509600
-transform 1 0 1392 0 1 1293
+transform 1 0 1392 0 1 765
 box 0 0 100 38
 use cut_M1M3_2x1  xcut34
 timestamp 1681509600
-transform 1 0 1608 0 1 1601
+transform 1 0 1608 0 1 1073
 box 0 0 100 38
 use cut_M1M3_2x1  xcut35
 timestamp 1681509600
-transform 1 0 1392 0 1 1557
+transform 1 0 1392 0 1 1029
 box 0 0 100 38
 use cut_M1M3_2x1  xcut36
 timestamp 1681509600
-transform 1 0 1608 0 1 1865
+transform 1 0 1608 0 1 1337
 box 0 0 100 38
 use cut_M1M3_2x1  xcut37
 timestamp 1681509600
-transform 1 0 1392 0 1 1821
+transform 1 0 1392 0 1 1293
 box 0 0 100 38
 use cut_M1M3_2x1  xcut38
 timestamp 1681509600
-transform 1 0 1608 0 1 2129
+transform 1 0 1392 0 1 1557
 box 0 0 100 38
 use cut_M1M3_2x1  xcut39
 timestamp 1681509600
-transform 1 0 1392 0 1 2085
+transform 1 0 1392 0 1 1821
 box 0 0 100 38
 use cut_M1M3_2x1  xcut40
 timestamp 1681509600
-transform 1 0 1608 0 1 2393
+transform 1 0 1392 0 1 2085
 box 0 0 100 38
 use cut_M1M3_2x1  xcut41
 timestamp 1681509600
@@ -493,18 +525,26 @@ use cut_M1M4_2x1  xcut52
 timestamp 1681509600
 transform 1 0 1608 0 1 5297
 box 0 0 100 38
-use cut_M1M3_2x1  xcut53
+use cut_M1M4_2x1  xcut53
 timestamp 1681509600
-transform 1 0 554 0 1 457
+transform 1 0 1608 0 1 5561
 box 0 0 100 38
 use cut_M1M4_2x1  xcut54
 timestamp 1681509600
-transform 1 0 554 0 1 1337
+transform 1 0 1608 0 1 5825
 box 0 0 100 38
 use cut_M1M3_2x1  xcut55
 timestamp 1681509600
-transform 1 0 554 0 1 1601
+transform 1 0 554 0 1 457
 box 0 0 100 38
+use cut_M1M4_2x1  xcut56
+timestamp 1681509600
+transform 1 0 554 0 1 1337
+box 0 0 100 38
+use cut_M1M2_2x1  xcut57
+timestamp 1681509600
+transform 1 0 562 0 1 3097
+box 0 0 92 34
 use SUNSAR_CAP_BSSW_CV  xd2 ../SUN_SAR9B_SKY130NM
 timestamp 1681336800
 transform 1 0 1932 0 1 384
@@ -556,9 +596,9 @@ flabel locali s 7272 0 7392 6576 0 FreeSans 200 0 0 0 AVDD
 port 1 nsew signal bidirectional
 flabel metal3 s 546 6546 654 6576 0 FreeSans 200 0 0 0 VFB
 port 2 nsew signal bidirectional
-flabel metal2 s 0 1601 108 1631 0 FreeSans 200 0 0 0 VI
+flabel metal1 s 0 3097 108 3127 0 FreeSans 200 0 0 0 VI
 port 3 nsew signal bidirectional
-flabel metal2 s 1608 6554 1716 6584 0 FreeSans 200 0 0 0 VO
+flabel metal3 s 1608 6554 1716 6584 0 FreeSans 200 0 0 0 VO
 port 4 nsew signal bidirectional
 flabel metal2 s 0 457 108 487 0 FreeSans 200 0 0 0 VBN
 port 5 nsew signal bidirectional

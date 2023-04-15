@@ -73,8 +73,10 @@
 
                 "addConnectivityRoutes" : [
                     ["M1","^VS","-|","","",""],
+                    ["M1","^VI","||","","",""],
+                    ["M1","^VFB","||","","",""],
                     ["M2","^VGP","-|--","onTopT","",""],
-                    ["M3","^VDP","-|--","onTopB","",""],
+                    ["M3","^VDP","-|--","onTopB","track2",""],
                     ["M4","^VO","-|--","","",""]
                     //["M1","AVSS","-|--","","","xc"]
 
@@ -82,7 +84,7 @@
                 ],
                 "addRouteConnections" : [
                     ["AVDD","xc1_0","bottom","M2","routeWidth=wide_width"],
-                    ["AVSS","xa","bottom","M2","routeWidth=wide_width"],
+                    ["AVSS","xa1","bottom","M2","routeWidth=wide_width"],
                     ["AVSS","xd2","bottom","M4","routeWidth=wide_width"]
                 ],
 
@@ -106,8 +108,8 @@
                 "addPortOnEdges" :[
                     ["M3","VBN","left","--|-",""],
                     ["M4","VFB","top","--|-",""],
-                    ["M3","VI","left","--|-",""],
-                    ["M3","VO","top","--|-","nostartcut"]
+                    ["M2","VI","left","--|-",""],
+                    ["M4","VO","top","-|--","nostartcut"]
                 ]
             }
         },
