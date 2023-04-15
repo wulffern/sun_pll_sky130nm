@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1681511206
+timestamp 1681577369
 << locali >>
 rect 0 12294 20276 12444
 rect 0 2624 150 12294
@@ -97,11 +97,11 @@ rect 19994 682 20164 720
 rect 11560 0 11668 242
 rect 19994 202 20164 240
 use SUNTR_RPPO8  xa1 ../SUN_TR_SKY130NM
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 222 0 1 222
 box 0 0 2632 2118
 use SUNTR_RPPO8  xa2
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 222 0 1 2560
 box 0 0 2632 2118
 use CAP_LPF  xb1

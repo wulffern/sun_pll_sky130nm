@@ -7,18 +7,30 @@ S {}
 E {}
 N -230 -340 -170 -340 {
 lab=N1}
+N -90 -340 -40 -340 {
+lab=N4}
+N 190 -340 260 -340 {
+lab=N4}
 N 340 -340 390 -340 {
-lab=N3}
+lab=N5}
 N 470 -340 530 -340 {
 lab=N6}
 N -270 -410 -270 -380 {
 lab=AVDD}
 N -270 -300 -270 -270 {
 lab=AVSS}
+N -130 -300 -130 -270 {
+lab=AVSS}
+N 300 -300 300 -270 {
+lab=AVSS}
 N 430 -300 430 -270 {
 lab=AVSS}
 N 570 -300 570 -270 {
 lab=AVSS}
+N -130 -410 -130 -380 {
+lab=AVDD}
+N 300 -410 300 -380 {
+lab=AVDD}
 N 430 -410 430 -380 {
 lab=AVDD}
 N 570 -410 570 -380 {
@@ -62,29 +74,36 @@ lab=PWRUP_1V8_N}
 N 470 -100 470 -70 {
 lab=AVSS}
 N 390 -170 430 -170 {
-lab=N3}
+lab=N5}
 N 390 -340 390 -170 {
-lab=N3}
+lab=N5}
 N -330 -340 -330 -40 {
 lab=PWRUP_1V8_N}
 N -330 -40 -190 -40 {
 lab=PWRUP_1V8_N}
 N 430 -170 470 -170 {
-lab=N3}
-N 110 -340 340 -340 {
-lab=N3}
-N -170 -340 110 -340 {}
+lab=N5}
+N -40 -340 190 -340 {
+lab=N4}
 C {cborder/border_s.sym} 570 -100 0 0 {user="Carsten Wulff" company="Carsten Wulff Software"}
 C {SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym} -310 -340 0 0 {name=xa1c xoffset=0 yoffset=0 angle=0 M=1}
+C {SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym} -170 -340 0 0 {name=xa2 xoffset=0 yoffset=0 angle=0 M=1}
+C {SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym} 260 -340 0 0 {name=xa5a xoffset=0 yoffset=0 angle=0 M=1}
 C {SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym} 390 -340 0 0 {name=xa6 xoffset=0 yoffset=0 angle=0 M=1}
 C {SUN_TR_SKY130NM/SUNTR_IVX1_CV.sym} 530 -340 0 0 {name=xa7 xoffset=0 yoffset=0 angle=0 M=1}
 C {devices/lab_pin.sym} -270 -410 0 0 {name=l1 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} -270 -270 2 0 {name=l2 sig_type=std_logic lab=AVSS}
+C {devices/lab_pin.sym} -130 -270 2 0 {name=l3 sig_type=std_logic lab=AVSS}
+C {devices/lab_pin.sym} 300 -270 2 0 {name=l6 sig_type=std_logic lab=AVSS}
 C {devices/lab_pin.sym} 430 -270 2 0 {name=l7 sig_type=std_logic lab=AVSS}
 C {devices/lab_pin.sym} 570 -270 2 0 {name=l8 sig_type=std_logic lab=AVSS}
+C {devices/lab_pin.sym} -130 -410 0 0 {name=l9 sig_type=std_logic lab=AVDD}
+C {devices/lab_pin.sym} 300 -410 0 0 {name=l12 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 430 -410 0 0 {name=l13 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 570 -410 0 0 {name=l14 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} -210 -340 1 0 {name=l15 sig_type=std_logic lab=N1}
+C {devices/lab_pin.sym} 230 -340 1 0 {name=l18 sig_type=std_logic lab=N4}
+C {devices/lab_pin.sym} 370 -340 1 0 {name=l19 sig_type=std_logic lab=N5}
 C {devices/lab_pin.sym} 500 -340 1 0 {name=l20 sig_type=std_logic lab=N6}
 C {SUN_TR_SKY130NM/SUNTR_NRX1_CV.sym} 650 -530 0 0 {name=xa8 xoffset=0 yoffset=0 angle=0 M=1}
 C {devices/lab_pin.sym} 690 -610 0 0 {name=l21 sig_type=std_logic lab=AVDD}

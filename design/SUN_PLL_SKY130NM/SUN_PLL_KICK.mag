@@ -1,76 +1,92 @@
 magic
 tech sky130B
-timestamp 1681511206
+timestamp 1681577369
 << locali >>
-rect 0 2848 2064 2968
-rect 0 120 120 2848
-rect 192 2656 1872 2776
-rect 192 312 312 2656
-rect 762 2525 870 2555
-rect 600 2305 732 2335
-rect 702 2057 732 2305
-rect 762 2261 870 2291
-rect 702 2027 792 2057
-rect 762 1997 816 2027
+rect 0 3200 2064 3320
+rect 0 120 120 3200
+rect 192 3008 1872 3128
+rect 192 312 312 3008
+rect 762 2877 870 2907
+rect 600 2657 732 2687
+rect 702 2409 732 2657
+rect 762 2613 870 2643
+rect 702 2379 792 2409
+rect 762 2349 816 2379
 rect 762 677 870 707
 rect 546 633 654 663
-rect 1752 312 1872 2656
+rect 1752 312 1872 3008
 rect 192 192 1872 312
-rect 1944 120 2064 2848
+rect 1944 120 2064 3200
 rect 0 0 2064 120
 << metal1 >>
-rect 600 2481 714 2511
-rect 684 2291 714 2481
-rect 684 2261 816 2291
-rect 486 2129 600 2159
-rect 486 839 516 2129
-rect 600 1953 732 1983
-rect 702 1881 732 1953
-rect 702 1851 792 1881
-rect 762 1821 816 1851
-rect 600 1777 732 1807
-rect 702 1008 732 1777
-rect 702 978 1302 1008
-rect 702 913 732 978
+rect 600 2833 714 2863
+rect 684 2643 714 2833
+rect 684 2613 816 2643
+rect 486 2481 600 2511
+rect 486 839 516 2481
+rect 600 2305 732 2335
+rect 702 2233 732 2305
+rect 702 2203 792 2233
+rect 762 2173 816 2203
+rect 600 2129 732 2159
+rect 702 1360 732 2129
+rect 702 1330 1302 1360
+rect 702 1265 732 1330
+rect 702 1235 792 1265
+rect 762 1205 816 1235
+rect 600 1161 732 1191
+rect 702 1089 732 1161
+rect 702 1059 792 1089
+rect 762 1029 816 1059
+rect 600 985 732 1015
+rect 702 913 732 985
 rect 702 883 792 913
 rect 762 853 816 883
 rect 486 809 600 839
 rect 486 707 516 809
 rect 486 677 816 707
 << metal3 >>
-rect 758 192 866 2584
-rect 1154 384 1262 2968
+rect 758 192 866 2936
+rect 1154 384 1262 3320
 use SUNTR_TAPCELLB_CV  xa1a ../SUN_TR_SKY130NM
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 384 0 1 384
 box -90 -66 1350 242
 use SUNTR_IVX1_CV  xa1b ../SUN_TR_SKY130NM
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 384 0 1 560
 box -90 -66 1350 242
 use SUNTR_IVX1_CV  xa1c
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 384 0 1 736
+box -90 -66 1350 242
+use SUNTR_IVX1_CV  xa2
+timestamp 1681577369
+transform 1 0 384 0 1 912
+box -90 -66 1350 242
+use SUNTR_IVX1_CV  xa5a
+timestamp 1681577369
+transform 1 0 384 0 1 1088
 box -90 -66 1350 242
 use SUNTR_DCAPX1_CV  xa5capb ../SUN_TR_SKY130NM
 timestamp 1680904800
-transform 1 0 384 0 1 912
+transform 1 0 384 0 1 1264
 box -54 -22 1314 814
 use SUNTR_IVX1_CV  xa6
-timestamp 1681511206
-transform 1 0 384 0 1 1704
+timestamp 1681577369
+transform 1 0 384 0 1 2056
 box -90 -66 1350 242
 use SUNTR_IVX1_CV  xa7
-timestamp 1681511206
-transform 1 0 384 0 1 1880
+timestamp 1681577369
+transform 1 0 384 0 1 2232
 box -90 -66 1350 242
 use SUNTR_NRX1_CV  xa8 ../SUN_TR_SKY130NM
-timestamp 1681511206
-transform 1 0 384 0 1 2056
+timestamp 1681577369
+transform 1 0 384 0 1 2408
 box -90 -66 1350 418
 use SUNTR_IVX1_CV  xa9
-timestamp 1681511206
-transform 1 0 384 0 1 2408
+timestamp 1681577369
+transform 1 0 384 0 1 2760
 box -90 -66 1350 242
 use cut_M1M2_2x1  xcut0
 timestamp 1681509600
@@ -78,65 +94,81 @@ transform 1 0 778 0 1 853
 box 0 0 92 34
 use cut_M1M2_2x1  xcut1
 timestamp 1681509600
-transform 1 0 1282 0 1 978
+transform 1 0 562 0 1 985
 box 0 0 92 34
 use cut_M1M2_2x1  xcut2
 timestamp 1681509600
-transform 1 0 562 0 1 1777
+transform 1 0 778 0 1 1029
 box 0 0 92 34
 use cut_M1M2_2x1  xcut3
 timestamp 1681509600
-transform 1 0 778 0 1 1821
+transform 1 0 562 0 1 1161
 box 0 0 92 34
 use cut_M1M2_2x1  xcut4
 timestamp 1681509600
-transform 1 0 562 0 1 1953
+transform 1 0 778 0 1 1205
 box 0 0 92 34
 use cut_M1M2_2x1  xcut5
 timestamp 1681509600
-transform 1 0 546 0 1 2481
+transform 1 0 1282 0 1 1330
 box 0 0 92 34
 use cut_M1M2_2x1  xcut6
 timestamp 1681509600
-transform 1 0 762 0 1 2261
+transform 1 0 562 0 1 2129
 box 0 0 92 34
 use cut_M1M2_2x1  xcut7
 timestamp 1681509600
-transform 1 0 546 0 1 809
+transform 1 0 778 0 1 2173
 box 0 0 92 34
 use cut_M1M2_2x1  xcut8
 timestamp 1681509600
-transform 1 0 762 0 1 677
+transform 1 0 562 0 1 2305
 box 0 0 92 34
 use cut_M1M2_2x1  xcut9
 timestamp 1681509600
-transform 1 0 546 0 1 2129
+transform 1 0 546 0 1 2833
 box 0 0 92 34
-use cut_M1M4_2x1  xcut10
+use cut_M1M2_2x1  xcut10
+timestamp 1681509600
+transform 1 0 762 0 1 2613
+box 0 0 92 34
+use cut_M1M2_2x1  xcut11
+timestamp 1681509600
+transform 1 0 546 0 1 809
+box 0 0 92 34
+use cut_M1M2_2x1  xcut12
+timestamp 1681509600
+transform 1 0 762 0 1 677
+box 0 0 92 34
+use cut_M1M2_2x1  xcut13
+timestamp 1681509600
+transform 1 0 546 0 1 2481
+box 0 0 92 34
+use cut_M1M4_2x1  xcut14
 timestamp 1681509600
 transform 1 0 762 0 1 192
 box 0 0 100 38
-use cut_M1M4_2x1  xcut11
+use cut_M1M4_2x1  xcut15
 timestamp 1681509600
-transform 1 0 762 0 1 1594
+transform 1 0 762 0 1 1946
 box 0 0 100 38
-use cut_M1M4_2x1  xcut12
+use cut_M1M4_2x1  xcut16
 timestamp 1681509600
-transform 1 0 1158 0 1 2848
+transform 1 0 1158 0 1 3200
 box 0 0 100 38
 << labels >>
-flabel locali s 1752 192 1872 2776 0 FreeSans 200 0 0 0 AVSS
+flabel locali s 1752 192 1872 3128 0 FreeSans 200 0 0 0 AVSS
 port 5 nsew signal bidirectional
-flabel locali s 1944 0 2064 2968 0 FreeSans 200 0 0 0 AVDD
+flabel locali s 1944 0 2064 3320 0 FreeSans 200 0 0 0 AVDD
 port 1 nsew signal bidirectional
-flabel locali s 762 2261 870 2291 0 FreeSans 200 0 0 0 KICK
+flabel locali s 762 2613 870 2643 0 FreeSans 200 0 0 0 KICK
 port 2 nsew signal bidirectional
-flabel locali s 762 2525 870 2555 0 FreeSans 200 0 0 0 KICK_N
+flabel locali s 762 2877 870 2907 0 FreeSans 200 0 0 0 KICK_N
 port 3 nsew signal bidirectional
 flabel locali s 546 633 654 663 0 FreeSans 200 0 0 0 PWRUP_1V8
 port 4 nsew signal bidirectional
 flabel locali s 762 677 870 707 0 FreeSans 200 0 0 0 PWRUP_1V8_N
 port 6 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 2064 2968
+string FIXED_BBOX 0 0 2064 3320
 << end >>

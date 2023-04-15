@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1681511206
+timestamp 1681577369
 << locali >>
 rect 0 2848 2172 2968
 rect 0 120 120 2848
@@ -64,11 +64,11 @@ rect 0 985 1374 1015
 rect 54 487 600 495
 rect 0 457 600 487
 use SUNTR_NCHDLCM  xa1 ../SUN_TR_SKY130NM
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 384 0 1 384
 box -90 -66 630 946
 use SUNTR_NCHDLCM  xa2
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 384 0 1 1264
 box -90 -66 630 946
 use SUNTR_NCHDL  xa3 ../SUN_TR_SKY130NM
@@ -76,15 +76,15 @@ timestamp 1680904800
 transform 1 0 384 0 1 2144
 box -90 -66 630 242
 use SUNTR_NCHDLA  xa4 ../SUN_TR_SKY130NM
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 384 0 1 2320
 box -90 -66 630 330
 use SUNTR_PCHDLCM  xb1 ../SUN_TR_SKY130NM
-timestamp 1681511206
+timestamp 1681577369
 transform -1 0 1788 0 1 384
 box 0 -66 720 330
 use SUNTR_PCHDLCM  xb2
-timestamp 1681511206
+timestamp 1681577369
 transform -1 0 1788 0 1 648
 box 0 -66 720 330
 use SUNTR_PCHDL  xb3 ../SUN_TR_SKY130NM

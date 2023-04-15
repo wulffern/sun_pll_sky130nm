@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1681511206
+timestamp 1681577369
 << locali >>
 rect 0 3480 7068 3510
 rect 0 3288 7068 3408
@@ -201,6 +201,10 @@ use cut_M1M3_2x1  xcut31
 timestamp 1681509600
 transform 1 0 3066 0 1 633
 box 0 0 100 38
+use SUNTR_DFRNQNX1_CV  xc ../SUN_TR_SKY130NM
+timestamp 1681577369
+transform 1 0 384 0 1 384
+box -90 -66 1350 2706
 use cut_M1M3_2x1  xcut32
 timestamp 1681509600
 transform 1 0 4938 0 1 2965
@@ -213,24 +217,20 @@ use cut_M1M2_2x1  xcut34
 timestamp 1681509600
 transform 1 0 778 0 1 2965
 box 0 0 92 34
-use SUNTR_DFRNQNX1_CV  xc ../SUN_TR_SKY130NM
-timestamp 1681511206
-transform 1 0 384 0 1 384
-box -90 -66 1350 2706
 use SUNTR_DFRNQNX1_CV  xd
-timestamp 1681511206
+timestamp 1681577369
 transform -1 0 2904 0 1 384
 box -90 -66 1350 2706
 use SUNTR_DFRNQNX1_CV  xe
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 2904 0 1 384
 box -90 -66 1350 2706
 use SUNTR_DFRNQNX1_CV  xf
-timestamp 1681511206
+timestamp 1681577369
 transform -1 0 5424 0 1 384
 box -90 -66 1350 2706
 use SUNTR_DFRNQNX1_CV  xg
-timestamp 1681511206
+timestamp 1681577369
 transform 1 0 5424 0 1 384
 box -90 -66 1350 2706
 << labels >>

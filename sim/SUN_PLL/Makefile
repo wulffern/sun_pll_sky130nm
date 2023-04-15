@@ -27,6 +27,15 @@ ttffss:
 temp:
 	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt" "Tt,Th,Tl" Vt
 
+
+all:
+	make typical OPT=${OPT}
+	make tfs OPT=${OPT}
+
+
+plot:
+	python3 freq.py tran_LayGtKttKssKffTtThTlVt.run
+
 clean:
 	-rm -rf output_*
 	-rm -rf __pycache__
