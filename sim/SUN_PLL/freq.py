@@ -67,7 +67,7 @@ for f in files:
     yfft = np.fft.fft(freq)
     ydb = 20*np.log10(np.abs(yfft[:int(N/2)]))
     #plt.subplot(1,2,1)
-    plt.plot(ntime*u,freq)
+    plt.plot(ntime*u,freq,label=os.path.basename(f))
     plt.plot(ntime[w:]*u,freq_avg[w:M])
     plt.xlabel("Time [us]")
     plt.ylabel("Frequency [MHz]")
@@ -79,7 +79,7 @@ for f in files:
     #plt.xlabel("FTT bins")
     #plt.ylabel("PSD")
 
-
+plt.legend()
 plt.tight_layout()
 
 if(len(sys.argv)> 2):

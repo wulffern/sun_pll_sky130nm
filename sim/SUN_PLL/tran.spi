@@ -70,9 +70,11 @@ XDUT AVDD AVSS PWRUP_1V8 CK_REF CK IBPSR_1U SUN_PLL
 #else
 .save v(AVDD) v(AVSS) v(PWRUP_1V8) v(CK_REF) v(CK) v(IBPSR_1U)
 .save v(XDUT.VDD_ROSC) v(XDUT.CP_UP_N) v(XDUT.CP_DOWN) v(XDUT.VLPF) v(XDUT.CK_FB) v(XDUT.KICK) v(XDUT.VLPFZ)
+.save v(XDUT.*CP_DOWN) v(XDUT.*VLPF) v(XDUT.*CK_FB) v(XDUT.*KICK) v(XDUT.*VLPFZ)
 .save i(XDUT.AVDD) i(VDD)
 .save v(XDUT.xaa3/KICK_N) v(XDUT.xaa3/KICK) v(XDUT.VLPZ)
 .save v(XDUT.xaa4/VO)
+.save v(XDUT.xaa1/CP_UP_N) v(XDUT.xaa1/CP_DOWN)
 #endif
 
 *----------------------------------------------------------------
