@@ -31,6 +31,7 @@ temp:
 all:
 	make typical OPT=${OPT}
 	make tfs OPT=${OPT}
+	make summary
 
 summary:
 	cicsim summary --output "README.md"

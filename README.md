@@ -40,6 +40,21 @@ Carsten Wulff
 | LPE             | SUN_PLL_SKY130NM | SUN_PLL |
 
 
+# Testbench
+
+Full simulation will take quite a few hours 
+
+``` bash
+cd sim/SUN_PLL
+make all 
+```
+
+To run a quick simulation do 
+
+``` bash
+cd sim/SUN_PLL
+make typical OPT="Debug"
+```
 
 
 # Changelog/Plan
