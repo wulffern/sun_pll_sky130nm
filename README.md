@@ -89,7 +89,7 @@ make typical OPT="Debug"
 | Stage                       | TYPE | Status             | Comment               |
 |:----------------------------|:----:|:------------------:|:---------------------:|
 | Specification               | DOC  | :white_check_mark: |                       |
-| Schematic                   | VIEW | :white_ckeck_mark: |                       |
+| Schematic                   | VIEW | :white_check_mark: |                       |
 | Layout                      | VIEW | :white_check_mark: |                       |
 | Layout parasitic extraction | VIEW | :white_check_mark: |                       |
 | LPE simulation              | VER  | :white_check_mark: | Does not work in Slow |
