@@ -75,12 +75,16 @@ make typical OPT="Debug"
 
 
 # Key parameters
-| Parameter   | Min | Typ             | Max | Unit |
-|:------------|:---:|:---------------:|:---:|:----:|
-| Technology  |     | Skywater 130 nm |     |      |
-| AVDD        | 1.7 | 1.8             | 1.9 | V    |
-| Temperature | -40 | 27              | 125 | C    |
-| IVDD        |     | 312             |     | uA   |
+| Parameter   | Min | Typ             | Max | Unit  |
+|:------------|:---:|:---------------:|:---:|:-----:|
+| Technology  |     | Skywater 130 nm |     |       |
+| AVDD        | 1.7 | 1.8             | 1.9 | V     |
+| Temperature | -40 | 27              | 125 | C     |
+| IVDD        |     | 312             |     | uA    |
+| Width       |     | 210             |     | um    |
+| Height      |     | 220             |     | um    |
+| Area        |     | 46              |     | kum^2 |
+
 
 
 
@@ -95,3 +99,12 @@ make typical OPT="Debug"
 | LPE simulation              | VER  | :white_check_mark: | Does not work in Slow |
 | LVS                         | VER  | :white_check_mark:                |                       |
 | DRC                         | VER  | :white_check_mark:                |                       |
+
+
+# Schematic
+
+![](schematic.svg)
+
+# Layout
+
+![](layout.png)
