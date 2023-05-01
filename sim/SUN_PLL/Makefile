@@ -10,16 +10,16 @@ test:
 	${MAKE} typical OPT="Debug"
 
 typical:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Ktt Tt Vt
+	cicsim run --name ${VIEW}_typical ${TB} ${OPT} ${VIEW} Gt Vt Ktt Tt
 
 slow:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
+	cicsim run --name ${VIEW}_slow ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
 
 fast:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
+	cicsim run  --name ${VIEW}_fast ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
 
 tfs:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt,Th,Tl" Vt
+	cicsim run --name ${VIEW}_tfs ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt,Th,Tl" Vt
 
 ttffss:
 	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt" Vt
@@ -31,6 +31,9 @@ temp:
 all:
 	make typical OPT=${OPT}
 	make tfs OPT=${OPT}
+
+summary:
+	cicsim summary --output "README.md"
 
 
 plot:

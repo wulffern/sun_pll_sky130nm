@@ -45,10 +45,10 @@ typical:
 	cicsim run ${TB} ${OPT} ${VIEW} Gt Ktt Tt Vt Dt Bt
 
 slow:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Kss "Tl" Vl
 
 fast:
-	cicsim run ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
+	cicsim run ${TB} ${OPT} ${VIEW} Gt Kff "Tl" Vh
 
 tfs:
 	cicsim run ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff"  "Tt,Th,Tl" Vt

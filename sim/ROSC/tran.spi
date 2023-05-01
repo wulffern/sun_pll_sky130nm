@@ -42,11 +42,8 @@
 *----------------------------------------------------------------
 * Options
 *----------------------------------------------------------------
-#ifdef Debug
-.option reltol=1e-4 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-12
-#else
-.option reltol=1e-5 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-15
-#endif
+.option reltol=1e-3 srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-15
+
 
 *----------------------------------------------------------------
 * PARAMETERS
@@ -60,7 +57,7 @@
 * Sources
 *----------------------------------------------------------------
 VSS  AVSS 0 dc 0
-VDD  VDD_1V8 AVSS pwl 0 0 10n {AVDD}
+VDD  VDD_1V8 AVSS dc {AVDD}
 VROSC VDD_ROSC AVSS dc {AVDD}
 VPWR PWRUP_1V8 AVSS dc {AVDD}
 
@@ -94,7 +91,7 @@ unset askquit
 #ifdef Debug
 tran 10p 50n 1p
 
-hardcopy {cicfname}.ps allv
+
 *quit
 #else
 *nbpt=64 => 8u
@@ -102,16 +99,19 @@ hardcopy {cicfname}.ps allv
 *npbt=128 => 16u
 
 let start_v = 1.1
-let stop_v = 1.7
+let stop_v = 1.6
 let delta_v = 0.1
 let v_act = start_v
 * loop
 while v_act le stop_v
+set appendwrite
 alter VROSC v_act
-tran 1p 40n
+tran 10p 200n
 meas tran vrosc avg v(VDD_ROSC)
-meas tran tpd trig v(CK) val='0.8' rise=10 targ v(CK) val='0.8' rise=11
+meas tran tpd trig v(CK) val='0.5' rise=2 targ v(CK) val='0.5' rise=3
+print 1/tpd
 let v_act = v_act + delta_v
+write
 end
 
 

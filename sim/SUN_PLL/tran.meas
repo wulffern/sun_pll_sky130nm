@@ -1,0 +1,31 @@
+* Measure ${CELL}
+.control
+
+load {cicname}.raw
+
+echo "MEAS_START"
+
+*- cut out the final part of the transient
+let cut-tstart = 12u
+let cut-tstop = 15u
+cutout
+
+
+let ipvdd = -i(vdd)
+meas tran ivdd AVG ipvdd
+
+
+linearize v(ck)
+let ckavg = mean(v(ck))
+let ck = v(ck) - ckavg
+fft v(ck)
+*spec 100e6 1e9 0.5e6 ck
+
+write {cicname}_spec.raw
+
+
+
+
+
+echo "MEAS_END"
+.endc
