@@ -622,6 +622,147 @@
             "children": [
                 {
                     "class": "Rect",
+                    "layer": "M1",
+                    "net": "",
+                    "x1": 0,
+                    "x2": 9200,
+                    "y1": 0,
+                    "y2": 3400
+                },
+                {
+                    "class": "Rect",
+                    "layer": "VIA1",
+                    "net": "",
+                    "x1": 600,
+                    "x2": 3400,
+                    "y1": 300,
+                    "y2": 3100
+                },
+                {
+                    "class": "Rect",
+                    "layer": "VIA1",
+                    "net": "",
+                    "x1": 5800,
+                    "x2": 8600,
+                    "y1": 300,
+                    "y2": 3100
+                },
+                {
+                    "class": "Rect",
+                    "layer": "M2",
+                    "net": "",
+                    "x1": 0,
+                    "x2": 9200,
+                    "y1": 0,
+                    "y2": 3400
+                },
+                {
+                    "class": "Rect",
+                    "layer": "VIA2",
+                    "net": "",
+                    "x1": 600,
+                    "x2": 3400,
+                    "y1": 300,
+                    "y2": 3100
+                },
+                {
+                    "class": "Rect",
+                    "layer": "VIA2",
+                    "net": "",
+                    "x1": 5800,
+                    "x2": 8600,
+                    "y1": 300,
+                    "y2": 3100
+                },
+                {
+                    "class": "Rect",
+                    "layer": "M3",
+                    "net": "",
+                    "x1": 0,
+                    "x2": 10000,
+                    "y1": 0,
+                    "y2": 3800
+                }
+            ],
+            "class": "cIcCore::Cell",
+            "has_pr": false,
+            "layer": "PR",
+            "libcell": true,
+            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+            "meta": {
+            },
+            "name": "SUNTR_cut_M1M3_2x1",
+            "net": "",
+            "physicalOnly": false,
+            "x1": 0,
+            "x2": 10000,
+            "y1": 0,
+            "y2": 3800
+        },
+        {
+            "abstract": false,
+            "boundaryIgnoreRouting": false,
+            "cellused": true,
+            "children": [
+                {
+                    "class": "Rect",
+                    "layer": "M1",
+                    "net": "",
+                    "x1": 0,
+                    "x2": 9200,
+                    "y1": 0,
+                    "y2": 3400
+                },
+                {
+                    "class": "Rect",
+                    "layer": "VIA1",
+                    "net": "",
+                    "x1": 600,
+                    "x2": 3400,
+                    "y1": 300,
+                    "y2": 3100
+                },
+                {
+                    "class": "Rect",
+                    "layer": "VIA1",
+                    "net": "",
+                    "x1": 5800,
+                    "x2": 8600,
+                    "y1": 300,
+                    "y2": 3100
+                },
+                {
+                    "class": "Rect",
+                    "layer": "M2",
+                    "net": "",
+                    "x1": 0,
+                    "x2": 9200,
+                    "y1": 0,
+                    "y2": 3400
+                }
+            ],
+            "class": "cIcCore::Cell",
+            "has_pr": false,
+            "layer": "PR",
+            "libcell": true,
+            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+            "meta": {
+            },
+            "name": "SUNTR_cut_M1M2_2x1",
+            "net": "",
+            "physicalOnly": false,
+            "x1": 0,
+            "x2": 9200,
+            "y1": 0,
+            "y2": 3400
+        },
+        {
+            "abstract": false,
+            "boundaryIgnoreRouting": false,
+            "cellused": true,
+            "children": [
+                {
+                    "class": "Rect",
                     "layer": "OD",
                     "net": "",
                     "x1": 14400,
@@ -3712,6 +3853,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -3735,7 +3877,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -3744,7 +3888,9 @@
                     },
                     "name": "G",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 23100,
                     "y1": 7300,
@@ -4220,6 +4366,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -4243,7 +4390,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -4252,7 +4401,9 @@
                     },
                     "name": "G",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 36000,
                     "x2": 42900,
                     "y1": 7300,
@@ -4588,6 +4739,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -4629,7 +4781,9 @@
                             "y2": 2900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -4638,7 +4792,9 @@
                     },
                     "name": "S",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 54600,
                     "y1": 2900,
@@ -4646,6 +4802,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -4669,7 +4826,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -4678,7 +4837,9 @@
                     },
                     "name": "G",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 23100,
                     "y1": 7300,
@@ -6694,6 +6855,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -9053,7 +9215,9 @@
                             "y2": 211800
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -9062,7 +9226,9 @@
                     },
                     "name": "SUNTR_",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 0,
                     "x2": 263200,
                     "y1": 0,
@@ -9354,6 +9520,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -9377,7 +9544,9 @@
                             "y2": 6600
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -9386,7 +9555,9 @@
                     },
                     "name": "AVSS",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": -5400,
                     "x2": 27000,
                     "y1": 6600,
@@ -9394,6 +9565,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -9435,7 +9607,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -9444,7 +9618,9 @@
                     },
                     "name": "AVSS",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 43200,
                     "y1": 2900,
@@ -9452,6 +9628,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -9493,7 +9670,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -9502,7 +9681,9 @@
                     },
                     "name": "AVSS",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 43200,
                     "y1": 7300,
@@ -9510,6 +9691,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -9551,7 +9733,9 @@
                             "y2": 2900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -9560,7 +9744,9 @@
                     },
                     "name": "AVDD",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 104400,
                     "y1": 2900,
@@ -9568,6 +9754,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -9609,7 +9796,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -9618,7 +9807,9 @@
                     },
                     "name": "AVDD",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 104400,
                     "y1": 7300,
@@ -9626,6 +9817,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -9649,7 +9841,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -9658,7 +9852,9 @@
                     },
                     "name": "AVDD",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 99000,
                     "x2": 131400,
                     "y1": 7300,
@@ -10087,6 +10283,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10128,7 +10325,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -10137,7 +10336,9 @@
                     },
                     "name": "Y",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 11700,
@@ -10145,6 +10346,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10159,7 +10361,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -10168,7 +10372,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 16200,
                     "y1": 7300,
@@ -10176,6 +10382,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10190,7 +10397,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -10199,7 +10408,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 99000,
                     "x2": 99000,
                     "y1": 7300,
@@ -10207,6 +10418,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10230,7 +10442,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -10239,7 +10453,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -10828,6 +11044,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10878,7 +11095,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -10887,7 +11106,9 @@
                     },
                     "name": "Y",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 11700,
@@ -10895,6 +11116,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10918,7 +11140,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -10927,7 +11151,9 @@
                     },
                     "name": "N1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 84300,
                     "y1": 11700,
@@ -10935,6 +11161,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10958,7 +11185,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -10967,7 +11196,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -10975,6 +11206,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -10998,7 +11230,9 @@
                             "y2": 25500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -11007,7 +11241,9 @@
                     },
                     "name": "B",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 25500,
@@ -11678,6 +11914,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -11728,7 +11965,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -11737,7 +11976,9 @@
                     },
                     "name": "Y",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 11700,
@@ -11745,6 +11986,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -11768,7 +12010,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -11777,7 +12021,9 @@
                     },
                     "name": "N1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 44700,
                     "y1": 11700,
@@ -11785,6 +12031,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -11808,7 +12055,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -11817,7 +12066,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -11825,6 +12076,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -11848,7 +12100,9 @@
                             "y2": 25500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -11857,7 +12111,9 @@
                     },
                     "name": "B",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 25500,
@@ -12710,6 +12966,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -12733,7 +12990,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -12742,7 +13001,9 @@
                     },
                     "name": "N2",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 44700,
                     "y1": 29300,
@@ -12750,6 +13011,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -12773,7 +13035,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -12782,7 +13046,9 @@
                     },
                     "name": "N3",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 84300,
                     "y1": 11700,
@@ -12790,6 +13056,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -12831,7 +13098,9 @@
                             "y2": 20500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -12840,7 +13109,9 @@
                     },
                     "name": "Q",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 20500,
@@ -12848,6 +13119,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -12889,7 +13161,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -12898,7 +13172,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -12906,6 +13182,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -12956,7 +13233,9 @@
                             "y2": 42500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -12965,7 +13244,9 @@
                     },
                     "name": "N1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 10200,
                     "x2": 43200,
                     "y1": 11700,
@@ -12973,6 +13254,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -13014,7 +13296,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -13023,7 +13307,9 @@
                     },
                     "name": "N1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 11700,
@@ -13763,6 +14049,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -13786,7 +14073,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -13795,7 +14084,9 @@
                     },
                     "name": "N1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 44700,
                     "y1": 11700,
@@ -13803,6 +14094,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -13826,7 +14118,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -13835,7 +14129,9 @@
                     },
                     "name": "N2",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 84300,
                     "y1": 11700,
@@ -13843,6 +14139,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -13884,7 +14181,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -13893,7 +14192,9 @@
                     },
                     "name": "Y",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 29300,
@@ -13901,6 +14202,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -13924,7 +14226,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -13933,7 +14237,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -14779,6 +15085,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -14802,7 +15109,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -14811,7 +15120,9 @@
                     },
                     "name": "N1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 44700,
                     "y1": 11700,
@@ -14819,6 +15130,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -14842,7 +15154,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -14851,7 +15165,9 @@
                     },
                     "name": "N2",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 44700,
                     "y1": 29300,
@@ -14859,6 +15175,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -14882,7 +15199,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -14891,7 +15210,9 @@
                     },
                     "name": "N2",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 84300,
                     "y1": 29300,
@@ -14899,6 +15220,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -14940,7 +15262,9 @@
                             "y2": 46900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -14949,7 +15273,9 @@
                     },
                     "name": "Y",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 46900,
@@ -14957,6 +15283,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -14998,7 +15325,9 @@
                             "y2": 2900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -15007,7 +15336,9 @@
                     },
                     "name": "N2",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 71400,
                     "x2": 82800,
                     "y1": 2900,
@@ -15015,6 +15346,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -15038,7 +15370,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -15047,7 +15381,9 @@
                     },
                     "name": "N2",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 88200,
                     "y1": 29300,
@@ -15055,6 +15391,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -15078,7 +15415,9 @@
                             "y2": 25500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -15087,7 +15426,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 25500,
@@ -15095,6 +15436,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -15118,7 +15460,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -15127,7 +15471,9 @@
                     },
                     "name": "RN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -16427,6 +16773,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -16477,7 +16824,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16486,7 +16835,9 @@
                     },
                     "name": "CKN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 104400,
                     "y1": 29300,
@@ -16494,6 +16845,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -16544,7 +16896,9 @@
                             "y2": 64500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16553,7 +16907,9 @@
                     },
                     "name": "CKB",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 104400,
                     "y1": 64500,
@@ -16561,6 +16917,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -16602,7 +16959,9 @@
                             "y2": 130500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16611,7 +16970,9 @@
                     },
                     "name": "CKB",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 43200,
                     "y1": 64500,
@@ -16619,6 +16980,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -16669,7 +17031,9 @@
                             "y2": 183300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16678,7 +17042,9 @@
                     },
                     "name": "CKB",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 43200,
                     "y1": 64500,
@@ -16686,9 +17052,97 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 99000,
+                            "x2": 108200,
+                            "xcell": 0,
+                            "y1": 130500,
+                            "y2": 133900,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 99000,
+                            "x2": 108200,
+                            "xcell": 0,
+                            "y1": 183300,
+                            "y2": 186700,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 77400,
+                            "x2": 86600,
+                            "xcell": 0,
+                            "y1": 29300,
+                            "y2": 32700,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M2",
@@ -16736,7 +17190,9 @@
                             "y2": 130500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16745,17 +17201,78 @@
                     },
                     "name": "CKN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
-                    "x1": 82800,
+                    "useHalfHeight": false,
+                    "x1": 77400,
                     "x2": 115800,
                     "y1": 29300,
-                    "y2": 186300
+                    "y2": 186700
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 16200,
+                            "x2": 25400,
+                            "xcell": 0,
+                            "y1": 95300,
+                            "y2": 98700,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 37800,
+                            "x2": 47000,
+                            "xcell": 0,
+                            "y1": 46900,
+                            "y2": 50300,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M2",
@@ -16803,7 +17320,9 @@
                             "y2": 95300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16812,17 +17331,78 @@
                     },
                     "name": "CKN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
-                    "x2": 43200,
+                    "x2": 47000,
                     "y1": 46900,
-                    "y2": 98300
+                    "y2": 98700
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M3_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M3_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 16200,
+                            "x2": 26200,
+                            "xcell": 0,
+                            "y1": 236100,
+                            "y2": 239900,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M3_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M3_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 99000,
+                            "x2": 109000,
+                            "xcell": 0,
+                            "y1": 183300,
+                            "y2": 187100,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M3",
@@ -16861,7 +17441,9 @@
                             "y2": 236100
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16870,14 +17452,17 @@
                     },
                     "name": "CKN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
-                    "x2": 104400,
+                    "x2": 109000,
                     "y1": 183300,
                     "y2": 239900
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -16919,7 +17504,9 @@
                             "y2": 99700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16928,7 +17515,9 @@
                     },
                     "name": "A0",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 54600,
                     "y1": 99700,
@@ -16936,9 +17525,68 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 37800,
+                            "x2": 47000,
+                            "xcell": 0,
+                            "y1": 187700,
+                            "y2": 191100,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 37800,
+                            "x2": 47000,
+                            "xcell": 0,
+                            "y1": 240500,
+                            "y2": 243900,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M2",
@@ -16977,7 +17625,9 @@
                             "y2": 187700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -16986,17 +17636,78 @@
                     },
                     "name": "A0",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 54600,
                     "y1": 187700,
-                    "y2": 243500
+                    "y2": 243900
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 16200,
+                            "x2": 25400,
+                            "xcell": 0,
+                            "y1": 148100,
+                            "y2": 151500,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 37800,
+                            "x2": 47000,
+                            "xcell": 0,
+                            "y1": 134900,
+                            "y2": 138300,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M2",
@@ -17035,7 +17746,9 @@
                             "y2": 148100
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -17044,17 +17757,107 @@
                     },
                     "name": "A0",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
-                    "x2": 43200,
+                    "x2": 47000,
                     "y1": 134900,
-                    "y2": 151100
+                    "y2": 151500
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 77400,
+                            "x2": 86600,
+                            "xcell": 0,
+                            "y1": 152500,
+                            "y2": 155900,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 99000,
+                            "x2": 108200,
+                            "xcell": 0,
+                            "y1": 112900,
+                            "y2": 116300,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 99000,
+                            "x2": 108200,
+                            "xcell": 0,
+                            "y1": 165700,
+                            "y2": 169100,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M2",
@@ -17102,7 +17905,9 @@
                             "y2": 152500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -17111,14 +17916,17 @@
                     },
                     "name": "A1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
-                    "x2": 104400,
+                    "x2": 108200,
                     "y1": 112900,
-                    "y2": 168700
+                    "y2": 169100
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -17160,7 +17968,9 @@
                             "y2": 253700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -17169,7 +17979,9 @@
                     },
                     "name": "QN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 43200,
                     "y1": 240500,
@@ -17177,9 +17989,68 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 77400,
+                            "x2": 86600,
+                            "xcell": 0,
+                            "y1": 258100,
+                            "y2": 261500,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 99000,
+                            "x2": 108200,
+                            "xcell": 0,
+                            "y1": 218500,
+                            "y2": 221900,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M2",
@@ -17218,7 +18089,9 @@
                             "y2": 258100
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -17227,17 +18100,78 @@
                     },
                     "name": "Q",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
-                    "x2": 104400,
+                    "x2": 108200,
                     "y1": 218500,
-                    "y2": 261100
+                    "y2": 261500
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 16200,
+                            "x2": 25400,
+                            "xcell": 0,
+                            "y1": 42500,
+                            "y2": 45900,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "SUNTR_cut_M1M2_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "../../sun_tr_sky130nm/design/SUN_TR_SKY130NM",
+                            "name": "SUNTR_cut_M1M2_2x1",
+                            "net": "",
+                            "subcktInstance": {
+                                "class": "cIcSpice::SubcktInstance",
+                                "deviceName": "",
+                                "groupName": "",
+                                "name": "",
+                                "nodes": [
+                                ],
+                                "properties": {
+                                },
+                                "subcktName": ""
+                            },
+                            "x1": 16200,
+                            "x2": 25400,
+                            "xcell": 0,
+                            "y1": 200900,
+                            "y2": 204300,
+                            "ycell": 0
+                        },
                         {
                             "class": "Rect",
                             "layer": "M2",
@@ -17276,7 +18210,9 @@
                             "y2": 42500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -17285,11 +18221,13 @@
                     },
                     "name": "RN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 10200,
-                    "x2": 21600,
+                    "x2": 25400,
                     "y1": 42500,
-                    "y2": 203900
+                    "y2": 204300
                 },
                 {
                     "class": "Port",
@@ -18948,6 +19886,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -18989,7 +19928,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -18998,7 +19939,9 @@
                     },
                     "name": "Y",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 11700,
@@ -19006,6 +19949,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -19020,7 +19964,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -19029,7 +19975,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 16200,
                     "y1": 7300,
@@ -19037,6 +19985,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -19051,7 +20000,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -19060,7 +20011,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 99000,
                     "x2": 99000,
                     "y1": 7300,
@@ -19068,6 +20021,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -19091,7 +20045,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -19100,7 +20056,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -19725,6 +20683,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -19775,7 +20734,9 @@
                             "y2": 29300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -19784,7 +20745,9 @@
                     },
                     "name": "Y",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 82800,
                     "y1": 11700,
@@ -19792,6 +20755,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -19815,7 +20779,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -19824,7 +20790,9 @@
                     },
                     "name": "N1",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 37800,
                     "x2": 44700,
                     "y1": 11700,
@@ -19832,6 +20800,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -19855,7 +20824,9 @@
                             "y2": 7900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -19864,7 +20835,9 @@
                     },
                     "name": "A",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 7900,
@@ -19872,6 +20845,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -19895,7 +20869,9 @@
                             "y2": 25500
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -19904,7 +20880,9 @@
                     },
                     "name": "B",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 109800,
                     "y1": 25500,
@@ -20429,6 +21407,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -20452,7 +21431,9 @@
                             "y2": 6600
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -20461,7 +21442,9 @@
                     },
                     "name": "BULKN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": -5400,
                     "x2": 27000,
                     "y1": 6600,
@@ -20469,6 +21452,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -20510,7 +21494,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -20519,7 +21505,9 @@
                     },
                     "name": "BULKN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 43200,
                     "y1": 2900,
@@ -20527,6 +21515,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -20568,7 +21557,9 @@
                             "y2": 7300
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -20577,7 +21568,9 @@
                     },
                     "name": "BULKN",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 16200,
                     "x2": 43200,
                     "y1": 7300,
@@ -20585,6 +21578,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -20626,7 +21620,9 @@
                             "y2": 2900
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -20635,7 +21631,9 @@
                     },
                     "name": "BULKP",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 104400,
                     "y1": 2900,
@@ -20643,6 +21641,7 @@
                 },
                 {
                     "abstract": false,
+                    "alternateGroup": false,
                     "boundaryIgnoreRouting": false,
                     "cellused": true,
                     "children": [
@@ -20684,7 +21683,9 @@
                             "y2": 11700
                         }
                     ],
-                    "class": "cIcCore::Cell",
+                    "class": "cIcCore::LayoutCell",
+                    "graph": [
+                    ],
                     "has_pr": false,
                     "layer": "PR",
                     "libcell": false,
@@ -20693,7 +21694,9 @@
                     },
                     "name": "BULKP",
                     "net": "",
+                    "noPowerRoute": false,
                     "physicalOnly": false,
+                    "useHalfHeight": false,
                     "x1": 77400,
                     "x2": 104400,
                     "y1": 7300,
@@ -54781,6 +55784,6 @@
         "library": "SUN_PLL_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Fri Apr 14 23:06:15 CEST 2023"
+        "version": "0.1.5+ built on Sun May 21 23:03:59 CEST 2023"
     }
 }
