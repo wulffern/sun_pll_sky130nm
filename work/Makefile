@@ -12,7 +12,7 @@ include ../tech/make/core.make
 
 LIB=SUN_PLL_SKY130NM
 CELL=SUN_PLL
-
+SVGLIBS= ${LIB}
 
 
 PREFIX=
