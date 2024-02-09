@@ -1253,6 +1253,8 @@
             "name": "SUNTR_PCHDL",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -0.5,
             "x1": 0,
             "x2": 63000,
@@ -1797,6 +1799,8 @@
             "name": "SUNTR_PCHL",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -0.5,
             "x1": 0,
             "x2": 63000,
@@ -2305,6 +2309,8 @@
             "name": "SUNTR_NCHDL",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -0.5,
             "x1": 0,
             "x2": 63000,
@@ -3015,6 +3021,8 @@
             "name": "SUNTR_DCAPX1_CV",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -1,
             "x1": 0,
             "x2": 129600,
@@ -6770,6 +6778,8 @@
             "name": "SUNTR_RES8",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": 0,
             "x1": 0,
             "x2": 194400,
@@ -19177,6 +19187,8 @@
             "name": "SUNTRB_PCHDL",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -0.5,
             "x1": 0,
             "x2": 63000,
@@ -19685,6 +19697,8 @@
             "name": "SUNTRB_NCHDL",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -0.5,
             "x1": 0,
             "x2": 63000,
@@ -26519,6 +26533,8 @@
             "name": "SUNSAR_CAP_BSSW_CV",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -1,
             "x1": 0,
             "x2": 507600,
@@ -27463,6 +27479,8 @@
             "name": "CAP_LPF",
             "net": "",
             "physicalOnly": false,
+            "verticalMultiplyVector": [
+            ],
             "widthoffset": -1,
             "x1": 0,
             "x2": 1684000,
@@ -55778,12 +55796,12 @@
     "info": {
         "arguments": "/Users/wulff/pro/aicex/ip/sun_pll_sky130nm/design/../../ciccreator/bin/darwin/cic.app/Contents/MacOS/cic ../cic/ip.json ../cic/sky130.tech SUN_PLL_SKY130NM",
         "file": "../cic/ip.json",
-        "hash": "0.1.5-6-g80cdae3",
+        "hash": "0.1.5-24-gfc1deea",
         "includepaths": "../cic",
         "libpaths": "",
         "library": "SUN_PLL_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Sun May 21 23:03:59 CEST 2023"
+        "version": "0.1.5+ built on Fri Feb 9 16:44:38 CET 2024"
     }
 }
