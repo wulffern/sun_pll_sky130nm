@@ -29,6 +29,10 @@ Carsten Wulff
  - The ring oscillator should really be replaced by something better with lower KVCO
  - Does not work in Slow corner. Probably the loopfilter OTA cannot deliver
    enough current.
+   
+# Dependencies
+
+Check [install.md](install.md)
 
 
 # What
@@ -102,6 +106,8 @@ make typical OPT="Debug"
 
 
 # Schematic
+
+For details, see [documents/schematic.md](documents/schematic.md)
 
 ![](schematic.svg)
 
