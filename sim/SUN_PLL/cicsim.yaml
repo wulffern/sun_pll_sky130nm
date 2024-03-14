@@ -1,5 +1,10 @@
 corner:
-  Lay: ''
-  Sch: ''
+  Lay: |
+    .include ../../../work/lpe/SUN_PLL_lpe.spi
+
+  Sch: |
+    .include ../../../work/lpe/CAP_LPF_lpe.spi
+    .include ../../../work/lpe/SUNSAR_CAP_BSSW_CV_lpe.spi
+    .include ../../../work/xsch/SUN_PLL.spice
 ngspice:
   cell: SUN_PLL

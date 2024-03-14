@@ -21718,6 +21718,18 @@
                 },
                 {
                     "class": "Port",
+                    "layer": "M1",
+                    "name": "AVDD",
+                    "net": "",
+                    "pinLayer": "M1_pin",
+                    "spicePort": true,
+                    "x1": 120600,
+                    "x2": 131400,
+                    "y1": 6600,
+                    "y2": 11000
+                },
+                {
+                    "class": "Port",
                     "layer": "M4",
                     "name": "AVSS",
                     "net": "",
@@ -53494,6 +53506,18 @@
                     "children": [
                         {
                             "class": "Port",
+                            "layer": "M1",
+                            "name": "AVDD",
+                            "net": "",
+                            "pinLayer": "M1_pin",
+                            "spicePort": true,
+                            "x1": 159000,
+                            "x2": 169800,
+                            "y1": 221000,
+                            "y2": 225400
+                        },
+                        {
+                            "class": "Port",
                             "layer": "M4",
                             "name": "AVSS",
                             "net": "",
@@ -55514,6 +55538,10 @@
                         {
                             "inst": "xb2_7",
                             "node": "BULKP"
+                        },
+                        {
+                            "inst": "xb3",
+                            "node": "AVDD"
                         }
                     ],
                     "node": "AVDD"
@@ -55796,12 +55824,12 @@
     "info": {
         "arguments": "/Users/wulff/pro/aicex/ip/sun_pll_sky130nm/design/../../ciccreator/bin/darwin/cic.app/Contents/MacOS/cic ../cic/ip.json ../cic/sky130.tech SUN_PLL_SKY130NM",
         "file": "../cic/ip.json",
-        "hash": "0.1.5-24-gfc1deea",
+        "hash": "0.1.5-26-g97ed99d",
         "includepaths": "../cic",
         "libpaths": "",
         "library": "SUN_PLL_SKY130NM",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Fri Feb 9 16:44:38 CET 2024"
+        "version": "0.1.5+ built on Mon Feb 19 16:43:21 CET 2024"
     }
 }

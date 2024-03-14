@@ -1,11 +1,11 @@
-v {xschem version=3.1.0 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
 V {}
 S {}
 E {}
-T {16 MHz x 32 = 512 MHz PLL} -520 -550 0 0 1 1 {}
+T {CK_REF x 32 MHz PLL (max 512 MHz)} -620 -550 0 0 1 1 {}
 N 470 -70 470 140 {
 lab=CK}
 N 390 -70 470 -70 {

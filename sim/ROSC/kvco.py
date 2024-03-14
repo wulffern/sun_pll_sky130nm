@@ -40,5 +40,6 @@ plt.xlabel("VDD_ROSC [V]")
 plt.grid(True)
 plt.legend()
 plt.ylabel("Frequency [MHz]")
-#plt.show()
+if(len(sys.argv) > 2):
+    plt.show()
 plt.savefig("SUN_PLL_ROSC_KVCO.pdf")

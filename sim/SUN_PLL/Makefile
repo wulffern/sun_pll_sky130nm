@@ -1,4 +1,9 @@
 
+LIB=SUN_PLL_SKY130NM
+CELL=SUN_PLL
+
+include ../../tech/make/sim.make
+
 
 TB=tran
 #VIEW=Sch
@@ -9,13 +14,13 @@ OPT=
 test:
 	${MAKE} typical OPT="Debug"
 
-typical:
+typical: netlist
 	cicsim run --name ${VIEW}_typical ${TB} ${OPT} ${VIEW} Gt Vt Ktt Tt
 
-slow:
+slow: netlist
 	cicsim run --name ${VIEW}_slow ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
 
-fast:
+fast: netlist
 	cicsim run  --name ${VIEW}_fast ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
 
 tfs:

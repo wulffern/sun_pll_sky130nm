@@ -6,8 +6,8 @@ load {cicname}.raw
 echo "MEAS_START"
 
 *- cut out the final part of the transient
-let cut-tstart = 12u
-let cut-tstop = 15u
+let cut-tstart = 4u
+let cut-tstop = 5u
 cutout
 
 
@@ -22,9 +22,6 @@ fft v(ck)
 *spec 100e6 1e9 0.5e6 ck
 
 write {cicname}_spec.raw
-
-
-
 
 
 echo "MEAS_END"

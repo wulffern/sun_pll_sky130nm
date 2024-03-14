@@ -68,7 +68,7 @@ for f in files:
     ydb = 20*np.log10(np.abs(yfft[:int(N/2)]))
     #plt.subplot(1,2,1)
     plt.plot(ntime*u,freq,label=os.path.basename(f))
-    plt.plot(ntime[w:]*u,freq_avg[w:M])
+    plt.plot(ntime[w:]*u,freq_avg[w:M],label="mid,end:  %.3f,%.2f MHz " %(freq_avg[int(M/2)-1],freq_avg[M-1]))
     plt.xlabel("Time [us]")
     plt.ylabel("Frequency [MHz]")
     plt.grid(True)

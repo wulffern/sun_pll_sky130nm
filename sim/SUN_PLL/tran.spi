@@ -1,41 +1,24 @@
 
 
-*----------------------------------------------------------------
-* Include
-*----------------------------------------------------------------
-#ifdef Lay
-.include ../../../work/lpe/SUN_PLL_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_BIAS_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_CP_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_DIVN_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_KICK_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_LPF_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_RCOSC_lpe.spi
-*.include ../../../work/lpe/SUN_PLL_BUF_lpe.spi
-*.include ../../../work/xsch/SUN_PLL.spice
-#else
-.include ../../../work/lpe/CAP_LPF_lpe.spi
-.include ../../../work/lpe/SUNSAR_CAP_BSSW_CV_lpe.spi
-.include ../../../work/xsch/SUN_PLL.spice
-#endif
 
 *-----------------------------------------------------------------
 * OPTIONS
 *-----------------------------------------------------------------
 .option srcsteps=1 ramptime=10n noopiter keepopinfo gmin=1e-15
 #ifdef Debug
-.option reltol=1e-3
+.option reltol=1e-2
 #else
 .option reltol=1e-4
 #endif
 
-.option TEMP=125
+
 *-----------------------------------------------------------------
 * PARAMETERS
 *-----------------------------------------------------------------
-.param TRF = 10p
+.param TRF = 100p
 
-.param PERIOD_CLK = 62.5n
+*.param PERIOD_CLK = 62.5n
+.param PERIOD_CLK = 125n
 .param PW_CLK = PERIOD_CLK/2
 
 .param AVDD = {vdda}
@@ -54,7 +37,8 @@ VCKREF CK_REF 0 dc 0 pulse (0 {AVDD} 0 {TRF} {TRF} {PW_CLK} {PERIOD_CLK})
 *-----------------------------------------------------------------
 * DUT
 *-----------------------------------------------------------------
-XDUT AVDD AVSS PWRUP_1V8 CK_REF CK IBPSR_1U SUN_PLL
+*XDUT AVDD AVSS PWRUP_1V8 CK_REF CK IBPSR_1U SUN_PLL
+.include ../xdut.spi
 
 *----------------------------------------------------------------
 * MEASURES
@@ -87,14 +71,12 @@ set color1=black
 unset askquit
 
 #ifdef Debug
-tran 500p 6u
-write
-quit
+tran 200p 3u
 #else
 tran 200p 15u
+#endif
 write
 quit
-#endif
 
 rusage all
 
