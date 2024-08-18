@@ -1,0 +1,13 @@
+description: SUN_PLL
+simulations:
+   tran:
+    name: Transient analysis
+    description: |
+      Check frequency
+    data:
+      - name: Lay_typ
+        src: results/tran_Lay_typical
+        method: typical
+      - name: Lay_tfs
+        src: results/tran_Lay_tfs
+        method: minmax

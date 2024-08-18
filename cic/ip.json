@@ -12,8 +12,6 @@
             "SUN_PLL_KICK",
             "SUN_PLL_BUF",
             "SUN_PLL_PFD"
-
-
         ]
 	},
     "library" : [

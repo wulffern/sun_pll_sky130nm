@@ -1,0 +1,30 @@
+#<name>:
+#  src:
+#    - <paramters>
+#  typ: <typical spec value>
+#  name: <long name>
+#  min: <minimum spec value>
+#  max: <maximum spec value>
+#  scale: <scale, multiply result by scale>
+#  digits: <significant digits>
+#  unit: Unit
+
+ivdd:
+  src:
+    - ivdd
+  typ: 300
+  min: 200
+  max: 400
+  scale: 1e6
+  digits: 2
+  unit: uA
+
+freq:
+  src:
+    - freq
+  typ: 512
+  min: -0.2%
+  max: 0.2%
+  scale: 1e-6
+  digits: 2
+  unit: MHz
