@@ -1,0 +1,29 @@
+name: 'Analogicus Janeway GDS Action'
+description: 'This action generates a GDS'
+branding:
+  color: purple
+  icon: layers
+
+input:
+  cell:
+    description: 'Name of cell'
+    required: true
+  library:
+    description: 'Name of library'
+    required: true
+runs:
+    using: 'composite'
+    steps:
+      - name: Checkout tech
+        shell: bash
+        run: cd ../ && git clone https://github.com/wulffern/tech_sky130A.git && git clone https://github.com/wulffern/tech_sky130B.git
+      - name: Run GDS
+        shell: bash
+        run: |
+          cd work; make CELL=$CELL LIB=$LIBRARY
+      - name: Archive GDS
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-without-markdown
+          path: |
+            work/gds/${CELL}.gds
