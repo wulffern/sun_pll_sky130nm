@@ -1,138 +1,161 @@
 magic
 tech sky130B
-magscale 1 1
-timestamp 1720908000
-<< checkpaint >>
-rect 0 0 2064 3320
+timestamp 1728046668
 << locali >>
-rect 1752 192 1872 3128
-rect 192 192 1872 312
-rect 192 3008 1872 3128
-rect 192 192 312 3128
-rect 1752 192 1872 3128
-rect 1944 0 2064 3320
-rect 0 0 2064 120
 rect 0 3200 2064 3320
-rect 0 0 120 3320
-rect 1944 0 2064 3320
-rect 702 2379 792 2409
-rect 600 2657 702 2687
-rect 702 2379 732 2687
-rect 762 2349 816 2379
-rect 762 2613 870 2643
+rect 0 120 120 3200
+rect 192 3008 1872 3128
+rect 192 312 312 3008
 rect 762 2877 870 2907
-rect 546 633 654 663
+rect 600 2657 732 2687
+rect 702 2409 732 2657
+rect 762 2613 870 2643
+rect 702 2379 792 2409
+rect 762 2349 816 2379
 rect 762 677 870 707
-<< m1 >>
-rect 702 883 792 913
-rect 600 985 702 1015
-rect 702 883 732 1015
-rect 762 853 816 883
-rect 702 1059 792 1089
-rect 600 1161 702 1191
-rect 702 1059 732 1191
-rect 762 1029 816 1059
-rect 702 1235 792 1265
-rect 702 1330 1302 1360
-rect 600 2129 702 2159
-rect 702 1235 732 2159
-rect 762 1205 816 1235
-rect 702 2203 792 2233
-rect 600 2305 702 2335
-rect 702 2203 732 2335
-rect 762 2173 816 2203
-rect 600 2833 684 2863
+rect 546 633 654 663
+rect 1752 312 1872 3008
+rect 192 192 1872 312
+rect 1944 120 2064 3200
+rect 0 0 2064 120
+<< metal1 >>
+rect 600 2833 714 2863
+rect 684 2643 714 2833
 rect 684 2613 816 2643
-rect 684 2613 714 2863
-rect 486 809 600 839
-rect 486 677 816 707
 rect 486 2481 600 2511
-rect 486 677 516 2511
-<< m3 >>
+rect 486 839 516 2481
+rect 600 2305 732 2335
+rect 702 2233 732 2305
+rect 702 2203 792 2233
+rect 762 2173 816 2203
+rect 600 2129 732 2159
+rect 702 1360 732 2129
+rect 702 1330 1302 1360
+rect 702 1265 732 1330
+rect 702 1235 792 1265
+rect 762 1205 816 1235
+rect 600 1161 732 1191
+rect 702 1089 732 1161
+rect 702 1059 792 1089
+rect 762 1029 816 1059
+rect 600 985 732 1015
+rect 702 913 732 985
+rect 702 883 792 913
+rect 762 853 816 883
+rect 486 809 600 839
+rect 486 707 516 809
+rect 486 677 816 707
+<< metal3 >>
 rect 758 192 866 2936
-rect 758 192 866 1990
 rect 1154 384 1262 3320
-use SUNTR_TAPCELLB_CV xa1a ../SUN_TR_SKY130NM
+use SUNTR_TAPCELLB_CV  xa1a ../SUN_TR_SKY130NM
+timestamp 1728046668
 transform 1 0 384 0 1 384
-box 384 384 1644 560
-use SUNTR_IVX1_CV xa1b ../SUN_TR_SKY130NM
+box -90 -66 1350 242
+use SUNTR_IVX1_CV  xa1b ../SUN_TR_SKY130NM
+timestamp 1728046668
 transform 1 0 384 0 1 560
-box 384 560 1644 736
-use SUNTR_IVX1_CV xa1c ../SUN_TR_SKY130NM
+box -90 -66 1350 242
+use SUNTR_IVX1_CV  xa1c
+timestamp 1728046668
 transform 1 0 384 0 1 736
-box 384 736 1644 912
-use SUNTR_IVX1_CV xa2 ../SUN_TR_SKY130NM
+box -90 -66 1350 242
+use SUNTR_IVX1_CV  xa2
+timestamp 1728046668
 transform 1 0 384 0 1 912
-box 384 912 1644 1088
-use SUNTR_IVX1_CV xa5a ../SUN_TR_SKY130NM
+box -90 -66 1350 242
+use SUNTR_IVX1_CV  xa5a
+timestamp 1728046668
 transform 1 0 384 0 1 1088
-box 384 1088 1644 1264
-use SUNTR_DCAPX1_CV xa5capb ../SUN_TR_SKY130NM
+box -90 -66 1350 242
+use SUNTR_DCAPX1_CV  xa5capb ../SUN_TR_SKY130NM
+timestamp 1709161200
 transform 1 0 384 0 1 1264
-box 384 1264 1680 2056
-use SUNTR_IVX1_CV xa6 ../SUN_TR_SKY130NM
+box -54 -22 1314 814
+use SUNTR_IVX1_CV  xa6
+timestamp 1728046668
 transform 1 0 384 0 1 2056
-box 384 2056 1644 2232
-use SUNTR_IVX1_CV xa7 ../SUN_TR_SKY130NM
+box -90 -66 1350 242
+use SUNTR_IVX1_CV  xa7
+timestamp 1728046668
 transform 1 0 384 0 1 2232
-box 384 2232 1644 2408
-use SUNTR_NRX1_CV xa8 ../SUN_TR_SKY130NM
+box -90 -66 1350 242
+use SUNTR_NRX1_CV  xa8 ../SUN_TR_SKY130NM
+timestamp 1728046668
 transform 1 0 384 0 1 2408
-box 384 2408 1644 2760
-use SUNTR_IVX1_CV xa9 ../SUN_TR_SKY130NM
+box -90 -66 1350 418
+use SUNTR_IVX1_CV  xa9
+timestamp 1728046668
 transform 1 0 384 0 1 2760
-box 384 2760 1644 2936
-use cut_M1M2_2x1 xcut0 
+box -90 -66 1350 242
+use cut_M1M2_2x1  xcut0
+timestamp 1720908000
 transform 1 0 778 0 1 853
-box 778 853 870 887
-use cut_M1M2_2x1 xcut1 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut1
+timestamp 1720908000
 transform 1 0 562 0 1 985
-box 562 985 654 1019
-use cut_M1M2_2x1 xcut2 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut2
+timestamp 1720908000
 transform 1 0 778 0 1 1029
-box 778 1029 870 1063
-use cut_M1M2_2x1 xcut3 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut3
+timestamp 1720908000
 transform 1 0 562 0 1 1161
-box 562 1161 654 1195
-use cut_M1M2_2x1 xcut4 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut4
+timestamp 1720908000
 transform 1 0 778 0 1 1205
-box 778 1205 870 1239
-use cut_M1M2_2x1 xcut5 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut5
+timestamp 1720908000
 transform 1 0 1282 0 1 1330
-box 1282 1330 1374 1364
-use cut_M1M2_2x1 xcut6 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut6
+timestamp 1720908000
 transform 1 0 562 0 1 2129
-box 562 2129 654 2163
-use cut_M1M2_2x1 xcut7 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut7
+timestamp 1720908000
 transform 1 0 778 0 1 2173
-box 778 2173 870 2207
-use cut_M1M2_2x1 xcut8 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut8
+timestamp 1720908000
 transform 1 0 562 0 1 2305
-box 562 2305 654 2339
-use cut_M1M2_2x1 xcut9 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut9
+timestamp 1720908000
 transform 1 0 546 0 1 2833
-box 546 2833 638 2867
-use cut_M1M2_2x1 xcut10 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut10
+timestamp 1720908000
 transform 1 0 762 0 1 2613
-box 762 2613 854 2647
-use cut_M1M2_2x1 xcut11 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut11
+timestamp 1720908000
 transform 1 0 546 0 1 809
-box 546 809 638 843
-use cut_M1M2_2x1 xcut12 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut12
+timestamp 1720908000
 transform 1 0 762 0 1 677
-box 762 677 854 711
-use cut_M1M2_2x1 xcut13 
+box 0 0 92 34
+use cut_M1M2_2x1  xcut13
+timestamp 1720908000
 transform 1 0 546 0 1 2481
-box 546 2481 638 2515
-use cut_M1M4_2x1 xcut14 
+box 0 0 92 34
+use cut_M1M4_2x1  xcut14
+timestamp 1720908000
 transform 1 0 762 0 1 192
-box 762 192 862 230
-use cut_M1M4_2x1 xcut15 
+box 0 0 100 38
+use cut_M1M4_2x1  xcut15
+timestamp 1720908000
 transform 1 0 762 0 1 1946
-box 762 1946 862 1984
-use cut_M1M4_2x1 xcut16 
+box 0 0 100 38
+use cut_M1M4_2x1  xcut16
+timestamp 1720908000
 transform 1 0 1158 0 1 3200
-box 1158 3200 1258 3238
+box 0 0 100 38
 << labels >>
 flabel locali s 1752 192 1872 3128 0 FreeSans 400 0 0 0 AVSS
 port 5 nsew signal bidirectional

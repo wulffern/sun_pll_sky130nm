@@ -157,7 +157,3 @@ C {SUN_PLL_SKY130NM/SUN_PLL_KICK.sym} -530 240 0 0 {name=xaa3}
 C {devices/lab_pin.sym} -250 -40 3 0 {name=l6 sig_type=std_logic lab=VLPFZ}
 C {devices/lab_pin.sym} -390 50 2 0 {name=l7 sig_type=std_logic lab=KICK}
 C {devices/lab_pin.sym} -480 260 3 0 {name=l8 sig_type=std_logic lab=PWRUP_1V8_N}
-C {devices/netlist.sym} 540 -260 0 0 {name=s1 value="bla
-
-
-bla"}
