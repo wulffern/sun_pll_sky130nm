@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: GDS
-        uses: analogicus/jnw-action/gds.yaml@main
+        uses: analogicus/jnw-actions/gds.yaml@main
         #uses: ./.github/workflows/gds-action.yaml@main
         with:
           cell: "SUN_PLL"
