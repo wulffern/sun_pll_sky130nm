@@ -1,7 +1,8 @@
 
 # SUN_PLL_SKY130NM
 
-[![GDS](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/gds.yaml/badge.svg)](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/gds.yaml)
+[![GDS](../../actions/workflows/gds.yaml/badge.svg)](../../actions/workflows/gds.yaml)
+[![DRC](../../actions/worklows/drc.yaml/badge.svg)](../../actions/workflows/drc.yaml)
 
 # Who
 Carsten Wulff
