@@ -1,4 +1,4 @@
-name: DRC
+name: SIM
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: "drc"
+  group: "sim"
   cancel-in-progress: true
 
 jobs:
-  drc:
-    uses: analogicus/jnw-actions/.github/workflows/drc.yaml@main
+  sim:
+    uses: analogicus/jnw-actions/.github/workflows/sim.yaml@main

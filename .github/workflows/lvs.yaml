@@ -1,4 +1,4 @@
-name: DRC
+name: LVS
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: "drc"
+  group: "lvs"
   cancel-in-progress: true
 
 jobs:
-  drc:
-    uses: analogicus/jnw-actions/.github/workflows/drc.yaml@main
+  lvs:
+    uses: analogicus/jnw-actions/.github/workflows/lvs.yaml@main

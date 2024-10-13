@@ -1,9 +1,9 @@
 
-# SUN_PLL_SKY130NM
 
 [![GDS](../../actions/workflows/gds.yaml/badge.svg)](../../actions/workflows/gds.yaml)
 [![DRC](../../actions/workflows/drc.yaml/badge.svg)](../../actions/workflows/drc.yaml)
-[![LVS/LPE](../../actions/workflows/lvslpe.yaml/badge.svg)](../../actions/workflows/lvslpe.yaml)
+[![LVS](../../actions/workflows/lvslpe.yaml/badge.svg)](../../actions/workflows/lvs.yaml)
+[![DOCS](../../actions/workflows/docs.yaml/badge.svg)](../../actions/workflows/docs.yaml)
 
 # Who
 Carsten Wulff

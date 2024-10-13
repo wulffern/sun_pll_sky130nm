@@ -11,16 +11,4 @@ concurrency:
 
 jobs:
   gds:
-    runs-on: ubuntu-latest
-    container:
-      image: wulffern/aicex:24.04_0.1.4
-      options: --user root
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: GDS
-        uses: analogicus/jnw-gds-action@main
-        #uses: ./.github/workflows/gds-action.yaml@main
-        with:
-          cell: "SUN_PLL"
-          library: "SUN_PLL_SKY130NM"
+    uses: analogicus/jnw-actions/.github/workflows/gds.yaml@main
