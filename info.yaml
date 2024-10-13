@@ -1,6 +1,7 @@
 library: SUN_PLL_SKY130NM
 cell: SUN_PLL
 author: Carsten Wulff
+github: wulffern
 tagline: "A bad PLL"
 email: carsten@wulff.no
 url: analogicus.com
