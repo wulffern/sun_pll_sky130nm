@@ -48,7 +48,9 @@ X999 VFB VO loopgainprobe
 *-----------------------------------------------------------------
 XDUT0 VBN AVSS AVSS SUN_PLL_BIAS
 
-.include ../xdut.spi
+XDUT AVDD VFB VI VO VBN AVSS  SUN_PLL_BUF
+
+*.include ../xdut.spi
 
 *- Add some current. The LDO can oly pull up
 I1 VO 0 dc 20u

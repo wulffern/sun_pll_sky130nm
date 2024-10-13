@@ -1,9 +1,11 @@
 
 
-[![GDS](../../actions/workflows/gds.yaml/badge.svg)](../../actions/workflows/gds.yaml)
-[![DRC](../../actions/workflows/drc.yaml/badge.svg)](../../actions/workflows/drc.yaml)
-[![LVS](../../actions/workflows/lvslpe.yaml/badge.svg)](../../actions/workflows/lvs.yaml)
-[![DOCS](../../actions/workflows/docs.yaml/badge.svg)](../../actions/workflows/docs.yaml)
+
+[![GDS](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/gds.yaml/badge.svg)](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/gds.yaml)
+[![DRC](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/drc.yaml/badge.svg)](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/drc.yaml)
+[![LVS](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/lvs.yaml/badge.svg)](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/lvs.yaml) 
+[![DOCS](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/docs.yaml/badge.svg)](https://analogicus.com/sun_pll_sky130nm) 
+[![SIM](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/sim.yaml/badge.svg)](https://github.com/wulffern/sun_pll_sky130nm/actions/workflows/sim.yaml) 
 
 # Who
 Carsten Wulff
@@ -66,12 +68,14 @@ make typical OPT="Debug"
 
 
 # Changelog/Plan
+
 | Version | Status | Comment|
 | :-| :-| :-|
 |0.1.0 | :white_check_mark: | LVS clean |
 
 
 # Signal interface
+
 | Signal   | Direction | Domain  | Description                               |
 |:---------|:---------:|:-------:|:------------------------------------------|
 | AVDD     | Input     | VDD_1V8 | Main supply                               |
@@ -83,6 +87,7 @@ make typical OPT="Debug"
 
 
 # Key parameters
+
 | Parameter   | Min | Typ             | Max | Unit  |
 |:------------|:---:|:---------------:|:---:|:-----:|
 | Technology  |     | Skywater 130 nm |     |       |
@@ -94,27 +99,12 @@ make typical OPT="Debug"
 | Area        |     | 46              |     | kum^2 |
 
 
+# Know issues
 
+- Does not work in slow corner
 
-# Status
-
-| Stage                       | TYPE | Status             | Comment               |
-|:----------------------------|:----:|:------------------:|:---------------------:|
-| Specification               | DOC  | :white_check_mark: |                       |
-| Schematic                   | VIEW | :white_check_mark: |                       |
-| Layout                      | VIEW | :white_check_mark: |                       |
-| Layout parasitic extraction | VIEW | :white_check_mark: |                       |
-| LPE simulation              | VER  | :white_check_mark: | Does not work in Slow |
-| LVS                         | VER  | :white_check_mark:                |                       |
-| DRC                         | VER  | :white_check_mark:                |                       |
-
-
-# Schematic
-
-For details, see [documents/schematic.md](documents/schematic.md)
-
-![](schematic.svg)
+![](media/schematic.svg)
 
 # Layout
 
-![](layout.png)
+![](media/layout.png)
