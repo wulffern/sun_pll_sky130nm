@@ -1,35 +1,45 @@
 TB=tran
-VIEW=Sch
-#VIEW=Lay
+#VIEW=Sch
+VIEW=Lay
 
-CELL=RPLY_BIAS
-LIB=RPLY_BIAS_SKY130NM
+CELL=SUN_PLL_BUF
+LIB=SUN_PLL_SKY130NM
 
 OPT=
 
-netlist:
-	cd ../../work && xschem -q -x -b -s -n ../design/${LIB}/${CELL}.sch
-	perl -pi -e "s/\*\*\.subckt/\.subckt/ig;s/\*\*\.ends/\.ends/ig;" ../../work/xsch/${CELL}.spice
+include ../../tech/make/sim.make
+
+netlistl:
+ifeq (${VIEW},Sch)
+	${MAKE} netlist CELL=SUN_PLL_BIAS
+	${MAKE} netlist CELL=SUN_PLL_ROSC
+	${MAKE} netlist
+else
+	cd ../../work/ && make cdl lpe CELL=SUN_PLL_BUF
+	cd ../../work/ && make cdl lpe CELL=SUN_PLL_BIAS
+endif
+#	cd ../../work && xschem -q -x -b -s -n ../design/${LIB}/${CELL}.sch
+#	perl -pi -e "s/\*\*\.subckt/\.subckt/ig;s/\*\*\.ends/\.ends/ig;" ../../work/xsch/${CELL}.spice
 
 test:
-	${MAKE} typical OPT="Debug"
+	${MAKE} typical TB=ac
 
-typical: netlist
+typical: netlistl
 	cicsim run --name ${VIEW}_typical ${TB} ${OPT} ${VIEW} Gt Ktt Tt Vt
 
-slow: netlist
+slow: netlistl
 	cicsim run --name ${VIEW}_slow ${TB} ${OPT} ${VIEW} Gt Kss "Th,Tl" Vl
 
-fast: netlist
+fast: netlistl
 	cicsim run --name ${VIEW}_fast ${TB} ${OPT} ${VIEW} Gt Kff "Th,Tl" Vh
 
-tfs: netlist
+tfs: netlistl
 	cicsim run --name ${VIEW}_tfs ${TB} ${OPT} ${VIEW} Gt "Ktt,Kss,Kff" "Tt,Th,Tl" "Vt,Vl,Vh"
 
-etc: netlist
+etc: netlistl
 	cicsim run --name ${VIEW}_etc ${TB} ${OPT} ${VIEW} Gt "Kss,Kff,Ksf,Kfs" "Th,Tl" "Vl,Vh"
 
-etcnotemp: netlist
+etcnotemp: netlistl
 	cicsim run --name ${VIEW}_etcnotemp ${TB} ${OPT} ${VIEW} Gt "Kss,Kff,Ksf,Kfs" "Tt" "Vl,Vh"
 
 mc: netlist

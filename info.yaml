@@ -1,0 +1,22 @@
+library: SUN_PLL_SKY130NM
+cell: SUN_PLL
+author: Carsten Wulff
+tagline: "A bad PLL"
+email: carsten@wulff.no
+url: analogicus.com
+doc:
+  libraries:
+    SUN_PLL_SKY130NM:
+      - SUN_PLL
+      - SUN_PLL_BIAS
+      - SUN_PLL_BUF
+      - SUN_PLL_CP
+      - SUN_PLL_DIVN
+      - SUN_PLL_KICK
+      - SUN_PLL_LPF
+      - SUN_PLL_LSCORE
+      - SUN_PLL_PFD
+      - SUN_PLL_ROSC
+#- What simulation jobs to run
+sim:
+  SUN_PLL_BUF: make typical fast slow TB="ac"

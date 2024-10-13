@@ -5,7 +5,7 @@
 *----------------------------------------------------------------
 #ifdef Lay
 .include ../../../work/lpe/SUN_PLL_BUF_lpe.spi
-.include ../../../work/lpe/SUN_PLL_BIAS_lpe.spi
+.include ../../../work/xsch/SUN_PLL_BIAS.spice
 #else
 .include ../../../work/xsch/SUN_PLL_BIAS.spice
 .include ../../../work/xsch/SUN_PLL_BUF.spice
@@ -33,34 +33,39 @@
 *-----------------------------------------------------------------
 VSS  AVSS  0     dc 0
 VDD  AVDD  AVSS  dc {AVDD}
-VPWR PWRUP_1V8 AVSS dc {AVDD}
 VCM VI 0 dc 1.2
 
-IB 0 IBPSR_1U dc 1u
+IB 0 VBN dc 1u
 
 *-----------------------------------------------------------------
 * Loop stability
 *-----------------------------------------------------------------
 .include ../../../../cpdk/ngspice/tian_subckt.lib
-X999 LPI LPO loopgainprobe
+X999 VFB VO loopgainprobe
 
 *-----------------------------------------------------------------
 * DUT
 *-----------------------------------------------------------------
-XDUT0 IBPSR_1U AVSS AVSS SUN_PLL_BIAS
-XDUT AVDD LPI VI LPO IBPSR_1U AVSS SUN_PLL_BUF
+XDUT0 VBN AVSS AVSS SUN_PLL_BIAS
 
-R1 LPO 0 100k
-*----------------------------------------------------------------
-* MEASURES
-*----------------------------------------------------------------
+.include ../xdut.spi
+
+*- Add some current. The LDO can oly pull up
+I1 VO 0 dc 20u
+
+#ifdef Sch
+CL VO 0 1p
+
+#endif
 
 
 *----------------------------------------------------------------
 * SAVE
 *----------------------------------------------------------------
 .save V(X999.x) I(v.X999.Vi)
-.save v(AVDD) v(VI) v(LPI) v(LPO) v(IBPSR_1U) v(AVSS)
+.save v(AVDD) v(VI) v(VFB) v(VO) v(VBN) v(AVSS)
+.save v(xdut.vgp) v(xdut.vdp) v(xdut.vs)
+
 
 *----------------------------------------------------------------
 * NGSPICE control
@@ -71,26 +76,26 @@ set color0=white
 set color1=black
 unset askquit
 
-
 optran 0 0 0 10n 1u 0
 op
+print vfb
 write {cicname}_op.raw
 
 *----------------------------------------------------------------
 * LSTB analysis
 *----------------------------------------------------------------
 * Set voltage AC to 1
-ac dec 50 100 10G
+ac dec 50 0.01 10G
 
 * Set Current to 1
 alter i.X999.Ii acmag=1
 alter v.X999.Vi acmag=0
-ac dec 50 100 10G
+ac dec 50 0.01 10G
+
+setplot
 
 let lg_mag = db(tian_loop())
 let lg_phase = 180*cph(tian_loop())/pi
-
-
 
 write
 quit
