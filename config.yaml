@@ -22,6 +22,3 @@ tech_sky130B:
   remote: git@github.com:wulffern/tech_sky130B.git
   revision: main
 
-GDS2glTF:
-  remote: git@github.com:wulffern/GDS2glTF.git
-  revision: main

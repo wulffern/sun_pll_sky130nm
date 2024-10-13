@@ -1,0 +1,10 @@
+corner:
+  Lay: ''
+  Sch: ''
+  High: '.param FB_PERIOD = 1/20e6'
+
+  Low: '.param FB_PERIOD = 1/10e6'
+
+ngspice:
+  library: SUN_PLL_SKY130NM
+  cell: SUN_PLL_PFD

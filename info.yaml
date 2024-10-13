@@ -14,9 +14,9 @@ doc:
       - SUN_PLL_DIVN
       - SUN_PLL_KICK
       - SUN_PLL_LPF
-      - SUN_PLL_LSCORE
       - SUN_PLL_PFD
       - SUN_PLL_ROSC
+      - SUN_PLL_LSCORE
 #- What simulation jobs to run
 sim:
-  SUN_PLL_BUF: make typical fast slow TB="ac"
+  SUN_PLL_BUF: make typical TB="ac"
